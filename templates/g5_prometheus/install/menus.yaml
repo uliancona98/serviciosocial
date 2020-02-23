@@ -1,0 +1,9 @@
+prometheus-theme:
+  title: 'Prometheus Theme'
+  description: 'Sample menu for Prometheus theme.'
+
+  items:
+    prometheus:
+      title: 'Home'
+      outline: home
+      home: 1

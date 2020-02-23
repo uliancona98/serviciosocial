@@ -1,0 +1,28 @@
+atoms:
+  -
+    id: fixed-header-7426
+    type: fixed-header
+    title: 'Fixed Header'
+    inherit:
+      outline: default
+      atom: fixed-header-7426
+      include:
+        - attributes
+  -
+    type: frameworks
+    title: 'JavaScript Frameworks'
+    id: frameworks-7641
+    inherit:
+      outline: default
+      atom: frameworks-7641
+      include:
+        - attributes
+  -
+    id: assets-7065
+    type: assets
+    title: 'Custom CSS / JS'
+    attributes:
+      enabled: '1'
+      css:
+        - { location: '', inline: ".articulo_inicio{\nmargin: 2px;\npadding:2px;\nborder-radius: 16px 16px 16px 16px;\n-moz-border-radius: 16px 16px 16px 16px;\n-webkit-border-radius: 16px 16px 16px 16px;\nborder: 2px solid #d3d4c9;\n\n}\n.articulo_inicio h3{\ntext-align: center;\n}", extra: {  }, priority: '0', name: articulos_inicio }
+      javascript: {  }

@@ -1,0 +1,51 @@
+// REQUIRED DEPENDENCIES - DO NOT CHANGE
+
+// Load Third Party Libraries
+@import "vendor/bourbon/bourbon";
+
+// Load Nucleus Configuration
+@import "configuration/nucleus/base";
+
+// Load Nucleus Mixins and Functions
+@import "nucleus/functions/base";
+@import "nucleus/mixins/base";
+
+// Load Optional Nucleus Assets
+@import "nucleus/theme/alerts";
+
+// Load Theme Variable Driven Nucleus Elements
+@import "joomla/theme/base";
+
+// Load Template Configuration
+@import "configuration/base";
+
+//-------------------------------------------
+
+// JOOMLA TEMPLATE SPECIFIC
+@import "prometheus-joomla/styles/core";
+@import "prometheus-joomla/styles/typography";
+@import "prometheus-joomla/styles/forms";
+@import "prometheus-joomla/styles/buttons";
+@import "prometheus-joomla/styles/tabs";
+@import "prometheus-joomla/styles/tags";
+@import "prometheus-joomla/styles/utilities";
+@import "prometheus-joomla/styles/modules";
+
+//styles for specific modules
+@import "prometheus-joomla/styles/szmodules";
+
+// JOOMLA TEMPLATE SPECIFIC COMPONENTS STYLING
+@import "prometheus-joomla/components/content";
+@import "prometheus-joomla/components/contact";
+@import "prometheus-joomla/components/users";
+@import "prometheus-joomla/components/search";
+
+// JOOMLA TEMPLATE SPECIFIC PARTICLES STYLING
+@import "prometheus-joomla/particles/popupmodule";
+
+//-------------------------------------------
+
+// BREAKPOINTS
+@import "joomla/theme/breakpoints/base";
+
+//-------------------------------------------

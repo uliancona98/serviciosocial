@@ -1,0 +1,51 @@
+body {
+    color: $base-text-color;
+    background: $base-background;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: auto;
+    // font-size: $body-text-size;
+
+    *::selection {
+        color: $white;
+        background: $base-dominant-color;
+    }
+
+    *::-moz-selection {
+        color: $white;
+        background: $base-dominant-color;
+    }
+}
+
+body p {
+    margin: 1rem 0;
+
+    &.h1 {
+        font-size: $h1-font-size;
+    }
+
+    &.h2 {
+        font-size: $h2-font-size;
+    }
+
+    &.h3 {
+        font-size: $h3-font-size;
+    }
+
+    &.h4 {
+        font-size: $h4-font-size;
+    }
+
+    &.h5 {
+        font-size: $h5-font-size;
+    }
+
+    &.h6 {
+        font-size: $h6-font-size;
+    }
+}
+
+body span.para {
+    display: block;
+    margin: 1rem 0;
+}
+
