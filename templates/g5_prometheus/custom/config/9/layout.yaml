@@ -7,10 +7,10 @@ layout:
   /zenith/: {  }
   /navtop/:
     -
-      - 'spacer-1702 25'
-      - 'logo-9690 25'
-      - 'spacer-3243 25'
-      - 'logo-9501 25'
+      - 'spacer-1702 5'
+      - 'logo-9690 57'
+      - 'spacer-3243 19'
+      - 'logo-9501 19'
     -
       - customcontentSZ-8804
   /navigation/:
@@ -178,21 +178,26 @@ content:
   logo-9690:
     title: 'Logo / Image'
     attributes:
-      image: 'gantry-media://logoLCC.jpg'
+      image: 'gantry-media://sitio_titulo_banner.png'
+      height: 9rem
   logo-9501:
     title: 'Logo / Image'
     attributes:
       url: 'https://www.matematicas.uady.mx/'
       target: _blank
-      image: 'gantry-media://UADY_LOGO_NARANJA.png'
+      image: 'gantry-media://uady_logo_amarillo.png'
       height: 7rem
       text: LCC
+    block:
+      class: logo_imagen
   customcontentSZ-8804:
     title: 'Custom Content'
     attributes:
-      height: 7rem
+      height: 5rem
       headline: ''
-      description: "<div style=\"border-top-style:solid;\nborder-bottom-style: solid;\nborder-color: #ebb800;\"> \n<h3 style=\"text-align:center; font-weight:bold; color:#000000;\">Sitio de Divulgación LCC</h3>\n </div>"
+      description: "<div style=\"border-top-style: solid;\nborder-color: #ebb800;\"> \n<h3 style=\"text-align:center; font-weight:bold; color:#ffffff;\">Sitio de Divulgación LCC</h3>\n </div>"
+    block:
+      class: segundo_titulo
   menu-6609:
     attributes:
       menu: principal

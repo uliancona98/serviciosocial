@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Gantry\\Component\\Config\\CompiledConfig',
-    'timestamp' => 1582493475,
-    'checksum' => 'ea5f01da3a582d3f3a5128df0147618b',
+    'timestamp' => 1582515388,
+    'checksum' => 'a59d6912458d4b0484f850ef0b1a04b6',
     'files' => [
         'templates/g5_prometheus/custom/config/9' => [
             'assignments' => [
@@ -11,23 +11,23 @@ return [
             ],
             'index' => [
                 'file' => 'templates/g5_prometheus/custom/config/9/index.yaml',
-                'modified' => 1582492791
+                'modified' => 1582515157
             ],
             'layout' => [
                 'file' => 'templates/g5_prometheus/custom/config/9/layout.yaml',
-                'modified' => 1582492791
+                'modified' => 1582515157
             ],
             'page/assets' => [
                 'file' => 'templates/g5_prometheus/custom/config/9/page/assets.yaml',
-                'modified' => 1582493475
+                'modified' => 1582515388
             ],
             'page/body' => [
                 'file' => 'templates/g5_prometheus/custom/config/9/page/body.yaml',
-                'modified' => 1582493475
+                'modified' => 1582515388
             ],
             'page/head' => [
                 'file' => 'templates/g5_prometheus/custom/config/9/page/head.yaml',
-                'modified' => 1582493475
+                'modified' => 1582515388
             ],
             'styles' => [
                 'file' => 'templates/g5_prometheus/custom/config/9/styles.yaml',
@@ -46,7 +46,7 @@ return [
         ],
         'index' => [
             'name' => '9',
-            'timestamp' => 1582492791,
+            'timestamp' => 1582515157,
             'version' => 7,
             'preset' => [
                 'image' => 'gantry-admin://images/layouts/default.png',
@@ -122,10 +122,10 @@ return [
                 ],
                 '/navtop/' => [
                     0 => [
-                        0 => 'spacer-1702 25',
-                        1 => 'logo-9690 25',
-                        2 => 'spacer-3243 25',
-                        3 => 'logo-9501 25'
+                        0 => 'spacer-1702 5',
+                        1 => 'logo-9690 57',
+                        2 => 'spacer-3243 19',
+                        3 => 'logo-9501 19'
                     ],
                     1 => [
                         0 => 'customcontentSZ-8804'
@@ -380,7 +380,8 @@ return [
                 'logo-9690' => [
                     'title' => 'Logo / Image',
                     'attributes' => [
-                        'image' => 'gantry-media://logoLCC.jpg'
+                        'image' => 'gantry-media://sitio_titulo_banner.png',
+                        'height' => '9rem'
                     ]
                 ],
                 'logo-9501' => [
@@ -388,21 +389,26 @@ return [
                     'attributes' => [
                         'url' => 'https://www.matematicas.uady.mx/',
                         'target' => '_blank',
-                        'image' => 'gantry-media://UADY_LOGO_NARANJA.png',
+                        'image' => 'gantry-media://uady_logo_amarillo.png',
                         'height' => '7rem',
                         'text' => 'LCC'
+                    ],
+                    'block' => [
+                        'class' => 'logo_imagen'
                     ]
                 ],
                 'customcontentSZ-8804' => [
                     'title' => 'Custom Content',
                     'attributes' => [
-                        'height' => '7rem',
+                        'height' => '5rem',
                         'headline' => '',
-                        'description' => '<div style="border-top-style:solid;
-border-bottom-style: solid;
+                        'description' => '<div style="border-top-style: solid;
 border-color: #ebb800;"> 
-<h3 style="text-align:center; font-weight:bold; color:#000000;">Sitio de Divulgación LCC</h3>
+<h3 style="text-align:center; font-weight:bold; color:#ffffff;">Sitio de Divulgación LCC</h3>
  </div>'
+                    ],
+                    'block' => [
+                        'class' => 'segundo_titulo'
                     ]
                 ],
                 'menu-6609' => [
@@ -579,6 +585,32 @@ text-align: center;
                                     ],
                                     'priority' => '0',
                                     'name' => 'articulos_inicio'
+                                ],
+                                1 => [
+                                    'location' => '',
+                                    'inline' => '.logo_imagen{
+display: block;
+ margin: auto;
+}',
+                                    'extra' => [
+                                        
+                                    ],
+                                    'priority' => '0',
+                                    'name' => 'logo_imagen'
+                                ],
+                                2 => [
+                                    'location' => '',
+                                    'inline' => '.segundo_titulo{
+padding: 3px;
+}',
+                                    'extra' => [
+                                        
+                                    ],
+                                    'priority' => '0',
+                                    'name' => 'segundo_titulo'
+                                ],
+                                3 => [
+                                    'name' => 'New item'
                                 ]
                             ],
                             'javascript' => [
