@@ -2,7 +2,7 @@
 return [
     '@class' => 'Gantry\\Component\\File\\CompiledYamlFile',
     'filename' => 'C:/MAMP/htdocs/serviciosocial/templates/g5_prometheus/custom/config/9/layout.yaml',
-    'modified' => 1582515157,
+    'modified' => 1582517968,
     'data' => [
         'version' => 2,
         'preset' => [
@@ -18,11 +18,14 @@ return [
                 0 => [
                     0 => 'spacer-1702 5',
                     1 => 'logo-9690 57',
-                    2 => 'spacer-3243 19',
-                    3 => 'logo-9501 19'
+                    2 => 'spacer-3243 27',
+                    3 => 'logo-9501 11'
                 ],
                 1 => [
-                    0 => 'customcontentSZ-8804'
+                    0 => 'spacer-spacer-2607 12',
+                    1 => 'customcontentSZ-6295 17',
+                    2 => 'customcontentSZ-8804 46',
+                    3 => 'spacer-spacer-2458 25'
                 ]
             ],
             '/navigation/' => [
@@ -289,6 +292,16 @@ return [
                 ],
                 'block' => [
                     'class' => 'logo_imagen'
+                ]
+            ],
+            'customcontentSZ-6295' => [
+                'title' => 'Custom Content',
+                'attributes' => [
+                    'image' => 'gantry-media://jovenes_divulg.png',
+                    'height' => '7rem'
+                ],
+                'block' => [
+                    'class' => 'logo_imagen segundo_titulo'
                 ]
             ],
             'customcontentSZ-8804' => [

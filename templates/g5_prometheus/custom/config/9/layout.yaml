@@ -9,10 +9,13 @@ layout:
     -
       - 'spacer-1702 5'
       - 'logo-9690 57'
-      - 'spacer-3243 19'
-      - 'logo-9501 19'
+      - 'spacer-3243 27'
+      - 'logo-9501 11'
     -
-      - customcontentSZ-8804
+      - 'spacer-spacer-2607 12'
+      - 'customcontentSZ-6295 17'
+      - 'customcontentSZ-8804 46'
+      - 'spacer-spacer-2458 25'
   /navigation/:
     -
       - menu-6609
@@ -190,6 +193,13 @@ content:
       text: LCC
     block:
       class: logo_imagen
+  customcontentSZ-6295:
+    title: 'Custom Content'
+    attributes:
+      image: 'gantry-media://jovenes_divulg.png'
+      height: 7rem
+    block:
+      class: 'logo_imagen segundo_titulo'
   customcontentSZ-8804:
     title: 'Custom Content'
     attributes:

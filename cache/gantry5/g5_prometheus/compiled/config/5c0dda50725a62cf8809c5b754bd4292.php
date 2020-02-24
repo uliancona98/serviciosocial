@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Gantry\\Component\\Config\\CompiledConfig',
-    'timestamp' => 1582515388,
-    'checksum' => '25f15b7d4494627a4232e0442c0941e9',
+    'timestamp' => 1582517970,
+    'checksum' => '4afdd3576a670c37a014647ac9995580',
     'files' => [
         'templates/g5_prometheus/custom/config/9' => [
             'assignments' => [
@@ -11,11 +11,11 @@ return [
             ],
             'index' => [
                 'file' => 'templates/g5_prometheus/custom/config/9/index.yaml',
-                'modified' => 1582515157
+                'modified' => 1582517968
             ],
             'layout' => [
                 'file' => 'templates/g5_prometheus/custom/config/9/layout.yaml',
-                'modified' => 1582515157
+                'modified' => 1582517968
             ],
             'page/assets' => [
                 'file' => 'templates/g5_prometheus/custom/config/9/page/assets.yaml',
@@ -1097,7 +1097,7 @@ padding: 3px;
         ],
         'index' => [
             'name' => '9',
-            'timestamp' => 1582515157,
+            'timestamp' => 1582517968,
             'version' => 7,
             'preset' => [
                 'image' => 'gantry-admin://images/layouts/default.png',
@@ -1131,13 +1131,16 @@ padding: 3px;
             'particles' => [
                 'spacer' => [
                     'spacer-1702' => 'Spacer',
-                    'spacer-3243' => 'Spacer'
+                    'spacer-3243' => 'Spacer',
+                    'spacer-spacer-2607' => 'Spacer',
+                    'spacer-spacer-2458' => 'Spacer'
                 ],
                 'logo' => [
                     'logo-9690' => 'Logo / Image',
                     'logo-9501' => 'Logo / Image'
                 ],
                 'customcontentSZ' => [
+                    'customcontentSZ-6295' => 'Custom Content',
                     'customcontentSZ-8804' => 'Custom Content',
                     'customcontentSZ-5107' => 'Banner',
                     'customcontentSZ-3582' => 'Custom Content'
@@ -1175,11 +1178,14 @@ padding: 3px;
                     0 => [
                         0 => 'spacer-1702 5',
                         1 => 'logo-9690 57',
-                        2 => 'spacer-3243 19',
-                        3 => 'logo-9501 19'
+                        2 => 'spacer-3243 27',
+                        3 => 'logo-9501 11'
                     ],
                     1 => [
-                        0 => 'customcontentSZ-8804'
+                        0 => 'spacer-spacer-2607 12',
+                        1 => 'customcontentSZ-6295 17',
+                        2 => 'customcontentSZ-8804 46',
+                        3 => 'spacer-spacer-2458 25'
                     ]
                 ],
                 '/navigation/' => [
@@ -1446,6 +1452,16 @@ padding: 3px;
                     ],
                     'block' => [
                         'class' => 'logo_imagen'
+                    ]
+                ],
+                'customcontentSZ-6295' => [
+                    'title' => 'Custom Content',
+                    'attributes' => [
+                        'image' => 'gantry-media://jovenes_divulg.png',
+                        'height' => '7rem'
+                    ],
+                    'block' => [
+                        'class' => 'logo_imagen segundo_titulo'
                     ]
                 ],
                 'customcontentSZ-8804' => [
