@@ -1,5 +1,5 @@
 name: '9'
-timestamp: 1582517968
+timestamp: 1582763729
 version: 7
 preset:
   image: 'gantry-admin://images/layouts/default.png'
@@ -30,8 +30,8 @@ particles:
   spacer:
     spacer-1702: Spacer
     spacer-3243: Spacer
-    spacer-spacer-2607: Spacer
-    spacer-spacer-2458: Spacer
+    spacer-2607: Spacer
+    spacer-2458: Spacer
   logo:
     logo-9690: 'Logo / Image'
     logo-9501: 'Logo / Image'
@@ -43,6 +43,7 @@ particles:
   menu:
     menu-6609: Menu
   contentarray:
+    contentarray-6676: 'Joomla Articles'
     contentarray-6630: 'Joomla Articles'
     contentarray-6168: 'Joomla Articles'
   copyright:

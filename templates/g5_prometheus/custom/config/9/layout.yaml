@@ -12,10 +12,10 @@ layout:
       - 'spacer-3243 27'
       - 'logo-9501 11'
     -
-      - 'spacer-spacer-2607 12'
+      - 'spacer-2607 12'
       - 'customcontentSZ-6295 17'
       - 'customcontentSZ-8804 46'
-      - 'spacer-spacer-2458 25'
+      - 'spacer-2458 25'
   /navigation/:
     -
       - menu-6609
@@ -37,8 +37,9 @@ layout:
       -
         'mainbar 50':
           -
-            - 'contentarray-6630 50'
-            - 'contentarray-6168 50'
+            - 'contentarray-6676 33.3'
+            - 'contentarray-6630 33.3'
+            - 'contentarray-6168 33.3'
       -
         'sidebar 25': {  }
   /mainbottom/: {  }
@@ -230,6 +231,8 @@ content:
       height: 10rem
       headline: ''
       description: "<div style=\"border-top-style:solid;\nborder-bottom-style: solid;\nborder-color: #ebb800;\"> \n<h3 style=\"text-align:center; font-weight:bold; color:#000000;\">Contenido</h3>\n </div>"
+  contentarray-6676:
+    title: 'Joomla Articles'
   contentarray-6630:
     title: 'Joomla Articles'
     attributes:
