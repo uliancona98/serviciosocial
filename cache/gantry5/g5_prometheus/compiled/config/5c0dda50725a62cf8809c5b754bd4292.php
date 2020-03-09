@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Gantry\\Component\\Config\\CompiledConfig',
-    'timestamp' => 1582763595,
-    'checksum' => 'fb1b3face11bba2d4c35f30b53a1fbb4',
+    'timestamp' => 1583530285,
+    'checksum' => '0ac2242280126e0f2f0564f4ed23943d',
     'files' => [
         'templates/g5_prometheus/custom/config/9' => [
             'assignments' => [
@@ -11,11 +11,11 @@ return [
             ],
             'index' => [
                 'file' => 'templates/g5_prometheus/custom/config/9/index.yaml',
-                'modified' => 1582763367
+                'modified' => 1583530266
             ],
             'layout' => [
                 'file' => 'templates/g5_prometheus/custom/config/9/layout.yaml',
-                'modified' => 1582763367
+                'modified' => 1583530266
             ],
             'page/assets' => [
                 'file' => 'templates/g5_prometheus/custom/config/9/page/assets.yaml',
@@ -37,7 +37,7 @@ return [
         'templates/g5_prometheus/custom/config/default' => [
             'index' => [
                 'file' => 'templates/g5_prometheus/custom/config/default/index.yaml',
-                'modified' => 1582763250
+                'modified' => 1582763729
             ],
             'layout' => [
                 'file' => 'templates/g5_prometheus/custom/config/default/layout.yaml',
@@ -1097,7 +1097,7 @@ padding: 3px;
         ],
         'index' => [
             'name' => '9',
-            'timestamp' => 1582517968,
+            'timestamp' => 1583530266,
             'version' => 7,
             'preset' => [
                 'image' => 'gantry-admin://images/layouts/default.png',
@@ -1132,8 +1132,8 @@ padding: 3px;
                 'spacer' => [
                     'spacer-1702' => 'Spacer',
                     'spacer-3243' => 'Spacer',
-                    'spacer-spacer-2607' => 'Spacer',
-                    'spacer-spacer-2458' => 'Spacer'
+                    'spacer-2607' => 'Spacer',
+                    'spacer-2458' => 'Spacer'
                 ],
                 'logo' => [
                     'logo-9690' => 'Logo / Image',
@@ -1149,8 +1149,12 @@ padding: 3px;
                     'menu-6609' => 'Menu'
                 ],
                 'contentarray' => [
+                    'contentarray-6676' => 'Joomla Articles',
                     'contentarray-6630' => 'Joomla Articles',
                     'contentarray-6168' => 'Joomla Articles'
+                ],
+                'owlcarousel' => [
+                    'owlcarousel-8283' => 'Owl Carousel'
                 ],
                 'copyright' => [
                     'copyright-6180' => 'Copyright'
@@ -1182,10 +1186,10 @@ padding: 3px;
                         3 => 'logo-9501 11'
                     ],
                     1 => [
-                        0 => 'spacer-spacer-2607 12',
+                        0 => 'spacer-2607 12',
                         1 => 'customcontentSZ-6295 17',
                         2 => 'customcontentSZ-8804 46',
-                        3 => 'spacer-spacer-2458 25'
+                        3 => 'spacer-2458 25'
                     ]
                 ],
                 '/navigation/' => [
@@ -1228,8 +1232,9 @@ padding: 3px;
                         1 => [
                             'mainbar 50' => [
                                 0 => [
-                                    0 => 'contentarray-6630 50',
-                                    1 => 'contentarray-6168 50'
+                                    0 => 'contentarray-6676 33.3',
+                                    1 => 'contentarray-6630 33.3',
+                                    2 => 'contentarray-6168 33.3'
                                 ]
                             ]
                         ],
@@ -1247,7 +1252,9 @@ padding: 3px;
                     
                 ],
                 '/footer/' => [
-                    
+                    0 => [
+                        0 => 'owlcarousel-8283'
+                    ]
                 ],
                 '/footerbottom/' => [
                     0 => [
@@ -1438,7 +1445,10 @@ padding: 3px;
                     'title' => 'Logo / Image',
                     'attributes' => [
                         'image' => 'gantry-media://sitio_titulo_banner.png',
-                        'height' => '9rem'
+                        'height' => '6rem'
+                    ],
+                    'block' => [
+                        'class' => 'logo_imagen'
                     ]
                 ],
                 'logo-9501' => [
@@ -1447,7 +1457,7 @@ padding: 3px;
                         'url' => 'https://www.matematicas.uady.mx/',
                         'target' => '_blank',
                         'image' => 'gantry-media://uady_logo_amarillo.png',
-                        'height' => '7rem',
+                        'height' => '6rem',
                         'text' => 'LCC'
                     ],
                     'block' => [
@@ -1458,7 +1468,7 @@ padding: 3px;
                     'title' => 'Custom Content',
                     'attributes' => [
                         'image' => 'gantry-media://jovenes_divulg.png',
-                        'height' => '7rem'
+                        'height' => '5rem'
                     ],
                     'block' => [
                         'class' => 'logo_imagen segundo_titulo'
@@ -1510,6 +1520,9 @@ border-color: #ebb800;">
 <h3 style="text-align:center; font-weight:bold; color:#000000;">Contenido</h3>
  </div>'
                     ]
+                ],
+                'contentarray-6676' => [
+                    'title' => 'Joomla Articles'
                 ],
                 'contentarray-6630' => [
                     'title' => 'Joomla Articles',
@@ -1577,6 +1590,9 @@ border-color: #ebb800;">
                             'class' => 'articulo_inicio'
                         ]
                     ]
+                ],
+                'owlcarousel-8283' => [
+                    'title' => 'Owl Carousel'
                 ],
                 'copyright-6180' => [
                     'attributes' => [

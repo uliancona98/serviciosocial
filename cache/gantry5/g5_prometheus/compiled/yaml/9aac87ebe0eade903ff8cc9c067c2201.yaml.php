@@ -2,7 +2,7 @@
 return [
     '@class' => 'Gantry\\Component\\File\\CompiledYamlFile',
     'filename' => 'C:/MAMP/htdocs/servicioSocial/templates/g5_prometheus/custom/config/10/layout.yaml',
-    'modified' => 1582763250,
+    'modified' => 1583530904,
     'data' => [
         'version' => 2,
         'preset' => [
@@ -15,12 +15,16 @@ return [
                 
             ],
             '/navtop/' => [
-                
+                0 => [
+                    0 => 'spacer-spacer-9171 5',
+                    1 => 'logo-1686 57',
+                    2 => 'spacer-spacer-2681 27',
+                    3 => 'logo-7907 11'
+                ]
             ],
             '/navigation/' => [
                 0 => [
-                    0 => 'logo-9501 25',
-                    1 => 'menu-6609 75'
+                    0 => 'menu-6609'
                 ]
             ],
             '/header/' => [
@@ -270,13 +274,11 @@ return [
             ]
         ],
         'content' => [
-            'logo-9501' => [
-                'title' => 'Logo / Image',
-                'attributes' => [
-                    'url' => 'http://localhost/Libros2/index.php',
-                    'image' => 'gantry-media://UADY_LOGO_NARANJA.png',
-                    'text' => 'LCC'
-                ]
+            'logo-1686' => [
+                'title' => 'Logo / Image'
+            ],
+            'logo-7907' => [
+                'title' => 'Logo / Image'
             ],
             'customcontentSZ-5107' => [
                 'title' => 'Custom Content',

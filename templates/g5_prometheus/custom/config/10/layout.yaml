@@ -5,11 +5,15 @@ preset:
   timestamp: 1581571417
 layout:
   /zenith/: {  }
-  /navtop/: {  }
+  /navtop/:
+    -
+      - 'spacer-spacer-9171 5'
+      - 'logo-1686 57'
+      - 'spacer-spacer-2681 27'
+      - 'logo-7907 11'
   /navigation/:
     -
-      - 'logo-9501 25'
-      - 'menu-6609 75'
+      - menu-6609
   /header/:
     -
       - customcontentSZ-5107
@@ -174,12 +178,12 @@ structure:
       swipe: '1'
       css3animation: '1'
 content:
-  logo-9501:
+  logo-1686:
     title: 'Logo / Image'
     attributes:
-      url: 'http://localhost/Libros2/index.php'
-      image: 'gantry-media://UADY_LOGO_NARANJA.png'
-      text: LCC
+      image: 'gantry-media://sitio_titulo_banner.png'
+  logo-7907:
+    title: 'Logo / Image'
   customcontentSZ-5107:
     title: 'Custom Content'
     attributes:

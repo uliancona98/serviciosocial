@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Gantry\\Component\\Config\\CompiledConfig',
-    'timestamp' => 1582763699,
-    'checksum' => '793baab9f676ed5b019312e762ecbfb3',
+    'timestamp' => 1583530039,
+    'checksum' => '3066c745c7574184b828dd1ceea49f4d',
     'files' => [
         'templates/g5_prometheus/custom/config/9' => [
             'assignments' => [
@@ -11,11 +11,11 @@ return [
             ],
             'index' => [
                 'file' => 'templates/g5_prometheus/custom/config/9/index.yaml',
-                'modified' => 1582763367
+                'modified' => 1583529918
             ],
             'layout' => [
                 'file' => 'templates/g5_prometheus/custom/config/9/layout.yaml',
-                'modified' => 1582763367
+                'modified' => 1583529918
             ],
             'page/assets' => [
                 'file' => 'templates/g5_prometheus/custom/config/9/page/assets.yaml',
@@ -46,7 +46,7 @@ return [
         ],
         'index' => [
             'name' => '9',
-            'timestamp' => 1582517968,
+            'timestamp' => 1583529918,
             'version' => 7,
             'preset' => [
                 'image' => 'gantry-admin://images/layouts/default.png',
@@ -81,8 +81,8 @@ return [
                 'spacer' => [
                     'spacer-1702' => 'Spacer',
                     'spacer-3243' => 'Spacer',
-                    'spacer-spacer-2607' => 'Spacer',
-                    'spacer-spacer-2458' => 'Spacer'
+                    'spacer-2607' => 'Spacer',
+                    'spacer-2458' => 'Spacer'
                 ],
                 'logo' => [
                     'logo-9690' => 'Logo / Image',
@@ -98,8 +98,12 @@ return [
                     'menu-6609' => 'Menu'
                 ],
                 'contentarray' => [
+                    'contentarray-6676' => 'Joomla Articles',
                     'contentarray-6630' => 'Joomla Articles',
                     'contentarray-6168' => 'Joomla Articles'
+                ],
+                'owlcarousel' => [
+                    'owlcarousel-8283' => 'Owl Carousel'
                 ],
                 'copyright' => [
                     'copyright-6180' => 'Copyright'
@@ -131,10 +135,10 @@ return [
                         3 => 'logo-9501 11'
                     ],
                     1 => [
-                        0 => 'spacer-spacer-2607 12',
+                        0 => 'spacer-2607 12',
                         1 => 'customcontentSZ-6295 17',
                         2 => 'customcontentSZ-8804 46',
-                        3 => 'spacer-spacer-2458 25'
+                        3 => 'spacer-2458 25'
                     ]
                 ],
                 '/navigation/' => [
@@ -177,8 +181,9 @@ return [
                         1 => [
                             'mainbar 50' => [
                                 0 => [
-                                    0 => 'contentarray-6630 50',
-                                    1 => 'contentarray-6168 50'
+                                    0 => 'contentarray-6676 33.3',
+                                    1 => 'contentarray-6630 33.3',
+                                    2 => 'contentarray-6168 33.3'
                                 ]
                             ]
                         ],
@@ -196,7 +201,9 @@ return [
                     
                 ],
                 '/footer/' => [
-                    
+                    0 => [
+                        0 => 'owlcarousel-8283'
+                    ]
                 ],
                 '/footerbottom/' => [
                     0 => [
@@ -387,7 +394,10 @@ return [
                     'title' => 'Logo / Image',
                     'attributes' => [
                         'image' => 'gantry-media://sitio_titulo_banner.png',
-                        'height' => '9rem'
+                        'height' => '6rem'
+                    ],
+                    'block' => [
+                        'class' => 'logo_imagen'
                     ]
                 ],
                 'logo-9501' => [
@@ -396,7 +406,7 @@ return [
                         'url' => 'https://www.matematicas.uady.mx/',
                         'target' => '_blank',
                         'image' => 'gantry-media://uady_logo_amarillo.png',
-                        'height' => '7rem',
+                        'height' => '6rem',
                         'text' => 'LCC'
                     ],
                     'block' => [
@@ -407,7 +417,7 @@ return [
                     'title' => 'Custom Content',
                     'attributes' => [
                         'image' => 'gantry-media://jovenes_divulg.png',
-                        'height' => '7rem'
+                        'height' => '5rem'
                     ],
                     'block' => [
                         'class' => 'logo_imagen segundo_titulo'
@@ -459,6 +469,9 @@ border-color: #ebb800;">
 <h3 style="text-align:center; font-weight:bold; color:#000000;">Contenido</h3>
  </div>'
                     ]
+                ],
+                'contentarray-6676' => [
+                    'title' => 'Joomla Articles'
                 ],
                 'contentarray-6630' => [
                     'title' => 'Joomla Articles',
@@ -526,6 +539,9 @@ border-color: #ebb800;">
                             'class' => 'articulo_inicio'
                         ]
                     ]
+                ],
+                'owlcarousel-8283' => [
+                    'title' => 'Owl Carousel'
                 ],
                 'copyright-6180' => [
                     'attributes' => [

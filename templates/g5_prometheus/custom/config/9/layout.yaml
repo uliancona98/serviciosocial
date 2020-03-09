@@ -44,7 +44,9 @@ layout:
         'sidebar 25': {  }
   /mainbottom/: {  }
   /footertop/: {  }
-  /footer/: {  }
+  /footer/:
+    -
+      - owlcarousel-8283
   /footerbottom/:
     -
       - copyright-6180
@@ -183,14 +185,16 @@ content:
     title: 'Logo / Image'
     attributes:
       image: 'gantry-media://sitio_titulo_banner.png'
-      height: 9rem
+      height: 6rem
+    block:
+      class: logo_imagen
   logo-9501:
     title: 'Logo / Image'
     attributes:
       url: 'https://www.matematicas.uady.mx/'
       target: _blank
       image: 'gantry-media://uady_logo_amarillo.png'
-      height: 7rem
+      height: 6rem
       text: LCC
     block:
       class: logo_imagen
@@ -198,7 +202,7 @@ content:
     title: 'Custom Content'
     attributes:
       image: 'gantry-media://jovenes_divulg.png'
-      height: 7rem
+      height: 5rem
     block:
       class: 'logo_imagen segundo_titulo'
   customcontentSZ-8804:
@@ -280,6 +284,8 @@ content:
           ordering: ASC
       css:
         class: articulo_inicio
+  owlcarousel-8283:
+    title: 'Owl Carousel'
   copyright-6180:
     attributes:
       date:

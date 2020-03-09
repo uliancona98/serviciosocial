@@ -1,5 +1,5 @@
 name: '9'
-timestamp: 1582763729
+timestamp: 1583531240
 version: 7
 preset:
   image: 'gantry-admin://images/layouts/default.png'
@@ -46,6 +46,8 @@ particles:
     contentarray-6676: 'Joomla Articles'
     contentarray-6630: 'Joomla Articles'
     contentarray-6168: 'Joomla Articles'
+  owlcarousel:
+    owlcarousel-8283: 'Owl Carousel'
   copyright:
     copyright-6180: Copyright
   mobile-menu:
