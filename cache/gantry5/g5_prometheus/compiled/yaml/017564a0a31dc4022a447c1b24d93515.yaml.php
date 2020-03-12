@@ -2,7 +2,7 @@
 return [
     '@class' => 'Gantry\\Component\\File\\CompiledYamlFile',
     'filename' => 'C:\\MAMP\\htdocs\\serviciosocial/templates/g5_prometheus/particles/imagegallerySZ.yaml',
-    'modified' => 1581571417,
+    'modified' => 1583792621,
     'data' => [
         'name' => 'Image Gallery',
         'description' => 'Displays a group of images',

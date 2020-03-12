@@ -2,12 +2,12 @@
 return [
     '@class' => 'Gantry\\Component\\File\\CompiledYamlFile',
     'filename' => 'C:\\MAMP\\htdocs\\serviciosocial/templates/g5_prometheus/custom/config/9/styles.yaml',
-    'modified' => 1582483385,
+    'modified' => 1583803179,
     'data' => [
         'preset' => 'preset4',
         'base' => [
             'dominant-color' => '#ebb800',
-            'text-color' => '#dedede',
+            'text-color' => '#000000',
             'background' => '#ffffff'
         ],
         'accent' => [

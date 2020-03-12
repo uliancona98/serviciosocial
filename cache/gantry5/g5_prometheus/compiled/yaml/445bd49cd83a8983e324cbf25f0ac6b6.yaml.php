@@ -2,7 +2,7 @@
 return [
     '@class' => 'Gantry\\Component\\File\\CompiledYamlFile',
     'filename' => 'C:/MAMP/htdocs/serviciosocial/media/gantry5/engines/nucleus/admin/blueprints/layout/inheritance/section.yaml',
-    'modified' => 1581997675,
+    'modified' => 1583792619,
     'data' => [
         'name' => 'Inheritance',
         'description' => 'Section inheritance tab',

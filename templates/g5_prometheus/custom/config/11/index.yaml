@@ -1,5 +1,5 @@
 name: '11'
-timestamp: 1583488422
+timestamp: 1583973839
 version: 7
 preset:
   image: 'gantry-admin://images/layouts/default.png'
@@ -27,22 +27,27 @@ sections:
   footer: Footer
   offcanvas: Offcanvas
 particles:
+  spacer:
+    spacer-1702: Spacer
+    spacer-3243: Spacer
+    spacer-2607: Spacer
+    spacer-2458: Spacer
+    spacer-2395: Spacer
   logo:
+    logo-9690: 'Logo / Image'
     logo-9501: 'Logo / Image'
+  customcontentSZ:
+    customcontentSZ-6295: 'Custom Content'
+    customcontentSZ-8804: 'Custom Content'
+    customcontentSZ-5107: 'Custom Content'
   menu:
     menu-6609: Menu
-  customcontentSZ:
-    customcontentSZ-5107: 'Custom Content'
-  spacer:
-    spacer-2395: Spacer
   messages:
     system-messages-2617: 'System Messages'
   content:
     system-content-1966: 'Page Content'
   date:
     date-2824: Date
-  socialfloatingSZ:
-    socialfloatingSZ-2700: 'Social Floating'
   copyright:
     copyright-6180: Copyright
   custom:

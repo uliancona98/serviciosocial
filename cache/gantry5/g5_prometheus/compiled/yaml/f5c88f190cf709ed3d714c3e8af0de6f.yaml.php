@@ -2,7 +2,7 @@
 return [
     '@class' => 'Gantry\\Component\\File\\CompiledYamlFile',
     'filename' => 'C:/MAMP/htdocs/serviciosocial/templates/g5_prometheus/blueprints/styles/accent.yaml',
-    'modified' => 1581571416,
+    'modified' => 1583792621,
     'data' => [
         'name' => 'Accent Colors',
         'description' => 'Accent colors for the Prometheus theme',

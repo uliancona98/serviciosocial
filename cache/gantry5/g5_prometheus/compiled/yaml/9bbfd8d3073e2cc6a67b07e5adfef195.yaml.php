@@ -2,7 +2,7 @@
 return [
     '@class' => 'Gantry\\Component\\File\\CompiledYamlFile',
     'filename' => 'C:/MAMP/htdocs/serviciosocial/templates/g5_prometheus/blueprints/styles/navigation.yaml',
-    'modified' => 1581988047,
+    'modified' => 1583792621,
     'data' => [
         'name' => 'Navigation Styles',
         'description' => 'Navigation section styles for the Prometheus theme',

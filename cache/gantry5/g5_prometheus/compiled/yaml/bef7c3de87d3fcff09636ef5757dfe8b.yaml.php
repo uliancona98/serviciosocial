@@ -2,7 +2,7 @@
 return [
     '@class' => 'Gantry\\Component\\File\\CompiledYamlFile',
     'filename' => 'C:/MAMP/htdocs/serviciosocial/media/gantry5/engines/nucleus/blueprints/page/head.yaml',
-    'modified' => 1581997675,
+    'modified' => 1583792619,
     'data' => [
         'name' => 'Head Properties',
         'description' => 'Settings that can be applied to the page.',

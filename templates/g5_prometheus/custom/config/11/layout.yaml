@@ -5,11 +5,20 @@ preset:
   timestamp: 1581571417
 layout:
   /zenith/: {  }
-  /navtop/: {  }
+  /navtop/:
+    -
+      - 'spacer-1702 5'
+      - 'logo-9690 57'
+      - 'spacer-3243 27'
+      - 'logo-9501 11'
+    -
+      - 'spacer-2607 12'
+      - 'customcontentSZ-6295 17'
+      - 'customcontentSZ-8804 46'
+      - 'spacer-2458 25'
   /navigation/:
     -
-      - 'logo-9501 25'
-      - 'menu-6609 75'
+      - menu-6609
   /header/:
     -
       - customcontentSZ-5107
@@ -37,9 +46,7 @@ layout:
             - date-2824
   /mainbottom/: {  }
   /footertop/: {  }
-  /footer/:
-    -
-      - socialfloatingSZ-2700
+  /footer/: {  }
   /footerbottom/:
     -
       - copyright-6180
@@ -62,6 +69,13 @@ structure:
     type: section
     attributes:
       boxed: ''
+      class: ''
+      background: ''
+      backgroundOverlay: 'rgba(0, 0, 0, 0)'
+      backgroundAttachment: ''
+      backgroundRepeat: ''
+      backgroundPosition: ''
+      backgroundSize: ''
   navigation:
     type: section
     attributes:
@@ -180,12 +194,41 @@ structure:
       swipe: '1'
       css3animation: '1'
 content:
+  logo-9690:
+    title: 'Logo / Image'
+    attributes:
+      image: 'gantry-media://sitio_titulo_banner.png'
+      height: 6rem
+    block:
+      class: logo_imagen
   logo-9501:
     title: 'Logo / Image'
     attributes:
-      url: 'http://localhost/Libros2/index.php'
-      image: 'gantry-media://UADY_LOGO_NARANJA.png'
+      url: 'https://www.matematicas.uady.mx/'
+      target: _blank
+      image: 'gantry-media://uady_logo_amarillo.png'
+      height: 6rem
       text: LCC
+    block:
+      class: logo_imagen
+  customcontentSZ-6295:
+    title: 'Custom Content'
+    attributes:
+      image: 'gantry-media://jovenes_divulg.png'
+      height: 5rem
+    block:
+      class: 'logo_imagen segundo_titulo'
+  customcontentSZ-8804:
+    title: 'Custom Content'
+    attributes:
+      height: 5rem
+      headline: ''
+      description: "<div style=\"border-top-style: solid;\nborder-color: #ebb800;\"> \n<h3 style=\"text-align:center; font-weight:bold; color:#ffffff;\">Sitio de Divulgación LCC</h3>\n </div>"
+    block:
+      class: segundo_titulo
+  menu-6609:
+    attributes:
+      menu: principal
   customcontentSZ-5107:
     title: 'Custom Content'
     attributes:
@@ -198,8 +241,6 @@ content:
       linktext2: ''
     block:
       variations: center
-  socialfloatingSZ-2700:
-    title: 'Social Floating'
   copyright-6180:
     attributes:
       date:

@@ -1,189 +1,193 @@
 <?php
 return [
     '@class' => 'Gantry\\Component\\Config\\CompiledConfig',
-    'timestamp' => 1583488425,
-    'checksum' => '80b02f08f443b984ba5f080736909c9e',
+    'timestamp' => 1583973860,
+    'checksum' => 'd0bcbed4b2cee80c4ae21892d47f02fc',
     'files' => [
         'templates/g5_prometheus/custom/config/11' => [
             'assignments' => [
                 'file' => 'templates/g5_prometheus/custom/config/11/assignments.yaml',
-                'modified' => 1583476415
+                'modified' => 1583792655
             ],
             'index' => [
                 'file' => 'templates/g5_prometheus/custom/config/11/index.yaml',
-                'modified' => 1583488422
+                'modified' => 1583973839
             ],
             'layout' => [
                 'file' => 'templates/g5_prometheus/custom/config/11/layout.yaml',
-                'modified' => 1583488422
+                'modified' => 1583973839
             ],
             'page/assets' => [
                 'file' => 'templates/g5_prometheus/custom/config/11/page/assets.yaml',
-                'modified' => 1583475646
+                'modified' => 1583973359
             ],
             'page/body' => [
                 'file' => 'templates/g5_prometheus/custom/config/11/page/body.yaml',
-                'modified' => 1583475646
+                'modified' => 1583973359
+            ],
+            'page/head' => [
+                'file' => 'templates/g5_prometheus/custom/config/11/page/head.yaml',
+                'modified' => 1583973359
             ],
             'styles' => [
                 'file' => 'templates/g5_prometheus/custom/config/11/styles.yaml',
-                'modified' => 1583476125
+                'modified' => 1583792655
             ]
         ],
         'templates/g5_prometheus/custom/config/default' => [
             'index' => [
                 'file' => 'templates/g5_prometheus/custom/config/default/index.yaml',
-                'modified' => 1582763729
+                'modified' => 1583972274
             ],
             'layout' => [
                 'file' => 'templates/g5_prometheus/custom/config/default/layout.yaml',
-                'modified' => 1582763250
+                'modified' => 1583792621
             ],
             'page/assets' => [
                 'file' => 'templates/g5_prometheus/custom/config/default/page/assets.yaml',
-                'modified' => 1582763250
+                'modified' => 1583792621
             ],
             'page/body' => [
                 'file' => 'templates/g5_prometheus/custom/config/default/page/body.yaml',
-                'modified' => 1582763250
+                'modified' => 1583792621
             ],
             'page/head' => [
                 'file' => 'templates/g5_prometheus/custom/config/default/page/head.yaml',
-                'modified' => 1582763250
+                'modified' => 1583792621
             ],
             'particles/branding' => [
                 'file' => 'templates/g5_prometheus/custom/config/default/particles/branding.yaml',
-                'modified' => 1582763250
+                'modified' => 1583792621
             ],
             'particles/content' => [
                 'file' => 'templates/g5_prometheus/custom/config/default/particles/content.yaml',
-                'modified' => 1582763250
+                'modified' => 1583792621
             ],
             'particles/contentarray' => [
                 'file' => 'templates/g5_prometheus/custom/config/default/particles/contentarray.yaml',
-                'modified' => 1582763250
+                'modified' => 1583792621
             ],
             'particles/contentcubes' => [
                 'file' => 'templates/g5_prometheus/custom/config/default/particles/contentcubes.yaml',
-                'modified' => 1582763250
+                'modified' => 1583792621
             ],
             'particles/contenttabs' => [
                 'file' => 'templates/g5_prometheus/custom/config/default/particles/contenttabs.yaml',
-                'modified' => 1582763250
+                'modified' => 1583792621
             ],
             'particles/copyright' => [
                 'file' => 'templates/g5_prometheus/custom/config/default/particles/copyright.yaml',
-                'modified' => 1582763250
+                'modified' => 1583792621
             ],
             'particles/custom' => [
                 'file' => 'templates/g5_prometheus/custom/config/default/particles/custom.yaml',
-                'modified' => 1582763250
+                'modified' => 1583792621
             ],
             'particles/customcontentSZ' => [
                 'file' => 'templates/g5_prometheus/custom/config/default/particles/customcontentSZ.yaml',
-                'modified' => 1582763250
+                'modified' => 1583792621
             ],
             'particles/date' => [
                 'file' => 'templates/g5_prometheus/custom/config/default/particles/date.yaml',
-                'modified' => 1582763250
+                'modified' => 1583792621
             ],
             'particles/horizontalmenu' => [
                 'file' => 'templates/g5_prometheus/custom/config/default/particles/horizontalmenu.yaml',
-                'modified' => 1582763250
+                'modified' => 1583792621
             ],
             'particles/imagegallerySZ' => [
                 'file' => 'templates/g5_prometheus/custom/config/default/particles/imagegallerySZ.yaml',
-                'modified' => 1582763250
+                'modified' => 1583792621
             ],
             'particles/logo' => [
                 'file' => 'templates/g5_prometheus/custom/config/default/particles/logo.yaml',
-                'modified' => 1582763250
+                'modified' => 1583792621
             ],
             'particles/menu' => [
                 'file' => 'templates/g5_prometheus/custom/config/default/particles/menu.yaml',
-                'modified' => 1582763250
+                'modified' => 1583792621
             ],
             'particles/messages' => [
                 'file' => 'templates/g5_prometheus/custom/config/default/particles/messages.yaml',
-                'modified' => 1582763250
+                'modified' => 1583792621
             ],
             'particles/mobile-menu' => [
                 'file' => 'templates/g5_prometheus/custom/config/default/particles/mobile-menu.yaml',
-                'modified' => 1582763250
+                'modified' => 1583792621
             ],
             'particles/module' => [
                 'file' => 'templates/g5_prometheus/custom/config/default/particles/module.yaml',
-                'modified' => 1582763250
+                'modified' => 1583792621
             ],
             'particles/owlcarousel' => [
                 'file' => 'templates/g5_prometheus/custom/config/default/particles/owlcarousel.yaml',
-                'modified' => 1582763250
+                'modified' => 1583792621
             ],
             'particles/position' => [
                 'file' => 'templates/g5_prometheus/custom/config/default/particles/position.yaml',
-                'modified' => 1582763250
+                'modified' => 1583792621
             ],
             'particles/pricetableSZ' => [
                 'file' => 'templates/g5_prometheus/custom/config/default/particles/pricetableSZ.yaml',
-                'modified' => 1582763250
+                'modified' => 1583792621
             ],
             'particles/sample' => [
                 'file' => 'templates/g5_prometheus/custom/config/default/particles/sample.yaml',
-                'modified' => 1582763250
+                'modified' => 1583792621
             ],
             'particles/social' => [
                 'file' => 'templates/g5_prometheus/custom/config/default/particles/social.yaml',
-                'modified' => 1582763250
+                'modified' => 1583792621
             ],
             'particles/socialfloatingSZ' => [
                 'file' => 'templates/g5_prometheus/custom/config/default/particles/socialfloatingSZ.yaml',
-                'modified' => 1582763250
+                'modified' => 1583792621
             ],
             'particles/spacer' => [
                 'file' => 'templates/g5_prometheus/custom/config/default/particles/spacer.yaml',
-                'modified' => 1582763250
+                'modified' => 1583792621
             ],
             'particles/testimonialSZ' => [
                 'file' => 'templates/g5_prometheus/custom/config/default/particles/testimonialSZ.yaml',
-                'modified' => 1582763250
+                'modified' => 1583792621
             ],
             'particles/totop' => [
                 'file' => 'templates/g5_prometheus/custom/config/default/particles/totop.yaml',
-                'modified' => 1582763250
+                'modified' => 1583792621
             ],
             'styles' => [
                 'file' => 'templates/g5_prometheus/custom/config/default/styles.yaml',
-                'modified' => 1582763250
+                'modified' => 1583792621
             ]
         ],
         'templates/g5_prometheus/config/default' => [
             'page/body' => [
                 'file' => 'templates/g5_prometheus/config/default/page/body.yaml',
-                'modified' => 1582763250
+                'modified' => 1583792621
             ],
             'page/head' => [
                 'file' => 'templates/g5_prometheus/config/default/page/head.yaml',
-                'modified' => 1582763250
+                'modified' => 1583792621
             ],
             'particles/branding' => [
                 'file' => 'templates/g5_prometheus/config/default/particles/branding.yaml',
-                'modified' => 1582763250
+                'modified' => 1583792621
             ],
             'particles/copyright' => [
                 'file' => 'templates/g5_prometheus/config/default/particles/copyright.yaml',
-                'modified' => 1582763250
+                'modified' => 1583792621
             ],
             'particles/logo' => [
                 'file' => 'templates/g5_prometheus/config/default/particles/logo.yaml',
-                'modified' => 1582763250
+                'modified' => 1583792621
             ],
             'particles/social' => [
                 'file' => 'templates/g5_prometheus/config/default/particles/social.yaml',
-                'modified' => 1582763250
+                'modified' => 1583792621
             ],
             'particles/totop' => [
                 'file' => 'templates/g5_prometheus/config/default/particles/totop.yaml',
-                'modified' => 1582763250
+                'modified' => 1583792621
             ]
         ]
     ],
@@ -999,33 +1003,84 @@ Suspendisse feugiat quam',
                         'id' => 'fixed-header-7426',
                         'type' => 'fixed-header',
                         'title' => 'Fixed Header',
-                        'attributes' => [
-                            'enabled' => '1',
-                            'cssselector' => '.sz-translation',
-                            'mobile' => 'disable',
-                            'secondtrigger' => '0',
-                            'secondoffset' => ''
+                        'inherit' => [
+                            'outline' => 'default',
+                            'atom' => 'fixed-header-7426',
+                            'include' => [
+                                0 => 'attributes'
+                            ]
                         ]
                     ],
                     1 => [
-                        'type' => 'frameworks',
-                        'title' => 'JavaScript Frameworks',
+                        'id' => 'assets-8601',
+                        'type' => 'assets',
+                        'title' => 'Custom CSS / JS',
                         'attributes' => [
                             'enabled' => '1',
-                            'jquery' => [
-                                'enabled' => '1',
-                                'ui_core' => '0',
-                                'ui_sortable' => '0'
+                            'css' => [
+                                0 => [
+                                    'location' => '',
+                                    'inline' => '.articulo_inicio{
+margin: 2px;
+padding:2px;
+border-radius: 16px 16px 16px 16px;
+-moz-border-radius: 16px 16px 16px 16px;
+-webkit-border-radius: 16px 16px 16px 16px;
+border: 2px solid #d3d4c9;
+
+}
+.articulo_inicio h3{
+text-align: center;
+}',
+                                    'extra' => [
+                                        
+                                    ],
+                                    'priority' => '0',
+                                    'name' => 'articulos_inicio'
+                                ],
+                                1 => [
+                                    'location' => '',
+                                    'inline' => '.logo_imagen{
+display: block;
+ margin: auto;
+}',
+                                    'extra' => [
+                                        
+                                    ],
+                                    'priority' => '0',
+                                    'name' => 'logo_imagen'
+                                ],
+                                2 => [
+                                    'location' => '',
+                                    'inline' => '.segundo_titulo{
+padding: 3px;
+}',
+                                    'extra' => [
+                                        
+                                    ],
+                                    'priority' => '0',
+                                    'name' => 'segundo_titulo'
+                                ],
+                                3 => [
+                                    'name' => 'New item'
+                                ]
                             ],
-                            'bootstrap' => [
-                                'enabled' => '0'
-                            ],
-                            'mootools' => [
-                                'enabled' => '0',
-                                'more' => '0'
+                            'javascript' => [
+                                
                             ]
-                        ],
-                        'id' => 'frameworks-7641'
+                        ]
+                    ],
+                    2 => [
+                        'type' => 'frameworks',
+                        'title' => 'JavaScript Frameworks',
+                        'id' => 'frameworks-7641',
+                        'inherit' => [
+                            'outline' => 'default',
+                            'atom' => 'frameworks-7641',
+                            'include' => [
+                                0 => 'attributes'
+                            ]
+                        ]
                     ]
                 ]
             ],
@@ -1042,7 +1097,7 @@ Suspendisse feugiat quam',
         ],
         'index' => [
             'name' => '11',
-            'timestamp' => 1583488422,
+            'timestamp' => 1583973839,
             'version' => 7,
             'preset' => [
                 'image' => 'gantry-admin://images/layouts/default.png',
@@ -1074,17 +1129,24 @@ Suspendisse feugiat quam',
                 'offcanvas' => 'Offcanvas'
             ],
             'particles' => [
+                'spacer' => [
+                    'spacer-1702' => 'Spacer',
+                    'spacer-3243' => 'Spacer',
+                    'spacer-2607' => 'Spacer',
+                    'spacer-2458' => 'Spacer',
+                    'spacer-2395' => 'Spacer'
+                ],
                 'logo' => [
+                    'logo-9690' => 'Logo / Image',
                     'logo-9501' => 'Logo / Image'
+                ],
+                'customcontentSZ' => [
+                    'customcontentSZ-6295' => 'Custom Content',
+                    'customcontentSZ-8804' => 'Custom Content',
+                    'customcontentSZ-5107' => 'Custom Content'
                 ],
                 'menu' => [
                     'menu-6609' => 'Menu'
-                ],
-                'customcontentSZ' => [
-                    'customcontentSZ-5107' => 'Custom Content'
-                ],
-                'spacer' => [
-                    'spacer-2395' => 'Spacer'
                 ],
                 'messages' => [
                     'system-messages-2617' => 'System Messages'
@@ -1094,9 +1156,6 @@ Suspendisse feugiat quam',
                 ],
                 'date' => [
                     'date-2824' => 'Date'
-                ],
-                'socialfloatingSZ' => [
-                    'socialfloatingSZ-2700' => 'Social Floating'
                 ],
                 'copyright' => [
                     'copyright-6180' => 'Copyright'
@@ -1126,12 +1185,22 @@ Suspendisse feugiat quam',
                     
                 ],
                 '/navtop/' => [
-                    
+                    0 => [
+                        0 => 'spacer-1702 5',
+                        1 => 'logo-9690 57',
+                        2 => 'spacer-3243 27',
+                        3 => 'logo-9501 11'
+                    ],
+                    1 => [
+                        0 => 'spacer-2607 12',
+                        1 => 'customcontentSZ-6295 17',
+                        2 => 'customcontentSZ-8804 46',
+                        3 => 'spacer-2458 25'
+                    ]
                 ],
                 '/navigation/' => [
                     0 => [
-                        0 => 'logo-9501 25',
-                        1 => 'menu-6609 75'
+                        0 => 'menu-6609'
                     ]
                 ],
                 '/header/' => [
@@ -1192,9 +1261,7 @@ Suspendisse feugiat quam',
                     
                 ],
                 '/footer/' => [
-                    0 => [
-                        0 => 'socialfloatingSZ-2700'
-                    ]
+                    
                 ],
                 '/footerbottom/' => [
                     0 => [
@@ -1229,7 +1296,14 @@ Suspendisse feugiat quam',
                 'navtop' => [
                     'type' => 'section',
                     'attributes' => [
-                        'boxed' => ''
+                        'boxed' => '',
+                        'class' => '',
+                        'background' => '',
+                        'backgroundOverlay' => 'rgba(0, 0, 0, 0)',
+                        'backgroundAttachment' => '',
+                        'backgroundRepeat' => '',
+                        'backgroundPosition' => '',
+                        'backgroundSize' => ''
                     ]
                 ],
                 'navigation' => [
@@ -1390,12 +1464,56 @@ Suspendisse feugiat quam',
                 ]
             ],
             'content' => [
+                'logo-9690' => [
+                    'title' => 'Logo / Image',
+                    'attributes' => [
+                        'image' => 'gantry-media://sitio_titulo_banner.png',
+                        'height' => '6rem'
+                    ],
+                    'block' => [
+                        'class' => 'logo_imagen'
+                    ]
+                ],
                 'logo-9501' => [
                     'title' => 'Logo / Image',
                     'attributes' => [
-                        'url' => 'http://localhost/Libros2/index.php',
-                        'image' => 'gantry-media://UADY_LOGO_NARANJA.png',
+                        'url' => 'https://www.matematicas.uady.mx/',
+                        'target' => '_blank',
+                        'image' => 'gantry-media://uady_logo_amarillo.png',
+                        'height' => '6rem',
                         'text' => 'LCC'
+                    ],
+                    'block' => [
+                        'class' => 'logo_imagen'
+                    ]
+                ],
+                'customcontentSZ-6295' => [
+                    'title' => 'Custom Content',
+                    'attributes' => [
+                        'image' => 'gantry-media://jovenes_divulg.png',
+                        'height' => '5rem'
+                    ],
+                    'block' => [
+                        'class' => 'logo_imagen segundo_titulo'
+                    ]
+                ],
+                'customcontentSZ-8804' => [
+                    'title' => 'Custom Content',
+                    'attributes' => [
+                        'height' => '5rem',
+                        'headline' => '',
+                        'description' => '<div style="border-top-style: solid;
+border-color: #ebb800;"> 
+<h3 style="text-align:center; font-weight:bold; color:#ffffff;">Sitio de Divulgación LCC</h3>
+ </div>'
+                    ],
+                    'block' => [
+                        'class' => 'segundo_titulo'
+                    ]
+                ],
+                'menu-6609' => [
+                    'attributes' => [
+                        'menu' => 'principal'
                     ]
                 ],
                 'customcontentSZ-5107' => [
@@ -1413,9 +1531,6 @@ Suspendisse feugiat quam',
                     'block' => [
                         'variations' => 'center'
                     ]
-                ],
-                'socialfloatingSZ-2700' => [
-                    'title' => 'Social Floating'
                 ],
                 'copyright-6180' => [
                     'attributes' => [

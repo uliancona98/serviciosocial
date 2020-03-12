@@ -1,33 +1,37 @@
 <?php
 return [
     '@class' => 'Gantry\\Component\\Config\\CompiledConfig',
-    'timestamp' => 1583476330,
-    'checksum' => '3a0a5d1cc74bd2afbfc4345c748514f0',
+    'timestamp' => 1583973359,
+    'checksum' => '7a14bb8fdfb0d54a60915358489bfd1d',
     'files' => [
         'templates/g5_prometheus/custom/config/11' => [
             'assignments' => [
                 'file' => 'templates/g5_prometheus/custom/config/11/assignments.yaml',
-                'modified' => 1583475646
+                'modified' => 1583792655
             ],
             'index' => [
                 'file' => 'templates/g5_prometheus/custom/config/11/index.yaml',
-                'modified' => 1583475646
+                'modified' => 1583973182
             ],
             'layout' => [
                 'file' => 'templates/g5_prometheus/custom/config/11/layout.yaml',
-                'modified' => 1583475646
+                'modified' => 1583973182
             ],
             'page/assets' => [
                 'file' => 'templates/g5_prometheus/custom/config/11/page/assets.yaml',
-                'modified' => 1583475646
+                'modified' => 1583973359
             ],
             'page/body' => [
                 'file' => 'templates/g5_prometheus/custom/config/11/page/body.yaml',
-                'modified' => 1583475646
+                'modified' => 1583973359
+            ],
+            'page/head' => [
+                'file' => 'templates/g5_prometheus/custom/config/11/page/head.yaml',
+                'modified' => 1583973359
             ],
             'styles' => [
                 'file' => 'templates/g5_prometheus/custom/config/11/styles.yaml',
-                'modified' => 1583476125
+                'modified' => 1583792655
             ]
         ]
     ],
@@ -41,8 +45,8 @@ return [
             ]
         ],
         'index' => [
-            'name' => '10',
-            'timestamp' => 1582879581,
+            'name' => '11',
+            'timestamp' => 1583973182,
             'version' => 7,
             'preset' => [
                 'image' => 'gantry-admin://images/layouts/default.png',
@@ -74,21 +78,14 @@ return [
                 'offcanvas' => 'Offcanvas'
             ],
             'particles' => [
-                'logo' => [
-                    'logo-9501' => 'Logo / Image'
-                ],
                 'menu' => [
                     'menu-6609' => 'Menu'
                 ],
                 'customcontentSZ' => [
                     'customcontentSZ-5107' => 'Custom Content'
                 ],
-                'owlcarousel' => [
-                    'owlcarousel-2762' => 'Owl Carousel'
-                ],
                 'spacer' => [
-                    'spacer-2395' => 'Spacer',
-                    'spacer-4623' => 'Spacer'
+                    'spacer-2395' => 'Spacer'
                 ],
                 'messages' => [
                     'system-messages-2617' => 'System Messages'
@@ -96,11 +93,19 @@ return [
                 'content' => [
                     'system-content-1966' => 'Page Content'
                 ],
+                'date' => [
+                    'date-2824' => 'Date'
+                ],
                 'socialfloatingSZ' => [
                     'socialfloatingSZ-2700' => 'Social Floating'
                 ],
                 'copyright' => [
                     'copyright-6180' => 'Copyright'
+                ],
+                'custom' => [
+                    'custom-8901' => 'Custom HTML',
+                    'custom-2608' => 'Custom HTML',
+                    'custom-4645' => 'Custom HTML'
                 ],
                 'mobile-menu' => [
                     'mobile-menu-5697' => 'Mobile-menu'
@@ -126,8 +131,7 @@ return [
                 ],
                 '/navigation/' => [
                     0 => [
-                        0 => 'logo-9501 25',
-                        1 => 'menu-6609 75'
+                        0 => 'menu-6609'
                     ]
                 ],
                 '/header/' => [
@@ -136,9 +140,7 @@ return [
                     ]
                 ],
                 '/intro/' => [
-                    0 => [
-                        0 => 'owlcarousel-2762'
-                    ]
+                    
                 ],
                 '/features/' => [
                     
@@ -177,7 +179,7 @@ return [
                         2 => [
                             'sidebar 25' => [
                                 0 => [
-                                    0 => 'spacer-4623'
+                                    0 => 'date-2824'
                                 ]
                             ]
                         ]
@@ -197,6 +199,15 @@ return [
                 '/footerbottom/' => [
                     0 => [
                         0 => 'copyright-6180'
+                    ],
+                    1 => [
+                        0 => 'custom-8901'
+                    ],
+                    2 => [
+                        0 => 'custom-2608'
+                    ],
+                    3 => [
+                        0 => 'custom-4645'
                     ]
                 ],
                 '/nadir/' => [
@@ -379,12 +390,9 @@ return [
                 ]
             ],
             'content' => [
-                'logo-9501' => [
-                    'title' => 'Logo / Image',
+                'menu-6609' => [
                     'attributes' => [
-                        'url' => 'http://localhost/Libros2/index.php',
-                        'image' => 'gantry-media://UADY_LOGO_NARANJA.png',
-                        'text' => 'LCC'
+                        'menu' => 'principal'
                     ]
                 ],
                 'customcontentSZ-5107' => [
@@ -403,9 +411,6 @@ return [
                         'variations' => 'center'
                     ]
                 ],
-                'owlcarousel-2762' => [
-                    'title' => 'Owl Carousel'
-                ],
                 'socialfloatingSZ-2700' => [
                     'title' => 'Social Floating'
                 ],
@@ -419,6 +424,27 @@ return [
                             'text' => ''
                         ]
                     ]
+                ],
+                'custom-8901' => [
+                    'title' => 'Custom HTML',
+                    'attributes' => [
+                        'html' => 'Facultad de Matemáticas
+'
+                    ]
+                ],
+                'custom-2608' => [
+                    'title' => 'Custom HTML',
+                    'attributes' => [
+                        'html' => 'Dirección
+Anillo Periferico Norte, Tablaje Cat. 13615, Colonia Chuburna Hidalgo Inn, Mérida Yucatán.'
+                    ]
+                ],
+                'custom-4645' => [
+                    'title' => 'Custom HTML',
+                    'attributes' => [
+                        'html' => 'Teléfono
+(999) 942 31 40 al 49'
+                    ]
                 ]
             ]
         ],
@@ -429,6 +455,93 @@ return [
             'body' => [
                 'layout' => [
                     'sections' => '2'
+                ]
+            ],
+            'head' => [
+                'atoms' => [
+                    0 => [
+                        'id' => 'fixed-header-7426',
+                        'type' => 'fixed-header',
+                        'title' => 'Fixed Header',
+                        'inherit' => [
+                            'outline' => 'default',
+                            'atom' => 'fixed-header-7426',
+                            'include' => [
+                                0 => 'attributes'
+                            ]
+                        ]
+                    ],
+                    1 => [
+                        'id' => 'assets-8601',
+                        'type' => 'assets',
+                        'title' => 'Custom CSS / JS',
+                        'attributes' => [
+                            'enabled' => '1',
+                            'css' => [
+                                0 => [
+                                    'location' => '',
+                                    'inline' => '.articulo_inicio{
+margin: 2px;
+padding:2px;
+border-radius: 16px 16px 16px 16px;
+-moz-border-radius: 16px 16px 16px 16px;
+-webkit-border-radius: 16px 16px 16px 16px;
+border: 2px solid #d3d4c9;
+
+}
+.articulo_inicio h3{
+text-align: center;
+}',
+                                    'extra' => [
+                                        
+                                    ],
+                                    'priority' => '0',
+                                    'name' => 'articulos_inicio'
+                                ],
+                                1 => [
+                                    'location' => '',
+                                    'inline' => '.logo_imagen{
+display: block;
+ margin: auto;
+}',
+                                    'extra' => [
+                                        
+                                    ],
+                                    'priority' => '0',
+                                    'name' => 'logo_imagen'
+                                ],
+                                2 => [
+                                    'location' => '',
+                                    'inline' => '.segundo_titulo{
+padding: 3px;
+}',
+                                    'extra' => [
+                                        
+                                    ],
+                                    'priority' => '0',
+                                    'name' => 'segundo_titulo'
+                                ],
+                                3 => [
+                                    'name' => 'New item'
+                                ]
+                            ],
+                            'javascript' => [
+                                
+                            ]
+                        ]
+                    ],
+                    2 => [
+                        'type' => 'frameworks',
+                        'title' => 'JavaScript Frameworks',
+                        'id' => 'frameworks-7641',
+                        'inherit' => [
+                            'outline' => 'default',
+                            'atom' => 'frameworks-7641',
+                            'include' => [
+                                0 => 'attributes'
+                            ]
+                        ]
+                    ]
                 ]
             ]
         ],

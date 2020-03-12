@@ -1,33 +1,37 @@
 <?php
 return [
     '@class' => 'Gantry\\Component\\Config\\CompiledConfig',
-    'timestamp' => 1583530375,
-    'checksum' => '8dbd36e550eeca8cbcd8c3b8df6906fe',
+    'timestamp' => 1583972853,
+    'checksum' => 'baf536b8d5630f0752bb2c8116427841',
     'files' => [
         'templates/g5_prometheus/custom/config/10' => [
             'assignments' => [
                 'file' => 'templates/g5_prometheus/custom/config/10/assignments.yaml',
-                'modified' => 1583476321
+                'modified' => 1583792621
             ],
             'index' => [
                 'file' => 'templates/g5_prometheus/custom/config/10/index.yaml',
-                'modified' => 1583485961
+                'modified' => 1583972685
             ],
             'layout' => [
                 'file' => 'templates/g5_prometheus/custom/config/10/layout.yaml',
-                'modified' => 1583485961
+                'modified' => 1583972685
             ],
             'page/assets' => [
                 'file' => 'templates/g5_prometheus/custom/config/10/page/assets.yaml',
-                'modified' => 1582763250
+                'modified' => 1583972853
             ],
             'page/body' => [
                 'file' => 'templates/g5_prometheus/custom/config/10/page/body.yaml',
-                'modified' => 1582763250
+                'modified' => 1583972853
+            ],
+            'page/head' => [
+                'file' => 'templates/g5_prometheus/custom/config/10/page/head.yaml',
+                'modified' => 1583972853
             ],
             'styles' => [
                 'file' => 'templates/g5_prometheus/custom/config/10/styles.yaml',
-                'modified' => 1582915847
+                'modified' => 1583792655
             ]
         ]
     ],
@@ -42,7 +46,7 @@ return [
         ],
         'index' => [
             'name' => '10',
-            'timestamp' => 1583485961,
+            'timestamp' => 1583972685,
             'version' => 7,
             'preset' => [
                 'image' => 'gantry-admin://images/layouts/default.png',
@@ -74,18 +78,25 @@ return [
                 'offcanvas' => 'Offcanvas'
             ],
             'particles' => [
+                'spacer' => [
+                    'spacer-1702' => 'Spacer',
+                    'spacer-3243' => 'Spacer',
+                    'spacer-2607' => 'Spacer',
+                    'spacer-2458' => 'Spacer',
+                    'spacer-2395' => 'Spacer',
+                    'spacer-4623' => 'Spacer'
+                ],
                 'logo' => [
+                    'logo-9690' => 'Logo / Image',
                     'logo-9501' => 'Logo / Image'
+                ],
+                'customcontentSZ' => [
+                    'customcontentSZ-6295' => 'Custom Content',
+                    'customcontentSZ-8804' => 'Custom Content',
+                    'customcontentSZ-5107' => 'Custom Content'
                 ],
                 'menu' => [
                     'menu-6609' => 'Menu'
-                ],
-                'customcontentSZ' => [
-                    'customcontentSZ-5107' => 'Custom Content'
-                ],
-                'spacer' => [
-                    'spacer-2395' => 'Spacer',
-                    'spacer-4623' => 'Spacer'
                 ],
                 'messages' => [
                     'system-messages-2617' => 'System Messages'
@@ -119,12 +130,22 @@ return [
                     
                 ],
                 '/navtop/' => [
-                    
+                    0 => [
+                        0 => 'spacer-1702 5',
+                        1 => 'logo-9690 57',
+                        2 => 'spacer-3243 27',
+                        3 => 'logo-9501 11'
+                    ],
+                    1 => [
+                        0 => 'spacer-2607 12',
+                        1 => 'customcontentSZ-6295 17',
+                        2 => 'customcontentSZ-8804 46',
+                        3 => 'spacer-2458 25'
+                    ]
                 ],
                 '/navigation/' => [
                     0 => [
-                        0 => 'logo-9501 25',
-                        1 => 'menu-6609 75'
+                        0 => 'menu-6609'
                     ]
                 ],
                 '/header/' => [
@@ -213,7 +234,14 @@ return [
                 'navtop' => [
                     'type' => 'section',
                     'attributes' => [
-                        'boxed' => ''
+                        'boxed' => '',
+                        'class' => '',
+                        'background' => '',
+                        'backgroundOverlay' => 'rgba(0, 0, 0, 0)',
+                        'backgroundAttachment' => '',
+                        'backgroundRepeat' => '',
+                        'backgroundPosition' => '',
+                        'backgroundSize' => ''
                     ]
                 ],
                 'navigation' => [
@@ -374,12 +402,51 @@ return [
                 ]
             ],
             'content' => [
+                'logo-9690' => [
+                    'title' => 'Logo / Image',
+                    'attributes' => [
+                        'image' => 'gantry-media://sitio_titulo_banner.png',
+                        'height' => '6rem'
+                    ],
+                    'block' => [
+                        'class' => 'logo_imagen'
+                    ]
+                ],
                 'logo-9501' => [
                     'title' => 'Logo / Image',
                     'attributes' => [
-                        'url' => 'http://localhost/Libros2/index.php',
-                        'image' => 'gantry-media://UADY_LOGO_NARANJA.png',
+                        'url' => 'https://www.matematicas.uady.mx/',
+                        'target' => '_blank',
+                        'image' => 'gantry-media://uady_logo_amarillo.png',
+                        'height' => '6rem',
                         'text' => 'LCC'
+                    ],
+                    'block' => [
+                        'class' => 'logo_imagen'
+                    ]
+                ],
+                'customcontentSZ-6295' => [
+                    'title' => 'Custom Content',
+                    'attributes' => [
+                        'image' => 'gantry-media://jovenes_divulg.png',
+                        'height' => '5rem'
+                    ],
+                    'block' => [
+                        'class' => 'logo_imagen segundo_titulo'
+                    ]
+                ],
+                'customcontentSZ-8804' => [
+                    'title' => 'Custom Content',
+                    'attributes' => [
+                        'height' => '5rem',
+                        'headline' => '',
+                        'description' => '<div style="border-top-style: solid;
+border-color: #ebb800;"> 
+<h3 style="text-align:center; font-weight:bold; color:#ffffff;">Sitio de Divulgación LCC</h3>
+ </div>'
+                    ],
+                    'block' => [
+                        'class' => 'segundo_titulo'
                     ]
                 ],
                 'customcontentSZ-5107' => [
@@ -421,6 +488,46 @@ return [
             'body' => [
                 'layout' => [
                     'sections' => '2'
+                ]
+            ],
+            'head' => [
+                'atoms' => [
+                    0 => [
+                        'id' => 'fixed-header-7426',
+                        'type' => 'fixed-header',
+                        'title' => 'Fixed Header',
+                        'inherit' => [
+                            'outline' => 'default',
+                            'atom' => 'fixed-header-7426',
+                            'include' => [
+                                0 => 'attributes'
+                            ]
+                        ]
+                    ],
+                    1 => [
+                        'id' => 'assets-7854',
+                        'type' => 'assets',
+                        'title' => 'Custom CSS / JS',
+                        'inherit' => [
+                            'outline' => '9',
+                            'atom' => 'assets-7065',
+                            'include' => [
+                                0 => 'attributes'
+                            ]
+                        ]
+                    ],
+                    2 => [
+                        'type' => 'frameworks',
+                        'title' => 'JavaScript Frameworks',
+                        'id' => 'frameworks-7641',
+                        'inherit' => [
+                            'outline' => 'default',
+                            'atom' => 'frameworks-7641',
+                            'include' => [
+                                0 => 'attributes'
+                            ]
+                        ]
+                    ]
                 ]
             ]
         ],

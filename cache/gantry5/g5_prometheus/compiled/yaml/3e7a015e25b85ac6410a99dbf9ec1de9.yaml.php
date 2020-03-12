@@ -2,7 +2,7 @@
 return [
     '@class' => 'Gantry\\Component\\File\\CompiledYamlFile',
     'filename' => 'C:\\MAMP\\htdocs\\serviciosocial/templates/g5_prometheus/blueprints/styles/breakpoints.yaml',
-    'modified' => 1581571416,
+    'modified' => 1583792621,
     'data' => [
         'name' => 'Breakpoints',
         'description' => 'Breakpoint container sizes for different viewports',

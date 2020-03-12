@@ -2,7 +2,7 @@
 return [
     '@class' => 'Gantry\\Component\\File\\CompiledYamlFile',
     'filename' => 'C:\\MAMP\\htdocs\\serviciosocial/templates/g5_prometheus/custom/config/9/layout.yaml',
-    'modified' => 1582517968,
+    'modified' => 1583974491,
     'data' => [
         'version' => 2,
         'preset' => [
@@ -22,10 +22,10 @@ return [
                     3 => 'logo-9501 11'
                 ],
                 1 => [
-                    0 => 'spacer-spacer-2607 12',
+                    0 => 'spacer-2607 12',
                     1 => 'customcontentSZ-6295 17',
                     2 => 'customcontentSZ-8804 46',
-                    3 => 'spacer-spacer-2458 25'
+                    3 => 'spacer-2458 25'
                 ]
             ],
             '/navigation/' => [
@@ -68,8 +68,9 @@ return [
                     1 => [
                         'mainbar 50' => [
                             0 => [
-                                0 => 'contentarray-6630 50',
-                                1 => 'contentarray-6168 50'
+                                0 => 'contentarray-6676 33.3',
+                                1 => 'contentarray-6630 33.3',
+                                2 => 'contentarray-6168 33.3'
                             ]
                         ]
                     ],
@@ -87,7 +88,9 @@ return [
                 
             ],
             '/footer/' => [
-                
+                0 => [
+                    0 => 'owlcarousel-8283'
+                ]
             ],
             '/footerbottom/' => [
                 0 => [
@@ -113,7 +116,14 @@ return [
             'navtop' => [
                 'type' => 'section',
                 'attributes' => [
-                    'boxed' => ''
+                    'boxed' => '',
+                    'class' => '',
+                    'background' => '',
+                    'backgroundOverlay' => 'rgba(0, 0, 0, 0)',
+                    'backgroundAttachment' => '',
+                    'backgroundRepeat' => '',
+                    'backgroundPosition' => '',
+                    'backgroundSize' => ''
                 ]
             ],
             'navigation' => [
@@ -278,7 +288,10 @@ return [
                 'title' => 'Logo / Image',
                 'attributes' => [
                     'image' => 'gantry-media://sitio_titulo_banner.png',
-                    'height' => '9rem'
+                    'height' => '6rem'
+                ],
+                'block' => [
+                    'class' => 'logo_imagen'
                 ]
             ],
             'logo-9501' => [
@@ -287,7 +300,7 @@ return [
                     'url' => 'https://www.matematicas.uady.mx/',
                     'target' => '_blank',
                     'image' => 'gantry-media://uady_logo_amarillo.png',
-                    'height' => '7rem',
+                    'height' => '6rem',
                     'text' => 'LCC'
                 ],
                 'block' => [
@@ -298,7 +311,7 @@ return [
                 'title' => 'Custom Content',
                 'attributes' => [
                     'image' => 'gantry-media://jovenes_divulg.png',
-                    'height' => '7rem'
+                    'height' => '5rem'
                 ],
                 'block' => [
                     'class' => 'logo_imagen segundo_titulo'
@@ -350,6 +363,9 @@ border-color: #ebb800;">
 <h3 style="text-align:center; font-weight:bold; color:#000000;">Contenido</h3>
  </div>'
                 ]
+            ],
+            'contentarray-6676' => [
+                'title' => 'Joomla Articles'
             ],
             'contentarray-6630' => [
                 'title' => 'Joomla Articles',
@@ -417,6 +433,9 @@ border-color: #ebb800;">
                         'class' => 'articulo_inicio'
                     ]
                 ]
+            ],
+            'owlcarousel-8283' => [
+                'title' => 'Owl Carousel'
             ],
             'copyright-6180' => [
                 'attributes' => [

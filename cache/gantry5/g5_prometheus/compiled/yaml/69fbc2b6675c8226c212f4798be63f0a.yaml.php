@@ -2,7 +2,7 @@
 return [
     '@class' => 'Gantry\\Component\\File\\CompiledYamlFile',
     'filename' => 'C:/MAMP/htdocs/serviciosocial/templates/g5_prometheus/blueprints/styles/offcanvas.yaml',
-    'modified' => 1581571416,
+    'modified' => 1583792621,
     'data' => [
         'name' => 'Offcanvas Styles',
         'description' => 'Paramters for the Off Canvas sidepanel section.',

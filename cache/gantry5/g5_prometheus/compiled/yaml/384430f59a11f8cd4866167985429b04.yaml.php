@@ -2,7 +2,7 @@
 return [
     '@class' => 'Gantry\\Component\\File\\CompiledYamlFile',
     'filename' => 'C:\\MAMP\\htdocs\\serviciosocial/templates/g5_prometheus/blueprints/styles/header.yaml',
-    'modified' => 1581990120,
+    'modified' => 1583792621,
     'data' => [
         'name' => 'Header Styles',
         'description' => 'Header section styles for the Prometheus theme',

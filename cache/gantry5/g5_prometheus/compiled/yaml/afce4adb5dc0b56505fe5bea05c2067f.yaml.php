@@ -2,7 +2,7 @@
 return [
     '@class' => 'Gantry\\Component\\File\\CompiledYamlFile',
     'filename' => 'C:/MAMP/htdocs/serviciosocial/templates/g5_prometheus/gantry/presets.yaml',
-    'modified' => 1581571417,
+    'modified' => 1583792621,
     'data' => [
         'preset1' => [
             'image' => 'gantry-admin://images/preset1.jpg',

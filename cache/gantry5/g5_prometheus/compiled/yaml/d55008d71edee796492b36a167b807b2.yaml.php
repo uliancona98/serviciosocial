@@ -2,7 +2,7 @@
 return [
     '@class' => 'Gantry\\Component\\File\\CompiledYamlFile',
     'filename' => 'C:\\MAMP\\htdocs\\serviciosocial/templates/g5_prometheus/particles/sample.yaml',
-    'modified' => 1581571417,
+    'modified' => 1583792621,
     'data' => [
         'name' => 'Sample Content',
         'description' => 'Displays Sample Content',

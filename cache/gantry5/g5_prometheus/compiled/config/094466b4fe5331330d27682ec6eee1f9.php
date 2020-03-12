@@ -1,37 +1,37 @@
 <?php
 return [
     '@class' => 'Gantry\\Component\\Config\\CompiledConfig',
-    'timestamp' => 1583530039,
-    'checksum' => '3066c745c7574184b828dd1ceea49f4d',
+    'timestamp' => 1583976109,
+    'checksum' => '6ecbba0ccab701dae4d45fb0d434028b',
     'files' => [
         'templates/g5_prometheus/custom/config/9' => [
             'assignments' => [
                 'file' => 'templates/g5_prometheus/custom/config/9/assignments.yaml',
-                'modified' => 1582763250
+                'modified' => 1583792621
             ],
             'index' => [
                 'file' => 'templates/g5_prometheus/custom/config/9/index.yaml',
-                'modified' => 1583529918
+                'modified' => 1583974491
             ],
             'layout' => [
                 'file' => 'templates/g5_prometheus/custom/config/9/layout.yaml',
-                'modified' => 1583529918
+                'modified' => 1583974491
             ],
             'page/assets' => [
                 'file' => 'templates/g5_prometheus/custom/config/9/page/assets.yaml',
-                'modified' => 1582763250
+                'modified' => 1583976109
             ],
             'page/body' => [
                 'file' => 'templates/g5_prometheus/custom/config/9/page/body.yaml',
-                'modified' => 1582763250
+                'modified' => 1583976109
             ],
             'page/head' => [
                 'file' => 'templates/g5_prometheus/custom/config/9/page/head.yaml',
-                'modified' => 1582763367
+                'modified' => 1583976109
             ],
             'styles' => [
                 'file' => 'templates/g5_prometheus/custom/config/9/styles.yaml',
-                'modified' => 1582763250
+                'modified' => 1583803179
             ]
         ]
     ],
@@ -46,7 +46,7 @@ return [
         ],
         'index' => [
             'name' => '9',
-            'timestamp' => 1583529918,
+            'timestamp' => 1583974491,
             'version' => 7,
             'preset' => [
                 'image' => 'gantry-admin://images/layouts/default.png',
@@ -229,7 +229,14 @@ return [
                 'navtop' => [
                     'type' => 'section',
                     'attributes' => [
-                        'boxed' => ''
+                        'boxed' => '',
+                        'class' => '',
+                        'background' => '',
+                        'backgroundOverlay' => 'rgba(0, 0, 0, 0)',
+                        'backgroundAttachment' => '',
+                        'backgroundRepeat' => '',
+                        'backgroundPosition' => '',
+                        'backgroundSize' => ''
                     ]
                 ],
                 'navigation' => [
@@ -601,13 +608,13 @@ border-color: #ebb800;">
                                 0 => [
                                     'location' => '',
                                     'inline' => '.articulo_inicio{
-margin: 2px;
-padding:2px;
+margin: 3px;
+padding:6px;
 border-radius: 16px 16px 16px 16px;
 -moz-border-radius: 16px 16px 16px 16px;
 -webkit-border-radius: 16px 16px 16px 16px;
-border: 2px solid #d3d4c9;
-
+//border: 2px solid #d3d4c9;
+background-color: #ECEDE5;
 }
 .articulo_inicio h3{
 text-align: center;
@@ -640,9 +647,6 @@ padding: 3px;
                                     ],
                                     'priority' => '0',
                                     'name' => 'segundo_titulo'
-                                ],
-                                3 => [
-                                    'name' => 'New item'
                                 ]
                             ],
                             'javascript' => [
@@ -657,7 +661,7 @@ padding: 3px;
             'preset' => 'preset4',
             'base' => [
                 'dominant-color' => '#ebb800',
-                'text-color' => '#dedede',
+                'text-color' => '#000000',
                 'background' => '#ffffff'
             ],
             'accent' => [

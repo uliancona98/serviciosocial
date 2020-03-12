@@ -1,0 +1,28 @@
+atoms:
+  -
+    id: fixed-header-7426
+    type: fixed-header
+    title: 'Fixed Header'
+    inherit:
+      outline: default
+      atom: fixed-header-7426
+      include:
+        - attributes
+  -
+    id: assets-7854
+    type: assets
+    title: 'Custom CSS / JS'
+    inherit:
+      outline: '9'
+      atom: assets-7065
+      include:
+        - attributes
+  -
+    type: frameworks
+    title: 'JavaScript Frameworks'
+    id: frameworks-7641
+    inherit:
+      outline: default
+      atom: frameworks-7641
+      include:
+        - attributes

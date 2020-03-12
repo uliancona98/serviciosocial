@@ -2,7 +2,7 @@
 return [
     '@class' => 'Gantry\\Component\\File\\CompiledYamlFile',
     'filename' => 'C:/MAMP/htdocs/serviciosocial/templates/g5_prometheus/blueprints/styles/menu.yaml',
-    'modified' => 1581571416,
+    'modified' => 1583792621,
     'data' => [
         'name' => 'Menu',
         'description' => 'Set menu style configuration options.',
