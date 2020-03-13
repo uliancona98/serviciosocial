@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Gantry\\Component\\Config\\CompiledConfig',
-    'timestamp' => 1583976109,
-    'checksum' => '6ecbba0ccab701dae4d45fb0d434028b',
+    'timestamp' => 1584081017,
+    'checksum' => '6e93788f6d699ba10b97f137b10765fc',
     'files' => [
         'templates/g5_prometheus/custom/config/9' => [
             'assignments' => [
@@ -11,27 +11,27 @@ return [
             ],
             'index' => [
                 'file' => 'templates/g5_prometheus/custom/config/9/index.yaml',
-                'modified' => 1583974491
+                'modified' => 1584080947
             ],
             'layout' => [
                 'file' => 'templates/g5_prometheus/custom/config/9/layout.yaml',
-                'modified' => 1583974491
+                'modified' => 1584080947
             ],
             'page/assets' => [
                 'file' => 'templates/g5_prometheus/custom/config/9/page/assets.yaml',
-                'modified' => 1583976109
+                'modified' => 1584079563
             ],
             'page/body' => [
                 'file' => 'templates/g5_prometheus/custom/config/9/page/body.yaml',
-                'modified' => 1583976109
+                'modified' => 1584079563
             ],
             'page/head' => [
                 'file' => 'templates/g5_prometheus/custom/config/9/page/head.yaml',
-                'modified' => 1583976109
+                'modified' => 1584079563
             ],
             'styles' => [
                 'file' => 'templates/g5_prometheus/custom/config/9/styles.yaml',
-                'modified' => 1583803179
+                'modified' => 1584080557
             ]
         ]
     ],
@@ -46,7 +46,7 @@ return [
         ],
         'index' => [
             'name' => '9',
-            'timestamp' => 1583974491,
+            'timestamp' => 1584080947,
             'version' => 7,
             'preset' => [
                 'image' => 'gantry-admin://images/layouts/default.png',
@@ -91,19 +91,18 @@ return [
                 'customcontentSZ' => [
                     'customcontentSZ-6295' => 'Custom Content',
                     'customcontentSZ-8804' => 'Custom Content',
-                    'customcontentSZ-5107' => 'Banner',
                     'customcontentSZ-3582' => 'Custom Content'
                 ],
                 'menu' => [
                     'menu-6609' => 'Menu'
                 ],
-                'contentarray' => [
-                    'contentarray-6676' => 'Joomla Articles',
-                    'contentarray-6630' => 'Joomla Articles',
-                    'contentarray-6168' => 'Joomla Articles'
-                ],
                 'owlcarousel' => [
-                    'owlcarousel-8283' => 'Owl Carousel'
+                    'owlcarousel-5243' => 'Owl Carousel'
+                ],
+                'contentarray' => [
+                    'contentarray-6630' => 'Joomla Articles',
+                    'contentarray-9885' => 'Joomla Articles',
+                    'contentarray-3542' => 'Joomla Articles'
                 ],
                 'copyright' => [
                     'copyright-6180' => 'Copyright'
@@ -148,7 +147,7 @@ return [
                 ],
                 '/header/' => [
                     0 => [
-                        0 => 'customcontentSZ-5107'
+                        0 => 'owlcarousel-5243'
                     ]
                 ],
                 '/intro/' => [
@@ -181,9 +180,9 @@ return [
                         1 => [
                             'mainbar 50' => [
                                 0 => [
-                                    0 => 'contentarray-6676 33.3',
-                                    1 => 'contentarray-6630 33.3',
-                                    2 => 'contentarray-6168 33.3'
+                                    0 => 'contentarray-6630 33.3',
+                                    1 => 'contentarray-9885 33.3',
+                                    2 => 'contentarray-3542 33.3'
                                 ]
                             ]
                         ],
@@ -201,9 +200,7 @@ return [
                     
                 ],
                 '/footer/' => [
-                    0 => [
-                        0 => 'owlcarousel-8283'
-                    ]
+                    
                 ],
                 '/footerbottom/' => [
                     0 => [
@@ -254,10 +251,10 @@ return [
                 ],
                 'header' => [
                     'attributes' => [
-                        'boxed' => '',
+                        'boxed' => '0',
                         'class' => '',
-                        'background' => 'gantry-media://demos/gabriele-motter.jpg',
-                        'backgroundOverlay' => '',
+                        'background' => '#ffffff',
+                        'backgroundOverlay' => '#ffffff',
                         'backgroundAttachment' => 'fixed',
                         'backgroundRepeat' => '',
                         'backgroundPosition' => 'center center',
@@ -268,9 +265,9 @@ return [
                     'type' => 'section',
                     'attributes' => [
                         'boxed' => '0',
-                        'class' => '',
+                        'class' => 'fondo_blanco',
                         'background' => '',
-                        'backgroundOverlay' => 'rgba(0, 0, 0, 0)',
+                        'backgroundOverlay' => '#ffffff',
                         'backgroundAttachment' => '',
                         'backgroundRepeat' => '',
                         'backgroundPosition' => '',
@@ -449,20 +446,32 @@ border-color: #ebb800;">
                         'menu' => 'principal'
                     ]
                 ],
-                'customcontentSZ-5107' => [
-                    'title' => 'Banner',
+                'owlcarousel-5243' => [
+                    'title' => 'Owl Carousel',
                     'attributes' => [
-                        'image' => '',
-                        'height' => '60vh',
-                        'headline' => '',
-                        'description' => '',
-                        'link' => '',
-                        'linktext' => '',
-                        'link2' => '',
-                        'linktext2' => ''
-                    ],
-                    'block' => [
-                        'variations' => 'center'
+                        'title' => 'Articulos Destacados',
+                        'autoplay' => 'disable',
+                        'autoplaySpeed' => '4000',
+                        'items' => [
+                            0 => [
+                                'image' => 'gantry-media://demos/jump.jpg',
+                                'title' => 'HEADLINE',
+                                'desc' => 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.',
+                                'link' => '#',
+                                'linktext' => 'Download now!',
+                                'buttonclass' => 'button',
+                                'name' => 'item1'
+                            ],
+                            1 => [
+                                'image' => 'gantry-media://demos/phone.jpg',
+                                'title' => 'HEADLINE',
+                                'desc' => ' Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.',
+                                'link' => '#',
+                                'linktext' => 'Download now!',
+                                'buttonclass' => 'button',
+                                'name' => 'item2'
+                            ]
+                        ]
                     ]
                 ],
                 'customcontentSZ-3582' => [
@@ -477,28 +486,25 @@ border-color: #ebb800;">
  </div>'
                     ]
                 ],
-                'contentarray-6676' => [
-                    'title' => 'Joomla Articles'
-                ],
                 'contentarray-6630' => [
                     'title' => 'Joomla Articles',
                     'attributes' => [
                         'article' => [
                             'filter' => [
                                 'categories' => '',
-                                'articles' => '',
+                                'articles' => '5',
                                 'featured' => 'include'
                             ],
                             'limit' => [
                                 'total' => '1',
-                                'columns' => '2',
-                                'start' => '3'
+                                'columns' => '1',
+                                'start' => ''
                             ],
                             'display' => [
                                 'pagination_buttons' => '',
                                 'text' => [
                                     'type' => 'intro',
-                                    'limit' => '30'
+                                    'limit' => '50'
                                 ],
                                 'date' => [
                                     'format' => 'l, F d, Y'
@@ -517,24 +523,24 @@ border-color: #ebb800;">
                         ]
                     ]
                 ],
-                'contentarray-6168' => [
+                'contentarray-9885' => [
                     'title' => 'Joomla Articles',
                     'attributes' => [
                         'article' => [
                             'filter' => [
                                 'categories' => '',
-                                'articles' => '',
+                                'articles' => '7',
                                 'featured' => 'include'
                             ],
                             'limit' => [
                                 'total' => '1',
-                                'columns' => '2',
-                                'start' => '4'
+                                'columns' => '1',
+                                'start' => ''
                             ],
                             'display' => [
                                 'pagination_buttons' => '',
                                 'text' => [
-                                    'limit' => '30'
+                                    'limit' => '50'
                                 ]
                             ],
                             'sort' => [
@@ -547,8 +553,35 @@ border-color: #ebb800;">
                         ]
                     ]
                 ],
-                'owlcarousel-8283' => [
-                    'title' => 'Owl Carousel'
+                'contentarray-3542' => [
+                    'title' => 'Joomla Articles',
+                    'attributes' => [
+                        'article' => [
+                            'filter' => [
+                                'categories' => '',
+                                'articles' => '9',
+                                'featured' => 'include'
+                            ],
+                            'limit' => [
+                                'total' => '1',
+                                'columns' => '1',
+                                'start' => ''
+                            ],
+                            'display' => [
+                                'pagination_buttons' => '',
+                                'text' => [
+                                    'limit' => '50'
+                                ]
+                            ],
+                            'sort' => [
+                                'orderby' => 'publish_up',
+                                'ordering' => 'ASC'
+                            ]
+                        ],
+                        'css' => [
+                            'class' => 'articulo_inicio'
+                        ]
+                    ]
                 ],
                 'copyright-6180' => [
                     'attributes' => [
@@ -608,7 +641,7 @@ border-color: #ebb800;">
                                 0 => [
                                     'location' => '',
                                     'inline' => '.articulo_inicio{
-margin: 3px;
+margin: 6px;
 padding:6px;
 border-radius: 16px 16px 16px 16px;
 -moz-border-radius: 16px 16px 16px 16px;
@@ -647,6 +680,17 @@ padding: 3px;
                                     ],
                                     'priority' => '0',
                                     'name' => 'segundo_titulo'
+                                ],
+                                3 => [
+                                    'location' => '',
+                                    'inline' => '.fondo_blanco{
+background-color: #ffffff;
+}',
+                                    'extra' => [
+                                        
+                                    ],
+                                    'priority' => '0',
+                                    'name' => 'fondo_blanco'
                                 ]
                             ],
                             'javascript' => [
@@ -685,12 +729,12 @@ padding: 3px;
             'header' => [
                 'text-color' => '#dedede',
                 'link-color' => '#ebb800',
-                'background' => '#333333'
+                'background' => '#ffffff'
             ],
             'intro' => [
                 'text-color' => '#dedede',
                 'link-color' => '#ebb800',
-                'background' => '#333333'
+                'background' => '#ffffff'
             ],
             'features' => [
                 'text-color' => '#dedede',

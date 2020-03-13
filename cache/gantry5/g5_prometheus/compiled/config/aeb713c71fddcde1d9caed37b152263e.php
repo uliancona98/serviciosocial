@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Gantry\\Component\\Config\\CompiledConfig',
-    'timestamp' => 1583973860,
-    'checksum' => 'd0bcbed4b2cee80c4ae21892d47f02fc',
+    'timestamp' => 1584084595,
+    'checksum' => '87d887a6c39340532084cb30cac9a760',
     'files' => [
         'templates/g5_prometheus/custom/config/11' => [
             'assignments' => [
@@ -11,23 +11,23 @@ return [
             ],
             'index' => [
                 'file' => 'templates/g5_prometheus/custom/config/11/index.yaml',
-                'modified' => 1583973839
+                'modified' => 1584083071
             ],
             'layout' => [
                 'file' => 'templates/g5_prometheus/custom/config/11/layout.yaml',
-                'modified' => 1583973839
+                'modified' => 1584083071
             ],
             'page/assets' => [
                 'file' => 'templates/g5_prometheus/custom/config/11/page/assets.yaml',
-                'modified' => 1583973359
+                'modified' => 1584084595
             ],
             'page/body' => [
                 'file' => 'templates/g5_prometheus/custom/config/11/page/body.yaml',
-                'modified' => 1583973359
+                'modified' => 1584084595
             ],
             'page/head' => [
                 'file' => 'templates/g5_prometheus/custom/config/11/page/head.yaml',
-                'modified' => 1583973359
+                'modified' => 1584084595
             ],
             'styles' => [
                 'file' => 'templates/g5_prometheus/custom/config/11/styles.yaml',
@@ -1027,7 +1027,6 @@ border-radius: 16px 16px 16px 16px;
 -moz-border-radius: 16px 16px 16px 16px;
 -webkit-border-radius: 16px 16px 16px 16px;
 border: 2px solid #d3d4c9;
-
 }
 .articulo_inicio h3{
 text-align: center;
@@ -1062,7 +1061,16 @@ padding: 3px;
                                     'name' => 'segundo_titulo'
                                 ],
                                 3 => [
-                                    'name' => 'New item'
+                                    'location' => '',
+                                    'inline' => '.imagen_centrada img{
+display:block;
+margin:auto;
+}',
+                                    'extra' => [
+                                        
+                                    ],
+                                    'priority' => '0',
+                                    'name' => 'imagen_centrada'
                                 ]
                             ],
                             'javascript' => [
@@ -1097,7 +1105,7 @@ padding: 3px;
         ],
         'index' => [
             'name' => '11',
-            'timestamp' => 1583973839,
+            'timestamp' => 1584083071,
             'version' => 7,
             'preset' => [
                 'image' => 'gantry-admin://images/layouts/default.png',
@@ -1142,8 +1150,7 @@ padding: 3px;
                 ],
                 'customcontentSZ' => [
                     'customcontentSZ-6295' => 'Custom Content',
-                    'customcontentSZ-8804' => 'Custom Content',
-                    'customcontentSZ-5107' => 'Custom Content'
+                    'customcontentSZ-8804' => 'Custom Content'
                 ],
                 'menu' => [
                     'menu-6609' => 'Menu'
@@ -1204,9 +1211,7 @@ padding: 3px;
                     ]
                 ],
                 '/header/' => [
-                    0 => [
-                        0 => 'customcontentSZ-5107'
-                    ]
+                    
                 ],
                 '/intro/' => [
                     
@@ -1514,22 +1519,6 @@ border-color: #ebb800;">
                 'menu-6609' => [
                     'attributes' => [
                         'menu' => 'principal'
-                    ]
-                ],
-                'customcontentSZ-5107' => [
-                    'title' => 'Custom Content',
-                    'attributes' => [
-                        'height' => '40vh',
-                        'headline' => '',
-                        'description' => '
-',
-                        'link' => '',
-                        'linktext' => '',
-                        'link2' => '',
-                        'linktext2' => ''
-                    ],
-                    'block' => [
-                        'variations' => 'center'
                     ]
                 ],
                 'copyright-6180' => [

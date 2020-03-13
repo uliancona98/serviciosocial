@@ -19,9 +19,7 @@ layout:
   /navigation/:
     -
       - menu-6609
-  /header/:
-    -
-      - customcontentSZ-5107
+  /header/: {  }
   /intro/: {  }
   /features/: {  }
   /utility/: {  }
@@ -220,18 +218,6 @@ content:
       description: "<div style=\"border-top-style: solid;\nborder-color: #ebb800;\"> \n<h3 style=\"text-align:center; font-weight:bold; color:#ffffff;\">Sitio de Divulgación LCC</h3>\n </div>"
     block:
       class: segundo_titulo
-  customcontentSZ-5107:
-    title: 'Custom Content'
-    attributes:
-      height: 40vh
-      headline: ''
-      description: "\n"
-      link: ''
-      linktext: ''
-      link2: ''
-      linktext2: ''
-    block:
-      variations: center
   copyright-6180:
     attributes:
       date:

@@ -20,11 +20,11 @@ navigation:
 header:
   text-color: '#dedede'
   link-color: '#ebb800'
-  background: '#333333'
+  background: '#ffffff'
 intro:
   text-color: '#dedede'
   link-color: '#ebb800'
-  background: '#333333'
+  background: '#ffffff'
 features:
   text-color: '#dedede'
   link-color: '#ebb800'
@@ -68,5 +68,5 @@ offcanvas:
 menu:
   col-width: 170px
 sectionsdim:
-  navigation-margin: 0.5rem
-  navigation-padding: 0.5rem
+  navigation-margin: 0.3rem
+  navigation-padding: 0.3rem

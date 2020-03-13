@@ -2,7 +2,7 @@
 return [
     '@class' => 'Gantry\\Component\\File\\CompiledYamlFile',
     'filename' => 'gantry-theme://config/9/page/head.yaml',
-    'modified' => 1583976062,
+    'modified' => 1584079563,
     'data' => [
         'atoms' => [
             0 => [
@@ -39,8 +39,8 @@ return [
                         0 => [
                             'location' => '',
                             'inline' => '.articulo_inicio{
-margin: 3px;
-padding:4px;
+margin: 6px;
+padding:6px;
 border-radius: 16px 16px 16px 16px;
 -moz-border-radius: 16px 16px 16px 16px;
 -webkit-border-radius: 16px 16px 16px 16px;
@@ -78,6 +78,17 @@ padding: 3px;
                             ],
                             'priority' => '0',
                             'name' => 'segundo_titulo'
+                        ],
+                        3 => [
+                            'location' => '',
+                            'inline' => '.fondo_blanco{
+background-color: #ffffff;
+}',
+                            'extra' => [
+                                
+                            ],
+                            'priority' => '0',
+                            'name' => 'fondo_blanco'
                         ]
                     ],
                     'javascript' => [

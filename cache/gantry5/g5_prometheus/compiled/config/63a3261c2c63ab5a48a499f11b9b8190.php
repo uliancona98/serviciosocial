@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Gantry\\Component\\Config\\CompiledConfig',
-    'timestamp' => 1583972853,
-    'checksum' => 'baf536b8d5630f0752bb2c8116427841',
+    'timestamp' => 1584083044,
+    'checksum' => '94f2e4a9011eb4e696fb5f06e661e4b4',
     'files' => [
         'templates/g5_prometheus/custom/config/10' => [
             'assignments' => [
@@ -11,11 +11,11 @@ return [
             ],
             'index' => [
                 'file' => 'templates/g5_prometheus/custom/config/10/index.yaml',
-                'modified' => 1583972685
+                'modified' => 1583973821
             ],
             'layout' => [
                 'file' => 'templates/g5_prometheus/custom/config/10/layout.yaml',
-                'modified' => 1583972685
+                'modified' => 1583973821
             ],
             'page/assets' => [
                 'file' => 'templates/g5_prometheus/custom/config/10/page/assets.yaml',
@@ -46,7 +46,7 @@ return [
         ],
         'index' => [
             'name' => '10',
-            'timestamp' => 1583972685,
+            'timestamp' => 1583973821,
             'version' => 7,
             'preset' => [
                 'image' => 'gantry-admin://images/layouts/default.png',
@@ -103,9 +103,6 @@ return [
                 ],
                 'content' => [
                     'system-content-1966' => 'Page Content'
-                ],
-                'socialfloatingSZ' => [
-                    'socialfloatingSZ-2700' => 'Social Floating'
                 ],
                 'copyright' => [
                     'copyright-6180' => 'Copyright'
@@ -206,9 +203,7 @@ return [
                     
                 ],
                 '/footer/' => [
-                    0 => [
-                        0 => 'socialfloatingSZ-2700'
-                    ]
+                    
                 ],
                 '/footerbottom/' => [
                     0 => [
@@ -464,9 +459,6 @@ border-color: #ebb800;">
                     'block' => [
                         'variations' => 'center'
                     ]
-                ],
-                'socialfloatingSZ-2700' => [
-                    'title' => 'Social Floating'
                 ],
                 'copyright-6180' => [
                     'attributes' => [

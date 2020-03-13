@@ -24,7 +24,8 @@ atoms:
     attributes:
       enabled: '1'
       css:
-        - { location: '', inline: ".articulo_inicio{\nmargin: 3px;\npadding:6px;\nborder-radius: 16px 16px 16px 16px;\n-moz-border-radius: 16px 16px 16px 16px;\n-webkit-border-radius: 16px 16px 16px 16px;\n//border: 2px solid #d3d4c9;\nbackground-color: #ECEDE5;\n}\n.articulo_inicio h3{\ntext-align: center;\n}", extra: {  }, priority: '0', name: articulos_inicio }
+        - { location: '', inline: ".articulo_inicio{\nmargin: 6px;\npadding:6px;\nborder-radius: 16px 16px 16px 16px;\n-moz-border-radius: 16px 16px 16px 16px;\n-webkit-border-radius: 16px 16px 16px 16px;\n//border: 2px solid #d3d4c9;\nbackground-color: #ECEDE5;\n}\n.articulo_inicio h3{\ntext-align: center;\n}", extra: {  }, priority: '0', name: articulos_inicio }
         - { location: '', inline: ".logo_imagen{\ndisplay: block;\n margin: auto;\n}", extra: {  }, priority: '0', name: logo_imagen }
         - { location: '', inline: ".segundo_titulo{\npadding: 3px;\n}", extra: {  }, priority: '0', name: segundo_titulo }
+        - { location: '', inline: ".fondo_blanco{\nbackground-color: #ffffff;\n}", extra: {  }, priority: '0', name: fondo_blanco }
       javascript: {  }

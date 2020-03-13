@@ -21,7 +21,7 @@ layout:
       - menu-6609
   /header/:
     -
-      - customcontentSZ-5107
+      - owlcarousel-5243
   /intro/: {  }
   /features/: {  }
   /utility/: {  }
@@ -37,16 +37,18 @@ layout:
       -
         'mainbar 50':
           -
-            - 'contentarray-6676 33.3'
+            - 'contentarray-9885 33.3'
             - 'contentarray-6630 33.3'
-            - 'contentarray-6168 33.3'
+            - 'contentarray-3542 33.3'
+          -
+            - contentcubes-1891
+          -
+            - contentcubes-6601
       -
         'sidebar 25': {  }
   /mainbottom/: {  }
   /footertop/: {  }
-  /footer/:
-    -
-      - owlcarousel-8283
+  /footer/: {  }
   /footerbottom/:
     -
       - copyright-6180
@@ -83,10 +85,10 @@ structure:
       backgroundSize: ''
   header:
     attributes:
-      boxed: ''
+      boxed: '0'
       class: ''
-      background: 'gantry-media://demos/gabriele-motter.jpg'
-      backgroundOverlay: ''
+      background: '#DADCCE'
+      backgroundOverlay: '#DADCCE'
       backgroundAttachment: fixed
       backgroundRepeat: ''
       backgroundPosition: 'center center'
@@ -95,9 +97,9 @@ structure:
     type: section
     attributes:
       boxed: '0'
-      class: ''
+      class: fondo_blanco
       background: ''
-      backgroundOverlay: 'rgba(0, 0, 0, 0)'
+      backgroundOverlay: '#ffffff'
       backgroundAttachment: ''
       backgroundRepeat: ''
       backgroundPosition: ''
@@ -151,6 +153,14 @@ structure:
   mainbar:
     type: section
     subtype: main
+    attributes:
+      class: ''
+      background: ''
+      backgroundOverlay: 'rgba(0, 0, 0, 0)'
+      backgroundAttachment: ''
+      backgroundRepeat: ''
+      backgroundPosition: ''
+      backgroundSize: ''
   sidebar:
     type: section
     subtype: aside
@@ -223,44 +233,130 @@ content:
   menu-6609:
     attributes:
       menu: principal
-  customcontentSZ-5107:
-    title: Banner
+  owlcarousel-5243:
+    title: 'Owl Carousel'
     attributes:
-      image: ''
-      height: 60vh
-      headline: ''
-      description: ''
-      link: ''
-      linktext: ''
-      link2: ''
-      linktext2: ''
+      title: ''
+      autoplay: disable
+      autoplaySpeed: '4000'
+      items:
+        -
+          image: 'gantry-media://slider/1 cdd_Mesa de trabajo 1.jpg'
+          title: ''
+          desc: ''
+          link: ''
+          linktext: ''
+          buttonclass: ''
+          name: item1
+        -
+          image: 'gantry-media://slider/2 int art_Mesa de trabajo 1.jpg'
+          title: ''
+          desc: ''
+          link: ''
+          linktext: ''
+          buttonclass: ''
+          name: item2
+        -
+          image: 'gantry-media://slider/3 real aum_Mesa de trabajo 1.jpg'
+          title: ''
+          desc: ''
+          link: ''
+          linktext: ''
+          buttonclass: button-outline
+          name: item3
+        -
+          image: 'gantry-media://slider/4 redes_Mesa de trabajo 1.jpg'
+          title: ''
+          desc: ''
+          link: ''
+          linktext: ''
+          buttonclass: button-outline
+          name: item4
+        -
+          image: 'gantry-media://slider/5 sist operat_Mesa de trabajo 1.jpg'
+          title: ''
+          desc: ''
+          link: ''
+          linktext: ''
+          buttonclass: button-outline
+          name: item5
+        -
+          image: 'gantry-media://slider/6 mod3d_Mesa de trabajo 1.jpg'
+          title: ''
+          desc: ''
+          link: ''
+          linktext: ''
+          buttonclass: button-outline
+          name: item6
+        -
+          image: 'gantry-media://slider/7 idlc_Mesa de trabajo 1.jpg'
+          title: ''
+          desc: ''
+          link: ''
+          linktext: ''
+          buttonclass: button-outline
+          name: item7
+        -
+          image: 'gantry-media://slider/8 comp cient_Mesa de trabajo 1.jpg'
+          title: ''
+          desc: ''
+          link: ''
+          linktext: ''
+          buttonclass: button-outline
+          name: item8
+        -
+          image: 'gantry-media://slider/9 ciberseguridad_Mesa de trabajo 1.jpg'
+          title: ''
+          desc: ''
+          link: ''
+          linktext: ''
+          buttonclass: button-outline
+          name: item9
     block:
-      variations: center
+      fixed: '1'
   customcontentSZ-3582:
     title: 'Custom Content'
     attributes:
       height: 10rem
       headline: ''
       description: "<div style=\"border-top-style:solid;\nborder-bottom-style: solid;\nborder-color: #ebb800;\"> \n<h3 style=\"text-align:center; font-weight:bold; color:#000000;\">Contenido</h3>\n </div>"
-  contentarray-6676:
+  contentarray-9885:
     title: 'Joomla Articles'
+    attributes:
+      article:
+        filter:
+          categories: ''
+          articles: '7'
+          featured: include
+        limit:
+          total: '1'
+          columns: '1'
+          start: ''
+        display:
+          pagination_buttons: ''
+        sort:
+          orderby: publish_up
+          ordering: ASC
+      css:
+        class: articulo_inicio
   contentarray-6630:
     title: 'Joomla Articles'
     attributes:
       article:
         filter:
           categories: ''
-          articles: ''
+          articles: '8'
           featured: include
         limit:
           total: '1'
-          columns: '2'
-          start: '3'
+          columns: '1'
+          start: ''
         display:
           pagination_buttons: ''
+          image:
+            enabled: intro
           text:
             type: intro
-            limit: '30'
           date:
             format: 'l, F d, Y'
           read_more:
@@ -270,33 +366,69 @@ content:
           ordering: ASC
       css:
         class: articulo_inicio
-  contentarray-6168:
+  contentarray-3542:
     title: 'Joomla Articles'
     attributes:
       article:
         filter:
           categories: ''
-          articles: ''
+          articles: '9'
           featured: include
         limit:
           total: '1'
-          columns: '2'
-          start: '4'
+          columns: '1'
+          start: ''
         display:
           pagination_buttons: ''
-          text:
-            limit: '30'
         sort:
           orderby: publish_up
           ordering: ASC
       css:
         class: articulo_inicio
-  owlcarousel-8283:
-    title: 'Owl Carousel'
+  contentcubes-1891:
+    title: 'Content Cubes'
+    attributes:
+      css:
+        class: articulo_inicio
+      items:
+        -
+          image: 'gantry-media://articulo_introduccion/BeFunky-collage.jpg'
+          imageposition: left
+          label: 'Desarrollo de Software de Aplicación'
+          title: 'MATYA - Videojuego didáctico modelado en 3D'
+          content: 'Diseño e Implementación de un videojuego didáctico que apoya a estudiantes de primaria reforzando el estudio de la noción de fracción.  Los escenarios son creados por herramientas de modelado en 2D, 3D.'
+          link: 'http://localhost/serviciosocial/index.php/esto-hacemos/desarrollo-de-software-de-aplicacion/10-matya'
+          linktext: ''
+          buttonclass: ''
+          buttontarget: _self
+          name: 'img 1'
+  contentcubes-6601:
+    title: 'Content Cubes'
+    attributes:
+      css:
+        class: articulo_inicio
+      title: ''
+      items:
+        -
+          image: 'gantry-media://articulo_introduccion/BeFunky-collage2.jpg'
+          imageposition: right
+          label: 'Computación Científica'
+          title: 'Librería con Realidad Aumentada'
+          content: 'La biblioteca del Campus de Ciencias Exactas e Ingeniería ofrece más de 48,568 volúmenes y en muchas ocasiones requiere mucho tiempo la búsqueda de uno de éstos. Una aplicación basada en Realidad Aumentada propone resolver el desconocimiento espacial de los usuarios de la biblioteca.'
+          tags: {  }
+          link: 'http://localhost/serviciosocial/index.php/esto-hacemos/computacion-cientifica/5-libreria-con-realidad-aumentada'
+          linktext: ''
+          buttonclass: ''
+          buttontarget: _self
+          name: 'img 1'
   copyright-6180:
     attributes:
       date:
         start: ''
+      owner: szoupi
       link: ''
+      target: _blank
       additional:
         text: ''
+      css:
+        class: ''

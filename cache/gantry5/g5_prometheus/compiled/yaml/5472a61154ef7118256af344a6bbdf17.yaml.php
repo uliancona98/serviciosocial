@@ -2,7 +2,7 @@
 return [
     '@class' => 'Gantry\\Component\\File\\CompiledYamlFile',
     'filename' => 'C:\\MAMP\\htdocs\\serviciosocial/templates/g5_prometheus/custom/config/9/layout.yaml',
-    'modified' => 1583974491,
+    'modified' => 1584091679,
     'data' => [
         'version' => 2,
         'preset' => [
@@ -35,7 +35,7 @@ return [
             ],
             '/header/' => [
                 0 => [
-                    0 => 'customcontentSZ-5107'
+                    0 => 'owlcarousel-5243'
                 ]
             ],
             '/intro/' => [
@@ -68,9 +68,15 @@ return [
                     1 => [
                         'mainbar 50' => [
                             0 => [
-                                0 => 'contentarray-6676 33.3',
+                                0 => 'contentarray-9885 33.3',
                                 1 => 'contentarray-6630 33.3',
-                                2 => 'contentarray-6168 33.3'
+                                2 => 'contentarray-3542 33.3'
+                            ],
+                            1 => [
+                                0 => 'contentcubes-1891'
+                            ],
+                            2 => [
+                                0 => 'contentcubes-6601'
                             ]
                         ]
                     ],
@@ -88,9 +94,7 @@ return [
                 
             ],
             '/footer/' => [
-                0 => [
-                    0 => 'owlcarousel-8283'
-                ]
+                
             ],
             '/footerbottom/' => [
                 0 => [
@@ -141,10 +145,10 @@ return [
             ],
             'header' => [
                 'attributes' => [
-                    'boxed' => '',
+                    'boxed' => '0',
                     'class' => '',
-                    'background' => 'gantry-media://demos/gabriele-motter.jpg',
-                    'backgroundOverlay' => '',
+                    'background' => '#DADCCE',
+                    'backgroundOverlay' => '#DADCCE',
                     'backgroundAttachment' => 'fixed',
                     'backgroundRepeat' => '',
                     'backgroundPosition' => 'center center',
@@ -155,9 +159,9 @@ return [
                 'type' => 'section',
                 'attributes' => [
                     'boxed' => '0',
-                    'class' => '',
+                    'class' => 'fondo_blanco',
                     'background' => '',
-                    'backgroundOverlay' => 'rgba(0, 0, 0, 0)',
+                    'backgroundOverlay' => '#ffffff',
                     'backgroundAttachment' => '',
                     'backgroundRepeat' => '',
                     'backgroundPosition' => '',
@@ -225,7 +229,16 @@ return [
             ],
             'mainbar' => [
                 'type' => 'section',
-                'subtype' => 'main'
+                'subtype' => 'main',
+                'attributes' => [
+                    'class' => '',
+                    'background' => '',
+                    'backgroundOverlay' => 'rgba(0, 0, 0, 0)',
+                    'backgroundAttachment' => '',
+                    'backgroundRepeat' => '',
+                    'backgroundPosition' => '',
+                    'backgroundSize' => ''
+                ]
             ],
             'sidebar' => [
                 'type' => 'section',
@@ -336,20 +349,98 @@ border-color: #ebb800;">
                     'menu' => 'principal'
                 ]
             ],
-            'customcontentSZ-5107' => [
-                'title' => 'Banner',
+            'owlcarousel-5243' => [
+                'title' => 'Owl Carousel',
                 'attributes' => [
-                    'image' => '',
-                    'height' => '60vh',
-                    'headline' => '',
-                    'description' => '',
-                    'link' => '',
-                    'linktext' => '',
-                    'link2' => '',
-                    'linktext2' => ''
+                    'title' => '',
+                    'autoplay' => 'disable',
+                    'autoplaySpeed' => '4000',
+                    'items' => [
+                        0 => [
+                            'image' => 'gantry-media://slider/1 cdd_Mesa de trabajo 1.jpg',
+                            'title' => '',
+                            'desc' => '',
+                            'link' => '',
+                            'linktext' => '',
+                            'buttonclass' => '',
+                            'name' => 'item1'
+                        ],
+                        1 => [
+                            'image' => 'gantry-media://slider/2 int art_Mesa de trabajo 1.jpg',
+                            'title' => '',
+                            'desc' => '',
+                            'link' => '',
+                            'linktext' => '',
+                            'buttonclass' => '',
+                            'name' => 'item2'
+                        ],
+                        2 => [
+                            'image' => 'gantry-media://slider/3 real aum_Mesa de trabajo 1.jpg',
+                            'title' => '',
+                            'desc' => '',
+                            'link' => '',
+                            'linktext' => '',
+                            'buttonclass' => 'button-outline',
+                            'name' => 'item3'
+                        ],
+                        3 => [
+                            'image' => 'gantry-media://slider/4 redes_Mesa de trabajo 1.jpg',
+                            'title' => '',
+                            'desc' => '',
+                            'link' => '',
+                            'linktext' => '',
+                            'buttonclass' => 'button-outline',
+                            'name' => 'item4'
+                        ],
+                        4 => [
+                            'image' => 'gantry-media://slider/5 sist operat_Mesa de trabajo 1.jpg',
+                            'title' => '',
+                            'desc' => '',
+                            'link' => '',
+                            'linktext' => '',
+                            'buttonclass' => 'button-outline',
+                            'name' => 'item5'
+                        ],
+                        5 => [
+                            'image' => 'gantry-media://slider/6 mod3d_Mesa de trabajo 1.jpg',
+                            'title' => '',
+                            'desc' => '',
+                            'link' => '',
+                            'linktext' => '',
+                            'buttonclass' => 'button-outline',
+                            'name' => 'item6'
+                        ],
+                        6 => [
+                            'image' => 'gantry-media://slider/7 idlc_Mesa de trabajo 1.jpg',
+                            'title' => '',
+                            'desc' => '',
+                            'link' => '',
+                            'linktext' => '',
+                            'buttonclass' => 'button-outline',
+                            'name' => 'item7'
+                        ],
+                        7 => [
+                            'image' => 'gantry-media://slider/8 comp cient_Mesa de trabajo 1.jpg',
+                            'title' => '',
+                            'desc' => '',
+                            'link' => '',
+                            'linktext' => '',
+                            'buttonclass' => 'button-outline',
+                            'name' => 'item8'
+                        ],
+                        8 => [
+                            'image' => 'gantry-media://slider/9 ciberseguridad_Mesa de trabajo 1.jpg',
+                            'title' => '',
+                            'desc' => '',
+                            'link' => '',
+                            'linktext' => '',
+                            'buttonclass' => 'button-outline',
+                            'name' => 'item9'
+                        ]
+                    ]
                 ],
                 'block' => [
-                    'variations' => 'center'
+                    'fixed' => '1'
                 ]
             ],
             'customcontentSZ-3582' => [
@@ -364,8 +455,32 @@ border-color: #ebb800;">
  </div>'
                 ]
             ],
-            'contentarray-6676' => [
-                'title' => 'Joomla Articles'
+            'contentarray-9885' => [
+                'title' => 'Joomla Articles',
+                'attributes' => [
+                    'article' => [
+                        'filter' => [
+                            'categories' => '',
+                            'articles' => '7',
+                            'featured' => 'include'
+                        ],
+                        'limit' => [
+                            'total' => '1',
+                            'columns' => '1',
+                            'start' => ''
+                        ],
+                        'display' => [
+                            'pagination_buttons' => ''
+                        ],
+                        'sort' => [
+                            'orderby' => 'publish_up',
+                            'ordering' => 'ASC'
+                        ]
+                    ],
+                    'css' => [
+                        'class' => 'articulo_inicio'
+                    ]
+                ]
             ],
             'contentarray-6630' => [
                 'title' => 'Joomla Articles',
@@ -373,19 +488,21 @@ border-color: #ebb800;">
                     'article' => [
                         'filter' => [
                             'categories' => '',
-                            'articles' => '',
+                            'articles' => '8',
                             'featured' => 'include'
                         ],
                         'limit' => [
                             'total' => '1',
-                            'columns' => '2',
-                            'start' => '3'
+                            'columns' => '1',
+                            'start' => ''
                         ],
                         'display' => [
                             'pagination_buttons' => '',
+                            'image' => [
+                                'enabled' => 'intro'
+                            ],
                             'text' => [
-                                'type' => 'intro',
-                                'limit' => '30'
+                                'type' => 'intro'
                             ],
                             'date' => [
                                 'format' => 'l, F d, Y'
@@ -404,25 +521,22 @@ border-color: #ebb800;">
                     ]
                 ]
             ],
-            'contentarray-6168' => [
+            'contentarray-3542' => [
                 'title' => 'Joomla Articles',
                 'attributes' => [
                     'article' => [
                         'filter' => [
                             'categories' => '',
-                            'articles' => '',
+                            'articles' => '9',
                             'featured' => 'include'
                         ],
                         'limit' => [
                             'total' => '1',
-                            'columns' => '2',
-                            'start' => '4'
+                            'columns' => '1',
+                            'start' => ''
                         ],
                         'display' => [
-                            'pagination_buttons' => '',
-                            'text' => [
-                                'limit' => '30'
-                            ]
+                            'pagination_buttons' => ''
                         ],
                         'sort' => [
                             'orderby' => 'publish_up',
@@ -434,17 +548,67 @@ border-color: #ebb800;">
                     ]
                 ]
             ],
-            'owlcarousel-8283' => [
-                'title' => 'Owl Carousel'
+            'contentcubes-1891' => [
+                'title' => 'Content Cubes',
+                'attributes' => [
+                    'css' => [
+                        'class' => 'articulo_inicio'
+                    ],
+                    'items' => [
+                        0 => [
+                            'image' => 'gantry-media://articulo_introduccion/BeFunky-collage.jpg',
+                            'imageposition' => 'left',
+                            'label' => 'Desarrollo de Software de Aplicación',
+                            'title' => 'MATYA - Videojuego didáctico modelado en 3D',
+                            'content' => 'Diseño e Implementación de un videojuego didáctico que apoya a estudiantes de primaria reforzando el estudio de la noción de fracción.  Los escenarios son creados por herramientas de modelado en 2D, 3D.',
+                            'link' => 'http://localhost/serviciosocial/index.php/esto-hacemos/desarrollo-de-software-de-aplicacion/10-matya',
+                            'linktext' => '',
+                            'buttonclass' => '',
+                            'buttontarget' => '_self',
+                            'name' => 'img 1'
+                        ]
+                    ]
+                ]
+            ],
+            'contentcubes-6601' => [
+                'title' => 'Content Cubes',
+                'attributes' => [
+                    'css' => [
+                        'class' => 'articulo_inicio'
+                    ],
+                    'title' => '',
+                    'items' => [
+                        0 => [
+                            'image' => 'gantry-media://articulo_introduccion/BeFunky-collage2.jpg',
+                            'imageposition' => 'right',
+                            'label' => 'Computación Científica',
+                            'title' => 'Librería con Realidad Aumentada',
+                            'content' => 'La biblioteca del Campus de Ciencias Exactas e Ingeniería ofrece más de 48,568 volúmenes y en muchas ocasiones requiere mucho tiempo la búsqueda de uno de éstos. Una aplicación basada en Realidad Aumentada propone resolver el desconocimiento espacial de los usuarios de la biblioteca.',
+                            'tags' => [
+                                
+                            ],
+                            'link' => 'http://localhost/serviciosocial/index.php/esto-hacemos/computacion-cientifica/5-libreria-con-realidad-aumentada',
+                            'linktext' => '',
+                            'buttonclass' => '',
+                            'buttontarget' => '_self',
+                            'name' => 'img 1'
+                        ]
+                    ]
+                ]
             ],
             'copyright-6180' => [
                 'attributes' => [
                     'date' => [
                         'start' => ''
                     ],
+                    'owner' => 'szoupi',
                     'link' => '',
+                    'target' => '_blank',
                     'additional' => [
                         'text' => ''
+                    ],
+                    'css' => [
+                        'class' => ''
                     ]
                 ]
             ]

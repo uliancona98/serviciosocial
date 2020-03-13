@@ -2,7 +2,7 @@
 return [
     '@class' => 'Gantry\\Component\\File\\CompiledYamlFile',
     'filename' => 'C:\\MAMP\\htdocs\\serviciosocial/templates/g5_prometheus/custom/config/9/styles.yaml',
-    'modified' => 1583803179,
+    'modified' => 1584081085,
     'data' => [
         'preset' => 'preset4',
         'base' => [
@@ -31,12 +31,12 @@ return [
         'header' => [
             'text-color' => '#dedede',
             'link-color' => '#ebb800',
-            'background' => '#333333'
+            'background' => '#ffffff'
         ],
         'intro' => [
             'text-color' => '#dedede',
             'link-color' => '#ebb800',
-            'background' => '#333333'
+            'background' => '#ffffff'
         ],
         'features' => [
             'text-color' => '#dedede',
@@ -93,8 +93,8 @@ return [
             'col-width' => '170px'
         ],
         'sectionsdim' => [
-            'navigation-margin' => '0.5rem',
-            'navigation-padding' => '0.5rem'
+            'navigation-margin' => '0.3rem',
+            'navigation-padding' => '0.3rem'
         ]
     ]
 ];

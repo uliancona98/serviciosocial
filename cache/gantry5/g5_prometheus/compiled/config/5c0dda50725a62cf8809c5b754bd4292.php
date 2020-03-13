@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Gantry\\Component\\Config\\CompiledConfig',
-    'timestamp' => 1583976109,
-    'checksum' => 'b5478a4b604499bfb9b0661b54449611',
+    'timestamp' => 1584091686,
+    'checksum' => 'ecc2f72c9c352ddfc96399a52e143c7a',
     'files' => [
         'templates/g5_prometheus/custom/config/9' => [
             'assignments' => [
@@ -11,27 +11,27 @@ return [
             ],
             'index' => [
                 'file' => 'templates/g5_prometheus/custom/config/9/index.yaml',
-                'modified' => 1583974491
+                'modified' => 1584091679
             ],
             'layout' => [
                 'file' => 'templates/g5_prometheus/custom/config/9/layout.yaml',
-                'modified' => 1583974491
+                'modified' => 1584091679
             ],
             'page/assets' => [
                 'file' => 'templates/g5_prometheus/custom/config/9/page/assets.yaml',
-                'modified' => 1583976109
+                'modified' => 1584079563
             ],
             'page/body' => [
                 'file' => 'templates/g5_prometheus/custom/config/9/page/body.yaml',
-                'modified' => 1583976109
+                'modified' => 1584079563
             ],
             'page/head' => [
                 'file' => 'templates/g5_prometheus/custom/config/9/page/head.yaml',
-                'modified' => 1583976109
+                'modified' => 1584079563
             ],
             'styles' => [
                 'file' => 'templates/g5_prometheus/custom/config/9/styles.yaml',
-                'modified' => 1583803179
+                'modified' => 1584081085
             ]
         ],
         'templates/g5_prometheus/custom/config/default' => [
@@ -880,13 +880,13 @@ Suspendisse feugiat quam',
                 'section-preset' => 'accent3',
                 'text-color' => '#dedede',
                 'link-color' => '#ebb800',
-                'background' => '#333333'
+                'background' => '#ffffff'
             ],
             'intro' => [
                 'section-preset' => 'accent2',
                 'text-color' => '#dedede',
                 'link-color' => '#ebb800',
-                'background' => '#333333'
+                'background' => '#ffffff'
             ],
             'mainbottom' => [
                 'section-preset' => 'accent2',
@@ -927,8 +927,8 @@ Suspendisse feugiat quam',
                 'zenith-padding' => '0rem',
                 'navtop-margin' => '0rem',
                 'navtop-padding' => '0rem',
-                'navigation-margin' => '0.5rem',
-                'navigation-padding' => '0.5rem',
+                'navigation-margin' => '0.3rem',
+                'navigation-padding' => '0.3rem',
                 'header-margin' => '0rem',
                 'header-padding' => '0rem',
                 'intro-margin' => '0rem',
@@ -1033,7 +1033,7 @@ Suspendisse feugiat quam',
                                 0 => [
                                     'location' => '',
                                     'inline' => '.articulo_inicio{
-margin: 3px;
+margin: 6px;
 padding:6px;
 border-radius: 16px 16px 16px 16px;
 -moz-border-radius: 16px 16px 16px 16px;
@@ -1072,6 +1072,17 @@ padding: 3px;
                                     ],
                                     'priority' => '0',
                                     'name' => 'segundo_titulo'
+                                ],
+                                3 => [
+                                    'location' => '',
+                                    'inline' => '.fondo_blanco{
+background-color: #ffffff;
+}',
+                                    'extra' => [
+                                        
+                                    ],
+                                    'priority' => '0',
+                                    'name' => 'fondo_blanco'
                                 ]
                             ],
                             'javascript' => [
@@ -1094,7 +1105,7 @@ padding: 3px;
         ],
         'index' => [
             'name' => '9',
-            'timestamp' => 1583974491,
+            'timestamp' => 1584091679,
             'version' => 7,
             'preset' => [
                 'image' => 'gantry-admin://images/layouts/default.png',
@@ -1139,19 +1150,22 @@ padding: 3px;
                 'customcontentSZ' => [
                     'customcontentSZ-6295' => 'Custom Content',
                     'customcontentSZ-8804' => 'Custom Content',
-                    'customcontentSZ-5107' => 'Banner',
                     'customcontentSZ-3582' => 'Custom Content'
                 ],
                 'menu' => [
                     'menu-6609' => 'Menu'
                 ],
-                'contentarray' => [
-                    'contentarray-6676' => 'Joomla Articles',
-                    'contentarray-6630' => 'Joomla Articles',
-                    'contentarray-6168' => 'Joomla Articles'
-                ],
                 'owlcarousel' => [
-                    'owlcarousel-8283' => 'Owl Carousel'
+                    'owlcarousel-5243' => 'Owl Carousel'
+                ],
+                'contentarray' => [
+                    'contentarray-9885' => 'Joomla Articles',
+                    'contentarray-6630' => 'Joomla Articles',
+                    'contentarray-3542' => 'Joomla Articles'
+                ],
+                'contentcubes' => [
+                    'contentcubes-1891' => 'Content Cubes',
+                    'contentcubes-6601' => 'Content Cubes'
                 ],
                 'copyright' => [
                     'copyright-6180' => 'Copyright'
@@ -1196,7 +1210,7 @@ padding: 3px;
                 ],
                 '/header/' => [
                     0 => [
-                        0 => 'customcontentSZ-5107'
+                        0 => 'owlcarousel-5243'
                     ]
                 ],
                 '/intro/' => [
@@ -1229,9 +1243,15 @@ padding: 3px;
                         1 => [
                             'mainbar 50' => [
                                 0 => [
-                                    0 => 'contentarray-6676 33.3',
+                                    0 => 'contentarray-9885 33.3',
                                     1 => 'contentarray-6630 33.3',
-                                    2 => 'contentarray-6168 33.3'
+                                    2 => 'contentarray-3542 33.3'
+                                ],
+                                1 => [
+                                    0 => 'contentcubes-1891'
+                                ],
+                                2 => [
+                                    0 => 'contentcubes-6601'
                                 ]
                             ]
                         ],
@@ -1249,9 +1269,7 @@ padding: 3px;
                     
                 ],
                 '/footer/' => [
-                    0 => [
-                        0 => 'owlcarousel-8283'
-                    ]
+                    
                 ],
                 '/footerbottom/' => [
                     0 => [
@@ -1302,10 +1320,10 @@ padding: 3px;
                 ],
                 'header' => [
                     'attributes' => [
-                        'boxed' => '',
+                        'boxed' => '0',
                         'class' => '',
-                        'background' => 'gantry-media://demos/gabriele-motter.jpg',
-                        'backgroundOverlay' => '',
+                        'background' => '#DADCCE',
+                        'backgroundOverlay' => '#DADCCE',
                         'backgroundAttachment' => 'fixed',
                         'backgroundRepeat' => '',
                         'backgroundPosition' => 'center center',
@@ -1316,9 +1334,9 @@ padding: 3px;
                     'type' => 'section',
                     'attributes' => [
                         'boxed' => '0',
-                        'class' => '',
+                        'class' => 'fondo_blanco',
                         'background' => '',
-                        'backgroundOverlay' => 'rgba(0, 0, 0, 0)',
+                        'backgroundOverlay' => '#ffffff',
                         'backgroundAttachment' => '',
                         'backgroundRepeat' => '',
                         'backgroundPosition' => '',
@@ -1386,7 +1404,16 @@ padding: 3px;
                 ],
                 'mainbar' => [
                     'type' => 'section',
-                    'subtype' => 'main'
+                    'subtype' => 'main',
+                    'attributes' => [
+                        'class' => '',
+                        'background' => '',
+                        'backgroundOverlay' => 'rgba(0, 0, 0, 0)',
+                        'backgroundAttachment' => '',
+                        'backgroundRepeat' => '',
+                        'backgroundPosition' => '',
+                        'backgroundSize' => ''
+                    ]
                 ],
                 'sidebar' => [
                     'type' => 'section',
@@ -1497,20 +1524,98 @@ border-color: #ebb800;">
                         'menu' => 'principal'
                     ]
                 ],
-                'customcontentSZ-5107' => [
-                    'title' => 'Banner',
+                'owlcarousel-5243' => [
+                    'title' => 'Owl Carousel',
                     'attributes' => [
-                        'image' => '',
-                        'height' => '60vh',
-                        'headline' => '',
-                        'description' => '',
-                        'link' => '',
-                        'linktext' => '',
-                        'link2' => '',
-                        'linktext2' => ''
+                        'title' => '',
+                        'autoplay' => 'disable',
+                        'autoplaySpeed' => '4000',
+                        'items' => [
+                            0 => [
+                                'image' => 'gantry-media://slider/1 cdd_Mesa de trabajo 1.jpg',
+                                'title' => '',
+                                'desc' => '',
+                                'link' => '',
+                                'linktext' => '',
+                                'buttonclass' => '',
+                                'name' => 'item1'
+                            ],
+                            1 => [
+                                'image' => 'gantry-media://slider/2 int art_Mesa de trabajo 1.jpg',
+                                'title' => '',
+                                'desc' => '',
+                                'link' => '',
+                                'linktext' => '',
+                                'buttonclass' => '',
+                                'name' => 'item2'
+                            ],
+                            2 => [
+                                'image' => 'gantry-media://slider/3 real aum_Mesa de trabajo 1.jpg',
+                                'title' => '',
+                                'desc' => '',
+                                'link' => '',
+                                'linktext' => '',
+                                'buttonclass' => 'button-outline',
+                                'name' => 'item3'
+                            ],
+                            3 => [
+                                'image' => 'gantry-media://slider/4 redes_Mesa de trabajo 1.jpg',
+                                'title' => '',
+                                'desc' => '',
+                                'link' => '',
+                                'linktext' => '',
+                                'buttonclass' => 'button-outline',
+                                'name' => 'item4'
+                            ],
+                            4 => [
+                                'image' => 'gantry-media://slider/5 sist operat_Mesa de trabajo 1.jpg',
+                                'title' => '',
+                                'desc' => '',
+                                'link' => '',
+                                'linktext' => '',
+                                'buttonclass' => 'button-outline',
+                                'name' => 'item5'
+                            ],
+                            5 => [
+                                'image' => 'gantry-media://slider/6 mod3d_Mesa de trabajo 1.jpg',
+                                'title' => '',
+                                'desc' => '',
+                                'link' => '',
+                                'linktext' => '',
+                                'buttonclass' => 'button-outline',
+                                'name' => 'item6'
+                            ],
+                            6 => [
+                                'image' => 'gantry-media://slider/7 idlc_Mesa de trabajo 1.jpg',
+                                'title' => '',
+                                'desc' => '',
+                                'link' => '',
+                                'linktext' => '',
+                                'buttonclass' => 'button-outline',
+                                'name' => 'item7'
+                            ],
+                            7 => [
+                                'image' => 'gantry-media://slider/8 comp cient_Mesa de trabajo 1.jpg',
+                                'title' => '',
+                                'desc' => '',
+                                'link' => '',
+                                'linktext' => '',
+                                'buttonclass' => 'button-outline',
+                                'name' => 'item8'
+                            ],
+                            8 => [
+                                'image' => 'gantry-media://slider/9 ciberseguridad_Mesa de trabajo 1.jpg',
+                                'title' => '',
+                                'desc' => '',
+                                'link' => '',
+                                'linktext' => '',
+                                'buttonclass' => 'button-outline',
+                                'name' => 'item9'
+                            ]
+                        ]
                     ],
                     'block' => [
-                        'variations' => 'center'
+                        'fixed' => '1'
                     ]
                 ],
                 'customcontentSZ-3582' => [
@@ -1525,8 +1630,32 @@ border-color: #ebb800;">
  </div>'
                     ]
                 ],
-                'contentarray-6676' => [
-                    'title' => 'Joomla Articles'
+                'contentarray-9885' => [
+                    'title' => 'Joomla Articles',
+                    'attributes' => [
+                        'article' => [
+                            'filter' => [
+                                'categories' => '',
+                                'articles' => '7',
+                                'featured' => 'include'
+                            ],
+                            'limit' => [
+                                'total' => '1',
+                                'columns' => '1',
+                                'start' => ''
+                            ],
+                            'display' => [
+                                'pagination_buttons' => ''
+                            ],
+                            'sort' => [
+                                'orderby' => 'publish_up',
+                                'ordering' => 'ASC'
+                            ]
+                        ],
+                        'css' => [
+                            'class' => 'articulo_inicio'
+                        ]
+                    ]
                 ],
                 'contentarray-6630' => [
                     'title' => 'Joomla Articles',
@@ -1534,19 +1663,21 @@ border-color: #ebb800;">
                         'article' => [
                             'filter' => [
                                 'categories' => '',
-                                'articles' => '',
+                                'articles' => '8',
                                 'featured' => 'include'
                             ],
                             'limit' => [
                                 'total' => '1',
-                                'columns' => '2',
-                                'start' => '3'
+                                'columns' => '1',
+                                'start' => ''
                             ],
                             'display' => [
                                 'pagination_buttons' => '',
+                                'image' => [
+                                    'enabled' => 'intro'
+                                ],
                                 'text' => [
-                                    'type' => 'intro',
-                                    'limit' => '30'
+                                    'type' => 'intro'
                                 ],
                                 'date' => [
                                     'format' => 'l, F d, Y'
@@ -1565,25 +1696,22 @@ border-color: #ebb800;">
                         ]
                     ]
                 ],
-                'contentarray-6168' => [
+                'contentarray-3542' => [
                     'title' => 'Joomla Articles',
                     'attributes' => [
                         'article' => [
                             'filter' => [
                                 'categories' => '',
-                                'articles' => '',
+                                'articles' => '9',
                                 'featured' => 'include'
                             ],
                             'limit' => [
                                 'total' => '1',
-                                'columns' => '2',
-                                'start' => '4'
+                                'columns' => '1',
+                                'start' => ''
                             ],
                             'display' => [
-                                'pagination_buttons' => '',
-                                'text' => [
-                                    'limit' => '30'
-                                ]
+                                'pagination_buttons' => ''
                             ],
                             'sort' => [
                                 'orderby' => 'publish_up',
@@ -1595,17 +1723,67 @@ border-color: #ebb800;">
                         ]
                     ]
                 ],
-                'owlcarousel-8283' => [
-                    'title' => 'Owl Carousel'
+                'contentcubes-1891' => [
+                    'title' => 'Content Cubes',
+                    'attributes' => [
+                        'css' => [
+                            'class' => 'articulo_inicio'
+                        ],
+                        'items' => [
+                            0 => [
+                                'image' => 'gantry-media://articulo_introduccion/BeFunky-collage.jpg',
+                                'imageposition' => 'left',
+                                'label' => 'Desarrollo de Software de Aplicación',
+                                'title' => 'MATYA - Videojuego didáctico modelado en 3D',
+                                'content' => 'Diseño e Implementación de un videojuego didáctico que apoya a estudiantes de primaria reforzando el estudio de la noción de fracción.  Los escenarios son creados por herramientas de modelado en 2D, 3D.',
+                                'link' => 'http://localhost/serviciosocial/index.php/esto-hacemos/desarrollo-de-software-de-aplicacion/10-matya',
+                                'linktext' => '',
+                                'buttonclass' => '',
+                                'buttontarget' => '_self',
+                                'name' => 'img 1'
+                            ]
+                        ]
+                    ]
+                ],
+                'contentcubes-6601' => [
+                    'title' => 'Content Cubes',
+                    'attributes' => [
+                        'css' => [
+                            'class' => 'articulo_inicio'
+                        ],
+                        'title' => '',
+                        'items' => [
+                            0 => [
+                                'image' => 'gantry-media://articulo_introduccion/BeFunky-collage2.jpg',
+                                'imageposition' => 'right',
+                                'label' => 'Computación Científica',
+                                'title' => 'Librería con Realidad Aumentada',
+                                'content' => 'La biblioteca del Campus de Ciencias Exactas e Ingeniería ofrece más de 48,568 volúmenes y en muchas ocasiones requiere mucho tiempo la búsqueda de uno de éstos. Una aplicación basada en Realidad Aumentada propone resolver el desconocimiento espacial de los usuarios de la biblioteca.',
+                                'tags' => [
+                                    
+                                ],
+                                'link' => 'http://localhost/serviciosocial/index.php/esto-hacemos/computacion-cientifica/5-libreria-con-realidad-aumentada',
+                                'linktext' => '',
+                                'buttonclass' => '',
+                                'buttontarget' => '_self',
+                                'name' => 'img 1'
+                            ]
+                        ]
+                    ]
                 ],
                 'copyright-6180' => [
                     'attributes' => [
                         'date' => [
                             'start' => ''
                         ],
+                        'owner' => 'szoupi',
                         'link' => '',
+                        'target' => '_blank',
                         'additional' => [
                             'text' => ''
+                        ],
+                        'css' => [
+                            'class' => ''
                         ]
                     ]
                 ]

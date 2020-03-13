@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Gantry\\Component\\Config\\CompiledConfig',
-    'timestamp' => 1583973359,
-    'checksum' => '7a14bb8fdfb0d54a60915358489bfd1d',
+    'timestamp' => 1584084595,
+    'checksum' => '01cb4b144d18c7d4d7a663c5cfb4c09e',
     'files' => [
         'templates/g5_prometheus/custom/config/11' => [
             'assignments' => [
@@ -11,23 +11,23 @@ return [
             ],
             'index' => [
                 'file' => 'templates/g5_prometheus/custom/config/11/index.yaml',
-                'modified' => 1583973182
+                'modified' => 1584083071
             ],
             'layout' => [
                 'file' => 'templates/g5_prometheus/custom/config/11/layout.yaml',
-                'modified' => 1583973182
+                'modified' => 1584083071
             ],
             'page/assets' => [
                 'file' => 'templates/g5_prometheus/custom/config/11/page/assets.yaml',
-                'modified' => 1583973359
+                'modified' => 1584084595
             ],
             'page/body' => [
                 'file' => 'templates/g5_prometheus/custom/config/11/page/body.yaml',
-                'modified' => 1583973359
+                'modified' => 1584084595
             ],
             'page/head' => [
                 'file' => 'templates/g5_prometheus/custom/config/11/page/head.yaml',
-                'modified' => 1583973359
+                'modified' => 1584084595
             ],
             'styles' => [
                 'file' => 'templates/g5_prometheus/custom/config/11/styles.yaml',
@@ -46,7 +46,7 @@ return [
         ],
         'index' => [
             'name' => '11',
-            'timestamp' => 1583973182,
+            'timestamp' => 1584083071,
             'version' => 7,
             'preset' => [
                 'image' => 'gantry-admin://images/layouts/default.png',
@@ -78,14 +78,23 @@ return [
                 'offcanvas' => 'Offcanvas'
             ],
             'particles' => [
-                'menu' => [
-                    'menu-6609' => 'Menu'
+                'spacer' => [
+                    'spacer-1702' => 'Spacer',
+                    'spacer-3243' => 'Spacer',
+                    'spacer-2607' => 'Spacer',
+                    'spacer-2458' => 'Spacer',
+                    'spacer-2395' => 'Spacer'
+                ],
+                'logo' => [
+                    'logo-9690' => 'Logo / Image',
+                    'logo-9501' => 'Logo / Image'
                 ],
                 'customcontentSZ' => [
-                    'customcontentSZ-5107' => 'Custom Content'
+                    'customcontentSZ-6295' => 'Custom Content',
+                    'customcontentSZ-8804' => 'Custom Content'
                 ],
-                'spacer' => [
-                    'spacer-2395' => 'Spacer'
+                'menu' => [
+                    'menu-6609' => 'Menu'
                 ],
                 'messages' => [
                     'system-messages-2617' => 'System Messages'
@@ -95,9 +104,6 @@ return [
                 ],
                 'date' => [
                     'date-2824' => 'Date'
-                ],
-                'socialfloatingSZ' => [
-                    'socialfloatingSZ-2700' => 'Social Floating'
                 ],
                 'copyright' => [
                     'copyright-6180' => 'Copyright'
@@ -127,7 +133,18 @@ return [
                     
                 ],
                 '/navtop/' => [
-                    
+                    0 => [
+                        0 => 'spacer-1702 5',
+                        1 => 'logo-9690 57',
+                        2 => 'spacer-3243 27',
+                        3 => 'logo-9501 11'
+                    ],
+                    1 => [
+                        0 => 'spacer-2607 12',
+                        1 => 'customcontentSZ-6295 17',
+                        2 => 'customcontentSZ-8804 46',
+                        3 => 'spacer-2458 25'
+                    ]
                 ],
                 '/navigation/' => [
                     0 => [
@@ -135,9 +152,7 @@ return [
                     ]
                 ],
                 '/header/' => [
-                    0 => [
-                        0 => 'customcontentSZ-5107'
-                    ]
+                    
                 ],
                 '/intro/' => [
                     
@@ -192,9 +207,7 @@ return [
                     
                 ],
                 '/footer/' => [
-                    0 => [
-                        0 => 'socialfloatingSZ-2700'
-                    ]
+                    
                 ],
                 '/footerbottom/' => [
                     0 => [
@@ -229,7 +242,14 @@ return [
                 'navtop' => [
                     'type' => 'section',
                     'attributes' => [
-                        'boxed' => ''
+                        'boxed' => '',
+                        'class' => '',
+                        'background' => '',
+                        'backgroundOverlay' => 'rgba(0, 0, 0, 0)',
+                        'backgroundAttachment' => '',
+                        'backgroundRepeat' => '',
+                        'backgroundPosition' => '',
+                        'backgroundSize' => ''
                     ]
                 ],
                 'navigation' => [
@@ -390,29 +410,57 @@ return [
                 ]
             ],
             'content' => [
+                'logo-9690' => [
+                    'title' => 'Logo / Image',
+                    'attributes' => [
+                        'image' => 'gantry-media://sitio_titulo_banner.png',
+                        'height' => '6rem'
+                    ],
+                    'block' => [
+                        'class' => 'logo_imagen'
+                    ]
+                ],
+                'logo-9501' => [
+                    'title' => 'Logo / Image',
+                    'attributes' => [
+                        'url' => 'https://www.matematicas.uady.mx/',
+                        'target' => '_blank',
+                        'image' => 'gantry-media://uady_logo_amarillo.png',
+                        'height' => '6rem',
+                        'text' => 'LCC'
+                    ],
+                    'block' => [
+                        'class' => 'logo_imagen'
+                    ]
+                ],
+                'customcontentSZ-6295' => [
+                    'title' => 'Custom Content',
+                    'attributes' => [
+                        'image' => 'gantry-media://jovenes_divulg.png',
+                        'height' => '5rem'
+                    ],
+                    'block' => [
+                        'class' => 'logo_imagen segundo_titulo'
+                    ]
+                ],
+                'customcontentSZ-8804' => [
+                    'title' => 'Custom Content',
+                    'attributes' => [
+                        'height' => '5rem',
+                        'headline' => '',
+                        'description' => '<div style="border-top-style: solid;
+border-color: #ebb800;"> 
+<h3 style="text-align:center; font-weight:bold; color:#ffffff;">Sitio de Divulgación LCC</h3>
+ </div>'
+                    ],
+                    'block' => [
+                        'class' => 'segundo_titulo'
+                    ]
+                ],
                 'menu-6609' => [
                     'attributes' => [
                         'menu' => 'principal'
                     ]
-                ],
-                'customcontentSZ-5107' => [
-                    'title' => 'Custom Content',
-                    'attributes' => [
-                        'height' => '40vh',
-                        'headline' => '',
-                        'description' => '
-',
-                        'link' => '',
-                        'linktext' => '',
-                        'link2' => '',
-                        'linktext2' => ''
-                    ],
-                    'block' => [
-                        'variations' => 'center'
-                    ]
-                ],
-                'socialfloatingSZ-2700' => [
-                    'title' => 'Social Floating'
                 ],
                 'copyright-6180' => [
                     'attributes' => [
@@ -487,7 +535,6 @@ border-radius: 16px 16px 16px 16px;
 -moz-border-radius: 16px 16px 16px 16px;
 -webkit-border-radius: 16px 16px 16px 16px;
 border: 2px solid #d3d4c9;
-
 }
 .articulo_inicio h3{
 text-align: center;
@@ -522,7 +569,16 @@ padding: 3px;
                                     'name' => 'segundo_titulo'
                                 ],
                                 3 => [
-                                    'name' => 'New item'
+                                    'location' => '',
+                                    'inline' => '.imagen_centrada img{
+display:block;
+margin:auto;
+}',
+                                    'extra' => [
+                                        
+                                    ],
+                                    'priority' => '0',
+                                    'name' => 'imagen_centrada'
                                 ]
                             ],
                             'javascript' => [

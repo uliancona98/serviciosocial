@@ -2,7 +2,7 @@
 return [
     '@class' => 'Gantry\\Component\\File\\CompiledYamlFile',
     'filename' => 'C:\\MAMP\\htdocs\\serviciosocial/templates/g5_prometheus/custom/config/10/layout.yaml',
-    'modified' => 1583973821,
+    'modified' => 1584083059,
     'data' => [
         'version' => 2,
         'preset' => [
@@ -34,9 +34,7 @@ return [
                 ]
             ],
             '/header/' => [
-                0 => [
-                    0 => 'customcontentSZ-5107'
-                ]
+                
             ],
             '/intro/' => [
                 
@@ -330,22 +328,6 @@ border-color: #ebb800;">
                 ],
                 'block' => [
                     'class' => 'segundo_titulo'
-                ]
-            ],
-            'customcontentSZ-5107' => [
-                'title' => 'Custom Content',
-                'attributes' => [
-                    'height' => '40vh',
-                    'headline' => '',
-                    'description' => '
-',
-                    'link' => '',
-                    'linktext' => '',
-                    'link2' => '',
-                    'linktext2' => ''
-                ],
-                'block' => [
-                    'variations' => 'center'
                 ]
             ],
             'copyright-6180' => [

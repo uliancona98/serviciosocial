@@ -19,9 +19,7 @@ layout:
   /navigation/:
     -
       - menu-6609
-  /header/:
-    -
-      - customcontentSZ-5107
+  /header/: {  }
   /intro/: {  }
   /features/: {  }
   /utility/: {  }
@@ -229,18 +227,6 @@ content:
   menu-6609:
     attributes:
       menu: principal
-  customcontentSZ-5107:
-    title: 'Custom Content'
-    attributes:
-      height: 40vh
-      headline: ''
-      description: "\n"
-      link: ''
-      linktext: ''
-      link2: ''
-      linktext2: ''
-    block:
-      variations: center
   copyright-6180:
     attributes:
       date:
