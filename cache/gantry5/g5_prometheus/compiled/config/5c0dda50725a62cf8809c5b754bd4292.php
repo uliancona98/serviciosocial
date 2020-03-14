@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Gantry\\Component\\Config\\CompiledConfig',
-    'timestamp' => 1584091686,
-    'checksum' => 'ecc2f72c9c352ddfc96399a52e143c7a',
+    'timestamp' => 1584129999,
+    'checksum' => '6f2f99ad7e833262f5860790a579def7',
     'files' => [
         'templates/g5_prometheus/custom/config/9' => [
             'assignments' => [
@@ -11,11 +11,11 @@ return [
             ],
             'index' => [
                 'file' => 'templates/g5_prometheus/custom/config/9/index.yaml',
-                'modified' => 1584091679
+                'modified' => 1584129995
             ],
             'layout' => [
                 'file' => 'templates/g5_prometheus/custom/config/9/layout.yaml',
-                'modified' => 1584091679
+                'modified' => 1584129995
             ],
             'page/assets' => [
                 'file' => 'templates/g5_prometheus/custom/config/9/page/assets.yaml',
@@ -1105,7 +1105,7 @@ background-color: #ffffff;
         ],
         'index' => [
             'name' => '9',
-            'timestamp' => 1584091679,
+            'timestamp' => 1584129995,
             'version' => 7,
             'preset' => [
                 'image' => 'gantry-admin://images/layouts/default.png',
@@ -1512,7 +1512,7 @@ background-color: #ffffff;
                         'headline' => '',
                         'description' => '<div style="border-top-style: solid;
 border-color: #ebb800;"> 
-<h3 style="text-align:center; font-weight:bold; color:#ffffff;">Sitio de Divulgación LCC</h3>
+<h3 style="text-align:center; font-weight:bold; color:#ffffff;">Divulgación de las Ciencias de la Computación</h3>
  </div>'
                     ],
                     'block' => [

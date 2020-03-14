@@ -1,13 +1,13 @@
 <?php
 return [
     '@class' => 'Gantry\\Component\\File\\CompiledYamlFile',
-    'filename' => 'C:/MAMP/htdocs/serviciosocial/templates/g5_prometheus/particles/sample.yaml',
+    'filename' => 'C:/MAMP/htdocs/serviciosocial/templates/g5_prometheus/particles/pricetableSZ.yaml',
     'modified' => 1583792621,
     'data' => [
-        'name' => 'Sample Content',
-        'description' => 'Displays Sample Content',
+        'name' => 'Price Table',
+        'description' => 'Displays Price Table',
         'type' => 'particle',
-        'icon' => 'fa-pencil-square-o',
+        'icon' => 'fa-dollar',
         'form' => [
             'fields' => [
                 'enabled' => [
@@ -19,7 +19,13 @@ return [
                 'image' => [
                     'type' => 'input.imagepicker',
                     'label' => 'Image',
-                    'description' => 'Select the main image.'
+                    'description' => 'Select the main image.',
+                    'placeholder' => 'Select an image'
+                ],
+                'mainicon' => [
+                    'type' => 'input.icon',
+                    'label' => 'Icon',
+                    'description' => 'Select the main icon'
                 ],
                 'headline' => [
                     'type' => 'input.text',
@@ -43,14 +49,20 @@ return [
                     'label' => 'Link Text',
                     'description' => 'Customize the link text.'
                 ],
-                'samples' => [
+                'pricetables' => [
                     'type' => 'collection.list',
                     'array' => true,
-                    'label' => 'Sample Items',
+                    'label' => 'Items',
                     'description' => 'Create each item to appear in the content row.',
                     'value' => 'title',
                     'ajax' => true,
                     'fields' => [
+                        '.image' => [
+                            'type' => 'input.imagepicker',
+                            'label' => 'Image',
+                            'description' => 'Select the main image.',
+                            'placeholder' => 'Select an image'
+                        ],
                         '.icon' => [
                             'type' => 'input.icon',
                             'label' => 'Icon'
@@ -59,13 +71,39 @@ return [
                             'type' => 'input.text',
                             'label' => 'Title'
                         ],
-                        '.subtitle' => [
+                        '.price' => [
                             'type' => 'input.text',
-                            'label' => 'Sub Title'
+                            'label' => 'Price'
                         ],
                         '.description' => [
                             'type' => 'textarea.textarea',
                             'label' => 'Description'
+                        ],
+                        '.line1' => [
+                            'type' => 'input.text',
+                            'label' => 'Line 1'
+                        ],
+                        '.line2' => [
+                            'type' => 'input.text',
+                            'label' => 'Line 2'
+                        ],
+                        '.line3' => [
+                            'type' => 'input.text',
+                            'label' => 'Line 3'
+                        ],
+                        '.line4' => [
+                            'type' => 'input.text',
+                            'label' => 'Line 4'
+                        ],
+                        '.link' => [
+                            'type' => 'input.text',
+                            'label' => 'Link',
+                            'description' => 'Specify the link address.'
+                        ],
+                        '.linktext' => [
+                            'type' => 'input.text',
+                            'label' => 'Link Text',
+                            'description' => 'Customize the link text.'
                         ],
                         '.class' => [
                             'type' => 'input.block-variations',

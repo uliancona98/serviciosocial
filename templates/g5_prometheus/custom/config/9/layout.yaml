@@ -227,7 +227,7 @@ content:
     attributes:
       height: 5rem
       headline: ''
-      description: "<div style=\"border-top-style: solid;\nborder-color: #ebb800;\"> \n<h3 style=\"text-align:center; font-weight:bold; color:#ffffff;\">Sitio de Divulgación LCC</h3>\n </div>"
+      description: "<div style=\"border-top-style: solid;\nborder-color: #ebb800;\"> \n<h3 style=\"text-align:center; font-weight:bold; color:#ffffff;\">Divulgación de las Ciencias de la Computación</h3>\n </div>"
     block:
       class: segundo_titulo
   menu-6609:

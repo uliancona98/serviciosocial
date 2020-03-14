@@ -2,7 +2,7 @@
 return [
     '@class' => 'Gantry\\Component\\File\\CompiledYamlFile',
     'filename' => 'C:\\MAMP\\htdocs\\serviciosocial/templates/g5_prometheus/custom/config/9/layout.yaml',
-    'modified' => 1584091679,
+    'modified' => 1584129995,
     'data' => [
         'version' => 2,
         'preset' => [
@@ -337,7 +337,7 @@ return [
                     'headline' => '',
                     'description' => '<div style="border-top-style: solid;
 border-color: #ebb800;"> 
-<h3 style="text-align:center; font-weight:bold; color:#ffffff;">Sitio de Divulgación LCC</h3>
+<h3 style="text-align:center; font-weight:bold; color:#ffffff;">Divulgación de las Ciencias de la Computación</h3>
  </div>'
                 ],
                 'block' => [

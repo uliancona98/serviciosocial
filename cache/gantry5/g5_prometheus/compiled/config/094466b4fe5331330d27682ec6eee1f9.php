@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Gantry\\Component\\Config\\CompiledConfig',
-    'timestamp' => 1584081017,
-    'checksum' => '6e93788f6d699ba10b97f137b10765fc',
+    'timestamp' => 1584129293,
+    'checksum' => 'e58083b345e38177754771745b7fd96b',
     'files' => [
         'templates/g5_prometheus/custom/config/9' => [
             'assignments' => [
@@ -11,11 +11,11 @@ return [
             ],
             'index' => [
                 'file' => 'templates/g5_prometheus/custom/config/9/index.yaml',
-                'modified' => 1584080947
+                'modified' => 1584091679
             ],
             'layout' => [
                 'file' => 'templates/g5_prometheus/custom/config/9/layout.yaml',
-                'modified' => 1584080947
+                'modified' => 1584091679
             ],
             'page/assets' => [
                 'file' => 'templates/g5_prometheus/custom/config/9/page/assets.yaml',
@@ -31,7 +31,7 @@ return [
             ],
             'styles' => [
                 'file' => 'templates/g5_prometheus/custom/config/9/styles.yaml',
-                'modified' => 1584080557
+                'modified' => 1584081085
             ]
         ]
     ],
@@ -46,7 +46,7 @@ return [
         ],
         'index' => [
             'name' => '9',
-            'timestamp' => 1584080947,
+            'timestamp' => 1584091679,
             'version' => 7,
             'preset' => [
                 'image' => 'gantry-admin://images/layouts/default.png',
@@ -100,9 +100,13 @@ return [
                     'owlcarousel-5243' => 'Owl Carousel'
                 ],
                 'contentarray' => [
-                    'contentarray-6630' => 'Joomla Articles',
                     'contentarray-9885' => 'Joomla Articles',
+                    'contentarray-6630' => 'Joomla Articles',
                     'contentarray-3542' => 'Joomla Articles'
+                ],
+                'contentcubes' => [
+                    'contentcubes-1891' => 'Content Cubes',
+                    'contentcubes-6601' => 'Content Cubes'
                 ],
                 'copyright' => [
                     'copyright-6180' => 'Copyright'
@@ -180,9 +184,15 @@ return [
                         1 => [
                             'mainbar 50' => [
                                 0 => [
-                                    0 => 'contentarray-6630 33.3',
-                                    1 => 'contentarray-9885 33.3',
+                                    0 => 'contentarray-9885 33.3',
+                                    1 => 'contentarray-6630 33.3',
                                     2 => 'contentarray-3542 33.3'
+                                ],
+                                1 => [
+                                    0 => 'contentcubes-1891'
+                                ],
+                                2 => [
+                                    0 => 'contentcubes-6601'
                                 ]
                             ]
                         ],
@@ -253,8 +263,8 @@ return [
                     'attributes' => [
                         'boxed' => '0',
                         'class' => '',
-                        'background' => '#ffffff',
-                        'backgroundOverlay' => '#ffffff',
+                        'background' => '#DADCCE',
+                        'backgroundOverlay' => '#DADCCE',
                         'backgroundAttachment' => 'fixed',
                         'backgroundRepeat' => '',
                         'backgroundPosition' => 'center center',
@@ -335,7 +345,16 @@ return [
                 ],
                 'mainbar' => [
                     'type' => 'section',
-                    'subtype' => 'main'
+                    'subtype' => 'main',
+                    'attributes' => [
+                        'class' => '',
+                        'background' => '',
+                        'backgroundOverlay' => 'rgba(0, 0, 0, 0)',
+                        'backgroundAttachment' => '',
+                        'backgroundRepeat' => '',
+                        'backgroundPosition' => '',
+                        'backgroundSize' => ''
+                    ]
                 ],
                 'sidebar' => [
                     'type' => 'section',
@@ -449,29 +468,95 @@ border-color: #ebb800;">
                 'owlcarousel-5243' => [
                     'title' => 'Owl Carousel',
                     'attributes' => [
-                        'title' => 'Articulos Destacados',
+                        'title' => '',
                         'autoplay' => 'disable',
                         'autoplaySpeed' => '4000',
                         'items' => [
                             0 => [
-                                'image' => 'gantry-media://demos/jump.jpg',
-                                'title' => 'HEADLINE',
-                                'desc' => 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.',
-                                'link' => '#',
-                                'linktext' => 'Download now!',
-                                'buttonclass' => 'button',
+                                'image' => 'gantry-media://slider/1 cdd_Mesa de trabajo 1.jpg',
+                                'title' => '',
+                                'desc' => '',
+                                'link' => '',
+                                'linktext' => '',
+                                'buttonclass' => '',
                                 'name' => 'item1'
                             ],
                             1 => [
-                                'image' => 'gantry-media://demos/phone.jpg',
-                                'title' => 'HEADLINE',
-                                'desc' => ' Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.',
-                                'link' => '#',
-                                'linktext' => 'Download now!',
-                                'buttonclass' => 'button',
+                                'image' => 'gantry-media://slider/2 int art_Mesa de trabajo 1.jpg',
+                                'title' => '',
+                                'desc' => '',
+                                'link' => '',
+                                'linktext' => '',
+                                'buttonclass' => '',
                                 'name' => 'item2'
+                            ],
+                            2 => [
+                                'image' => 'gantry-media://slider/3 real aum_Mesa de trabajo 1.jpg',
+                                'title' => '',
+                                'desc' => '',
+                                'link' => '',
+                                'linktext' => '',
+                                'buttonclass' => 'button-outline',
+                                'name' => 'item3'
+                            ],
+                            3 => [
+                                'image' => 'gantry-media://slider/4 redes_Mesa de trabajo 1.jpg',
+                                'title' => '',
+                                'desc' => '',
+                                'link' => '',
+                                'linktext' => '',
+                                'buttonclass' => 'button-outline',
+                                'name' => 'item4'
+                            ],
+                            4 => [
+                                'image' => 'gantry-media://slider/5 sist operat_Mesa de trabajo 1.jpg',
+                                'title' => '',
+                                'desc' => '',
+                                'link' => '',
+                                'linktext' => '',
+                                'buttonclass' => 'button-outline',
+                                'name' => 'item5'
+                            ],
+                            5 => [
+                                'image' => 'gantry-media://slider/6 mod3d_Mesa de trabajo 1.jpg',
+                                'title' => '',
+                                'desc' => '',
+                                'link' => '',
+                                'linktext' => '',
+                                'buttonclass' => 'button-outline',
+                                'name' => 'item6'
+                            ],
+                            6 => [
+                                'image' => 'gantry-media://slider/7 idlc_Mesa de trabajo 1.jpg',
+                                'title' => '',
+                                'desc' => '',
+                                'link' => '',
+                                'linktext' => '',
+                                'buttonclass' => 'button-outline',
+                                'name' => 'item7'
+                            ],
+                            7 => [
+                                'image' => 'gantry-media://slider/8 comp cient_Mesa de trabajo 1.jpg',
+                                'title' => '',
+                                'desc' => '',
+                                'link' => '',
+                                'linktext' => '',
+                                'buttonclass' => 'button-outline',
+                                'name' => 'item8'
+                            ],
+                            8 => [
+                                'image' => 'gantry-media://slider/9 ciberseguridad_Mesa de trabajo 1.jpg',
+                                'title' => '',
+                                'desc' => '',
+                                'link' => '',
+                                'linktext' => '',
+                                'buttonclass' => 'button-outline',
+                                'name' => 'item9'
                             ]
                         ]
+                    ],
+                    'block' => [
+                        'fixed' => '1'
                     ]
                 ],
                 'customcontentSZ-3582' => [
@@ -484,43 +569,6 @@ border-bottom-style: solid;
 border-color: #ebb800;"> 
 <h3 style="text-align:center; font-weight:bold; color:#000000;">Contenido</h3>
  </div>'
-                    ]
-                ],
-                'contentarray-6630' => [
-                    'title' => 'Joomla Articles',
-                    'attributes' => [
-                        'article' => [
-                            'filter' => [
-                                'categories' => '',
-                                'articles' => '5',
-                                'featured' => 'include'
-                            ],
-                            'limit' => [
-                                'total' => '1',
-                                'columns' => '1',
-                                'start' => ''
-                            ],
-                            'display' => [
-                                'pagination_buttons' => '',
-                                'text' => [
-                                    'type' => 'intro',
-                                    'limit' => '50'
-                                ],
-                                'date' => [
-                                    'format' => 'l, F d, Y'
-                                ],
-                                'read_more' => [
-                                    'enabled' => 'show'
-                                ]
-                            ],
-                            'sort' => [
-                                'orderby' => 'publish_up',
-                                'ordering' => 'ASC'
-                            ]
-                        ],
-                        'css' => [
-                            'class' => 'articulo_inicio'
-                        ]
                     ]
                 ],
                 'contentarray-9885' => [
@@ -538,9 +586,45 @@ border-color: #ebb800;">
                                 'start' => ''
                             ],
                             'display' => [
+                                'pagination_buttons' => ''
+                            ],
+                            'sort' => [
+                                'orderby' => 'publish_up',
+                                'ordering' => 'ASC'
+                            ]
+                        ],
+                        'css' => [
+                            'class' => 'articulo_inicio'
+                        ]
+                    ]
+                ],
+                'contentarray-6630' => [
+                    'title' => 'Joomla Articles',
+                    'attributes' => [
+                        'article' => [
+                            'filter' => [
+                                'categories' => '',
+                                'articles' => '8',
+                                'featured' => 'include'
+                            ],
+                            'limit' => [
+                                'total' => '1',
+                                'columns' => '1',
+                                'start' => ''
+                            ],
+                            'display' => [
                                 'pagination_buttons' => '',
+                                'image' => [
+                                    'enabled' => 'intro'
+                                ],
                                 'text' => [
-                                    'limit' => '50'
+                                    'type' => 'intro'
+                                ],
+                                'date' => [
+                                    'format' => 'l, F d, Y'
+                                ],
+                                'read_more' => [
+                                    'enabled' => 'show'
                                 ]
                             ],
                             'sort' => [
@@ -568,10 +652,7 @@ border-color: #ebb800;">
                                 'start' => ''
                             ],
                             'display' => [
-                                'pagination_buttons' => '',
-                                'text' => [
-                                    'limit' => '50'
-                                ]
+                                'pagination_buttons' => ''
                             ],
                             'sort' => [
                                 'orderby' => 'publish_up',
@@ -583,14 +664,67 @@ border-color: #ebb800;">
                         ]
                     ]
                 ],
+                'contentcubes-1891' => [
+                    'title' => 'Content Cubes',
+                    'attributes' => [
+                        'css' => [
+                            'class' => 'articulo_inicio'
+                        ],
+                        'items' => [
+                            0 => [
+                                'image' => 'gantry-media://articulo_introduccion/BeFunky-collage.jpg',
+                                'imageposition' => 'left',
+                                'label' => 'Desarrollo de Software de Aplicación',
+                                'title' => 'MATYA - Videojuego didáctico modelado en 3D',
+                                'content' => 'Diseño e Implementación de un videojuego didáctico que apoya a estudiantes de primaria reforzando el estudio de la noción de fracción.  Los escenarios son creados por herramientas de modelado en 2D, 3D.',
+                                'link' => 'http://localhost/serviciosocial/index.php/esto-hacemos/desarrollo-de-software-de-aplicacion/10-matya',
+                                'linktext' => '',
+                                'buttonclass' => '',
+                                'buttontarget' => '_self',
+                                'name' => 'img 1'
+                            ]
+                        ]
+                    ]
+                ],
+                'contentcubes-6601' => [
+                    'title' => 'Content Cubes',
+                    'attributes' => [
+                        'css' => [
+                            'class' => 'articulo_inicio'
+                        ],
+                        'title' => '',
+                        'items' => [
+                            0 => [
+                                'image' => 'gantry-media://articulo_introduccion/BeFunky-collage2.jpg',
+                                'imageposition' => 'right',
+                                'label' => 'Computación Científica',
+                                'title' => 'Librería con Realidad Aumentada',
+                                'content' => 'La biblioteca del Campus de Ciencias Exactas e Ingeniería ofrece más de 48,568 volúmenes y en muchas ocasiones requiere mucho tiempo la búsqueda de uno de éstos. Una aplicación basada en Realidad Aumentada propone resolver el desconocimiento espacial de los usuarios de la biblioteca.',
+                                'tags' => [
+                                    
+                                ],
+                                'link' => 'http://localhost/serviciosocial/index.php/esto-hacemos/computacion-cientifica/5-libreria-con-realidad-aumentada',
+                                'linktext' => '',
+                                'buttonclass' => '',
+                                'buttontarget' => '_self',
+                                'name' => 'img 1'
+                            ]
+                        ]
+                    ]
+                ],
                 'copyright-6180' => [
                     'attributes' => [
                         'date' => [
                             'start' => ''
                         ],
+                        'owner' => 'szoupi',
                         'link' => '',
+                        'target' => '_blank',
                         'additional' => [
                             'text' => ''
+                        ],
+                        'css' => [
+                            'class' => ''
                         ]
                     ]
                 ]
@@ -791,8 +925,8 @@ background-color: #ffffff;
                 'col-width' => '170px'
             ],
             'sectionsdim' => [
-                'navigation-margin' => '0.5rem',
-                'navigation-padding' => '0.5rem'
+                'navigation-margin' => '0.3rem',
+                'navigation-padding' => '0.3rem'
             ]
         ]
     ]

@@ -1,13 +1,13 @@
 <?php
 return [
     '@class' => 'Gantry\\Component\\File\\CompiledYamlFile',
-    'filename' => 'C:/MAMP/htdocs/serviciosocial/templates/g5_prometheus/particles/sample.yaml',
+    'filename' => 'C:/MAMP/htdocs/serviciosocial/templates/g5_prometheus/particles/testimonialSZ.yaml',
     'modified' => 1583792621,
     'data' => [
-        'name' => 'Sample Content',
-        'description' => 'Displays Sample Content',
+        'name' => 'Testimonials',
+        'description' => 'Displays testimonials',
         'type' => 'particle',
-        'icon' => 'fa-pencil-square-o',
+        'icon' => 'fa-user-circle-o',
         'form' => [
             'fields' => [
                 'enabled' => [
@@ -15,11 +15,6 @@ return [
                     'label' => 'Enabled',
                     'description' => 'Globally enable the particle.',
                     'default' => true
-                ],
-                'image' => [
-                    'type' => 'input.imagepicker',
-                    'label' => 'Image',
-                    'description' => 'Select the main image.'
                 ],
                 'headline' => [
                     'type' => 'input.text',
@@ -33,39 +28,46 @@ return [
                     'description' => 'Customize the description.',
                     'placeholder' => 'Enter short description'
                 ],
-                'link' => [
-                    'type' => 'input.text',
-                    'label' => 'Link',
-                    'description' => 'Specify the link address.'
-                ],
-                'linktext' => [
-                    'type' => 'input.text',
-                    'label' => 'Link Text',
-                    'description' => 'Customize the link text.'
-                ],
-                'samples' => [
+                'testimonials' => [
                     'type' => 'collection.list',
                     'array' => true,
-                    'label' => 'Sample Items',
+                    'label' => 'Testimonial Items',
                     'description' => 'Create each item to appear in the content row.',
                     'value' => 'title',
                     'ajax' => true,
                     'fields' => [
                         '.icon' => [
                             'type' => 'input.icon',
-                            'label' => 'Icon'
+                            'label' => 'Quote Icon'
                         ],
-                        '.title' => [
-                            'type' => 'input.text',
-                            'label' => 'Title'
-                        ],
-                        '.subtitle' => [
-                            'type' => 'input.text',
-                            'label' => 'Sub Title'
-                        ],
-                        '.description' => [
+                        '.quote' => [
                             'type' => 'textarea.textarea',
-                            'label' => 'Description'
+                            'label' => 'Quote'
+                        ],
+                        '.author' => [
+                            'type' => 'input.text',
+                            'label' => 'Author'
+                        ],
+                        '.authorattribute' => [
+                            'type' => 'input.text',
+                            'label' => 'Person Attribute'
+                        ],
+                        '.image' => [
+                            'type' => 'input.imagepicker',
+                            'label' => 'Image',
+                            'description' => 'Select the person\'s image.',
+                            'placeholder' => 'Select an image'
+                        ],
+                        '.effect' => [
+                            'type' => 'select.selectize',
+                            'label' => 'Effect',
+                            'description' => 'Select an effect for the Testimonial',
+                            'placeholder' => 'Select...',
+                            'default' => 'card',
+                            'options' => [
+                                'card' => 'Card',
+                                'arrow' => 'Arrow'
+                            ]
                         ],
                         '.class' => [
                             'type' => 'input.block-variations',
