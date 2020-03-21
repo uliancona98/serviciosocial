@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Gantry\\Component\\Config\\CompiledConfig',
-    'timestamp' => 1584129293,
-    'checksum' => 'e58083b345e38177754771745b7fd96b',
+    'timestamp' => 1584760181,
+    'checksum' => '8fe11bf261883555c93fb9911a8ab02e',
     'files' => [
         'templates/g5_prometheus/custom/config/9' => [
             'assignments' => [
@@ -11,11 +11,11 @@ return [
             ],
             'index' => [
                 'file' => 'templates/g5_prometheus/custom/config/9/index.yaml',
-                'modified' => 1584091679
+                'modified' => 1584129995
             ],
             'layout' => [
                 'file' => 'templates/g5_prometheus/custom/config/9/layout.yaml',
-                'modified' => 1584091679
+                'modified' => 1584129995
             ],
             'page/assets' => [
                 'file' => 'templates/g5_prometheus/custom/config/9/page/assets.yaml',
@@ -46,7 +46,7 @@ return [
         ],
         'index' => [
             'name' => '9',
-            'timestamp' => 1584091679,
+            'timestamp' => 1584129995,
             'version' => 7,
             'preset' => [
                 'image' => 'gantry-admin://images/layouts/default.png',
@@ -453,7 +453,7 @@ return [
                         'headline' => '',
                         'description' => '<div style="border-top-style: solid;
 border-color: #ebb800;"> 
-<h3 style="text-align:center; font-weight:bold; color:#ffffff;">Sitio de Divulgación LCC</h3>
+<h3 style="text-align:center; font-weight:bold; color:#ffffff;">Divulgación de las Ciencias de la Computación</h3>
  </div>'
                     ],
                     'block' => [

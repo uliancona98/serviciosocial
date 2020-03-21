@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Gantry\\Component\\Config\\CompiledConfig',
-    'timestamp' => 1584084595,
-    'checksum' => '87d887a6c39340532084cb30cac9a760',
+    'timestamp' => 1584769113,
+    'checksum' => 'e92c2077e5f4bfd01365dc8c4a5ab4eb',
     'files' => [
         'templates/g5_prometheus/custom/config/11' => [
             'assignments' => [
@@ -11,11 +11,11 @@ return [
             ],
             'index' => [
                 'file' => 'templates/g5_prometheus/custom/config/11/index.yaml',
-                'modified' => 1584083071
+                'modified' => 1584769110
             ],
             'layout' => [
                 'file' => 'templates/g5_prometheus/custom/config/11/layout.yaml',
-                'modified' => 1584083071
+                'modified' => 1584769110
             ],
             'page/assets' => [
                 'file' => 'templates/g5_prometheus/custom/config/11/page/assets.yaml',
@@ -1105,7 +1105,7 @@ margin:auto;
         ],
         'index' => [
             'name' => '11',
-            'timestamp' => 1584083071,
+            'timestamp' => 1584769110,
             'version' => 7,
             'preset' => [
                 'image' => 'gantry-admin://images/layouts/default.png',
@@ -1141,16 +1141,18 @@ margin:auto;
                     'spacer-1702' => 'Spacer',
                     'spacer-3243' => 'Spacer',
                     'spacer-2607' => 'Spacer',
+                    'spacer-6586' => 'Spacer',
                     'spacer-2458' => 'Spacer',
-                    'spacer-2395' => 'Spacer'
+                    'spacer-2395' => 'Spacer',
+                    'spacer-spacer-6136' => 'Spacer'
                 ],
                 'logo' => [
-                    'logo-9690' => 'Logo / Image',
-                    'logo-9501' => 'Logo / Image'
+                    'logo-9501' => 'Logo / Image',
+                    'logo-9690' => 'Logo / Image'
                 ],
                 'customcontentSZ' => [
-                    'customcontentSZ-6295' => 'Custom Content',
-                    'customcontentSZ-8804' => 'Custom Content'
+                    'customcontentSZ-8804' => 'Custom Content',
+                    'customcontentSZ-6295' => 'Custom Content'
                 ],
                 'menu' => [
                     'menu-6609' => 'Menu'
@@ -1158,11 +1160,11 @@ margin:auto;
                 'messages' => [
                     'system-messages-2617' => 'System Messages'
                 ],
-                'content' => [
-                    'system-content-1966' => 'Page Content'
-                ],
                 'date' => [
                     'date-2824' => 'Date'
+                ],
+                'content' => [
+                    'system-content-1966' => 'Page Content'
                 ],
                 'copyright' => [
                     'copyright-6180' => 'Copyright'
@@ -1194,15 +1196,16 @@ margin:auto;
                 '/navtop/' => [
                     0 => [
                         0 => 'spacer-1702 5',
-                        1 => 'logo-9690 57',
-                        2 => 'spacer-3243 27',
-                        3 => 'logo-9501 11'
+                        1 => 'logo-9501 11',
+                        2 => 'logo-9690 57',
+                        3 => 'spacer-3243 27'
                     ],
                     1 => [
-                        0 => 'spacer-2607 12',
-                        1 => 'customcontentSZ-6295 17',
-                        2 => 'customcontentSZ-8804 46',
-                        3 => 'spacer-2458 25'
+                        0 => 'spacer-2607 16',
+                        1 => 'customcontentSZ-8804 50',
+                        2 => 'spacer-6586 7',
+                        3 => 'customcontentSZ-6295 17',
+                        4 => 'spacer-2458 10'
                     ]
                 ],
                 '/navigation/' => [
@@ -1234,16 +1237,17 @@ margin:auto;
                 '/container-main/' => [
                     0 => [
                         0 => [
-                            'aside 25' => [
+                            'aside 15' => [
                                 0 => [
                                     0 => 'spacer-2395'
                                 ]
                             ]
                         ],
                         1 => [
-                            'mainbar 50' => [
+                            'mainbar 70' => [
                                 0 => [
-                                    0 => 'system-messages-2617'
+                                    0 => 'system-messages-2617 83',
+                                    1 => 'date-2824 17'
                                 ],
                                 1 => [
                                     0 => 'system-content-1966'
@@ -1251,9 +1255,9 @@ margin:auto;
                             ]
                         ],
                         2 => [
-                            'sidebar 25' => [
+                            'sidebar 15' => [
                                 0 => [
-                                    0 => 'date-2824'
+                                    0 => 'spacer-spacer-6136'
                                 ]
                             ]
                         ]
@@ -1469,16 +1473,6 @@ margin:auto;
                 ]
             ],
             'content' => [
-                'logo-9690' => [
-                    'title' => 'Logo / Image',
-                    'attributes' => [
-                        'image' => 'gantry-media://sitio_titulo_banner.png',
-                        'height' => '6rem'
-                    ],
-                    'block' => [
-                        'class' => 'logo_imagen'
-                    ]
-                ],
                 'logo-9501' => [
                     'title' => 'Logo / Image',
                     'attributes' => [
@@ -1492,14 +1486,14 @@ margin:auto;
                         'class' => 'logo_imagen'
                     ]
                 ],
-                'customcontentSZ-6295' => [
-                    'title' => 'Custom Content',
+                'logo-9690' => [
+                    'title' => 'Logo / Image',
                     'attributes' => [
-                        'image' => 'gantry-media://jovenes_divulg.png',
-                        'height' => '5rem'
+                        'image' => 'gantry-media://sitio_titulo_banner.png',
+                        'height' => '6rem'
                     ],
                     'block' => [
-                        'class' => 'logo_imagen segundo_titulo'
+                        'class' => 'logo_imagen'
                     ]
                 ],
                 'customcontentSZ-8804' => [
@@ -1509,11 +1503,21 @@ margin:auto;
                         'headline' => '',
                         'description' => '<div style="border-top-style: solid;
 border-color: #ebb800;"> 
-<h3 style="text-align:center; font-weight:bold; color:#ffffff;">Sitio de Divulgación LCC</h3>
+<h3 style="text-align:center; font-weight:bold; color:#ffffff;">Divulgación de las Ciencias de la Computación</h3>
  </div>'
                     ],
                     'block' => [
                         'class' => 'segundo_titulo'
+                    ]
+                ],
+                'customcontentSZ-6295' => [
+                    'title' => 'Custom Content',
+                    'attributes' => [
+                        'image' => 'gantry-media://jovenes_divulg.png',
+                        'height' => '5rem'
+                    ],
+                    'block' => [
+                        'class' => 'logo_imagen segundo_titulo'
                     ]
                 ],
                 'menu-6609' => [

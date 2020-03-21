@@ -2,10 +2,10 @@
 return [
     '@class' => 'Gantry\\Component\\File\\CompiledYamlFile',
     'filename' => 'C:\\MAMP\\htdocs\\serviciosocial/templates/g5_prometheus/custom/config/9/index.yaml',
-    'modified' => 1584129995,
+    'modified' => 1584767586,
     'data' => [
         'name' => '9',
-        'timestamp' => 1584129995,
+        'timestamp' => 1584767586,
         'version' => 7,
         'preset' => [
             'image' => 'gantry-admin://images/layouts/default.png',
@@ -41,15 +41,16 @@ return [
                 'spacer-1702' => 'Spacer',
                 'spacer-3243' => 'Spacer',
                 'spacer-2607' => 'Spacer',
+                'spacer-spacer-6586' => 'Spacer',
                 'spacer-2458' => 'Spacer'
             ],
             'logo' => [
-                'logo-9690' => 'Logo / Image',
-                'logo-9501' => 'Logo / Image'
+                'logo-9501' => 'Logo / Image',
+                'logo-9690' => 'Logo / Image'
             ],
             'customcontentSZ' => [
-                'customcontentSZ-6295' => 'Custom Content',
                 'customcontentSZ-8804' => 'Custom Content',
+                'customcontentSZ-6295' => 'Custom Content',
                 'customcontentSZ-3582' => 'Custom Content'
             ],
             'menu' => [
@@ -65,7 +66,8 @@ return [
             ],
             'contentcubes' => [
                 'contentcubes-1891' => 'Content Cubes',
-                'contentcubes-6601' => 'Content Cubes'
+                'contentcubes-6601' => 'Content Cubes',
+                'contentcubes-7923' => 'Content Cubes'
             ],
             'copyright' => [
                 'copyright-6180' => 'Copyright'

@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Gantry\\Component\\Config\\CompiledConfig',
-    'timestamp' => 1584083044,
-    'checksum' => '94f2e4a9011eb4e696fb5f06e661e4b4',
+    'timestamp' => 1584760815,
+    'checksum' => '5bd5ce6fc6f2fd1359c2a82527b0d191',
     'files' => [
         'templates/g5_prometheus/custom/config/10' => [
             'assignments' => [
@@ -11,11 +11,11 @@ return [
             ],
             'index' => [
                 'file' => 'templates/g5_prometheus/custom/config/10/index.yaml',
-                'modified' => 1583973821
+                'modified' => 1584083059
             ],
             'layout' => [
                 'file' => 'templates/g5_prometheus/custom/config/10/layout.yaml',
-                'modified' => 1583973821
+                'modified' => 1584083059
             ],
             'page/assets' => [
                 'file' => 'templates/g5_prometheus/custom/config/10/page/assets.yaml',
@@ -46,7 +46,7 @@ return [
         ],
         'index' => [
             'name' => '10',
-            'timestamp' => 1583973821,
+            'timestamp' => 1584083059,
             'version' => 7,
             'preset' => [
                 'image' => 'gantry-admin://images/layouts/default.png',
@@ -92,8 +92,7 @@ return [
                 ],
                 'customcontentSZ' => [
                     'customcontentSZ-6295' => 'Custom Content',
-                    'customcontentSZ-8804' => 'Custom Content',
-                    'customcontentSZ-5107' => 'Custom Content'
+                    'customcontentSZ-8804' => 'Custom Content'
                 ],
                 'menu' => [
                     'menu-6609' => 'Menu'
@@ -146,9 +145,7 @@ return [
                     ]
                 ],
                 '/header/' => [
-                    0 => [
-                        0 => 'customcontentSZ-5107'
-                    ]
+                    
                 ],
                 '/intro/' => [
                     
@@ -442,22 +439,6 @@ border-color: #ebb800;">
                     ],
                     'block' => [
                         'class' => 'segundo_titulo'
-                    ]
-                ],
-                'customcontentSZ-5107' => [
-                    'title' => 'Custom Content',
-                    'attributes' => [
-                        'height' => '40vh',
-                        'headline' => '',
-                        'description' => '
-',
-                        'link' => '',
-                        'linktext' => '',
-                        'link2' => '',
-                        'linktext2' => ''
-                    ],
-                    'block' => [
-                        'variations' => 'center'
                     ]
                 ],
                 'copyright-6180' => [

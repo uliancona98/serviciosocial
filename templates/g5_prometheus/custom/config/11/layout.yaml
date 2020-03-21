@@ -8,14 +8,15 @@ layout:
   /navtop/:
     -
       - 'spacer-1702 5'
+      - 'logo-9501 11'
       - 'logo-9690 57'
       - 'spacer-3243 27'
-      - 'logo-9501 11'
     -
-      - 'spacer-2607 12'
+      - 'spacer-2607 16'
+      - 'customcontentSZ-8804 50'
+      - 'spacer-6586 7'
       - 'customcontentSZ-6295 17'
-      - 'customcontentSZ-8804 46'
-      - 'spacer-2458 25'
+      - 'spacer-2458 10'
   /navigation/:
     -
       - menu-6609
@@ -29,19 +30,20 @@ layout:
   /container-main/:
     -
       -
-        'aside 25':
+        'aside 15':
           -
             - spacer-2395
       -
-        'mainbar 50':
+        'mainbar 70':
           -
-            - system-messages-2617
+            - 'system-messages-2617 83'
+            - 'date-2824 17'
           -
             - system-content-1966
       -
-        'sidebar 25':
+        'sidebar 15':
           -
-            - date-2824
+            - spacer-spacer-6136
   /mainbottom/: {  }
   /footertop/: {  }
   /footer/: {  }
@@ -192,13 +194,6 @@ structure:
       swipe: '1'
       css3animation: '1'
 content:
-  logo-9690:
-    title: 'Logo / Image'
-    attributes:
-      image: 'gantry-media://sitio_titulo_banner.png'
-      height: 6rem
-    block:
-      class: logo_imagen
   logo-9501:
     title: 'Logo / Image'
     attributes:
@@ -209,6 +204,21 @@ content:
       text: LCC
     block:
       class: logo_imagen
+  logo-9690:
+    title: 'Logo / Image'
+    attributes:
+      image: 'gantry-media://sitio_titulo_banner.png'
+      height: 6rem
+    block:
+      class: logo_imagen
+  customcontentSZ-8804:
+    title: 'Custom Content'
+    attributes:
+      height: 5rem
+      headline: ''
+      description: "<div style=\"border-top-style: solid;\nborder-color: #ebb800;\"> \n<h3 style=\"text-align:center; font-weight:bold; color:#ffffff;\">Divulgación de las Ciencias de la Computación</h3>\n </div>"
+    block:
+      class: segundo_titulo
   customcontentSZ-6295:
     title: 'Custom Content'
     attributes:
@@ -216,14 +226,6 @@ content:
       height: 5rem
     block:
       class: 'logo_imagen segundo_titulo'
-  customcontentSZ-8804:
-    title: 'Custom Content'
-    attributes:
-      height: 5rem
-      headline: ''
-      description: "<div style=\"border-top-style: solid;\nborder-color: #ebb800;\"> \n<h3 style=\"text-align:center; font-weight:bold; color:#ffffff;\">Sitio de Divulgación LCC</h3>\n </div>"
-    block:
-      class: segundo_titulo
   menu-6609:
     attributes:
       menu: principal

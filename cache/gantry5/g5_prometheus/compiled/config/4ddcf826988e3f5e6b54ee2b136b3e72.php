@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Gantry\\Component\\Config\\CompiledConfig',
-    'timestamp' => 1584091507,
-    'checksum' => 'b87ad758f4d062fd611cac9afaeea6b9',
+    'timestamp' => 1584769163,
+    'checksum' => 'ab01dba9b61fb057038c7bc7b1e5dea0',
     'files' => [
         'templates/g5_prometheus/custom/config/10' => [
             'assignments' => [
@@ -11,11 +11,11 @@ return [
             ],
             'index' => [
                 'file' => 'templates/g5_prometheus/custom/config/10/index.yaml',
-                'modified' => 1584083059
+                'modified' => 1584768814
             ],
             'layout' => [
                 'file' => 'templates/g5_prometheus/custom/config/10/layout.yaml',
-                'modified' => 1584083059
+                'modified' => 1584768814
             ],
             'page/assets' => [
                 'file' => 'templates/g5_prometheus/custom/config/10/page/assets.yaml',
@@ -1050,7 +1050,7 @@ Suspendisse feugiat quam',
         ],
         'index' => [
             'name' => '10',
-            'timestamp' => 1584083059,
+            'timestamp' => 1584768814,
             'version' => 7,
             'preset' => [
                 'image' => 'gantry-admin://images/layouts/default.png',
@@ -1086,17 +1086,18 @@ Suspendisse feugiat quam',
                     'spacer-1702' => 'Spacer',
                     'spacer-3243' => 'Spacer',
                     'spacer-2607' => 'Spacer',
+                    'spacer-6586' => 'Spacer',
                     'spacer-2458' => 'Spacer',
                     'spacer-2395' => 'Spacer',
                     'spacer-4623' => 'Spacer'
                 ],
                 'logo' => [
-                    'logo-9690' => 'Logo / Image',
-                    'logo-9501' => 'Logo / Image'
+                    'logo-9501' => 'Logo / Image',
+                    'logo-9690' => 'Logo / Image'
                 ],
                 'customcontentSZ' => [
-                    'customcontentSZ-6295' => 'Custom Content',
-                    'customcontentSZ-8804' => 'Custom Content'
+                    'customcontentSZ-8804' => 'Custom Content',
+                    'customcontentSZ-6295' => 'Custom Content'
                 ],
                 'menu' => [
                     'menu-6609' => 'Menu'
@@ -1132,15 +1133,16 @@ Suspendisse feugiat quam',
                 '/navtop/' => [
                     0 => [
                         0 => 'spacer-1702 5',
-                        1 => 'logo-9690 57',
-                        2 => 'spacer-3243 27',
-                        3 => 'logo-9501 11'
+                        1 => 'logo-9501 11',
+                        2 => 'logo-9690 57',
+                        3 => 'spacer-3243 27'
                     ],
                     1 => [
-                        0 => 'spacer-2607 12',
-                        1 => 'customcontentSZ-6295 17',
-                        2 => 'customcontentSZ-8804 46',
-                        3 => 'spacer-2458 25'
+                        0 => 'spacer-2607 16',
+                        1 => 'customcontentSZ-8804 50',
+                        2 => 'spacer-6586 7',
+                        3 => 'customcontentSZ-6295 17',
+                        4 => 'spacer-2458 10'
                     ]
                 ],
                 '/navigation/' => [
@@ -1172,14 +1174,14 @@ Suspendisse feugiat quam',
                 '/container-main/' => [
                     0 => [
                         0 => [
-                            'aside 25' => [
+                            'aside 15' => [
                                 0 => [
                                     0 => 'spacer-2395'
                                 ]
                             ]
                         ],
                         1 => [
-                            'mainbar 50' => [
+                            'mainbar 70' => [
                                 0 => [
                                     0 => 'system-messages-2617'
                                 ],
@@ -1189,7 +1191,7 @@ Suspendisse feugiat quam',
                             ]
                         ],
                         2 => [
-                            'sidebar 25' => [
+                            'sidebar 15' => [
                                 0 => [
                                     0 => 'spacer-4623'
                                 ]
@@ -1398,16 +1400,6 @@ Suspendisse feugiat quam',
                 ]
             ],
             'content' => [
-                'logo-9690' => [
-                    'title' => 'Logo / Image',
-                    'attributes' => [
-                        'image' => 'gantry-media://sitio_titulo_banner.png',
-                        'height' => '6rem'
-                    ],
-                    'block' => [
-                        'class' => 'logo_imagen'
-                    ]
-                ],
                 'logo-9501' => [
                     'title' => 'Logo / Image',
                     'attributes' => [
@@ -1421,14 +1413,14 @@ Suspendisse feugiat quam',
                         'class' => 'logo_imagen'
                     ]
                 ],
-                'customcontentSZ-6295' => [
-                    'title' => 'Custom Content',
+                'logo-9690' => [
+                    'title' => 'Logo / Image',
                     'attributes' => [
-                        'image' => 'gantry-media://jovenes_divulg.png',
-                        'height' => '5rem'
+                        'image' => 'gantry-media://sitio_titulo_banner.png',
+                        'height' => '6rem'
                     ],
                     'block' => [
-                        'class' => 'logo_imagen segundo_titulo'
+                        'class' => 'logo_imagen'
                     ]
                 ],
                 'customcontentSZ-8804' => [
@@ -1438,11 +1430,21 @@ Suspendisse feugiat quam',
                         'headline' => '',
                         'description' => '<div style="border-top-style: solid;
 border-color: #ebb800;"> 
-<h3 style="text-align:center; font-weight:bold; color:#ffffff;">Sitio de Divulgación LCC</h3>
+<h3 style="text-align:center; font-weight:bold; color:#ffffff;">Divulgación de las Ciencias de la Computación</h3>
  </div>'
                     ],
                     'block' => [
                         'class' => 'segundo_titulo'
+                    ]
+                ],
+                'customcontentSZ-6295' => [
+                    'title' => 'Custom Content',
+                    'attributes' => [
+                        'image' => 'gantry-media://jovenes_divulg.png',
+                        'height' => '5rem'
+                    ],
+                    'block' => [
+                        'class' => 'logo_imagen segundo_titulo'
                     ]
                 ],
                 'copyright-6180' => [

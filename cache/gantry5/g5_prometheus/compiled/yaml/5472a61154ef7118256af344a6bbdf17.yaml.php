@@ -2,7 +2,7 @@
 return [
     '@class' => 'Gantry\\Component\\File\\CompiledYamlFile',
     'filename' => 'C:\\MAMP\\htdocs\\serviciosocial/templates/g5_prometheus/custom/config/9/layout.yaml',
-    'modified' => 1584129995,
+    'modified' => 1584767586,
     'data' => [
         'version' => 2,
         'preset' => [
@@ -17,15 +17,16 @@ return [
             '/navtop/' => [
                 0 => [
                     0 => 'spacer-1702 5',
-                    1 => 'logo-9690 57',
-                    2 => 'spacer-3243 27',
-                    3 => 'logo-9501 11'
+                    1 => 'logo-9501 11',
+                    2 => 'logo-9690 57',
+                    3 => 'spacer-3243 27'
                 ],
                 1 => [
-                    0 => 'spacer-2607 12',
-                    1 => 'customcontentSZ-6295 17',
-                    2 => 'customcontentSZ-8804 46',
-                    3 => 'spacer-2458 25'
+                    0 => 'spacer-2607 16',
+                    1 => 'customcontentSZ-8804 50',
+                    2 => 'spacer-spacer-6586 7',
+                    3 => 'customcontentSZ-6295 17',
+                    4 => 'spacer-2458 10'
                 ]
             ],
             '/navigation/' => [
@@ -77,6 +78,9 @@ return [
                             ],
                             2 => [
                                 0 => 'contentcubes-6601'
+                            ],
+                            3 => [
+                                0 => 'contentcubes-7923'
                             ]
                         ]
                     ],
@@ -297,16 +301,6 @@ return [
             ]
         ],
         'content' => [
-            'logo-9690' => [
-                'title' => 'Logo / Image',
-                'attributes' => [
-                    'image' => 'gantry-media://sitio_titulo_banner.png',
-                    'height' => '6rem'
-                ],
-                'block' => [
-                    'class' => 'logo_imagen'
-                ]
-            ],
             'logo-9501' => [
                 'title' => 'Logo / Image',
                 'attributes' => [
@@ -320,14 +314,14 @@ return [
                     'class' => 'logo_imagen'
                 ]
             ],
-            'customcontentSZ-6295' => [
-                'title' => 'Custom Content',
+            'logo-9690' => [
+                'title' => 'Logo / Image',
                 'attributes' => [
-                    'image' => 'gantry-media://jovenes_divulg.png',
-                    'height' => '5rem'
+                    'image' => 'gantry-media://sitio_titulo_banner.png',
+                    'height' => '6rem'
                 ],
                 'block' => [
-                    'class' => 'logo_imagen segundo_titulo'
+                    'class' => 'logo_imagen'
                 ]
             ],
             'customcontentSZ-8804' => [
@@ -342,6 +336,16 @@ border-color: #ebb800;">
                 ],
                 'block' => [
                     'class' => 'segundo_titulo'
+                ]
+            ],
+            'customcontentSZ-6295' => [
+                'title' => 'Custom Content',
+                'attributes' => [
+                    'image' => 'gantry-media://jovenes_divulg.png',
+                    'height' => '5rem'
+                ],
+                'block' => [
+                    'class' => 'logo_imagen segundo_titulo'
                 ]
             ],
             'menu-6609' => [
@@ -589,6 +593,32 @@ border-color: #ebb800;">
                             ],
                             'link' => 'http://localhost/serviciosocial/index.php/esto-hacemos/computacion-cientifica/5-libreria-con-realidad-aumentada',
                             'linktext' => '',
+                            'buttonclass' => '',
+                            'buttontarget' => '_self',
+                            'name' => 'img 1'
+                        ]
+                    ]
+                ]
+            ],
+            'contentcubes-7923' => [
+                'title' => 'Content Cubes',
+                'attributes' => [
+                    'css' => [
+                        'class' => 'articulo_inicio'
+                    ],
+                    'title' => '',
+                    'items' => [
+                        0 => [
+                            'image' => 'gantry-media://articulo_introduccion/robot_nao.jpg',
+                            'imageposition' => 'left',
+                            'label' => 'Video',
+                            'title' => 'Demostración del robot Nao, programado por la alumna de la Licenciatura en Ciencias de la Computación Astrid Rodríguez',
+                            'content' => '',
+                            'tags' => [
+                                
+                            ],
+                            'link' => 'http://localhost/serviciosocial/index.php/esto-hacemos/desarrollo-de-software-de-aplicacion/18-healthcare-engineering-defined-a-white-paper',
+                            'linktext' => '&rarr;',
                             'buttonclass' => '',
                             'buttontarget' => '_self',
                             'name' => 'img 1'
