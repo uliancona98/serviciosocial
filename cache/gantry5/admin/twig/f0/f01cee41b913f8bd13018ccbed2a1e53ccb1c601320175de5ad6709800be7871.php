@@ -514,6 +514,6 @@ $context["childName"], "field" => $context["child"], "value" => null, "current_v
 
     public function getSourceContext()
     {
-        return new Source("", "forms/fields/collection/list.html.twig", "C:\\MAMP\\htdocs\\Libros3\\administrator\\components\\com_gantry5\\templates\\forms\\fields\\collection\\list.html.twig");
+        return new Source("", "forms/fields/collection/list.html.twig", "C:\\MAMP\\htdocs\\servicioSocial\\administrator\\components\\com_gantry5\\templates\\forms\\fields\\collection\\list.html.twig");
     }
 }

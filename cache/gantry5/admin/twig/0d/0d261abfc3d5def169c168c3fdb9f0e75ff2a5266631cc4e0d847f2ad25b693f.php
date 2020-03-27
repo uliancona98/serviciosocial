@@ -100,6 +100,6 @@ class __TwigTemplate_1f22bea31d83a27c5fb45fa6b67b4d7b20bbc95a7015fe2e7be83ff6155
 
     public function getSourceContext()
     {
-        return new Source("", "@gantry-admin/partials/ajax.html.twig", "C:\\MAMP\\htdocs\\Libros3\\administrator\\components\\com_gantry5\\templates\\partials\\ajax.html.twig");
+        return new Source("", "@gantry-admin/partials/ajax.html.twig", "C:\\MAMP\\htdocs\\servicioSocial\\administrator\\components\\com_gantry5\\templates\\partials\\ajax.html.twig");
     }
 }

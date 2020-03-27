@@ -2,10 +2,10 @@
 return [
     '@class' => 'Gantry\\Component\\File\\CompiledYamlFile',
     'filename' => 'C:\\MAMP\\htdocs\\servicioSocial/templates/g5_prometheus/custom/config/11/index.yaml',
-    'modified' => 1583488422,
+    'modified' => 1585005193,
     'data' => [
         'name' => '11',
-        'timestamp' => 1583488422,
+        'timestamp' => 1585005193,
         'version' => 7,
         'preset' => [
             'image' => 'gantry-admin://images/layouts/default.png',
@@ -37,37 +37,55 @@ return [
             'offcanvas' => 'Offcanvas'
         ],
         'particles' => [
+            'spacer' => [
+                'spacer-1702' => 'Spacer',
+                'spacer-3243' => 'Spacer',
+                'spacer-2607' => 'Spacer',
+                'spacer-6586' => 'Spacer',
+                'spacer-2458' => 'Spacer',
+                'spacer-2395' => 'Spacer',
+                'spacer-6136' => 'Spacer',
+                'spacer-6302' => 'Spacer',
+                'spacer-2135' => 'Spacer',
+                'spacer-7572' => 'Spacer',
+                'spacer-3752' => 'Spacer',
+                'spacer-6819' => 'Spacer',
+                'spacer-4402' => 'Spacer',
+                'spacer-2661' => 'Spacer'
+            ],
             'logo' => [
-                'logo-9501' => 'Logo / Image'
+                'logo-9501' => 'Logo / Image',
+                'logo-9690' => 'Logo / Image',
+                'logo-6250' => 'Logo / Image'
+            ],
+            'customcontentSZ' => [
+                'customcontentSZ-8804' => 'Custom Content',
+                'customcontentSZ-6295' => 'Custom Content'
             ],
             'menu' => [
                 'menu-6609' => 'Menu'
             ],
-            'customcontentSZ' => [
-                'customcontentSZ-5107' => 'Custom Content'
-            ],
-            'spacer' => [
-                'spacer-2395' => 'Spacer'
-            ],
             'messages' => [
                 'system-messages-2617' => 'System Messages'
-            ],
-            'content' => [
-                'system-content-1966' => 'Page Content'
             ],
             'date' => [
                 'date-2824' => 'Date'
             ],
-            'socialfloatingSZ' => [
-                'socialfloatingSZ-2700' => 'Social Floating'
-            ],
-            'copyright' => [
-                'copyright-6180' => 'Copyright'
+            'content' => [
+                'system-content-1966' => 'Page Content'
             ],
             'custom' => [
+                'custom-8748' => 'Custom HTML',
+                'custom-8996' => 'Custom HTML',
+                'custom-8288' => 'Custom HTML',
                 'custom-8901' => 'Custom HTML',
+                'custom-7413' => 'Custom HTML',
+                'custom-5338' => 'Custom HTML',
                 'custom-2608' => 'Custom HTML',
-                'custom-4645' => 'Custom HTML'
+                'custom-1520' => 'Custom HTML',
+                'custom-4645' => 'Custom HTML',
+                'custom-5906' => 'Custom HTML',
+                'custom-7398' => 'Custom HTML'
             ],
             'mobile-menu' => [
                 'mobile-menu-5697' => 'Mobile-menu'

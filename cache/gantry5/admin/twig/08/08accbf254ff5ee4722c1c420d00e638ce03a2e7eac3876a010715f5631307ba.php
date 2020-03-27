@@ -71,6 +71,6 @@ class __TwigTemplate_4ae47e31185fe7a33a3037155b3ba238769637503d636b0947860520c9c
 
     public function getSourceContext()
     {
-        return new Source("", "@gantry-admin/partials/php_unsupported.html.twig", "C:\\MAMP\\htdocs\\Libros3\\administrator\\components\\com_gantry5\\templates\\partials\\php_unsupported.html.twig");
+        return new Source("", "@gantry-admin/partials/php_unsupported.html.twig", "C:\\MAMP\\htdocs\\servicioSocial\\administrator\\components\\com_gantry5\\templates\\partials\\php_unsupported.html.twig");
     }
 }

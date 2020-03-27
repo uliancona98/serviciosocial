@@ -205,6 +205,6 @@ class __TwigTemplate_5abb098ca025629b29b49572aa30533cd64b5dac092c1e3b836c42f8bbc
 
     public function getSourceContext()
     {
-        return new Source("", "@particles/customcontentSZ.html.twig", "C:\\MAMP\\htdocs\\Libros3\\templates\\g5_prometheus\\particles\\customcontentSZ.html.twig");
+        return new Source("", "@particles/customcontentSZ.html.twig", "C:\\MAMP\\htdocs\\servicioSocial\\templates\\g5_prometheus\\particles\\customcontentSZ.html.twig");
     }
 }

@@ -82,6 +82,6 @@ class __TwigTemplate_748d97ccd14b671a7e4534bc3c10aef6f6fa15440e313344f1a41a73ac9
 
     public function getSourceContext()
     {
-        return new Source("", "@gantry-admin/ajax/unsaved.html.twig", "C:\\MAMP\\htdocs\\Libros3\\administrator\\components\\com_gantry5\\templates\\ajax\\unsaved.html.twig");
+        return new Source("", "@gantry-admin/ajax/unsaved.html.twig", "C:\\MAMP\\htdocs\\servicioSocial\\administrator\\components\\com_gantry5\\templates\\ajax\\unsaved.html.twig");
     }
 }

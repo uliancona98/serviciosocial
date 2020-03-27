@@ -488,6 +488,6 @@ $context["article"], "images", []), "image_fulltext", []) && ($this->getAttribut
 
     public function getSourceContext()
     {
-        return new Source("", "@particles/contentarray.html.twig", "C:\\MAMP\\htdocs\\Libros3\\media\\gantry5\\engines\\nucleus\\particles\\contentarray.html.twig");
+        return new Source("", "@particles/contentarray.html.twig", "C:\\MAMP\\htdocs\\servicioSocial\\media\\gantry5\\engines\\nucleus\\particles\\contentarray.html.twig");
     }
 }

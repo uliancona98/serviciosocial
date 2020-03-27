@@ -14,7 +14,7 @@ layout:
     -
       - 'spacer-2607 16'
       - 'customcontentSZ-8804 50'
-      - 'spacer-spacer-6586 7'
+      - 'spacer-6586 7'
       - 'customcontentSZ-6295 17'
       - 'spacer-2458 10'
   /navigation/:
@@ -54,7 +54,14 @@ layout:
   /footer/: {  }
   /footerbottom/:
     -
-      - copyright-6180
+      - 'spacer-spacer-1405 80'
+      - 'custom-7360 20'
+    -
+      - 'custom-6698 20'
+      - 'spacer-spacer-8549 20'
+      - 'custom-8973 20'
+      - 'spacer-spacer-8405 20'
+      - 'logo-6537 20'
   /nadir/: {  }
   offcanvas:
     -
@@ -443,14 +450,20 @@ content:
           buttonclass: ''
           buttontarget: _self
           name: 'img 1'
-  copyright-6180:
+  custom-7360:
+    title: 'Custom HTML'
     attributes:
-      date:
-        start: ''
-      owner: szoupi
-      link: ''
-      target: _blank
-      additional:
-        text: ''
-      css:
-        class: ''
+      html: '<br/>'
+  custom-6698:
+    title: 'Custom HTML'
+    attributes:
+      html: "<p style=\"color:#dedede;\"><b>Facultad de Matemáticas</b><br/><br/><b>Dirección</b><br/>Anillo Periferico Norte, Tablaje Cat. 13615,<br/> Colonia Chuburna Hidalgo Inn, Mérida Yucatán.<br/>\n<br/><b>Teléfono</b><br/>(999) 942 31 40 al 49<br/>\n<br/></p>"
+  custom-8973:
+    title: 'Custom HTML'
+    attributes:
+      html: "<p style=\"color:#dedede;\"><b>Correo</b><br/>\nmatemati@www.uady.mx<br/><br/><b>Coordinador de la carrera</b><br/>\nM. en C. Enrique Ayala Franco<br/><br/><b>Contacto</b><br/>\nenrique.ayala@correo.uady.mx<br/>\n<br/></p>"
+  logo-6537:
+    title: 'Logo / Image'
+    attributes:
+      image: 'gantry-media://uady_logo_amarillo.png'
+      height: 10rem

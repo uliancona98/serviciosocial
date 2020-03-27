@@ -167,6 +167,6 @@ class __TwigTemplate_c7b88633613d3a0dbbe67c310b212b3ec3a2a7a2eea1c0fc4085ba9193d
 
     public function getSourceContext()
     {
-        return new Source("", "@gantry-admin/partials/js-translations.html.twig", "C:\\MAMP\\htdocs\\Libros3\\administrator\\components\\com_gantry5\\templates\\partials\\js-translations.html.twig");
+        return new Source("", "@gantry-admin/partials/js-translations.html.twig", "C:\\MAMP\\htdocs\\servicioSocial\\administrator\\components\\com_gantry5\\templates\\partials\\js-translations.html.twig");
     }
 }

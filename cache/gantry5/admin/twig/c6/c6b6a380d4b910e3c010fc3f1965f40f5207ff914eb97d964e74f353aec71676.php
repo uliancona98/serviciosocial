@@ -413,6 +413,6 @@ class __TwigTemplate_66d4dd1bfbfe3e145b1a5624a37bfec9cd47341a35c92bbade4d5c8946c
 
     public function getSourceContext()
     {
-        return new Source("", "@gantry-admin/pages/configurations/styles/styles.html.twig", "C:\\MAMP\\htdocs\\Libros3\\administrator\\components\\com_gantry5\\templates\\pages\\configurations\\styles\\styles.html.twig");
+        return new Source("", "@gantry-admin/pages/configurations/styles/styles.html.twig", "C:\\MAMP\\htdocs\\servicioSocial\\administrator\\components\\com_gantry5\\templates\\pages\\configurations\\styles\\styles.html.twig");
     }
 }

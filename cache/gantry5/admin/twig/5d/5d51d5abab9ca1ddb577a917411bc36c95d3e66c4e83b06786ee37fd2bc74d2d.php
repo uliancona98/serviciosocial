@@ -187,6 +187,6 @@ class __TwigTemplate_9da07b134a2ab6f6c37ff14c7018326ed9540f964956bfdfd25d10dd885
 
     public function getSourceContext()
     {
-        return new Source("", "forms/fields/input/group/group.html.twig", "C:\\MAMP\\htdocs\\Libros3\\administrator\\components\\com_gantry5\\templates\\forms\\fields\\input\\group\\group.html.twig");
+        return new Source("", "forms/fields/input/group/group.html.twig", "C:\\MAMP\\htdocs\\servicioSocial\\administrator\\components\\com_gantry5\\templates\\forms\\fields\\input\\group\\group.html.twig");
     }
 }

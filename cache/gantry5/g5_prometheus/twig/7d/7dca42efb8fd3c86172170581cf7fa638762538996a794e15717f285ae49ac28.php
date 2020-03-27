@@ -116,6 +116,6 @@ class __TwigTemplate_42c1ea0e211c7906573289060fbfd695c93a06797f8a4d76a942700b07f
 
     public function getSourceContext()
     {
-        return new Source("", "@nucleus/layout/offcanvas.html.twig", "C:\\MAMP\\htdocs\\Libros3\\media\\gantry5\\engines\\nucleus\\templates\\layout\\offcanvas.html.twig");
+        return new Source("", "@nucleus/layout/offcanvas.html.twig", "C:\\MAMP\\htdocs\\servicioSocial\\media\\gantry5\\engines\\nucleus\\templates\\layout\\offcanvas.html.twig");
     }
 }

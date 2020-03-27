@@ -71,6 +71,6 @@ class __TwigTemplate_bdb6de6a4882a988dc4f6a2d7990bac32d37ff3de04ec372875e2a90cc6
 
     public function getSourceContext()
     {
-        return new Source("", "forms/fields/separator/note.html.twig", "C:\\MAMP\\htdocs\\Libros3\\administrator\\components\\com_gantry5\\templates\\forms\\fields\\separator\\note.html.twig");
+        return new Source("", "forms/fields/separator/note.html.twig", "C:\\MAMP\\htdocs\\servicioSocial\\administrator\\components\\com_gantry5\\templates\\forms\\fields\\separator\\note.html.twig");
     }
 }

@@ -70,6 +70,6 @@ class __TwigTemplate_365f30fbbf954d66246b520452bccb70cee8cf07ca3f19936fc0e437356
 
     public function getSourceContext()
     {
-        return new Source("", "@particles/mobile-menu.html.twig", "C:\\MAMP\\htdocs\\Libros3\\media\\gantry5\\engines\\nucleus\\particles\\mobile-menu.html.twig");
+        return new Source("", "@particles/mobile-menu.html.twig", "C:\\MAMP\\htdocs\\servicioSocial\\media\\gantry5\\engines\\nucleus\\particles\\mobile-menu.html.twig");
     }
 }

@@ -74,6 +74,6 @@ class __TwigTemplate_d76a9445d0e74b74b3766c4e6d600b52adcd3a03a0d6c4bc0674e488bd8
 
     public function getSourceContext()
     {
-        return new Source("", "forms/fields/select/selectize.html.twig", "C:\\MAMP\\htdocs\\Libros3\\administrator\\components\\com_gantry5\\templates\\forms\\fields\\select\\selectize.html.twig");
+        return new Source("", "forms/fields/select/selectize.html.twig", "C:\\MAMP\\htdocs\\servicioSocial\\administrator\\components\\com_gantry5\\templates\\forms\\fields\\select\\selectize.html.twig");
     }
 }

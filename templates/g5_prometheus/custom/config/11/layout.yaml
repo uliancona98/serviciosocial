@@ -43,19 +43,34 @@ layout:
       -
         'sidebar 15':
           -
-            - spacer-spacer-6136
+            - spacer-6136
   /mainbottom/: {  }
   /footertop/: {  }
   /footer/: {  }
   /footerbottom/:
     -
-      - copyright-6180
+      - 'custom-8748 20'
+      - 'spacer-6302 20'
+      - 'custom-8996 20'
+      - 'spacer-2135 20'
+      - 'custom-8288 20'
     -
-      - custom-8901
+      - 'custom-8901 20'
+      - 'spacer-7572 20'
+      - 'custom-7413 20'
+      - 'spacer-3752 20'
+      - 'custom-5338 20'
     -
-      - custom-2608
+      - 'custom-2608 25'
+      - 'spacer-6819 25'
+      - 'custom-1520 25'
+      - 'logo-6250 25'
     -
-      - custom-4645
+      - 'custom-4645 20'
+      - 'spacer-4402 20'
+      - 'custom-5906 20'
+      - 'spacer-2661 20'
+      - 'custom-7398 20'
   /nadir/: {  }
   offcanvas:
     -
@@ -229,22 +244,48 @@ content:
   menu-6609:
     attributes:
       menu: principal
-  copyright-6180:
+  custom-8748:
+    title: 'Custom HTML'
     attributes:
-      date:
-        start: ''
-      link: ''
-      additional:
-        text: ''
+      html: '<br/>'
+  custom-8996:
+    title: 'Custom HTML'
+    attributes:
+      html: '<br/>'
+  custom-8288:
+    title: 'Custom HTML'
   custom-8901:
     title: 'Custom HTML'
     attributes:
-      html: "Facultad de Matemáticas\n"
+      html: "<b>Facultad de Matemáticas</b><br/>\n"
+  custom-7413:
+    title: 'Custom HTML'
+    attributes:
+      html: "<b>Correo</b><br/>\nmatemati@www.uady.mx\n"
+  custom-5338:
+    title: 'Custom HTML'
   custom-2608:
     title: 'Custom HTML'
     attributes:
-      html: "Dirección\nAnillo Periferico Norte, Tablaje Cat. 13615, Colonia Chuburna Hidalgo Inn, Mérida Yucatán."
+      html: "<b>Dirección</b><br/>\nAnillo Periferico Norte, Tablaje Cat. 13615,<br/> Colonia Chuburna Hidalgo Inn, Mérida Yucatán."
+  custom-1520:
+    title: 'Custom HTML'
+    attributes:
+      html: "<br/><b>Coordinador de la carrera</b><br/>\nM. en C. Enrique Ayala Franco"
+  logo-6250:
+    title: 'Logo / Image'
+    attributes:
+      image: 'gantry-media://uady_logo_amarillo.png'
+      height: 6rem
   custom-4645:
     title: 'Custom HTML'
     attributes:
-      html: "Teléfono\n(999) 942 31 40 al 49"
+      html: "<b>Teléfono</b><br/>\n(999) 942 31 40 al 49<br/>\n<br/>"
+  custom-5906:
+    title: 'Custom HTML'
+    attributes:
+      html: "<b>Contacto</b><br/>\nenrique.ayala@correo.uady.mx<br/>\n<br/>"
+  custom-7398:
+    title: 'Custom HTML'
+    attributes:
+      html: ''

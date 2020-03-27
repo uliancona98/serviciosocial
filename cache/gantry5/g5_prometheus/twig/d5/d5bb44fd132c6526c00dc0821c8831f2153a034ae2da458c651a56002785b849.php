@@ -124,6 +124,6 @@ class __TwigTemplate_73a6daee934d3ffe529ec74f1fa5eb15ab11dc949a7fa7fdf0a05f923b5
 
     public function getSourceContext()
     {
-        return new Source("", "@nucleus/partials/particle.html.twig", "C:\\MAMP\\htdocs\\Libros3\\media\\gantry5\\engines\\nucleus\\templates\\partials\\particle.html.twig");
+        return new Source("", "@nucleus/partials/particle.html.twig", "C:\\MAMP\\htdocs\\servicioSocial\\media\\gantry5\\engines\\nucleus\\templates\\partials\\particle.html.twig");
     }
 }

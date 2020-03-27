@@ -168,6 +168,6 @@ class __TwigTemplate_c804a5e42d6623b9844fed92e87256b71dffdfa44826570e74fda642f54
 
     public function getSourceContext()
     {
-        return new Source("", "forms/fields/gantry/outlines.html.twig", "C:\\MAMP\\htdocs\\Libros3\\administrator\\components\\com_gantry5\\templates\\forms\\fields\\gantry\\outlines.html.twig");
+        return new Source("", "forms/fields/gantry/outlines.html.twig", "C:\\MAMP\\htdocs\\servicioSocial\\administrator\\components\\com_gantry5\\templates\\forms\\fields\\gantry\\outlines.html.twig");
     }
 }

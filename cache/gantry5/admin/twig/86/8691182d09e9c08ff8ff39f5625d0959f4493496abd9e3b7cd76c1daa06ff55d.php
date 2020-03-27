@@ -114,6 +114,6 @@ class __TwigTemplate_565f24a8833f068532f5185d94fcf757bec769f7cdad009c2d242929b46
 
     public function getSourceContext()
     {
-        return new Source("", "forms/fields/input/radios.html.twig", "C:\\MAMP\\htdocs\\Libros3\\administrator\\components\\com_gantry5\\templates\\forms\\fields\\input\\radios.html.twig");
+        return new Source("", "forms/fields/input/radios.html.twig", "C:\\MAMP\\htdocs\\servicioSocial\\administrator\\components\\com_gantry5\\templates\\forms\\fields\\input\\radios.html.twig");
     }
 }

@@ -73,6 +73,6 @@ class __TwigTemplate_9432b033bf505ea17ada0b2556bc6117127fc577c5a0e723ad8dea533b7
 
     public function getSourceContext()
     {
-        return new Source("", "@nucleus/content/spacer.html.twig", "C:\\MAMP\\htdocs\\Libros3\\media\\gantry5\\engines\\nucleus\\templates\\content\\spacer.html.twig");
+        return new Source("", "@nucleus/content/spacer.html.twig", "C:\\MAMP\\htdocs\\servicioSocial\\media\\gantry5\\engines\\nucleus\\templates\\content\\spacer.html.twig");
     }
 }

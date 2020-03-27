@@ -2,10 +2,10 @@
 return [
     '@class' => 'Gantry\\Component\\File\\CompiledYamlFile',
     'filename' => 'C:/MAMP/htdocs/servicioSocial/templates/g5_prometheus/custom/config/10/index.yaml',
-    'modified' => 1583531237,
+    'modified' => 1585000333,
     'data' => [
-        'name' => '10',
-        'timestamp' => 1583531237,
+        'name' => 10,
+        'timestamp' => 1584773813,
         'version' => 7,
         'preset' => [
             'image' => 'gantry-admin://images/layouts/default.png',
@@ -38,29 +38,30 @@ return [
         ],
         'particles' => [
             'spacer' => [
-                'spacer-spacer-9171' => 'Spacer',
-                'spacer-spacer-2681' => 'Spacer',
+                'spacer-1702' => 'Spacer',
+                'spacer-3243' => 'Spacer',
+                'spacer-2607' => 'Spacer',
+                'spacer-6586' => 'Spacer',
+                'spacer-2458' => 'Spacer',
                 'spacer-2395' => 'Spacer',
                 'spacer-4623' => 'Spacer'
             ],
             'logo' => [
-                'logo-1686' => 'Logo / Image',
-                'logo-7907' => 'Logo / Image'
+                'logo-9501' => 'Logo / Image',
+                'logo-9690' => 'Logo / Image'
+            ],
+            'customcontentSZ' => [
+                'customcontentSZ-8804' => 'Custom Content',
+                'customcontentSZ-6295' => 'Custom Content'
             ],
             'menu' => [
                 'menu-6609' => 'Menu'
-            ],
-            'customcontentSZ' => [
-                'customcontentSZ-5107' => 'Custom Content'
             ],
             'messages' => [
                 'system-messages-2617' => 'System Messages'
             ],
             'content' => [
                 'system-content-1966' => 'Page Content'
-            ],
-            'socialfloatingSZ' => [
-                'socialfloatingSZ-2700' => 'Social Floating'
             ],
             'copyright' => [
                 'copyright-6180' => 'Copyright'

@@ -2,7 +2,7 @@
 return [
     '@class' => 'Gantry\\Component\\File\\CompiledYamlFile',
     'filename' => 'C:\\MAMP\\htdocs\\servicioSocial/templates/g5_prometheus/custom/config/9/page/head.yaml',
-    'modified' => 1582763367,
+    'modified' => 1584773813,
     'data' => [
         'atoms' => [
             0 => [
@@ -39,13 +39,13 @@ return [
                         0 => [
                             'location' => '',
                             'inline' => '.articulo_inicio{
-margin: 2px;
-padding:2px;
+margin: 6px;
+padding:6px;
 border-radius: 16px 16px 16px 16px;
 -moz-border-radius: 16px 16px 16px 16px;
 -webkit-border-radius: 16px 16px 16px 16px;
-border: 2px solid #d3d4c9;
-
+//border: 2px solid #d3d4c9;
+background-color: #ECEDE5;
 }
 .articulo_inicio h3{
 text-align: center;
@@ -80,7 +80,15 @@ padding: 3px;
                             'name' => 'segundo_titulo'
                         ],
                         3 => [
-                            'name' => 'New item'
+                            'location' => '',
+                            'inline' => '.fondo_blanco{
+background-color: #ffffff;
+}',
+                            'extra' => [
+                                
+                            ],
+                            'priority' => '0',
+                            'name' => 'fondo_blanco'
                         ]
                     ],
                     'javascript' => [

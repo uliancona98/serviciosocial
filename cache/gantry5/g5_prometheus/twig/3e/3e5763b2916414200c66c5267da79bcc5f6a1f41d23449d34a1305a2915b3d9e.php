@@ -114,6 +114,6 @@ class __TwigTemplate_50ab84b96b97a8eecdc4de5a1c1a6bd9a480b158e7c94d5b7415b70696f
 
     public function getSourceContext()
     {
-        return new Source("", "@particles/copyright.html.twig", "C:\\MAMP\\htdocs\\Libros3\\templates\\g5_prometheus\\particles\\copyright.html.twig");
+        return new Source("", "@particles/copyright.html.twig", "C:\\MAMP\\htdocs\\servicioSocial\\templates\\g5_prometheus\\particles\\copyright.html.twig");
     }
 }

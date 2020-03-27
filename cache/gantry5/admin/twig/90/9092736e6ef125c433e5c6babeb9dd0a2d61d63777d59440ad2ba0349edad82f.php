@@ -248,6 +248,6 @@ class __TwigTemplate_eedcbf5d7c1b1584a10195940d3442e21014918a6949afc80be7e6c7212
 
     public function getSourceContext()
     {
-        return new Source("", "ajax/filepicker/files.html.twig", "C:\\MAMP\\htdocs\\Libros3\\administrator\\components\\com_gantry5\\templates\\ajax\\filepicker\\files.html.twig");
+        return new Source("", "ajax/filepicker/files.html.twig", "C:\\MAMP\\htdocs\\servicioSocial\\administrator\\components\\com_gantry5\\templates\\ajax\\filepicker\\files.html.twig");
     }
 }

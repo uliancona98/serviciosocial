@@ -160,6 +160,6 @@ class __TwigTemplate_934f8290adcc9403af8a08e9df9b49d18b07909a4010ef96153c769786f
 
     public function getSourceContext()
     {
-        return new Source("", "partials/configuration-selector.html.twig", "C:\\MAMP\\htdocs\\Libros3\\administrator\\components\\com_gantry5\\templates\\partials\\configuration-selector.html.twig");
+        return new Source("", "partials/configuration-selector.html.twig", "C:\\MAMP\\htdocs\\servicioSocial\\administrator\\components\\com_gantry5\\templates\\partials\\configuration-selector.html.twig");
     }
 }

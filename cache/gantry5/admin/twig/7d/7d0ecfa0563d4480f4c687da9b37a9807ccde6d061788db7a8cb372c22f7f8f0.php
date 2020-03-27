@@ -148,6 +148,6 @@ class __TwigTemplate_591e1bc934338067be36e81a7e62dbca3f48220793857760ae65f6ed498
 
     public function getSourceContext()
     {
-        return new Source("", "forms/fields/gantry/particles.html.twig", "C:\\MAMP\\htdocs\\Libros3\\administrator\\components\\com_gantry5\\templates\\forms\\fields\\gantry\\particles.html.twig");
+        return new Source("", "forms/fields/gantry/particles.html.twig", "C:\\MAMP\\htdocs\\servicioSocial\\administrator\\components\\com_gantry5\\templates\\forms\\fields\\gantry\\particles.html.twig");
     }
 }

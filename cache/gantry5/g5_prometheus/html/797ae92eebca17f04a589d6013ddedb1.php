@@ -2,7 +2,7 @@
 return [
     '_type' => 'Gantry\\Component\\Content\\Block\\HtmlBlock',
     '_version' => 1,
-    'id' => '5e6b2ec549e4f8.76481977',
+    'id' => '5e79299c0bff52.02779259',
     'content' => '<div id="owlcarousel-5243-particle" class="g-content g-particle">            <div class="">
         
         <div id="g-owlcarousel-owlcarousel-5243" class="g-owlcarousel owl-carousel ">
@@ -10,7 +10,7 @@ return [
                             <div class="g-owlcarousel-item owl-item">
                     <div class="g-owlcarousel-item-wrapper">
                         <div class="g-owlcarousel-item-img">
-                            <img src="/serviciosocial/images/slider/1%20cdd_Mesa%20de%20trabajo%201.jpg?5e6b2b33" alt="" />
+                            <img src="/serviciosocial/images/slider/1%20cdd_Mesa%20de%20trabajo%201.jpg?5e75baac" alt="" />
                         </div>
                         <div class="g-owlcarousel-item-content-container">
                             <div class="g-owlcarousel-item-content-wrapper">
@@ -23,7 +23,7 @@ return [
                             <div class="g-owlcarousel-item owl-item">
                     <div class="g-owlcarousel-item-wrapper">
                         <div class="g-owlcarousel-item-img">
-                            <img src="/serviciosocial/images/slider/2%20int%20art_Mesa%20de%20trabajo%201.jpg?5e6b2b41" alt="" />
+                            <img src="/serviciosocial/images/slider/2%20int%20art_Mesa%20de%20trabajo%201.jpg?5e75baac" alt="" />
                         </div>
                         <div class="g-owlcarousel-item-content-container">
                             <div class="g-owlcarousel-item-content-wrapper">
@@ -36,7 +36,7 @@ return [
                             <div class="g-owlcarousel-item owl-item">
                     <div class="g-owlcarousel-item-wrapper">
                         <div class="g-owlcarousel-item-img">
-                            <img src="/serviciosocial/images/slider/3%20real%20aum_Mesa%20de%20trabajo%201.jpg?5e6b2b4e" alt="" />
+                            <img src="/serviciosocial/images/slider/3%20real%20aum_Mesa%20de%20trabajo%201.jpg?5e75baac" alt="" />
                         </div>
                         <div class="g-owlcarousel-item-content-container">
                             <div class="g-owlcarousel-item-content-wrapper">
@@ -49,7 +49,7 @@ return [
                             <div class="g-owlcarousel-item owl-item">
                     <div class="g-owlcarousel-item-wrapper">
                         <div class="g-owlcarousel-item-img">
-                            <img src="/serviciosocial/images/slider/4%20redes_Mesa%20de%20trabajo%201.jpg?5e6b2b5e" alt="" />
+                            <img src="/serviciosocial/images/slider/4%20redes_Mesa%20de%20trabajo%201.jpg?5e75baac" alt="" />
                         </div>
                         <div class="g-owlcarousel-item-content-container">
                             <div class="g-owlcarousel-item-content-wrapper">
@@ -62,7 +62,7 @@ return [
                             <div class="g-owlcarousel-item owl-item">
                     <div class="g-owlcarousel-item-wrapper">
                         <div class="g-owlcarousel-item-img">
-                            <img src="/serviciosocial/images/slider/5%20sist%20operat_Mesa%20de%20trabajo%201.jpg?5e6b2b6c" alt="" />
+                            <img src="/serviciosocial/images/slider/5%20sist%20operat_Mesa%20de%20trabajo%201.jpg?5e75baac" alt="" />
                         </div>
                         <div class="g-owlcarousel-item-content-container">
                             <div class="g-owlcarousel-item-content-wrapper">
@@ -75,7 +75,7 @@ return [
                             <div class="g-owlcarousel-item owl-item">
                     <div class="g-owlcarousel-item-wrapper">
                         <div class="g-owlcarousel-item-img">
-                            <img src="/serviciosocial/images/slider/6%20mod3d_Mesa%20de%20trabajo%201.jpg?5e6b2b7f" alt="" />
+                            <img src="/serviciosocial/images/slider/6%20mod3d_Mesa%20de%20trabajo%201.jpg?5e75baac" alt="" />
                         </div>
                         <div class="g-owlcarousel-item-content-container">
                             <div class="g-owlcarousel-item-content-wrapper">
@@ -88,7 +88,7 @@ return [
                             <div class="g-owlcarousel-item owl-item">
                     <div class="g-owlcarousel-item-wrapper">
                         <div class="g-owlcarousel-item-img">
-                            <img src="/serviciosocial/images/slider/7%20idlc_Mesa%20de%20trabajo%201.jpg?5e6b2b9a" alt="" />
+                            <img src="/serviciosocial/images/slider/7%20idlc_Mesa%20de%20trabajo%201.jpg?5e75baac" alt="" />
                         </div>
                         <div class="g-owlcarousel-item-content-container">
                             <div class="g-owlcarousel-item-content-wrapper">
@@ -101,7 +101,7 @@ return [
                             <div class="g-owlcarousel-item owl-item">
                     <div class="g-owlcarousel-item-wrapper">
                         <div class="g-owlcarousel-item-img">
-                            <img src="/serviciosocial/images/slider/8%20comp%20cient_Mesa%20de%20trabajo%201.jpg?5e6b2ba8" alt="" />
+                            <img src="/serviciosocial/images/slider/8%20comp%20cient_Mesa%20de%20trabajo%201.jpg?5e75baac" alt="" />
                         </div>
                         <div class="g-owlcarousel-item-content-container">
                             <div class="g-owlcarousel-item-content-wrapper">
@@ -114,7 +114,7 @@ return [
                             <div class="g-owlcarousel-item owl-item">
                     <div class="g-owlcarousel-item-wrapper">
                         <div class="g-owlcarousel-item-img">
-                            <img src="/serviciosocial/images/slider/9%20ciberseguridad_Mesa%20de%20trabajo%201.jpg?5e6b2bb7" alt="" />
+                            <img src="/serviciosocial/images/slider/9%20ciberseguridad_Mesa%20de%20trabajo%201.jpg?5e75baac" alt="" />
                         </div>
                         <div class="g-owlcarousel-item-content-container">
                             <div class="g-owlcarousel-item-content-wrapper">
@@ -133,10 +133,10 @@ return [
     ],
     'scripts' => [
         'footer' => [
-            '2551f9c62b4acc15296be52db4b81c92781233dd4c83ce4acf7dc335d2f0688708fb5c85' => [
+            '01efa8b862f44743fe77e3a69370282a19ab4a0dba6532dac78ff094180a224a4335294a' => [
                 ':type' => 'file',
                 ':priority' => 0,
-                'src' => '/serviciosocial/templates/g5_prometheus/js/owlcarousel.js?5e66c1ed',
+                'src' => '/serviciosocial/templates/g5_prometheus/js/owlcarousel.js',
                 'type' => 'text/javascript',
                 'defer' => false,
                 'async' => false,

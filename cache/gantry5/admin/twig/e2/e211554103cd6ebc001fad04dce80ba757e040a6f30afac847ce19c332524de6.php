@@ -76,6 +76,6 @@ class __TwigTemplate_a02cd77491eaac4551e2a95d8dd241fada49c1a758fce54124cefec1d90
 
     public function getSourceContext()
     {
-        return new Source("", "forms/override.html.twig", "C:\\MAMP\\htdocs\\Libros3\\administrator\\components\\com_gantry5\\templates\\forms\\override.html.twig");
+        return new Source("", "forms/override.html.twig", "C:\\MAMP\\htdocs\\servicioSocial\\administrator\\components\\com_gantry5\\templates\\forms\\override.html.twig");
     }
 }

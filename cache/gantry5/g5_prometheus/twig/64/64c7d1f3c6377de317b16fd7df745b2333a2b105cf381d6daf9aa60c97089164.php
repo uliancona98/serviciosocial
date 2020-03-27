@@ -60,6 +60,6 @@ class __TwigTemplate_d2b5463b9de4acba5e9c70bc0a4f86393804a407e7f251c1f044b673f73
 
     public function getSourceContext()
     {
-        return new Source("", "@nucleus/content/missing.html.twig", "C:\\MAMP\\htdocs\\Libros3\\media\\gantry5\\engines\\nucleus\\templates\\content\\missing.html.twig");
+        return new Source("", "@nucleus/content/missing.html.twig", "C:\\MAMP\\htdocs\\servicioSocial\\media\\gantry5\\engines\\nucleus\\templates\\content\\missing.html.twig");
     }
 }

@@ -187,6 +187,6 @@ class __TwigTemplate_1fd76416c4b6578a017f540a97b6de4de88db9f0edc29596633888eef61
 
     public function getSourceContext()
     {
-        return new Source("", "partials/outlines-list.html.twig", "C:\\MAMP\\htdocs\\Libros3\\administrator\\components\\com_gantry5\\templates\\partials\\outlines-list.html.twig");
+        return new Source("", "partials/outlines-list.html.twig", "C:\\MAMP\\htdocs\\servicioSocial\\administrator\\components\\com_gantry5\\templates\\partials\\outlines-list.html.twig");
     }
 }

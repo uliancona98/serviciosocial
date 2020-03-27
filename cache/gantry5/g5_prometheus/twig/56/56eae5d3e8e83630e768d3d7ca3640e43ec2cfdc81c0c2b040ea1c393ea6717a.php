@@ -59,6 +59,6 @@ class __TwigTemplate_22b2c80e5103948a3520c405041b4060778173b96e32f05b25c20b6852d
 
     public function getSourceContext()
     {
-        return new Source("", "@nucleus/content/atom.html.twig", "C:\\MAMP\\htdocs\\Libros3\\media\\gantry5\\engines\\nucleus\\templates\\content\\atom.html.twig");
+        return new Source("", "@nucleus/content/atom.html.twig", "C:\\MAMP\\htdocs\\servicioSocial\\media\\gantry5\\engines\\nucleus\\templates\\content\\atom.html.twig");
     }
 }

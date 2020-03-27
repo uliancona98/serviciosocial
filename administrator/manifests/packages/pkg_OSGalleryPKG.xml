@@ -7,7 +7,7 @@
 <copyright>OrdaSoft</copyright>
 <packagename>OS Gallery PKG</packagename>
 <license>GNU General Public License version 2 or later</license>
-<version>5.1.1 Light</version>
+<version>5.1.2 Light</version>
 <url>http://ordasoft.com/os-responsive-image-gallery</url>
 <description><![CDATA[<img style="width:515px; display: block; margin: 0 auto;" src="../administrator/components/com_osgallery/assets/images/os-image-gallery.png">]]></description>
 <files folder="packages">

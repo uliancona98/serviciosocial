@@ -2,7 +2,7 @@
 return [
     '@class' => 'Gantry\\Component\\File\\CompiledYamlFile',
     'filename' => 'C:\\MAMP\\htdocs\\servicioSocial/templates/g5_prometheus/custom/config/11/styles.yaml',
-    'modified' => 1583476125,
+    'modified' => 1585004516,
     'data' => [
         'preset' => 'preset4',
         'base' => [

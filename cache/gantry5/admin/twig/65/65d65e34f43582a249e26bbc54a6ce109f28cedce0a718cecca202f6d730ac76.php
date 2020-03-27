@@ -163,6 +163,6 @@ class __TwigTemplate_7b2c9ba6cdc2a8ce1b52182e6d12d25d1142e3c97dd7899f136395d7429
 
     public function getSourceContext()
     {
-        return new Source("", "forms/fields/input/text.html.twig", "C:\\MAMP\\htdocs\\Libros3\\administrator\\components\\com_gantry5\\templates\\forms\\fields\\input\\text.html.twig");
+        return new Source("", "forms/fields/input/text.html.twig", "C:\\MAMP\\htdocs\\servicioSocial\\administrator\\components\\com_gantry5\\templates\\forms\\fields\\input\\text.html.twig");
     }
 }

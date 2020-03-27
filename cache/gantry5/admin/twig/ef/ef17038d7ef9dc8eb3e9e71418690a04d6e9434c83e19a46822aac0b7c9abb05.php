@@ -126,6 +126,6 @@ class __TwigTemplate_4ec963d20956b8e7eb9c0e509c0c5c001cdd43473ad6172724e3f63c936
 
     public function getSourceContext()
     {
-        return new Source("", "forms/fields/input/colorpicker.html.twig", "C:\\MAMP\\htdocs\\Libros3\\administrator\\components\\com_gantry5\\templates\\forms\\fields\\input\\colorpicker.html.twig");
+        return new Source("", "forms/fields/input/colorpicker.html.twig", "C:\\MAMP\\htdocs\\servicioSocial\\administrator\\components\\com_gantry5\\templates\\forms\\fields\\input\\colorpicker.html.twig");
     }
 }

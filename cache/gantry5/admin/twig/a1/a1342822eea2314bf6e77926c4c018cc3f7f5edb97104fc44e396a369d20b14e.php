@@ -64,6 +64,6 @@ class __TwigTemplate_59e5e2a40cfbcfed731c9a2ff5fa8006f433a30155fde3e0fa575651dc7
 
     public function getSourceContext()
     {
-        return new Source("", "forms/fields/gantry/inherit.html.twig", "C:\\MAMP\\htdocs\\Libros3\\administrator\\components\\com_gantry5\\templates\\forms\\fields\\gantry\\inherit.html.twig");
+        return new Source("", "forms/fields/gantry/inherit.html.twig", "C:\\MAMP\\htdocs\\servicioSocial\\administrator\\components\\com_gantry5\\templates\\forms\\fields\\gantry\\inherit.html.twig");
     }
 }

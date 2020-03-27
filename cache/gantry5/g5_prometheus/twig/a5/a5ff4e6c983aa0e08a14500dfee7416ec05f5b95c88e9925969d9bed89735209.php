@@ -142,6 +142,6 @@ class __TwigTemplate_dd2673b8dd65588e1e6ad0544343714af5f0aa724885a9638021bf0dc68
 
     public function getSourceContext()
     {
-        return new Source("", "@nucleus/layout/block.html.twig", "C:\\MAMP\\htdocs\\Libros3\\media\\gantry5\\engines\\nucleus\\templates\\layout\\block.html.twig");
+        return new Source("", "@nucleus/layout/block.html.twig", "C:\\MAMP\\htdocs\\servicioSocial\\media\\gantry5\\engines\\nucleus\\templates\\layout\\block.html.twig");
     }
 }

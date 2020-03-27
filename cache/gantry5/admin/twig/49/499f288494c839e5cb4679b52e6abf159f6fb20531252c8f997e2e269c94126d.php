@@ -73,6 +73,6 @@ class __TwigTemplate_a2a024f8baf0780ee966d567c364dc3fb902ee0002681163690f853e090
 
     public function getSourceContext()
     {
-        return new Source("", "forms/fields/input/imagepicker.html.twig", "C:\\MAMP\\htdocs\\Libros3\\administrator\\components\\com_gantry5\\templates\\forms\\fields\\input\\imagepicker.html.twig");
+        return new Source("", "forms/fields/input/imagepicker.html.twig", "C:\\MAMP\\htdocs\\servicioSocial\\administrator\\components\\com_gantry5\\templates\\forms\\fields\\input\\imagepicker.html.twig");
     }
 }

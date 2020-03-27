@@ -122,6 +122,6 @@ class __TwigTemplate_2df5e10326da81ad50d0b067bb111022fc7327615d42f276eeb9e085229
 
     public function getSourceContext()
     {
-        return new Source("", "forms/fields/input/checkbox.html.twig", "C:\\MAMP\\htdocs\\Libros3\\administrator\\components\\com_gantry5\\templates\\forms\\fields\\input\\checkbox.html.twig");
+        return new Source("", "forms/fields/input/checkbox.html.twig", "C:\\MAMP\\htdocs\\servicioSocial\\administrator\\components\\com_gantry5\\templates\\forms\\fields\\input\\checkbox.html.twig");
     }
 }

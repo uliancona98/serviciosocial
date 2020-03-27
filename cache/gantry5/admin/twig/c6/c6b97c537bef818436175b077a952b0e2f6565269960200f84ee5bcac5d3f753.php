@@ -200,6 +200,6 @@ class __TwigTemplate_bc09503c22de1edc38dca3c549ffa8754a8687893f314a5a518d6cb7b32
 
     public function getSourceContext()
     {
-        return new Source("", "partials/field.html.twig", "C:\\MAMP\\htdocs\\Libros3\\administrator\\components\\com_gantry5\\templates\\partials\\field.html.twig");
+        return new Source("", "partials/field.html.twig", "C:\\MAMP\\htdocs\\servicioSocial\\administrator\\components\\com_gantry5\\templates\\partials\\field.html.twig");
     }
 }

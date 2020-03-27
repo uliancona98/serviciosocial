@@ -2,7 +2,7 @@
 return [
     '_type' => 'Gantry\\Component\\Content\\Block\\HtmlBlock',
     '_version' => 1,
-    'id' => '5e6b4410135514.89472375',
+    'id' => '5e79299c32d165.76105952',
     'content' => '<div id="contentcubes-1891-particle" class="g-content g-particle">            <div class="g-contentcubes articulo_inicio">
     
             <div class="cube-items-wrapper">
@@ -10,7 +10,7 @@ return [
                             <div class="item image-position-left cube-row g-grid">
                     <div class="g-block size-50">
                                                     <div class="cube-image-wrapper">
-                                <img src="/serviciosocial/images/articulo_introduccion/BeFunky-collage.jpg?5e6b4380" alt="MATYA - Videojuego didáctico modelado en 3D" class="cube-image" />
+                                <img src="/serviciosocial/images/articulo_introduccion/BeFunky-collage.jpg?5e75baac" alt="MATYA - Videojuego didáctico modelado en 3D" class="cube-image" />
                             </div>
                                             </div>
 

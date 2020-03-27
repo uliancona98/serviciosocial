@@ -167,6 +167,6 @@ class __TwigTemplate_92b37d54ea263203ee40aaabe8b7b4d53762e24235e77e9033d56560764
 
     public function getSourceContext()
     {
-        return new Source("", "forms/fields/collection/keyvalue.html.twig", "C:\\MAMP\\htdocs\\Libros3\\administrator\\components\\com_gantry5\\templates\\forms\\fields\\collection\\keyvalue.html.twig");
+        return new Source("", "forms/fields/collection/keyvalue.html.twig", "C:\\MAMP\\htdocs\\servicioSocial\\administrator\\components\\com_gantry5\\templates\\forms\\fields\\collection\\keyvalue.html.twig");
     }
 }

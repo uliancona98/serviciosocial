@@ -145,6 +145,6 @@ class __TwigTemplate_ca603b888b1ac8b180b32a2fc9997033b5cb45e0d145386fe7cf6fd0e74
 
     public function getSourceContext()
     {
-        return new Source("", "forms/fields/input/block-variations.html.twig", "C:\\MAMP\\htdocs\\Libros3\\administrator\\components\\com_gantry5\\templates\\forms\\fields\\input\\block-variations.html.twig");
+        return new Source("", "forms/fields/input/block-variations.html.twig", "C:\\MAMP\\htdocs\\servicioSocial\\administrator\\components\\com_gantry5\\templates\\forms\\fields\\input\\block-variations.html.twig");
     }
 }

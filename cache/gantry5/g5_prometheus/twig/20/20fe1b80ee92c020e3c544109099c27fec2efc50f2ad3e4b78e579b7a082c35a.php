@@ -327,6 +327,6 @@ class __TwigTemplate_9be847fe4994f14e758ea3b4fa06f1932b2183621d49b7a9860dc9b4fe0
 
     public function getSourceContext()
     {
-        return new Source("", "@nucleus/layout/section.html.twig", "C:\\MAMP\\htdocs\\Libros3\\templates\\g5_prometheus\\custom\\engine\\templates\\layout\\section.html.twig");
+        return new Source("", "@nucleus/layout/section.html.twig", "C:\\MAMP\\htdocs\\servicioSocial\\templates\\g5_prometheus\\custom\\engine\\templates\\layout\\section.html.twig");
     }
 }
