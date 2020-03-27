@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Gantry\\Component\\Config\\CompiledConfig',
-    'timestamp' => 1584769163,
-    'checksum' => 'ab01dba9b61fb057038c7bc7b1e5dea0',
+    'timestamp' => 1584776523,
+    'checksum' => '6f9e59966ec7aa765c3b840080260669',
     'files' => [
         'templates/g5_prometheus/custom/config/10' => [
             'assignments' => [
@@ -11,23 +11,23 @@ return [
             ],
             'index' => [
                 'file' => 'templates/g5_prometheus/custom/config/10/index.yaml',
-                'modified' => 1584768814
+                'modified' => 1584776466
             ],
             'layout' => [
                 'file' => 'templates/g5_prometheus/custom/config/10/layout.yaml',
-                'modified' => 1584768814
+                'modified' => 1584776466
             ],
             'page/assets' => [
                 'file' => 'templates/g5_prometheus/custom/config/10/page/assets.yaml',
-                'modified' => 1583972853
+                'modified' => 1584776522
             ],
             'page/body' => [
                 'file' => 'templates/g5_prometheus/custom/config/10/page/body.yaml',
-                'modified' => 1583972853
+                'modified' => 1584776522
             ],
             'page/head' => [
                 'file' => 'templates/g5_prometheus/custom/config/10/page/head.yaml',
-                'modified' => 1583972853
+                'modified' => 1584776522
             ],
             'styles' => [
                 'file' => 'templates/g5_prometheus/custom/config/10/styles.yaml',
@@ -1015,11 +1015,66 @@ Suspendisse feugiat quam',
                         'id' => 'assets-7854',
                         'type' => 'assets',
                         'title' => 'Custom CSS / JS',
-                        'inherit' => [
-                            'outline' => '9',
-                            'atom' => 'assets-7065',
-                            'include' => [
-                                0 => 'attributes'
+                        'attributes' => [
+                            'enabled' => '1',
+                            'css' => [
+                                0 => [
+                                    'location' => '',
+                                    'inline' => '.articulo_inicio{
+margin: 6px;
+padding:6px;
+border-radius: 16px 16px 16px 16px;
+-moz-border-radius: 16px 16px 16px 16px;
+-webkit-border-radius: 16px 16px 16px 16px;
+//border: 2px solid #d3d4c9;
+background-color: #ECEDE5;
+}
+.articulo_inicio h3{
+text-align: center;
+}',
+                                    'extra' => [
+                                        
+                                    ],
+                                    'priority' => '0',
+                                    'name' => 'articulos_inicio'
+                                ],
+                                1 => [
+                                    'location' => '',
+                                    'inline' => '.logo_imagen{
+display: block;
+ margin: auto;
+}',
+                                    'extra' => [
+                                        
+                                    ],
+                                    'priority' => '0',
+                                    'name' => 'logo_imagen'
+                                ],
+                                2 => [
+                                    'location' => '',
+                                    'inline' => '.segundo_titulo{
+padding: 3px;
+}',
+                                    'extra' => [
+                                        
+                                    ],
+                                    'priority' => '0',
+                                    'name' => 'segundo_titulo'
+                                ],
+                                3 => [
+                                    'location' => '',
+                                    'inline' => '.fondo_blanco{
+background-color: #ffffff;
+}',
+                                    'extra' => [
+                                        
+                                    ],
+                                    'priority' => '0',
+                                    'name' => 'fondo_blanco'
+                                ]
+                            ],
+                            'javascript' => [
+                                
                             ]
                         ]
                     ],
@@ -1050,7 +1105,7 @@ Suspendisse feugiat quam',
         ],
         'index' => [
             'name' => '10',
-            'timestamp' => 1584768814,
+            'timestamp' => 1584776466,
             'version' => 7,
             'preset' => [
                 'image' => 'gantry-admin://images/layouts/default.png',
@@ -1101,6 +1156,9 @@ Suspendisse feugiat quam',
                 ],
                 'menu' => [
                     'menu-6609' => 'Menu'
+                ],
+                'owlcarousel' => [
+                    'owlcarousel-5473' => 'Owl Carousel'
                 ],
                 'messages' => [
                     'system-messages-2617' => 'System Messages'
@@ -1154,7 +1212,9 @@ Suspendisse feugiat quam',
                     
                 ],
                 '/intro/' => [
-                    
+                    0 => [
+                        0 => 'owlcarousel-5473'
+                    ]
                 ],
                 '/features/' => [
                     
@@ -1445,6 +1505,31 @@ border-color: #ebb800;">
                     ],
                     'block' => [
                         'class' => 'logo_imagen segundo_titulo'
+                    ]
+                ],
+                'owlcarousel-5473' => [
+                    'title' => 'Owl Carousel',
+                    'attributes' => [
+                        'items' => [
+                            0 => [
+                                'image' => 'gantry-media://demos/jump.jpg',
+                                'title' => 'HEADLINE',
+                                'desc' => 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.',
+                                'link' => '',
+                                'linktext' => 'Download now!',
+                                'buttonclass' => 'button',
+                                'name' => 'item1'
+                            ],
+                            1 => [
+                                'image' => 'gantry-media://demos/phone.jpg',
+                                'title' => 'HEADLINE',
+                                'desc' => ' Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.',
+                                'link' => '#',
+                                'linktext' => 'Download now!',
+                                'buttonclass' => 'button',
+                                'name' => 'item2'
+                            ]
+                        ]
                     ]
                 ],
                 'copyright-6180' => [

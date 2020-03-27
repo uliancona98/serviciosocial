@@ -2,7 +2,7 @@
 return [
     '@class' => 'Gantry\\Component\\File\\CompiledYamlFile',
     'filename' => 'gantry-theme://config/11/page/head.yaml',
-    'modified' => 1584084510,
+    'modified' => 1584084595,
     'data' => [
         'atoms' => [
             0 => [
@@ -68,10 +68,9 @@ padding: 3px;
                         ],
                         3 => [
                             'location' => '',
-                            'inline' => '.imagen_centrada{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+                            'inline' => '.imagen_centrada img{
+display:block;
+margin:auto;
 }',
                             'extra' => [
                                 

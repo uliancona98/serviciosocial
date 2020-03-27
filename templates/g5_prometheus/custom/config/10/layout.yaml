@@ -21,7 +21,9 @@ layout:
     -
       - menu-6609
   /header/: {  }
-  /intro/: {  }
+  /intro/:
+    -
+      - owlcarousel-5473
   /features/: {  }
   /utility/: {  }
   /above/: {  }
@@ -219,6 +221,26 @@ content:
       height: 5rem
     block:
       class: 'logo_imagen segundo_titulo'
+  owlcarousel-5473:
+    title: 'Owl Carousel'
+    attributes:
+      items:
+        -
+          image: 'gantry-media://demos/jump.jpg'
+          title: HEADLINE
+          desc: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.'
+          link: ''
+          linktext: 'Download now!'
+          buttonclass: button
+          name: item1
+        -
+          image: 'gantry-media://demos/phone.jpg'
+          title: HEADLINE
+          desc: ' Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.'
+          link: '#'
+          linktext: 'Download now!'
+          buttonclass: button
+          name: item2
   copyright-6180:
     attributes:
       date:

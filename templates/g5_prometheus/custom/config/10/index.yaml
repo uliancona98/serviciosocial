@@ -1,5 +1,5 @@
 name: '10'
-timestamp: 1584768814
+timestamp: 1584776466
 version: 7
 preset:
   image: 'gantry-admin://images/layouts/default.png'
@@ -43,6 +43,8 @@ particles:
     customcontentSZ-6295: 'Custom Content'
   menu:
     menu-6609: Menu
+  owlcarousel:
+    owlcarousel-5473: 'Owl Carousel'
   messages:
     system-messages-2617: 'System Messages'
   content:

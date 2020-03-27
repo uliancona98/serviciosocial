@@ -2,7 +2,7 @@
 return [
     '@class' => 'Gantry\\Component\\File\\CompiledYamlFile',
     'filename' => 'C:\\MAMP\\htdocs\\serviciosocial/templates/g5_prometheus/custom/config/10/layout.yaml',
-    'modified' => 1584768814,
+    'modified' => 1584776466,
     'data' => [
         'version' => 2,
         'preset' => [
@@ -38,7 +38,9 @@ return [
                 
             ],
             '/intro/' => [
-                
+                0 => [
+                    0 => 'owlcarousel-5473'
+                ]
             ],
             '/features/' => [
                 
@@ -329,6 +331,31 @@ border-color: #ebb800;">
                 ],
                 'block' => [
                     'class' => 'logo_imagen segundo_titulo'
+                ]
+            ],
+            'owlcarousel-5473' => [
+                'title' => 'Owl Carousel',
+                'attributes' => [
+                    'items' => [
+                        0 => [
+                            'image' => 'gantry-media://demos/jump.jpg',
+                            'title' => 'HEADLINE',
+                            'desc' => 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.',
+                            'link' => '',
+                            'linktext' => 'Download now!',
+                            'buttonclass' => 'button',
+                            'name' => 'item1'
+                        ],
+                        1 => [
+                            'image' => 'gantry-media://demos/phone.jpg',
+                            'title' => 'HEADLINE',
+                            'desc' => ' Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.',
+                            'link' => '#',
+                            'linktext' => 'Download now!',
+                            'buttonclass' => 'button',
+                            'name' => 'item2'
+                        ]
+                    ]
                 ]
             ],
             'copyright-6180' => [
