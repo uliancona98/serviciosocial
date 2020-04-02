@@ -1,37 +1,37 @@
 <?php
 return [
     '@class' => 'Gantry\\Component\\Config\\CompiledConfig',
-    'timestamp' => 1585000231,
-    'checksum' => 'dc7c506d6a3196a18391ef3c8cec75c7',
+    'timestamp' => 1585299655,
+    'checksum' => 'd2684fbd013ee740fb3e3c8d0201d2f9',
     'files' => [
         'templates/g5_prometheus/custom/config/9' => [
             'assignments' => [
                 'file' => 'templates/g5_prometheus/custom/config/9/assignments.yaml',
-                'modified' => 1582763250
+                'modified' => 1583792621
             ],
             'index' => [
                 'file' => 'templates/g5_prometheus/custom/config/9/index.yaml',
-                'modified' => 1584773813
+                'modified' => 1585275896
             ],
             'layout' => [
                 'file' => 'templates/g5_prometheus/custom/config/9/layout.yaml',
-                'modified' => 1584773813
+                'modified' => 1585275896
             ],
             'page/assets' => [
                 'file' => 'templates/g5_prometheus/custom/config/9/page/assets.yaml',
-                'modified' => 1582763250
+                'modified' => 1584079563
             ],
             'page/body' => [
                 'file' => 'templates/g5_prometheus/custom/config/9/page/body.yaml',
-                'modified' => 1582763250
+                'modified' => 1584079563
             ],
             'page/head' => [
                 'file' => 'templates/g5_prometheus/custom/config/9/page/head.yaml',
-                'modified' => 1584773813
+                'modified' => 1584079563
             ],
             'styles' => [
                 'file' => 'templates/g5_prometheus/custom/config/9/styles.yaml',
-                'modified' => 1584773813
+                'modified' => 1584081085
             ]
         ]
     ],
@@ -46,7 +46,7 @@ return [
         ],
         'index' => [
             'name' => '9',
-            'timestamp' => 1584767586,
+            'timestamp' => 1585005121,
             'version' => 7,
             'preset' => [
                 'image' => 'gantry-admin://images/layouts/default.png',
@@ -82,12 +82,16 @@ return [
                     'spacer-1702' => 'Spacer',
                     'spacer-3243' => 'Spacer',
                     'spacer-2607' => 'Spacer',
-                    'spacer-spacer-6586' => 'Spacer',
-                    'spacer-2458' => 'Spacer'
+                    'spacer-6586' => 'Spacer',
+                    'spacer-2458' => 'Spacer',
+                    'spacer-spacer-1405' => 'Spacer',
+                    'spacer-spacer-8549' => 'Spacer',
+                    'spacer-spacer-8405' => 'Spacer'
                 ],
                 'logo' => [
                     'logo-9501' => 'Logo / Image',
-                    'logo-9690' => 'Logo / Image'
+                    'logo-9690' => 'Logo / Image',
+                    'logo-6537' => 'Logo / Image'
                 ],
                 'customcontentSZ' => [
                     'customcontentSZ-8804' => 'Custom Content',
@@ -110,8 +114,10 @@ return [
                     'contentcubes-6601' => 'Content Cubes',
                     'contentcubes-7923' => 'Content Cubes'
                 ],
-                'copyright' => [
-                    'copyright-6180' => 'Copyright'
+                'custom' => [
+                    'custom-7360' => 'Custom HTML',
+                    'custom-6698' => 'Custom HTML',
+                    'custom-8973' => 'Custom HTML'
                 ],
                 'mobile-menu' => [
                     'mobile-menu-5697' => 'Mobile-menu'
@@ -142,7 +148,7 @@ return [
                     1 => [
                         0 => 'spacer-2607 16',
                         1 => 'customcontentSZ-8804 50',
-                        2 => 'spacer-spacer-6586 7',
+                        2 => 'spacer-6586 7',
                         3 => 'customcontentSZ-6295 17',
                         4 => 'spacer-2458 10'
                     ]
@@ -220,7 +226,15 @@ return [
                 ],
                 '/footerbottom/' => [
                     0 => [
-                        0 => 'copyright-6180'
+                        0 => 'spacer-spacer-1405 80',
+                        1 => 'custom-7360 20'
+                    ],
+                    1 => [
+                        0 => 'custom-6698 20',
+                        1 => 'spacer-spacer-8549 20',
+                        2 => 'custom-8973 20',
+                        3 => 'spacer-spacer-8405 20',
+                        4 => 'logo-6537 20'
                     ]
                 ],
                 '/nadir/' => [
@@ -744,20 +758,35 @@ border-color: #ebb800;">
                         ]
                     ]
                 ],
-                'copyright-6180' => [
+                'custom-7360' => [
+                    'title' => 'Custom HTML',
                     'attributes' => [
-                        'date' => [
-                            'start' => ''
-                        ],
-                        'owner' => 'szoupi',
-                        'link' => '',
-                        'target' => '_blank',
-                        'additional' => [
-                            'text' => ''
-                        ],
-                        'css' => [
-                            'class' => ''
-                        ]
+                        'html' => '<br/>'
+                    ]
+                ],
+                'custom-6698' => [
+                    'title' => 'Custom HTML',
+                    'attributes' => [
+                        'html' => '<p style="color:#dedede;"><b>Facultad de Matemáticas</b><br/><br/><b>Dirección</b><br/>Anillo Periferico Norte, Tablaje Cat. 13615,<br/> Colonia Chuburna Hidalgo Inn, Mérida Yucatán.<br/>
+<br/><b>Teléfono</b><br/>(999) 942 31 40 al 49<br/>
+<br/></p>'
+                    ]
+                ],
+                'custom-8973' => [
+                    'title' => 'Custom HTML',
+                    'attributes' => [
+                        'html' => '<p style="color:#dedede;"><b>Correo</b><br/>
+matemati@www.uady.mx<br/><br/><b>Coordinador de la carrera</b><br/>
+M. en C. Enrique Ayala Franco<br/><br/><b>Contacto</b><br/>
+enrique.ayala@correo.uady.mx<br/>
+<br/></p>'
+                    ]
+                ],
+                'logo-6537' => [
+                    'title' => 'Logo / Image',
+                    'attributes' => [
+                        'image' => 'gantry-media://uady_logo_amarillo.png',
+                        'height' => '10rem'
                     ]
                 ]
             ]
