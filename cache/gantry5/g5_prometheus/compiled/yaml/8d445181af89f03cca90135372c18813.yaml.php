@@ -2,7 +2,7 @@
 return [
     '@class' => 'Gantry\\Component\\File\\CompiledYamlFile',
     'filename' => 'gantry-theme://config/9/page/head.yaml',
-    'modified' => 1584773813,
+    'modified' => 1584079563,
     'data' => [
         'atoms' => [
             0 => [
