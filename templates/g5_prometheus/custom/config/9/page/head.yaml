@@ -28,4 +28,5 @@ atoms:
         - { location: '', inline: ".logo_imagen{\ndisplay: block;\n margin: auto;\n}", extra: {  }, priority: '0', name: logo_imagen }
         - { location: '', inline: ".segundo_titulo{\npadding: 3px;\n}", extra: {  }, priority: '0', name: segundo_titulo }
         - { location: '', inline: ".fondo_blanco{\nbackground-color: #ffffff;\n}", extra: {  }, priority: '0', name: fondo_blanco }
+        - { location: '', inline: ".boton_link {\nbackground-color: gray;\n}", extra: {  }, priority: '0', name: boton_link }
       javascript: {  }

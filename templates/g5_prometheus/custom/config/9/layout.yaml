@@ -54,13 +54,13 @@ layout:
   /footer/: {  }
   /footerbottom/:
     -
-      - 'spacer-spacer-1405 80'
+      - 'spacer-1405 80'
       - 'custom-7360 20'
     -
       - 'custom-6698 20'
-      - 'spacer-spacer-8549 20'
+      - 'spacer-8549 20'
       - 'custom-8973 20'
-      - 'spacer-spacer-8405 20'
+      - 'spacer-8405 20'
       - 'logo-6537 20'
   /nadir/: {  }
   offcanvas:
@@ -270,9 +270,9 @@ content:
           image: 'gantry-media://slider/3 real aum_Mesa de trabajo 1.jpg'
           title: ''
           desc: ''
-          link: ''
-          linktext: ''
-          buttonclass: button-outline
+          link: 'http://localhost/serviciosocial/index.php/esto-hacemos/computacion-cientifica/5-libreria-con-realidad-aumentada'
+          linktext: 'Ver Artículo Relacionado'
+          buttonclass: boton_link
           name: item3
         -
           image: 'gantry-media://slider/4 redes_Mesa de trabajo 1.jpg'
@@ -445,7 +445,7 @@ content:
           title: 'Demostración del robot Nao, programado por la alumna de la Licenciatura en Ciencias de la Computación Astrid Rodríguez'
           content: ''
           tags: {  }
-          link: 'http://localhost/serviciosocial/index.php/esto-hacemos/desarrollo-de-software-de-aplicacion/18-healthcare-engineering-defined-a-white-paper'
+          link: 'http://localhost/serviciosocial/index.php/esto-hacemos/desarrollo-de-software-de-aplicacion/18-demostracion-del-robot-nao-programado-por-la-alumna-de-la-licenciatura-en-ciencias-de-la-computacion-astrid-rodriguez'
           linktext: '&rarr;'
           buttonclass: ''
           buttontarget: _self

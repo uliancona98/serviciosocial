@@ -2,7 +2,7 @@
 return [
     '@class' => 'Gantry\\Component\\File\\CompiledYamlFile',
     'filename' => 'C:\\MAMP\\htdocs\\serviciosocial/templates/g5_prometheus/custom/config/9/layout.yaml',
-    'modified' => 1585275896,
+    'modified' => 1585904798,
     'data' => [
         'version' => 2,
         'preset' => [
@@ -102,14 +102,14 @@ return [
             ],
             '/footerbottom/' => [
                 0 => [
-                    0 => 'spacer-spacer-1405 80',
+                    0 => 'spacer-1405 80',
                     1 => 'custom-7360 20'
                 ],
                 1 => [
                     0 => 'custom-6698 20',
-                    1 => 'spacer-spacer-8549 20',
+                    1 => 'spacer-8549 20',
                     2 => 'custom-8973 20',
-                    3 => 'spacer-spacer-8405 20',
+                    3 => 'spacer-8405 20',
                     4 => 'logo-6537 20'
                 ]
             ],
@@ -390,9 +390,9 @@ border-color: #ebb800;">
                             'image' => 'gantry-media://slider/3 real aum_Mesa de trabajo 1.jpg',
                             'title' => '',
                             'desc' => '',
-                            'link' => '',
-                            'linktext' => '',
-                            'buttonclass' => 'button-outline',
+                            'link' => 'http://localhost/serviciosocial/index.php/esto-hacemos/computacion-cientifica/5-libreria-con-realidad-aumentada',
+                            'linktext' => 'Ver Artículo Relacionado',
+                            'buttonclass' => 'boton_link',
                             'name' => 'item3'
                         ],
                         3 => [
@@ -625,7 +625,7 @@ border-color: #ebb800;">
                             'tags' => [
                                 
                             ],
-                            'link' => 'http://localhost/serviciosocial/index.php/esto-hacemos/desarrollo-de-software-de-aplicacion/18-healthcare-engineering-defined-a-white-paper',
+                            'link' => 'http://localhost/serviciosocial/index.php/esto-hacemos/desarrollo-de-software-de-aplicacion/18-demostracion-del-robot-nao-programado-por-la-alumna-de-la-licenciatura-en-ciencias-de-la-computacion-astrid-rodriguez',
                             'linktext' => '&rarr;',
                             'buttonclass' => '',
                             'buttontarget' => '_self',

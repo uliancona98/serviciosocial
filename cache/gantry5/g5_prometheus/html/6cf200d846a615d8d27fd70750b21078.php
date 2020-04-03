@@ -2,7 +2,7 @@
 return [
     '_type' => 'Gantry\\Component\\Content\\Block\\HtmlBlock',
     '_version' => 1,
-    'id' => '5e79299c37f1f0.57910580',
+    'id' => '5e874cad832623.73212450',
     'content' => '<div id="contentcubes-6601-particle" class="g-content g-particle">            <div class="g-contentcubes articulo_inicio">
     
             <div class="cube-items-wrapper">
@@ -10,7 +10,7 @@ return [
                             <div class="item image-position-right cube-row g-grid">
                     <div class="g-block size-50">
                                                     <div class="cube-image-wrapper">
-                                <img src="/serviciosocial/images/articulo_introduccion/BeFunky-collage2.jpg?5e75baac" alt="Librería con Realidad Aumentada" class="cube-image" />
+                                <img src="/serviciosocial/images/articulo_introduccion/BeFunky-collage2.jpg" alt="Librería con Realidad Aumentada" class="cube-image" />
                             </div>
                                             </div>
 
