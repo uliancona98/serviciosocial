@@ -2,7 +2,7 @@
 return [
     '@class' => 'Gantry\\Component\\File\\CompiledYamlFile',
     'filename' => 'C:\\MAMP\\htdocs\\serviciosocial/templates/g5_prometheus/custom/config/14/layout.yaml',
-    'modified' => 1585922191,
+    'modified' => 1585942984,
     'data' => [
         'version' => 2,
         'preset' => [
@@ -367,11 +367,11 @@ border-color: #ebb800;">
                     'article' => [
                         'filter' => [
                             'categories' => '10',
-                            'articles' => '9,18,36,37,40,42',
+                            'articles' => '',
                             'featured' => 'include'
                         ],
                         'limit' => [
-                            'total' => '6',
+                            'total' => '',
                             'columns' => '2',
                             'start' => ''
                         ],

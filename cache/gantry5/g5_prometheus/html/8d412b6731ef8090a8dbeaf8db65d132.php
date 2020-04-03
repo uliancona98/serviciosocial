@@ -2,7 +2,7 @@
 return [
     '_type' => 'Gantry\\Component\\Content\\Block\\HtmlBlock',
     '_version' => 1,
-    'id' => '5e874cad85d061.00837305',
+    'id' => '5e878c4e9e3178.96492526',
     'content' => '<div id="contentcubes-7923-particle" class="g-content g-particle">            <div class="g-contentcubes articulo_inicio">
     
             <div class="cube-items-wrapper">

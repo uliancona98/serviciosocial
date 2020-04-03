@@ -250,10 +250,10 @@ content:
       article:
         filter:
           categories: '10'
-          articles: '9,18,36,37,40,42'
+          articles: ''
           featured: include
         limit:
-          total: '6'
+          total: ''
           columns: '2'
           start: ''
         display:
