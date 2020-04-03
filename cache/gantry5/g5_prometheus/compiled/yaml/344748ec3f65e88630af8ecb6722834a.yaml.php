@@ -2,10 +2,10 @@
 return [
     '@class' => 'Gantry\\Component\\File\\CompiledYamlFile',
     'filename' => 'C:\\MAMP\\htdocs\\servicioSocial/templates/g5_prometheus/custom/config/11/index.yaml',
-    'modified' => 1585005193,
+    'modified' => 1585866358,
     'data' => [
-        'name' => '11',
-        'timestamp' => 1585005193,
+        'name' => 11,
+        'timestamp' => 1585275896,
         'version' => 7,
         'preset' => [
             'image' => 'gantry-admin://images/layouts/default.png',

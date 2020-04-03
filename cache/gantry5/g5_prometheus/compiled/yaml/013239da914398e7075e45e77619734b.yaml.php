@@ -2,9 +2,9 @@
 return [
     '@class' => 'Gantry\\Component\\File\\CompiledYamlFile',
     'filename' => 'C:/MAMP/htdocs/servicioSocial/templates/g5_prometheus/custom/config/9/index.yaml',
-    'modified' => 1585005121,
+    'modified' => 1585868712,
     'data' => [
-        'name' => '9',
+        'name' => 9,
         'timestamp' => 1585005121,
         'version' => 7,
         'preset' => [
@@ -43,9 +43,9 @@ return [
                 'spacer-2607' => 'Spacer',
                 'spacer-6586' => 'Spacer',
                 'spacer-2458' => 'Spacer',
-                'spacer-spacer-1405' => 'Spacer',
-                'spacer-spacer-8549' => 'Spacer',
-                'spacer-spacer-8405' => 'Spacer'
+                'spacer-1405' => 'Spacer',
+                'spacer-8549' => 'Spacer',
+                'spacer-8405' => 'Spacer'
             ],
             'logo' => [
                 'logo-9501' => 'Logo / Image',

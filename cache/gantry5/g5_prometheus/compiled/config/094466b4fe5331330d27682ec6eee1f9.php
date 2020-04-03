@@ -1,37 +1,37 @@
 <?php
 return [
     '@class' => 'Gantry\\Component\\Config\\CompiledConfig',
-    'timestamp' => 1585299655,
-    'checksum' => 'd2684fbd013ee740fb3e3c8d0201d2f9',
+    'timestamp' => 1585869355,
+    'checksum' => '3300ab62e34c8b0998a2e12da327206b',
     'files' => [
         'templates/g5_prometheus/custom/config/9' => [
             'assignments' => [
                 'file' => 'templates/g5_prometheus/custom/config/9/assignments.yaml',
-                'modified' => 1583792621
+                'modified' => 1582763250
             ],
             'index' => [
                 'file' => 'templates/g5_prometheus/custom/config/9/index.yaml',
-                'modified' => 1585275896
+                'modified' => 1585868712
             ],
             'layout' => [
                 'file' => 'templates/g5_prometheus/custom/config/9/layout.yaml',
-                'modified' => 1585275896
+                'modified' => 1585005121
             ],
             'page/assets' => [
                 'file' => 'templates/g5_prometheus/custom/config/9/page/assets.yaml',
-                'modified' => 1584079563
+                'modified' => 1582763250
             ],
             'page/body' => [
                 'file' => 'templates/g5_prometheus/custom/config/9/page/body.yaml',
-                'modified' => 1584079563
+                'modified' => 1582763250
             ],
             'page/head' => [
                 'file' => 'templates/g5_prometheus/custom/config/9/page/head.yaml',
-                'modified' => 1584079563
+                'modified' => 1584773813
             ],
             'styles' => [
                 'file' => 'templates/g5_prometheus/custom/config/9/styles.yaml',
-                'modified' => 1584081085
+                'modified' => 1584773813
             ]
         ]
     ],
@@ -45,7 +45,7 @@ return [
             ]
         ],
         'index' => [
-            'name' => '9',
+            'name' => 9,
             'timestamp' => 1585005121,
             'version' => 7,
             'preset' => [
@@ -84,9 +84,9 @@ return [
                     'spacer-2607' => 'Spacer',
                     'spacer-6586' => 'Spacer',
                     'spacer-2458' => 'Spacer',
-                    'spacer-spacer-1405' => 'Spacer',
-                    'spacer-spacer-8549' => 'Spacer',
-                    'spacer-spacer-8405' => 'Spacer'
+                    'spacer-1405' => 'Spacer',
+                    'spacer-8549' => 'Spacer',
+                    'spacer-8405' => 'Spacer'
                 ],
                 'logo' => [
                     'logo-9501' => 'Logo / Image',

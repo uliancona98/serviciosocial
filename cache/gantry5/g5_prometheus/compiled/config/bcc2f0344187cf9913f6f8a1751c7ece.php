@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Gantry\\Component\\Config\\CompiledConfig',
-    'timestamp' => 1585004323,
-    'checksum' => 'da7def1d5f6a0354df7ea9ef53dedca9',
+    'timestamp' => 1585868084,
+    'checksum' => '87298c6f646e0a00ebec304538c62528',
     'files' => [
         'templates/g5_prometheus/custom/config/11' => [
             'assignments' => [
@@ -11,11 +11,11 @@ return [
             ],
             'index' => [
                 'file' => 'templates/g5_prometheus/custom/config/11/index.yaml',
-                'modified' => 1585002968
+                'modified' => 1585866358
             ],
             'layout' => [
                 'file' => 'templates/g5_prometheus/custom/config/11/layout.yaml',
-                'modified' => 1585002968
+                'modified' => 1585005193
             ],
             'page/assets' => [
                 'file' => 'templates/g5_prometheus/custom/config/11/page/assets.yaml',
@@ -31,7 +31,7 @@ return [
             ],
             'styles' => [
                 'file' => 'templates/g5_prometheus/custom/config/11/styles.yaml',
-                'modified' => 1583476125
+                'modified' => 1585004516
             ]
         ]
     ],
@@ -45,8 +45,8 @@ return [
             ]
         ],
         'index' => [
-            'name' => '11',
-            'timestamp' => 1585002968,
+            'name' => 11,
+            'timestamp' => 1585275896,
             'version' => 7,
             'preset' => [
                 'image' => 'gantry-admin://images/layouts/default.png',
@@ -551,7 +551,7 @@ M. en C. Enrique Ayala Franco'
                 'custom-4645' => [
                     'title' => 'Custom HTML',
                     'attributes' => [
-                        'html' => '<br/><b>Teléfono</b><br/>
+                        'html' => '<b>Teléfono</b><br/>
 (999) 942 31 40 al 49<br/>
 <br/>'
                     ]
@@ -559,13 +559,16 @@ M. en C. Enrique Ayala Franco'
                 'custom-5906' => [
                     'title' => 'Custom HTML',
                     'attributes' => [
-                        'html' => '<br/><b>Contacto</b><br/>
+                        'html' => '<b>Contacto</b><br/>
 enrique.ayala@correo.uady.mx<br/>
 <br/>'
                     ]
                 ],
                 'custom-7398' => [
-                    'title' => 'Custom HTML'
+                    'title' => 'Custom HTML',
+                    'attributes' => [
+                        'html' => ''
+                    ]
                 ]
             ]
         ],
