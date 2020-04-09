@@ -245,8 +245,8 @@ content:
     title: 'Owl Carousel'
     attributes:
       title: ''
-      autoplay: disable
-      autoplaySpeed: '4000'
+      autoplay: enable
+      autoplaySpeed: '3000'
       items:
         -
           image: 'gantry-media://slider/1 cdd_Mesa de trabajo 1.jpg'

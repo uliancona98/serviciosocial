@@ -2,7 +2,7 @@
 return [
     '@class' => 'Gantry\\Component\\File\\CompiledYamlFile',
     'filename' => 'C:/MAMP/htdocs/serviciosocial/templates/g5_prometheus/custom/config/9/layout.yaml',
-    'modified' => 1586467081,
+    'modified' => 1586474331,
     'data' => [
         'version' => 2,
         'preset' => [
@@ -363,8 +363,8 @@ border-color: #ebb800;">
                 'title' => 'Owl Carousel',
                 'attributes' => [
                     'title' => '',
-                    'autoplay' => 'disable',
-                    'autoplaySpeed' => '4000',
+                    'autoplay' => 'enable',
+                    'autoplaySpeed' => '3000',
                     'items' => [
                         0 => [
                             'image' => 'gantry-media://slider/1 cdd_Mesa de trabajo 1.jpg',
