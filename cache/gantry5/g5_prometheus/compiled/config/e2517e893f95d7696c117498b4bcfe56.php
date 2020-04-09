@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Gantry\\Component\\Config\\CompiledConfig',
-    'timestamp' => 1586467910,
-    'checksum' => '82d0721964df3a309f1bc8a310c1afa0',
+    'timestamp' => 1586472773,
+    'checksum' => 'c36eb75d245c32191616c3e5e022dc5b',
     'files' => [
         'templates/g5_prometheus/custom/config/13' => [
             'assignments' => [
@@ -11,11 +11,11 @@ return [
             ],
             'index' => [
                 'file' => 'templates/g5_prometheus/custom/config/13/index.yaml',
-                'modified' => 1586467904
+                'modified' => 1586472771
             ],
             'layout' => [
                 'file' => 'templates/g5_prometheus/custom/config/13/layout.yaml',
-                'modified' => 1586467904
+                'modified' => 1586472771
             ],
             'page/assets' => [
                 'file' => 'templates/g5_prometheus/custom/config/13/page/assets.yaml',
@@ -1085,7 +1085,7 @@ background-color: #ffffff;
         ],
         'index' => [
             'name' => '13',
-            'timestamp' => 1586467904,
+            'timestamp' => 1586472771,
             'version' => 7,
             'preset' => [
                 'image' => 'gantry-admin://images/layouts/default.png',
@@ -1630,7 +1630,7 @@ border-color: #ebb800;">
                         'article' => [
                             'filter' => [
                                 'categories' => '',
-                                'articles' => '7,8,9',
+                                'articles' => '52,7,8',
                                 'featured' => 'include'
                             ],
                             'limit' => [

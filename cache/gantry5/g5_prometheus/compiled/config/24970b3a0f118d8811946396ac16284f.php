@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Gantry\\Component\\Config\\CompiledConfig',
-    'timestamp' => 1586467858,
-    'checksum' => '2ca0008d6b7d1741f2b59bd7a61e656d',
+    'timestamp' => 1586472511,
+    'checksum' => '3f9b2831a5359ca03d3fab275659eb0c',
     'files' => [
         'templates/g5_prometheus/custom/config/13' => [
             'assignments' => [
@@ -11,11 +11,11 @@ return [
             ],
             'index' => [
                 'file' => 'templates/g5_prometheus/custom/config/13/index.yaml',
-                'modified' => 1586467855
+                'modified' => 1586472073
             ],
             'layout' => [
                 'file' => 'templates/g5_prometheus/custom/config/13/layout.yaml',
-                'modified' => 1586467855
+                'modified' => 1586472073
             ],
             'page/assets' => [
                 'file' => 'templates/g5_prometheus/custom/config/13/page/assets.yaml',
@@ -46,7 +46,7 @@ return [
         ],
         'index' => [
             'name' => '13',
-            'timestamp' => 1586467855,
+            'timestamp' => 1586472073,
             'version' => 7,
             'preset' => [
                 'image' => 'gantry-admin://images/layouts/default.png',
@@ -103,11 +103,6 @@ return [
                 'owlcarousel' => [
                     'owlcarousel-5243' => 'Owl Carousel'
                 ],
-                'contentcubes' => [
-                    'contentcubes-1891' => 'Content Cubes',
-                    'contentcubes-6601' => 'Content Cubes',
-                    'contentcubes-7923' => 'Content Cubes'
-                ],
                 'custom' => [
                     'custom-3535' => 'Custom HTML',
                     'custom-7360' => 'Custom HTML',
@@ -116,6 +111,11 @@ return [
                 ],
                 'contentarray' => [
                     'contentarray-9885' => 'Joomla Articles'
+                ],
+                'contentcubes' => [
+                    'contentcubes-6229' => 'Content Cubes',
+                    'contentcubes-6601' => 'Content Cubes',
+                    'contentcubes-7923' => 'Content Cubes'
                 ],
                 'mobile-menu' => [
                     'mobile-menu-5697' => 'Mobile-menu'
@@ -171,9 +171,7 @@ return [
                     
                 ],
                 '/above/' => [
-                    0 => [
-                        0 => 'contentcubes-1891'
-                    ]
+                    
                 ],
                 '/testimonials/' => [
                     
@@ -196,7 +194,7 @@ return [
                                     0 => 'contentarray-9885'
                                 ],
                                 1 => [
-                                    0 => 'contentcubes-1891'
+                                    0 => 'contentcubes-6229'
                                 ],
                                 2 => [
                                     0 => 'contentcubes-6601'
@@ -577,7 +575,44 @@ border-color: #ebb800;">
                         'fixed' => '1'
                     ]
                 ],
-                'contentcubes-1891' => [
+                'custom-3535' => [
+                    'title' => 'Custom HTML',
+                    'attributes' => [
+                        'html' => '<div style="border-top-style:solid;
+border-bottom-style: solid;
+border-color: #ebb800;"> 
+<h3 style="text-align:center; font-weight:bold; color:#000000;">Contenido</h3>
+ </div>'
+                    ]
+                ],
+                'contentarray-9885' => [
+                    'title' => 'Joomla Articles',
+                    'attributes' => [
+                        'article' => [
+                            'filter' => [
+                                'categories' => '',
+                                'articles' => '52',
+                                'featured' => 'include'
+                            ],
+                            'limit' => [
+                                'total' => '',
+                                'columns' => '1',
+                                'start' => ''
+                            ],
+                            'display' => [
+                                'pagination_buttons' => ''
+                            ],
+                            'sort' => [
+                                'orderby' => 'publish_up',
+                                'ordering' => 'ASC'
+                            ]
+                        ],
+                        'css' => [
+                            'class' => ''
+                        ]
+                    ]
+                ],
+                'contentcubes-6229' => [
                     'title' => 'Content Cubes',
                     'attributes' => [
                         'css' => [
@@ -596,43 +631,6 @@ border-color: #ebb800;">
                                 'buttontarget' => '_self',
                                 'name' => 'img 1'
                             ]
-                        ]
-                    ]
-                ],
-                'custom-3535' => [
-                    'title' => 'Custom HTML',
-                    'attributes' => [
-                        'html' => '<div style="border-top-style:solid;
-border-bottom-style: solid;
-border-color: #ebb800;"> 
-<h3 style="text-align:center; font-weight:bold; color:#000000;">Contenido</h3>
- </div>'
-                    ]
-                ],
-                'contentarray-9885' => [
-                    'title' => 'Joomla Articles',
-                    'attributes' => [
-                        'article' => [
-                            'filter' => [
-                                'categories' => '',
-                                'articles' => '7,8,9',
-                                'featured' => 'include'
-                            ],
-                            'limit' => [
-                                'total' => '',
-                                'columns' => '3',
-                                'start' => ''
-                            ],
-                            'display' => [
-                                'pagination_buttons' => ''
-                            ],
-                            'sort' => [
-                                'orderby' => 'publish_up',
-                                'ordering' => 'ASC'
-                            ]
-                        ],
-                        'css' => [
-                            'class' => ''
                         ]
                     ]
                 ],
