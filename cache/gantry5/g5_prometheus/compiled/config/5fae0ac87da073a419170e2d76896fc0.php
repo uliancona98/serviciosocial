@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Gantry\\Component\\Config\\CompiledConfig',
-    'timestamp' => 1585941572,
-    'checksum' => 'f0cc53ca53fb892400b9119c918179a5',
+    'timestamp' => 1586446614,
+    'checksum' => 'bf22c51b4a7ad6d01d593f5dc3a0269a',
     'files' => [
         0 => [
             10 => [
@@ -11,7 +11,7 @@ return [
             ],
             11 => [
                 'file' => 'templates/g5_prometheus/custom/config/11/assignments.yaml',
-                'modified' => 1585918261
+                'modified' => 1586446580
             ],
             12 => [
                 'file' => 'templates/g5_prometheus/custom/config/12/assignments.yaml',
@@ -20,10 +20,6 @@ return [
             13 => [
                 'file' => 'templates/g5_prometheus/custom/config/13/assignments.yaml',
                 'modified' => 1585892997
-            ],
-            14 => [
-                'file' => 'templates/g5_prometheus/custom/config/14/assignments.yaml',
-                'modified' => 1585921635
             ],
             9 => [
                 'file' => 'templates/g5_prometheus/custom/config/9/assignments.yaml',
@@ -57,14 +53,6 @@ return [
             ]
         ],
         13 => [
-            'menu' => [
-                
-            ],
-            'style' => [
-                
-            ]
-        ],
-        14 => [
             'menu' => [
                 
             ],

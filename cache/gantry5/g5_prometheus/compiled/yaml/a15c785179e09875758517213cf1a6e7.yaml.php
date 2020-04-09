@@ -2,10 +2,10 @@
 return [
     '@class' => 'Gantry\\Component\\File\\CompiledYamlFile',
     'filename' => 'C:\\MAMP\\htdocs\\serviciosocial/templates/g5_prometheus/custom/config/9/index.yaml',
-    'modified' => 1585904798,
+    'modified' => 1586467081,
     'data' => [
         'name' => '9',
-        'timestamp' => 1585904798,
+        'timestamp' => 1586467081,
         'version' => 7,
         'preset' => [
             'image' => 'gantry-admin://images/layouts/default.png',
@@ -54,8 +54,7 @@ return [
             ],
             'customcontentSZ' => [
                 'customcontentSZ-8804' => 'Custom Content',
-                'customcontentSZ-6295' => 'Custom Content',
-                'customcontentSZ-3582' => 'Custom Content'
+                'customcontentSZ-6295' => 'Custom Content'
             ],
             'menu' => [
                 'menu-6609' => 'Menu'
@@ -63,20 +62,19 @@ return [
             'owlcarousel' => [
                 'owlcarousel-5243' => 'Owl Carousel'
             ],
+            'custom' => [
+                'custom-3186' => 'Custom HTML',
+                'custom-7360' => 'Custom HTML',
+                'custom-6698' => 'Custom HTML',
+                'custom-8973' => 'Custom HTML'
+            ],
             'contentarray' => [
-                'contentarray-9885' => 'Joomla Articles',
-                'contentarray-6630' => 'Joomla Articles',
-                'contentarray-3542' => 'Joomla Articles'
+                'contentarray-9885' => 'Joomla Articles'
             ],
             'contentcubes' => [
                 'contentcubes-1891' => 'Content Cubes',
                 'contentcubes-6601' => 'Content Cubes',
                 'contentcubes-7923' => 'Content Cubes'
-            ],
-            'custom' => [
-                'custom-7360' => 'Custom HTML',
-                'custom-6698' => 'Custom HTML',
-                'custom-8973' => 'Custom HTML'
             ],
             'mobile-menu' => [
                 'mobile-menu-5697' => 'Mobile-menu'

@@ -2,7 +2,7 @@
 return [
     '@class' => 'Gantry\\Component\\File\\CompiledYamlFile',
     'filename' => 'C:\\MAMP\\htdocs\\serviciosocial/templates/g5_prometheus/custom/config/9/page/head.yaml',
-    'modified' => 1585904721,
+    'modified' => 1586464626,
     'data' => [
         'atoms' => [
             0 => [
@@ -38,26 +38,6 @@ return [
                     'css' => [
                         0 => [
                             'location' => '',
-                            'inline' => '.articulo_inicio{
-margin: 6px;
-padding:6px;
-border-radius: 16px 16px 16px 16px;
--moz-border-radius: 16px 16px 16px 16px;
--webkit-border-radius: 16px 16px 16px 16px;
-//border: 2px solid #d3d4c9;
-background-color: #ECEDE5;
-}
-.articulo_inicio h3{
-text-align: center;
-}',
-                            'extra' => [
-                                
-                            ],
-                            'priority' => '0',
-                            'name' => 'articulos_inicio'
-                        ],
-                        1 => [
-                            'location' => '',
                             'inline' => '.logo_imagen{
 display: block;
  margin: auto;
@@ -68,7 +48,7 @@ display: block;
                             'priority' => '0',
                             'name' => 'logo_imagen'
                         ],
-                        2 => [
+                        1 => [
                             'location' => '',
                             'inline' => '.segundo_titulo{
 padding: 3px;
@@ -79,7 +59,7 @@ padding: 3px;
                             'priority' => '0',
                             'name' => 'segundo_titulo'
                         ],
-                        3 => [
+                        2 => [
                             'location' => '',
                             'inline' => '.fondo_blanco{
 background-color: #ffffff;
@@ -90,7 +70,7 @@ background-color: #ffffff;
                             'priority' => '0',
                             'name' => 'fondo_blanco'
                         ],
-                        4 => [
+                        3 => [
                             'location' => '',
                             'inline' => '.boton_link {
 background-color: gray;

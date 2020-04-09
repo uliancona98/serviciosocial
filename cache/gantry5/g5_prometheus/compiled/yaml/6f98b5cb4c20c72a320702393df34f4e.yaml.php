@@ -2,7 +2,7 @@
 return [
     '@class' => 'Gantry\\Component\\File\\CompiledYamlFile',
     'filename' => 'C:/MAMP/htdocs/serviciosocial/templates/g5_prometheus/custom/config/9/layout.yaml',
-    'modified' => 1585904798,
+    'modified' => 1586467081,
     'data' => [
         'version' => 2,
         'preset' => [
@@ -56,7 +56,7 @@ return [
             ],
             '/expanded/' => [
                 0 => [
-                    0 => 'customcontentSZ-3582'
+                    0 => 'custom-3186'
                 ]
             ],
             '/container-main/' => [
@@ -69,9 +69,7 @@ return [
                     1 => [
                         'mainbar 50' => [
                             0 => [
-                                0 => 'contentarray-9885 33.3',
-                                1 => 'contentarray-6630 33.3',
-                                2 => 'contentarray-3542 33.3'
+                                0 => 'contentarray-9885'
                             ],
                             1 => [
                                 0 => 'contentcubes-1891'
@@ -337,7 +335,7 @@ return [
                 'attributes' => [
                     'height' => '5rem',
                     'headline' => '',
-                    'description' => '<div style="border-top-style: solid;
+                    'description' => '<div class="custom_div" style="border-top-style: solid;
 border-color: #ebb800;"> 
 <h3 style="text-align:center; font-weight:bold; color:#ffffff;">Divulgación de las Ciencias de la Computación</h3>
  </div>'
@@ -455,12 +453,10 @@ border-color: #ebb800;">
                     'fixed' => '1'
                 ]
             ],
-            'customcontentSZ-3582' => [
-                'title' => 'Custom Content',
+            'custom-3186' => [
+                'title' => 'Custom HTML',
                 'attributes' => [
-                    'height' => '10rem',
-                    'headline' => '',
-                    'description' => '<div style="border-top-style:solid;
+                    'html' => '<div style="border-top-style:solid;
 border-bottom-style: solid;
 border-color: #ebb800;"> 
 <h3 style="text-align:center; font-weight:bold; color:#000000;">Contenido</h3>
@@ -473,12 +469,12 @@ border-color: #ebb800;">
                     'article' => [
                         'filter' => [
                             'categories' => '',
-                            'articles' => '7',
+                            'articles' => '7,8,9',
                             'featured' => 'include'
                         ],
                         'limit' => [
-                            'total' => '1',
-                            'columns' => '1',
+                            'total' => '',
+                            'columns' => '3',
                             'start' => ''
                         ],
                         'display' => [
@@ -490,73 +486,7 @@ border-color: #ebb800;">
                         ]
                     ],
                     'css' => [
-                        'class' => 'articulo_inicio'
-                    ]
-                ]
-            ],
-            'contentarray-6630' => [
-                'title' => 'Joomla Articles',
-                'attributes' => [
-                    'article' => [
-                        'filter' => [
-                            'categories' => '',
-                            'articles' => '8',
-                            'featured' => 'include'
-                        ],
-                        'limit' => [
-                            'total' => '1',
-                            'columns' => '1',
-                            'start' => ''
-                        ],
-                        'display' => [
-                            'pagination_buttons' => '',
-                            'image' => [
-                                'enabled' => 'intro'
-                            ],
-                            'text' => [
-                                'type' => 'intro'
-                            ],
-                            'date' => [
-                                'format' => 'l, F d, Y'
-                            ],
-                            'read_more' => [
-                                'enabled' => 'show'
-                            ]
-                        ],
-                        'sort' => [
-                            'orderby' => 'publish_up',
-                            'ordering' => 'ASC'
-                        ]
-                    ],
-                    'css' => [
-                        'class' => 'articulo_inicio'
-                    ]
-                ]
-            ],
-            'contentarray-3542' => [
-                'title' => 'Joomla Articles',
-                'attributes' => [
-                    'article' => [
-                        'filter' => [
-                            'categories' => '',
-                            'articles' => '9',
-                            'featured' => 'include'
-                        ],
-                        'limit' => [
-                            'total' => '1',
-                            'columns' => '1',
-                            'start' => ''
-                        ],
-                        'display' => [
-                            'pagination_buttons' => ''
-                        ],
-                        'sort' => [
-                            'orderby' => 'publish_up',
-                            'ordering' => 'ASC'
-                        ]
-                    ],
-                    'css' => [
-                        'class' => 'articulo_inicio'
+                        'class' => ''
                     ]
                 ]
             ],

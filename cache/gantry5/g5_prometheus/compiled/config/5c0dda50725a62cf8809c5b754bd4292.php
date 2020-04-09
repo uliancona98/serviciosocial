@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Gantry\\Component\\Config\\CompiledConfig',
-    'timestamp' => 1585941581,
-    'checksum' => '954a22b0f22dc145888cb4466ba709c7',
+    'timestamp' => 1586467084,
+    'checksum' => 'ffe0a99fbf2ef66c3178c93dfa5aa1b4',
     'files' => [
         'templates/g5_prometheus/custom/config/9' => [
             'assignments' => [
@@ -11,23 +11,23 @@ return [
             ],
             'index' => [
                 'file' => 'templates/g5_prometheus/custom/config/9/index.yaml',
-                'modified' => 1585904798
+                'modified' => 1586467081
             ],
             'layout' => [
                 'file' => 'templates/g5_prometheus/custom/config/9/layout.yaml',
-                'modified' => 1585904798
+                'modified' => 1586467081
             ],
             'page/assets' => [
                 'file' => 'templates/g5_prometheus/custom/config/9/page/assets.yaml',
-                'modified' => 1585904721
+                'modified' => 1586464626
             ],
             'page/body' => [
                 'file' => 'templates/g5_prometheus/custom/config/9/page/body.yaml',
-                'modified' => 1585904721
+                'modified' => 1586464626
             ],
             'page/head' => [
                 'file' => 'templates/g5_prometheus/custom/config/9/page/head.yaml',
-                'modified' => 1585904721
+                'modified' => 1586464626
             ],
             'styles' => [
                 'file' => 'templates/g5_prometheus/custom/config/9/styles.yaml',
@@ -1032,26 +1032,6 @@ Suspendisse feugiat quam',
                             'css' => [
                                 0 => [
                                     'location' => '',
-                                    'inline' => '.articulo_inicio{
-margin: 6px;
-padding:6px;
-border-radius: 16px 16px 16px 16px;
--moz-border-radius: 16px 16px 16px 16px;
--webkit-border-radius: 16px 16px 16px 16px;
-//border: 2px solid #d3d4c9;
-background-color: #ECEDE5;
-}
-.articulo_inicio h3{
-text-align: center;
-}',
-                                    'extra' => [
-                                        
-                                    ],
-                                    'priority' => '0',
-                                    'name' => 'articulos_inicio'
-                                ],
-                                1 => [
-                                    'location' => '',
                                     'inline' => '.logo_imagen{
 display: block;
  margin: auto;
@@ -1062,7 +1042,7 @@ display: block;
                                     'priority' => '0',
                                     'name' => 'logo_imagen'
                                 ],
-                                2 => [
+                                1 => [
                                     'location' => '',
                                     'inline' => '.segundo_titulo{
 padding: 3px;
@@ -1073,7 +1053,7 @@ padding: 3px;
                                     'priority' => '0',
                                     'name' => 'segundo_titulo'
                                 ],
-                                3 => [
+                                2 => [
                                     'location' => '',
                                     'inline' => '.fondo_blanco{
 background-color: #ffffff;
@@ -1084,7 +1064,7 @@ background-color: #ffffff;
                                     'priority' => '0',
                                     'name' => 'fondo_blanco'
                                 ],
-                                4 => [
+                                3 => [
                                     'location' => '',
                                     'inline' => '.boton_link {
 background-color: gray;
@@ -1116,7 +1096,7 @@ background-color: gray;
         ],
         'index' => [
             'name' => '9',
-            'timestamp' => 1585904798,
+            'timestamp' => 1586467081,
             'version' => 7,
             'preset' => [
                 'image' => 'gantry-admin://images/layouts/default.png',
@@ -1165,8 +1145,7 @@ background-color: gray;
                 ],
                 'customcontentSZ' => [
                     'customcontentSZ-8804' => 'Custom Content',
-                    'customcontentSZ-6295' => 'Custom Content',
-                    'customcontentSZ-3582' => 'Custom Content'
+                    'customcontentSZ-6295' => 'Custom Content'
                 ],
                 'menu' => [
                     'menu-6609' => 'Menu'
@@ -1174,20 +1153,19 @@ background-color: gray;
                 'owlcarousel' => [
                     'owlcarousel-5243' => 'Owl Carousel'
                 ],
+                'custom' => [
+                    'custom-3186' => 'Custom HTML',
+                    'custom-7360' => 'Custom HTML',
+                    'custom-6698' => 'Custom HTML',
+                    'custom-8973' => 'Custom HTML'
+                ],
                 'contentarray' => [
-                    'contentarray-9885' => 'Joomla Articles',
-                    'contentarray-6630' => 'Joomla Articles',
-                    'contentarray-3542' => 'Joomla Articles'
+                    'contentarray-9885' => 'Joomla Articles'
                 ],
                 'contentcubes' => [
                     'contentcubes-1891' => 'Content Cubes',
                     'contentcubes-6601' => 'Content Cubes',
                     'contentcubes-7923' => 'Content Cubes'
-                ],
-                'custom' => [
-                    'custom-7360' => 'Custom HTML',
-                    'custom-6698' => 'Custom HTML',
-                    'custom-8973' => 'Custom HTML'
                 ],
                 'mobile-menu' => [
                     'mobile-menu-5697' => 'Mobile-menu'
@@ -1250,7 +1228,7 @@ background-color: gray;
                 ],
                 '/expanded/' => [
                     0 => [
-                        0 => 'customcontentSZ-3582'
+                        0 => 'custom-3186'
                     ]
                 ],
                 '/container-main/' => [
@@ -1263,9 +1241,7 @@ background-color: gray;
                         1 => [
                             'mainbar 50' => [
                                 0 => [
-                                    0 => 'contentarray-9885 33.3',
-                                    1 => 'contentarray-6630 33.3',
-                                    2 => 'contentarray-3542 33.3'
+                                    0 => 'contentarray-9885'
                                 ],
                                 1 => [
                                     0 => 'contentcubes-1891'
@@ -1531,7 +1507,7 @@ background-color: gray;
                     'attributes' => [
                         'height' => '5rem',
                         'headline' => '',
-                        'description' => '<div style="border-top-style: solid;
+                        'description' => '<div class="custom_div" style="border-top-style: solid;
 border-color: #ebb800;"> 
 <h3 style="text-align:center; font-weight:bold; color:#ffffff;">Divulgación de las Ciencias de la Computación</h3>
  </div>'
@@ -1649,12 +1625,10 @@ border-color: #ebb800;">
                         'fixed' => '1'
                     ]
                 ],
-                'customcontentSZ-3582' => [
-                    'title' => 'Custom Content',
+                'custom-3186' => [
+                    'title' => 'Custom HTML',
                     'attributes' => [
-                        'height' => '10rem',
-                        'headline' => '',
-                        'description' => '<div style="border-top-style:solid;
+                        'html' => '<div style="border-top-style:solid;
 border-bottom-style: solid;
 border-color: #ebb800;"> 
 <h3 style="text-align:center; font-weight:bold; color:#000000;">Contenido</h3>
@@ -1667,12 +1641,12 @@ border-color: #ebb800;">
                         'article' => [
                             'filter' => [
                                 'categories' => '',
-                                'articles' => '7',
+                                'articles' => '7,8,9',
                                 'featured' => 'include'
                             ],
                             'limit' => [
-                                'total' => '1',
-                                'columns' => '1',
+                                'total' => '',
+                                'columns' => '3',
                                 'start' => ''
                             ],
                             'display' => [
@@ -1684,73 +1658,7 @@ border-color: #ebb800;">
                             ]
                         ],
                         'css' => [
-                            'class' => 'articulo_inicio'
-                        ]
-                    ]
-                ],
-                'contentarray-6630' => [
-                    'title' => 'Joomla Articles',
-                    'attributes' => [
-                        'article' => [
-                            'filter' => [
-                                'categories' => '',
-                                'articles' => '8',
-                                'featured' => 'include'
-                            ],
-                            'limit' => [
-                                'total' => '1',
-                                'columns' => '1',
-                                'start' => ''
-                            ],
-                            'display' => [
-                                'pagination_buttons' => '',
-                                'image' => [
-                                    'enabled' => 'intro'
-                                ],
-                                'text' => [
-                                    'type' => 'intro'
-                                ],
-                                'date' => [
-                                    'format' => 'l, F d, Y'
-                                ],
-                                'read_more' => [
-                                    'enabled' => 'show'
-                                ]
-                            ],
-                            'sort' => [
-                                'orderby' => 'publish_up',
-                                'ordering' => 'ASC'
-                            ]
-                        ],
-                        'css' => [
-                            'class' => 'articulo_inicio'
-                        ]
-                    ]
-                ],
-                'contentarray-3542' => [
-                    'title' => 'Joomla Articles',
-                    'attributes' => [
-                        'article' => [
-                            'filter' => [
-                                'categories' => '',
-                                'articles' => '9',
-                                'featured' => 'include'
-                            ],
-                            'limit' => [
-                                'total' => '1',
-                                'columns' => '1',
-                                'start' => ''
-                            ],
-                            'display' => [
-                                'pagination_buttons' => ''
-                            ],
-                            'sort' => [
-                                'orderby' => 'publish_up',
-                                'ordering' => 'ASC'
-                            ]
-                        ],
-                        'css' => [
-                            'class' => 'articulo_inicio'
+                            'class' => ''
                         ]
                     ]
                 ],

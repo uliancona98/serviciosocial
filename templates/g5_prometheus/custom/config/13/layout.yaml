@@ -30,7 +30,7 @@ layout:
   /testimonials/: {  }
   /expanded/:
     -
-      - customcontentSZ-3582
+      - custom-3535
   /container-main/:
     -
       -
@@ -38,11 +38,9 @@ layout:
       -
         'mainbar 50':
           -
-            - 'contentarray-9885 33.3'
-            - 'contentarray-6630 33.3'
-            - 'contentarray-3542 33.3'
+            - contentarray-9885
           -
-            - contentcubes-1891
+            - contentcubes-6229
           -
             - contentcubes-6601
           -
@@ -54,13 +52,13 @@ layout:
   /footer/: {  }
   /footerbottom/:
     -
-      - 'spacer-spacer-1405 80'
+      - 'spacer-1405 80'
       - 'custom-7360 20'
     -
       - 'custom-6698 20'
-      - 'spacer-spacer-8549 20'
+      - 'spacer-8549 20'
       - 'custom-8973 20'
-      - 'spacer-spacer-8405 20'
+      - 'spacer-8405 20'
       - 'logo-6537 20'
   /nadir/: {  }
   offcanvas:
@@ -324,23 +322,21 @@ content:
           name: item9
     block:
       fixed: '1'
-  customcontentSZ-3582:
-    title: 'Custom Content'
+  custom-3535:
+    title: 'Custom HTML'
     attributes:
-      height: 10rem
-      headline: ''
-      description: "<div style=\"border-top-style:solid;\nborder-bottom-style: solid;\nborder-color: #ebb800;\"> \n<h3 style=\"text-align:center; font-weight:bold; color:#000000;\">Contenido</h3>\n </div>"
+      html: "<div style=\"border-top-style:solid;\nborder-bottom-style: solid;\nborder-color: #ebb800;\"> \n<h3 style=\"text-align:center; font-weight:bold; color:#000000;\">Contenido</h3>\n </div>"
   contentarray-9885:
     title: 'Joomla Articles'
     attributes:
       article:
         filter:
           categories: ''
-          articles: '7'
+          articles: '7,8,9'
           featured: include
         limit:
-          total: '1'
-          columns: '1'
+          total: ''
+          columns: '3'
           start: ''
         display:
           pagination_buttons: ''
@@ -348,54 +344,8 @@ content:
           orderby: publish_up
           ordering: ASC
       css:
-        class: articulo_inicio
-  contentarray-6630:
-    title: 'Joomla Articles'
-    attributes:
-      article:
-        filter:
-          categories: ''
-          articles: '8'
-          featured: include
-        limit:
-          total: '1'
-          columns: '1'
-          start: ''
-        display:
-          pagination_buttons: ''
-          image:
-            enabled: intro
-          text:
-            type: intro
-          date:
-            format: 'l, F d, Y'
-          read_more:
-            enabled: show
-        sort:
-          orderby: publish_up
-          ordering: ASC
-      css:
-        class: articulo_inicio
-  contentarray-3542:
-    title: 'Joomla Articles'
-    attributes:
-      article:
-        filter:
-          categories: ''
-          articles: '9'
-          featured: include
-        limit:
-          total: '1'
-          columns: '1'
-          start: ''
-        display:
-          pagination_buttons: ''
-        sort:
-          orderby: publish_up
-          ordering: ASC
-      css:
-        class: articulo_inicio
-  contentcubes-1891:
+        class: ''
+  contentcubes-6229:
     title: 'Content Cubes'
     attributes:
       css:
@@ -445,7 +395,7 @@ content:
           title: 'Demostración del robot Nao, programado por la alumna de la Licenciatura en Ciencias de la Computación Astrid Rodríguez'
           content: ''
           tags: {  }
-          link: 'http://localhost/serviciosocial/index.php/esto-hacemos/desarrollo-de-software-de-aplicacion/18-healthcare-engineering-defined-a-white-paper'
+          link: 'http://localhost/serviciosocial/index.php/esto-hacemos/desarrollo-de-software-de-aplicacion/18-demostracion-del-robot-nao-programado-por-la-alumna-de-la-licenciatura-en-ciencias-de-la-computacion-astrid-rodriguez'
           linktext: '&rarr;'
           buttonclass: ''
           buttontarget: _self

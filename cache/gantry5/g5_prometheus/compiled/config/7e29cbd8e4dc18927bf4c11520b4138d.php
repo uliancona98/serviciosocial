@@ -1,21 +1,21 @@
 <?php
 return [
     '@class' => 'Gantry\\Component\\Config\\CompiledConfig',
-    'timestamp' => 1585942991,
-    'checksum' => 'fa19f6367f707fbae195bbc201460c61',
+    'timestamp' => 1586426394,
+    'checksum' => 'c615b560db20a4bf73ff5bf32c73483c',
     'files' => [
         'templates/g5_prometheus/custom/config/14' => [
             'assignments' => [
                 'file' => 'templates/g5_prometheus/custom/config/14/assignments.yaml',
-                'modified' => 1585921635
+                'modified' => 1586393599
             ],
             'index' => [
                 'file' => 'templates/g5_prometheus/custom/config/14/index.yaml',
-                'modified' => 1585942984
+                'modified' => 1586426383
             ],
             'layout' => [
                 'file' => 'templates/g5_prometheus/custom/config/14/layout.yaml',
-                'modified' => 1585942984
+                'modified' => 1586426383
             ],
             'page/assets' => [
                 'file' => 'templates/g5_prometheus/custom/config/14/page/assets.yaml',
@@ -1105,7 +1105,7 @@ margin:auto;
         ],
         'index' => [
             'name' => '14',
-            'timestamp' => 1585942984,
+            'timestamp' => 1586426383,
             'version' => 7,
             'preset' => [
                 'image' => 'gantry-admin://images/layouts/default.png',
@@ -1165,14 +1165,15 @@ margin:auto;
                 'menu' => [
                     'menu-6609' => 'Menu'
                 ],
-                'messages' => [
-                    'system-messages-2617' => 'System Messages'
-                ],
-                'date' => [
-                    'date-2824' => 'Date'
-                ],
                 'contentarray' => [
-                    'contentarray-3598' => 'Joomla Articles'
+                    'contentarray-9885' => 'Joomla Articles',
+                    'contentarray-6630' => 'Joomla Articles',
+                    'contentarray-3542' => 'Joomla Articles'
+                ],
+                'contentcubes' => [
+                    'contentcubes-1891' => 'Content Cubes',
+                    'contentcubes-6601' => 'Content Cubes',
+                    'contentcubes-7923' => 'Content Cubes'
                 ],
                 'custom' => [
                     'custom-8748' => 'Custom HTML',
@@ -1259,11 +1260,18 @@ margin:auto;
                         1 => [
                             'mainbar 70' => [
                                 0 => [
-                                    0 => 'system-messages-2617 83',
-                                    1 => 'date-2824 17'
+                                    0 => 'contentarray-9885 33.3',
+                                    1 => 'contentarray-6630 33.3',
+                                    2 => 'contentarray-3542 33.3'
                                 ],
                                 1 => [
-                                    0 => 'contentarray-3598'
+                                    0 => 'contentcubes-1891'
+                                ],
+                                2 => [
+                                    0 => 'contentcubes-6601'
+                                ],
+                                3 => [
+                                    0 => 'contentcubes-7923'
                                 ]
                             ]
                         ],
@@ -1442,7 +1450,16 @@ margin:auto;
                 ],
                 'mainbar' => [
                     'type' => 'section',
-                    'subtype' => 'main'
+                    'subtype' => 'main',
+                    'attributes' => [
+                        'class' => '',
+                        'background' => '',
+                        'backgroundOverlay' => 'rgba(0, 0, 0, 0)',
+                        'backgroundAttachment' => '',
+                        'backgroundRepeat' => '',
+                        'backgroundPosition' => '',
+                        'backgroundSize' => ''
+                    ]
                 ],
                 'sidebar' => [
                     'type' => 'section',
@@ -1553,18 +1570,18 @@ border-color: #ebb800;">
                         'menu' => 'principal'
                     ]
                 ],
-                'contentarray-3598' => [
+                'contentarray-9885' => [
                     'title' => 'Joomla Articles',
                     'attributes' => [
                         'article' => [
                             'filter' => [
-                                'categories' => '10',
-                                'articles' => '',
+                                'categories' => '',
+                                'articles' => '7',
                                 'featured' => 'include'
                             ],
                             'limit' => [
-                                'total' => '',
-                                'columns' => '2',
+                                'total' => '2',
+                                'columns' => '1',
                                 'start' => ''
                             ],
                             'display' => [
@@ -1577,6 +1594,146 @@ border-color: #ebb800;">
                         ],
                         'css' => [
                             'class' => 'articulo_inicio'
+                        ]
+                    ]
+                ],
+                'contentarray-6630' => [
+                    'title' => 'Joomla Articles',
+                    'attributes' => [
+                        'article' => [
+                            'filter' => [
+                                'categories' => '',
+                                'articles' => '8',
+                                'featured' => 'include'
+                            ],
+                            'limit' => [
+                                'total' => '1',
+                                'columns' => '1',
+                                'start' => ''
+                            ],
+                            'display' => [
+                                'pagination_buttons' => '',
+                                'image' => [
+                                    'enabled' => 'intro'
+                                ],
+                                'text' => [
+                                    'type' => 'intro'
+                                ],
+                                'date' => [
+                                    'format' => 'l, F d, Y'
+                                ],
+                                'read_more' => [
+                                    'enabled' => 'show'
+                                ]
+                            ],
+                            'sort' => [
+                                'orderby' => 'publish_up',
+                                'ordering' => 'ASC'
+                            ]
+                        ],
+                        'css' => [
+                            'class' => 'articulo_inicio'
+                        ]
+                    ]
+                ],
+                'contentarray-3542' => [
+                    'title' => 'Joomla Articles',
+                    'attributes' => [
+                        'article' => [
+                            'filter' => [
+                                'categories' => '',
+                                'articles' => '9',
+                                'featured' => 'include'
+                            ],
+                            'limit' => [
+                                'total' => '1',
+                                'columns' => '1',
+                                'start' => ''
+                            ],
+                            'display' => [
+                                'pagination_buttons' => ''
+                            ],
+                            'sort' => [
+                                'orderby' => 'publish_up',
+                                'ordering' => 'ASC'
+                            ]
+                        ],
+                        'css' => [
+                            'class' => 'articulo_inicio'
+                        ]
+                    ]
+                ],
+                'contentcubes-1891' => [
+                    'title' => 'Content Cubes',
+                    'attributes' => [
+                        'css' => [
+                            'class' => 'articulo_inicio'
+                        ],
+                        'items' => [
+                            0 => [
+                                'image' => 'gantry-media://articulo_introduccion/BeFunky-collage.jpg',
+                                'imageposition' => 'left',
+                                'label' => 'Desarrollo de Software de Aplicación',
+                                'title' => 'MATYA - Videojuego didáctico modelado en 3D',
+                                'content' => 'Diseño e Implementación de un videojuego didáctico que apoya a estudiantes de primaria reforzando el estudio de la noción de fracción.  Los escenarios son creados por herramientas de modelado en 2D, 3D.',
+                                'link' => 'http://localhost/serviciosocial/index.php/esto-hacemos/desarrollo-de-software-de-aplicacion/10-matya',
+                                'linktext' => '',
+                                'buttonclass' => '',
+                                'buttontarget' => '_self',
+                                'name' => 'img 1'
+                            ]
+                        ]
+                    ]
+                ],
+                'contentcubes-6601' => [
+                    'title' => 'Content Cubes',
+                    'attributes' => [
+                        'css' => [
+                            'class' => 'articulo_inicio'
+                        ],
+                        'title' => '',
+                        'items' => [
+                            0 => [
+                                'image' => 'gantry-media://articulo_introduccion/BeFunky-collage2.jpg',
+                                'imageposition' => 'right',
+                                'label' => 'Computación Científica',
+                                'title' => 'Librería con Realidad Aumentada',
+                                'content' => 'La biblioteca del Campus de Ciencias Exactas e Ingeniería ofrece más de 48,568 volúmenes y en muchas ocasiones requiere mucho tiempo la búsqueda de uno de éstos. Una aplicación basada en Realidad Aumentada propone resolver el desconocimiento espacial de los usuarios de la biblioteca.',
+                                'tags' => [
+                                    
+                                ],
+                                'link' => 'http://localhost/serviciosocial/index.php/esto-hacemos/computacion-cientifica/5-libreria-con-realidad-aumentada',
+                                'linktext' => '',
+                                'buttonclass' => '',
+                                'buttontarget' => '_self',
+                                'name' => 'img 1'
+                            ]
+                        ]
+                    ]
+                ],
+                'contentcubes-7923' => [
+                    'title' => 'Content Cubes',
+                    'attributes' => [
+                        'css' => [
+                            'class' => 'articulo_inicio'
+                        ],
+                        'title' => '',
+                        'items' => [
+                            0 => [
+                                'image' => 'gantry-media://articulo_introduccion/robot_nao.jpg',
+                                'imageposition' => 'left',
+                                'label' => 'Video',
+                                'title' => 'Demostración del robot Nao, programado por la alumna de la Licenciatura en Ciencias de la Computación Astrid Rodríguez',
+                                'content' => '',
+                                'tags' => [
+                                    
+                                ],
+                                'link' => 'http://localhost/serviciosocial/index.php/esto-hacemos/desarrollo-de-software-de-aplicacion/18-demostracion-del-robot-nao-programado-por-la-alumna-de-la-licenciatura-en-ciencias-de-la-computacion-astrid-rodriguez',
+                                'linktext' => '&rarr;',
+                                'buttonclass' => '',
+                                'buttontarget' => '_self',
+                                'name' => 'img 1'
+                            ]
                         ]
                     ]
                 ],

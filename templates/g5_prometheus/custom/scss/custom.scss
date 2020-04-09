@@ -2,3 +2,42 @@
 /*h3{
   background-color: blue;
 }*/
+
+/*Estilos para las particulas customizadas HTML de la Pagina Inicio*/
+#customcontentSZ-8804-particle{
+  max-height: 5rem;
+}
+#customcontentSZ-6295-particle{
+  max-height: 7rem;
+}
+
+
+/*Fin de Estilos para las particulas customizadas HTML de la Pagina Inicio*/
+
+//Estilos para los Articulos de inicio
+.g-array-item{
+  margin: 6px;
+  padding:6px;
+  border-radius: 16px 16px 16px 16px;
+  -moz-border-radius: 16px 16px 16px 16px;
+  -webkit-border-radius: 16px 16px 16px 16px;
+  //border: 2px solid #d3d4c9;
+  background-color: #ECEDE5;
+}
+.g-array-item h3{
+text-align: center;
+}
+
+.articulo_inicio{
+margin: 6px;
+padding:6px;
+border-radius: 16px 16px 16px 16px;
+-moz-border-radius: 16px 16px 16px 16px;
+-webkit-border-radius: 16px 16px 16px 16px;
+//border: 2px solid #d3d4c9;
+background-color: #ECEDE5;
+}
+.articulo_inicio h3{
+text-align: center;
+}
+//Fin de Estilos para los Articulos de inicio
