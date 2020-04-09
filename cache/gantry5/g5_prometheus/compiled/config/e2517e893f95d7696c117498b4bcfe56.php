@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Gantry\\Component\\Config\\CompiledConfig',
-    'timestamp' => 1586474307,
-    'checksum' => '30dc343b9d14e10b90083ffcf188b3d9',
+    'timestamp' => 1586476042,
+    'checksum' => 'bd23b00ea3f798e2525fe5960b142af6',
     'files' => [
         'templates/g5_prometheus/custom/config/13' => [
             'assignments' => [
@@ -11,11 +11,11 @@ return [
             ],
             'index' => [
                 'file' => 'templates/g5_prometheus/custom/config/13/index.yaml',
-                'modified' => 1586474301
+                'modified' => 1586474313
             ],
             'layout' => [
                 'file' => 'templates/g5_prometheus/custom/config/13/layout.yaml',
-                'modified' => 1586474301
+                'modified' => 1586474313
             ],
             'page/assets' => [
                 'file' => 'templates/g5_prometheus/custom/config/13/page/assets.yaml',
@@ -1085,7 +1085,7 @@ background-color: #ffffff;
         ],
         'index' => [
             'name' => '13',
-            'timestamp' => 1586474301,
+            'timestamp' => 1586474313,
             'version' => 7,
             'preset' => [
                 'image' => 'gantry-admin://images/layouts/default.png',
@@ -1525,7 +1525,7 @@ border-color: #ebb800;">
                     'attributes' => [
                         'title' => '',
                         'autoplay' => 'enable',
-                        'autoplaySpeed' => '3',
+                        'autoplaySpeed' => '3000',
                         'items' => [
                             0 => [
                                 'image' => 'gantry-media://slider/1 cdd_Mesa de trabajo 1.jpg',
