@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Gantry\\Component\\Config\\CompiledConfig',
-    'timestamp' => 1586467324,
-    'checksum' => 'b6e7f654ef458459abc545f4a3aa6125',
+    'timestamp' => 1586711419,
+    'checksum' => 'fd49c6ddf81c83c6c17d2c0537db6c94',
     'files' => [
         'templates/g5_prometheus/custom/config/9' => [
             'assignments' => [
@@ -11,23 +11,23 @@ return [
             ],
             'index' => [
                 'file' => 'templates/g5_prometheus/custom/config/9/index.yaml',
-                'modified' => 1586467081
+                'modified' => 1586711309
             ],
             'layout' => [
                 'file' => 'templates/g5_prometheus/custom/config/9/layout.yaml',
-                'modified' => 1586467081
+                'modified' => 1586711309
             ],
             'page/assets' => [
                 'file' => 'templates/g5_prometheus/custom/config/9/page/assets.yaml',
-                'modified' => 1586464626
+                'modified' => 1586711419
             ],
             'page/body' => [
                 'file' => 'templates/g5_prometheus/custom/config/9/page/body.yaml',
-                'modified' => 1586464626
+                'modified' => 1586711419
             ],
             'page/head' => [
                 'file' => 'templates/g5_prometheus/custom/config/9/page/head.yaml',
-                'modified' => 1586464626
+                'modified' => 1586711419
             ],
             'styles' => [
                 'file' => 'templates/g5_prometheus/custom/config/9/styles.yaml',
@@ -46,7 +46,7 @@ return [
         ],
         'index' => [
             'name' => '9',
-            'timestamp' => 1586467081,
+            'timestamp' => 1586711309,
             'version' => 7,
             'preset' => [
                 'image' => 'gantry-admin://images/layouts/default.png',
@@ -105,12 +105,14 @@ return [
                 ],
                 'custom' => [
                     'custom-3186' => 'Custom HTML',
+                    'custom-7626' => 'Custom HTML',
                     'custom-7360' => 'Custom HTML',
                     'custom-6698' => 'Custom HTML',
                     'custom-8973' => 'Custom HTML'
                 ],
                 'contentarray' => [
-                    'contentarray-9885' => 'Joomla Articles'
+                    'contentarray-9885' => 'Joomla Articles',
+                    'contentarray-2426' => 'Joomla Articles'
                 ],
                 'contentcubes' => [
                     'contentcubes-1891' => 'Content Cubes',
@@ -201,6 +203,12 @@ return [
                                 ],
                                 3 => [
                                     0 => 'contentcubes-7923'
+                                ],
+                                4 => [
+                                    0 => 'contentarray-2426'
+                                ],
+                                5 => [
+                                    0 => 'custom-7626'
                                 ]
                             ]
                         ],
@@ -485,8 +493,8 @@ border-color: #ebb800;">
                     'title' => 'Owl Carousel',
                     'attributes' => [
                         'title' => '',
-                        'autoplay' => 'disable',
-                        'autoplaySpeed' => '4000',
+                        'autoplay' => 'enable',
+                        'autoplaySpeed' => '3000',
                         'items' => [
                             0 => [
                                 'image' => 'gantry-media://slider/1 cdd_Mesa de trabajo 1.jpg',
@@ -510,8 +518,8 @@ border-color: #ebb800;">
                                 'image' => 'gantry-media://slider/3 real aum_Mesa de trabajo 1.jpg',
                                 'title' => '',
                                 'desc' => '',
-                                'link' => 'http://localhost/serviciosocial/index.php/esto-hacemos/computacion-cientifica/5-libreria-con-realidad-aumentada',
-                                'linktext' => 'Ver Artículo Relacionado',
+                                'link' => 'http://localhost/serviciosocial/index.php/etiquetas/realidad-aumentada',
+                                'linktext' => 'Ver Artículos Relacionados',
                                 'buttonclass' => 'boton_link',
                                 'name' => 'item3'
                             ],
@@ -537,8 +545,8 @@ border-color: #ebb800;">
                                 'image' => 'gantry-media://slider/6 mod3d_Mesa de trabajo 1.jpg',
                                 'title' => '',
                                 'desc' => '',
-                                'link' => '',
-                                'linktext' => '',
+                                'link' => 'http://localhost/serviciosocial/index.php/etiquetas/modelado-3d',
+                                'linktext' => 'Ver Artículos Relacionados',
                                 'buttonclass' => 'button-outline',
                                 'name' => 'item6'
                             ],
@@ -620,12 +628,15 @@ border-color: #ebb800;">
                         ],
                         'items' => [
                             0 => [
-                                'image' => 'gantry-media://articulo_introduccion/BeFunky-collage.jpg',
+                                'image' => 'gantry-media://articulos/esto_hacemos/articulo_introduccion/matya.jpg',
                                 'imageposition' => 'left',
                                 'label' => 'Desarrollo de Software de Aplicación',
                                 'title' => 'MATYA - Videojuego didáctico modelado en 3D',
                                 'content' => 'Diseño e Implementación de un videojuego didáctico que apoya a estudiantes de primaria reforzando el estudio de la noción de fracción.  Los escenarios son creados por herramientas de modelado en 2D, 3D.',
-                                'link' => 'http://localhost/serviciosocial/index.php/esto-hacemos/desarrollo-de-software-de-aplicacion/10-matya',
+                                'tags' => [
+                                    
+                                ],
+                                'link' => 'http://localhost/serviciosocial/index.php/esto-hacemos/desarrollo-de-software-de-aplicacion/19-matya',
                                 'linktext' => '',
                                 'buttonclass' => '',
                                 'buttontarget' => '_self',
@@ -643,7 +654,7 @@ border-color: #ebb800;">
                         'title' => '',
                         'items' => [
                             0 => [
-                                'image' => 'gantry-media://articulo_introduccion/BeFunky-collage2.jpg',
+                                'image' => 'gantry-media://articulos/esto_hacemos/articulo_introduccion/realidad_aumentada.jpg',
                                 'imageposition' => 'right',
                                 'label' => 'Computación Científica',
                                 'title' => 'Librería con Realidad Aumentada',
@@ -669,7 +680,7 @@ border-color: #ebb800;">
                         'title' => '',
                         'items' => [
                             0 => [
-                                'image' => 'gantry-media://articulo_introduccion/robot_nao.jpg',
+                                'image' => 'gantry-media://articulos/esto_hacemos/articulo_introduccion/robot_nao.jpg',
                                 'imageposition' => 'left',
                                 'label' => 'Video',
                                 'title' => 'Demostración del robot Nao, programado por la alumna de la Licenciatura en Ciencias de la Computación Astrid Rodríguez',
@@ -684,6 +695,49 @@ border-color: #ebb800;">
                                 'name' => 'img 1'
                             ]
                         ]
+                    ]
+                ],
+                'contentarray-2426' => [
+                    'title' => 'Joomla Articles',
+                    'attributes' => [
+                        'article' => [
+                            'filter' => [
+                                'categories' => '',
+                                'articles' => '6,11, 28',
+                                'featured' => 'include'
+                            ],
+                            'limit' => [
+                                'total' => '',
+                                'columns' => '3',
+                                'start' => ''
+                            ],
+                            'display' => [
+                                'pagination_buttons' => ''
+                            ],
+                            'sort' => [
+                                'orderby' => 'publish_up',
+                                'ordering' => 'ASC'
+                            ]
+                        ],
+                        'css' => [
+                            'class' => ''
+                        ]
+                    ]
+                ],
+                'custom-7626' => [
+                    'title' => 'Custom HTML',
+                    'attributes' => [
+                        'html' => '<script src="https://apis.google.com/js/platform.js"></script>
+<div style="border-top-style:solid;
+border-bottom-style: solid;
+border-color: #ebb800;"> 
+<h3 style="text-align:center; font-weight:bold; color:#000000;">Canal de YouTube</h3>
+ </div>
+<div class="articulo_inicio"   style="text-align: center;"
+>
+<div class="g-ytsubscribe" data-channelid="UCOhcWEK2USPz_2Nv8GL89Sw" data-layout="full" data-count="hidden"></div>
+<div><iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLTKTeu6BN-FQ_kD6dK85VAqO_gGOBrmM1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+</div>'
                     ]
                 ],
                 'custom-7360' => [
@@ -794,17 +848,6 @@ background-color: #ffffff;
                                     ],
                                     'priority' => '0',
                                     'name' => 'fondo_blanco'
-                                ],
-                                3 => [
-                                    'location' => '',
-                                    'inline' => '.boton_link {
-background-color: gray;
-}',
-                                    'extra' => [
-                                        
-                                    ],
-                                    'priority' => '0',
-                                    'name' => 'boton_link'
                                 ]
                             ],
                             'javascript' => [

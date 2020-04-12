@@ -1,1 +1,0 @@
-ALTER TABLE `#__os_gallery_img` CHANGE `params` `params` MEDIUMBLOB NOT NULL;

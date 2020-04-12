@@ -2,10 +2,10 @@
 return [
     '@class' => 'Gantry\\Component\\File\\CompiledYamlFile',
     'filename' => 'C:/MAMP/htdocs/serviciosocial/templates/g5_prometheus/custom/config/9/index.yaml',
-    'modified' => 1586474331,
+    'modified' => 1586711556,
     'data' => [
         'name' => '9',
-        'timestamp' => 1586474331,
+        'timestamp' => 1586711556,
         'version' => 7,
         'preset' => [
             'image' => 'gantry-admin://images/layouts/default.png',
@@ -64,12 +64,14 @@ return [
             ],
             'custom' => [
                 'custom-3186' => 'Custom HTML',
+                'custom-7626' => 'Custom HTML',
                 'custom-7360' => 'Custom HTML',
                 'custom-6698' => 'Custom HTML',
                 'custom-8973' => 'Custom HTML'
             ],
             'contentarray' => [
-                'contentarray-9885' => 'Joomla Articles'
+                'contentarray-9885' => 'Joomla Articles',
+                'contentarray-2426' => 'Joomla Articles'
             ],
             'contentcubes' => [
                 'contentcubes-1891' => 'Content Cubes',

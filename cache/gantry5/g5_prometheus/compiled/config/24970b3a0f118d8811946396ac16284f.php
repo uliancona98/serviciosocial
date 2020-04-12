@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Gantry\\Component\\Config\\CompiledConfig',
-    'timestamp' => 1586473607,
-    'checksum' => '94da7d056eb57faa3175e9303a0597ab',
+    'timestamp' => 1586620979,
+    'checksum' => '332ba8e638f84ceca50b47667b6f9874',
     'files' => [
         'templates/g5_prometheus/custom/config/13' => [
             'assignments' => [
@@ -11,11 +11,11 @@ return [
             ],
             'index' => [
                 'file' => 'templates/g5_prometheus/custom/config/13/index.yaml',
-                'modified' => 1586472771
+                'modified' => 1586474313
             ],
             'layout' => [
                 'file' => 'templates/g5_prometheus/custom/config/13/layout.yaml',
-                'modified' => 1586472771
+                'modified' => 1586474313
             ],
             'page/assets' => [
                 'file' => 'templates/g5_prometheus/custom/config/13/page/assets.yaml',
@@ -46,7 +46,7 @@ return [
         ],
         'index' => [
             'name' => '13',
-            'timestamp' => 1586472771,
+            'timestamp' => 1586474313,
             'version' => 7,
             'preset' => [
                 'image' => 'gantry-admin://images/layouts/default.png',
@@ -485,8 +485,8 @@ border-color: #ebb800;">
                     'title' => 'Owl Carousel',
                     'attributes' => [
                         'title' => '',
-                        'autoplay' => 'disable',
-                        'autoplaySpeed' => '4000',
+                        'autoplay' => 'enable',
+                        'autoplaySpeed' => '3000',
                         'items' => [
                             0 => [
                                 'image' => 'gantry-media://slider/1 cdd_Mesa de trabajo 1.jpg',

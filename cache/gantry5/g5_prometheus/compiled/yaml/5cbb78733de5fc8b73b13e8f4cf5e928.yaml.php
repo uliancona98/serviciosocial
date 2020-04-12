@@ -2,7 +2,7 @@
 return [
     '@class' => 'Gantry\\Component\\File\\CompiledYamlFile',
     'filename' => 'C:\\MAMP\\htdocs\\serviciosocial/templates/g5_prometheus/custom/config/9/page/head.yaml',
-    'modified' => 1586464626,
+    'modified' => 1586711419,
     'data' => [
         'atoms' => [
             0 => [
@@ -69,17 +69,6 @@ background-color: #ffffff;
                             ],
                             'priority' => '0',
                             'name' => 'fondo_blanco'
-                        ],
-                        3 => [
-                            'location' => '',
-                            'inline' => '.boton_link {
-background-color: gray;
-}',
-                            'extra' => [
-                                
-                            ],
-                            'priority' => '0',
-                            'name' => 'boton_link'
                         ]
                     ],
                     'javascript' => [
