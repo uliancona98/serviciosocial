@@ -1,193 +1,193 @@
 <?php
 return [
     '@class' => 'Gantry\\Component\\Config\\CompiledConfig',
-    'timestamp' => 1586703784,
-    'checksum' => 'b03b669cc4d3d06a78adb18f510eab23',
+    'timestamp' => 1587077537,
+    'checksum' => 'b81a609b23a0584a561bf538357deb28',
     'files' => [
         'templates/g5_prometheus/custom/config/11' => [
             'assignments' => [
                 'file' => 'templates/g5_prometheus/custom/config/11/assignments.yaml',
-                'modified' => 1586703776
+                'modified' => 1583476415
             ],
             'index' => [
                 'file' => 'templates/g5_prometheus/custom/config/11/index.yaml',
-                'modified' => 1586431500
+                'modified' => 1587077505
             ],
             'layout' => [
                 'file' => 'templates/g5_prometheus/custom/config/11/layout.yaml',
-                'modified' => 1586431500
+                'modified' => 1587077505
             ],
             'page/assets' => [
                 'file' => 'templates/g5_prometheus/custom/config/11/page/assets.yaml',
-                'modified' => 1584084595
+                'modified' => 1583475646
             ],
             'page/body' => [
                 'file' => 'templates/g5_prometheus/custom/config/11/page/body.yaml',
-                'modified' => 1584084595
+                'modified' => 1583475646
             ],
             'page/head' => [
                 'file' => 'templates/g5_prometheus/custom/config/11/page/head.yaml',
-                'modified' => 1584084595
+                'modified' => 1584773813
             ],
             'styles' => [
                 'file' => 'templates/g5_prometheus/custom/config/11/styles.yaml',
-                'modified' => 1583792655
+                'modified' => 1585004516
             ]
         ],
         'templates/g5_prometheus/custom/config/default' => [
             'index' => [
                 'file' => 'templates/g5_prometheus/custom/config/default/index.yaml',
-                'modified' => 1585903925
+                'modified' => 1586809083
             ],
             'layout' => [
                 'file' => 'templates/g5_prometheus/custom/config/default/layout.yaml',
-                'modified' => 1583792621
+                'modified' => 1582763250
             ],
             'page/assets' => [
                 'file' => 'templates/g5_prometheus/custom/config/default/page/assets.yaml',
-                'modified' => 1583792621
+                'modified' => 1582763250
             ],
             'page/body' => [
                 'file' => 'templates/g5_prometheus/custom/config/default/page/body.yaml',
-                'modified' => 1583792621
+                'modified' => 1582763250
             ],
             'page/head' => [
                 'file' => 'templates/g5_prometheus/custom/config/default/page/head.yaml',
-                'modified' => 1583792621
+                'modified' => 1582763250
             ],
             'particles/branding' => [
                 'file' => 'templates/g5_prometheus/custom/config/default/particles/branding.yaml',
-                'modified' => 1583792621
+                'modified' => 1582763250
             ],
             'particles/content' => [
                 'file' => 'templates/g5_prometheus/custom/config/default/particles/content.yaml',
-                'modified' => 1583792621
+                'modified' => 1582763250
             ],
             'particles/contentarray' => [
                 'file' => 'templates/g5_prometheus/custom/config/default/particles/contentarray.yaml',
-                'modified' => 1583792621
+                'modified' => 1582763250
             ],
             'particles/contentcubes' => [
                 'file' => 'templates/g5_prometheus/custom/config/default/particles/contentcubes.yaml',
-                'modified' => 1583792621
+                'modified' => 1582763250
             ],
             'particles/contenttabs' => [
                 'file' => 'templates/g5_prometheus/custom/config/default/particles/contenttabs.yaml',
-                'modified' => 1583792621
+                'modified' => 1582763250
             ],
             'particles/copyright' => [
                 'file' => 'templates/g5_prometheus/custom/config/default/particles/copyright.yaml',
-                'modified' => 1583792621
+                'modified' => 1582763250
             ],
             'particles/custom' => [
                 'file' => 'templates/g5_prometheus/custom/config/default/particles/custom.yaml',
-                'modified' => 1583792621
+                'modified' => 1582763250
             ],
             'particles/customcontentSZ' => [
                 'file' => 'templates/g5_prometheus/custom/config/default/particles/customcontentSZ.yaml',
-                'modified' => 1583792621
+                'modified' => 1582763250
             ],
             'particles/date' => [
                 'file' => 'templates/g5_prometheus/custom/config/default/particles/date.yaml',
-                'modified' => 1583792621
+                'modified' => 1582763250
             ],
             'particles/horizontalmenu' => [
                 'file' => 'templates/g5_prometheus/custom/config/default/particles/horizontalmenu.yaml',
-                'modified' => 1583792621
+                'modified' => 1582763250
             ],
             'particles/imagegallerySZ' => [
                 'file' => 'templates/g5_prometheus/custom/config/default/particles/imagegallerySZ.yaml',
-                'modified' => 1583792621
+                'modified' => 1582763250
             ],
             'particles/logo' => [
                 'file' => 'templates/g5_prometheus/custom/config/default/particles/logo.yaml',
-                'modified' => 1583792621
+                'modified' => 1582763250
             ],
             'particles/menu' => [
                 'file' => 'templates/g5_prometheus/custom/config/default/particles/menu.yaml',
-                'modified' => 1583792621
+                'modified' => 1582763250
             ],
             'particles/messages' => [
                 'file' => 'templates/g5_prometheus/custom/config/default/particles/messages.yaml',
-                'modified' => 1583792621
+                'modified' => 1582763250
             ],
             'particles/mobile-menu' => [
                 'file' => 'templates/g5_prometheus/custom/config/default/particles/mobile-menu.yaml',
-                'modified' => 1583792621
+                'modified' => 1582763250
             ],
             'particles/module' => [
                 'file' => 'templates/g5_prometheus/custom/config/default/particles/module.yaml',
-                'modified' => 1583792621
+                'modified' => 1582763250
             ],
             'particles/owlcarousel' => [
                 'file' => 'templates/g5_prometheus/custom/config/default/particles/owlcarousel.yaml',
-                'modified' => 1583792621
+                'modified' => 1582763250
             ],
             'particles/position' => [
                 'file' => 'templates/g5_prometheus/custom/config/default/particles/position.yaml',
-                'modified' => 1583792621
+                'modified' => 1582763250
             ],
             'particles/pricetableSZ' => [
                 'file' => 'templates/g5_prometheus/custom/config/default/particles/pricetableSZ.yaml',
-                'modified' => 1583792621
+                'modified' => 1582763250
             ],
             'particles/sample' => [
                 'file' => 'templates/g5_prometheus/custom/config/default/particles/sample.yaml',
-                'modified' => 1583792621
+                'modified' => 1582763250
             ],
             'particles/social' => [
                 'file' => 'templates/g5_prometheus/custom/config/default/particles/social.yaml',
-                'modified' => 1583792621
+                'modified' => 1582763250
             ],
             'particles/socialfloatingSZ' => [
                 'file' => 'templates/g5_prometheus/custom/config/default/particles/socialfloatingSZ.yaml',
-                'modified' => 1583792621
+                'modified' => 1582763250
             ],
             'particles/spacer' => [
                 'file' => 'templates/g5_prometheus/custom/config/default/particles/spacer.yaml',
-                'modified' => 1583792621
+                'modified' => 1582763250
             ],
             'particles/testimonialSZ' => [
                 'file' => 'templates/g5_prometheus/custom/config/default/particles/testimonialSZ.yaml',
-                'modified' => 1583792621
+                'modified' => 1582763250
             ],
             'particles/totop' => [
                 'file' => 'templates/g5_prometheus/custom/config/default/particles/totop.yaml',
-                'modified' => 1583792621
+                'modified' => 1582763250
             ],
             'styles' => [
                 'file' => 'templates/g5_prometheus/custom/config/default/styles.yaml',
-                'modified' => 1583792621
+                'modified' => 1582763250
             ]
         ],
         'templates/g5_prometheus/config/default' => [
             'page/body' => [
                 'file' => 'templates/g5_prometheus/config/default/page/body.yaml',
-                'modified' => 1583792621
+                'modified' => 1582763250
             ],
             'page/head' => [
                 'file' => 'templates/g5_prometheus/config/default/page/head.yaml',
-                'modified' => 1583792621
+                'modified' => 1582763250
             ],
             'particles/branding' => [
                 'file' => 'templates/g5_prometheus/config/default/particles/branding.yaml',
-                'modified' => 1583792621
+                'modified' => 1582763250
             ],
             'particles/copyright' => [
                 'file' => 'templates/g5_prometheus/config/default/particles/copyright.yaml',
-                'modified' => 1583792621
+                'modified' => 1582763250
             ],
             'particles/logo' => [
                 'file' => 'templates/g5_prometheus/config/default/particles/logo.yaml',
-                'modified' => 1583792621
+                'modified' => 1582763250
             ],
             'particles/social' => [
                 'file' => 'templates/g5_prometheus/config/default/particles/social.yaml',
-                'modified' => 1583792621
+                'modified' => 1582763250
             ],
             'particles/totop' => [
                 'file' => 'templates/g5_prometheus/config/default/particles/totop.yaml',
-                'modified' => 1583792621
+                'modified' => 1582763250
             ]
         ]
     ],
@@ -1105,7 +1105,7 @@ margin:auto;
         ],
         'index' => [
             'name' => '11',
-            'timestamp' => 1586431500,
+            'timestamp' => 1587077505,
             'version' => 7,
             'preset' => [
                 'image' => 'gantry-admin://images/layouts/default.png',
@@ -1144,19 +1144,13 @@ margin:auto;
                     'spacer-6586' => 'Spacer',
                     'spacer-2458' => 'Spacer',
                     'spacer-2395' => 'Spacer',
+                    'spacer-spacer-5438' => 'Spacer',
                     'spacer-6136' => 'Spacer',
-                    'spacer-6302' => 'Spacer',
-                    'spacer-2135' => 'Spacer',
-                    'spacer-7572' => 'Spacer',
-                    'spacer-3752' => 'Spacer',
-                    'spacer-6819' => 'Spacer',
-                    'spacer-4402' => 'Spacer',
-                    'spacer-2661' => 'Spacer'
+                    'spacer-1405' => 'Spacer'
                 ],
                 'logo' => [
                     'logo-9501' => 'Logo / Image',
-                    'logo-9690' => 'Logo / Image',
-                    'logo-6250' => 'Logo / Image'
+                    'logo-9690' => 'Logo / Image'
                 ],
                 'customcontentSZ' => [
                     'customcontentSZ-8804' => 'Custom Content',
@@ -1175,17 +1169,11 @@ margin:auto;
                     'system-content-1966' => 'Page Content'
                 ],
                 'custom' => [
-                    'custom-8748' => 'Custom HTML',
-                    'custom-8996' => 'Custom HTML',
-                    'custom-8288' => 'Custom HTML',
-                    'custom-8901' => 'Custom HTML',
-                    'custom-7413' => 'Custom HTML',
-                    'custom-5338' => 'Custom HTML',
-                    'custom-2608' => 'Custom HTML',
-                    'custom-1520' => 'Custom HTML',
-                    'custom-4645' => 'Custom HTML',
-                    'custom-5906' => 'Custom HTML',
-                    'custom-7398' => 'Custom HTML'
+                    'custom-7360' => 'Custom HTML',
+                    'custom-8973' => 'Custom HTML'
+                ],
+                'branding' => [
+                    'branding-4219' => 'Branding'
                 ],
                 'mobile-menu' => [
                     'mobile-menu-5697' => 'Mobile-menu'
@@ -1264,6 +1252,9 @@ margin:auto;
                                 ],
                                 1 => [
                                     0 => 'system-content-1966'
+                                ],
+                                2 => [
+                                    0 => 'spacer-spacer-5438'
                                 ]
                             ]
                         ],
@@ -1287,31 +1278,14 @@ margin:auto;
                 ],
                 '/footerbottom/' => [
                     0 => [
-                        0 => 'custom-8748 20',
-                        1 => 'spacer-6302 20',
-                        2 => 'custom-8996 20',
-                        3 => 'spacer-2135 20',
-                        4 => 'custom-8288 20'
+                        0 => 'spacer-1405 80',
+                        1 => 'custom-7360 20'
                     ],
                     1 => [
-                        0 => 'custom-8901 20',
-                        1 => 'spacer-7572 20',
-                        2 => 'custom-7413 20',
-                        3 => 'spacer-3752 20',
-                        4 => 'custom-5338 20'
+                        0 => 'custom-8973'
                     ],
                     2 => [
-                        0 => 'custom-2608 25',
-                        1 => 'spacer-6819 25',
-                        2 => 'custom-1520 25',
-                        3 => 'logo-6250 25'
-                    ],
-                    3 => [
-                        0 => 'custom-4645 20',
-                        1 => 'spacer-4402 20',
-                        2 => 'custom-5906 20',
-                        3 => 'spacer-2661 20',
-                        4 => 'custom-7398 20'
+                        0 => 'branding-4219'
                     ]
                 ],
                 '/nadir/' => [
@@ -1479,7 +1453,14 @@ margin:auto;
                 'footerbottom' => [
                     'type' => 'section',
                     'attributes' => [
-                        'boxed' => ''
+                        'boxed' => '',
+                        'class' => '',
+                        'background' => '',
+                        'backgroundOverlay' => 'rgba(0, 0, 0, 0)',
+                        'backgroundAttachment' => '',
+                        'backgroundRepeat' => '',
+                        'backgroundPosition' => '',
+                        'backgroundSize' => ''
                     ]
                 ],
                 'nadir' => [
@@ -1553,80 +1534,24 @@ border-color: #ebb800;">
                         'menu' => 'principal'
                     ]
                 ],
-                'custom-8748' => [
+                'custom-7360' => [
                     'title' => 'Custom HTML',
                     'attributes' => [
                         'html' => '<br/>'
                     ]
                 ],
-                'custom-8996' => [
+                'custom-8973' => [
                     'title' => 'Custom HTML',
                     'attributes' => [
-                        'html' => '<br/>'
+                        'html' => '<p style="color:#dedede;" align="center"><b>Universidad Autónoma de Yucatán, Facultad de Matemáticas</b><br/><br/>
+Todos los derechos reservados 2020. La información aquí publicada se genera con la <br/> participación de alumnos y académicos de la Facultad de Matemáticas y es <br/> responsabilidad de quien la emite; no necesariamente refleja el punto de vista de esta <br/> institución. Los contenidos pueden ser reproducidos sin fines de lucro, siempre y cuando <br/> no se mutile, se cite la fuente completa y su dirección electrónica. De otra forma, requiere <br/> permiso previo por escrito de la institución.<br/><br/>
+La administración del sitio Web esta a cargo de la Coordinación de la Licenciatura en <br/> Ciencias de la Computación.  Diseño y desarrollo a partir del Proyecto de Servicio Social <br/> “Jóvenes en las Ciencias de la Computación”<br/><br/><b>Contacto</b><br/>
+enrique.ayala@correo.uady.mx<br/></p>'
                     ]
                 ],
-                'custom-8288' => [
-                    'title' => 'Custom HTML'
-                ],
-                'custom-8901' => [
-                    'title' => 'Custom HTML',
+                'branding-4219' => [
                     'attributes' => [
-                        'html' => '<b>Facultad de Matemáticas</b><br/>
-'
-                    ]
-                ],
-                'custom-7413' => [
-                    'title' => 'Custom HTML',
-                    'attributes' => [
-                        'html' => '<b>Correo</b><br/>
-matemati@www.uady.mx
-'
-                    ]
-                ],
-                'custom-5338' => [
-                    'title' => 'Custom HTML'
-                ],
-                'custom-2608' => [
-                    'title' => 'Custom HTML',
-                    'attributes' => [
-                        'html' => '<b>Dirección</b><br/>
-Anillo Periferico Norte, Tablaje Cat. 13615,<br/> Colonia Chuburna Hidalgo Inn, Mérida Yucatán.'
-                    ]
-                ],
-                'custom-1520' => [
-                    'title' => 'Custom HTML',
-                    'attributes' => [
-                        'html' => '<br/><b>Coordinador de la carrera</b><br/>
-M. en C. Enrique Ayala Franco'
-                    ]
-                ],
-                'logo-6250' => [
-                    'title' => 'Logo / Image',
-                    'attributes' => [
-                        'image' => 'gantry-media://uady_logo_amarillo.png',
-                        'height' => '6rem'
-                    ]
-                ],
-                'custom-4645' => [
-                    'title' => 'Custom HTML',
-                    'attributes' => [
-                        'html' => '<b>Teléfono</b><br/>
-(999) 942 31 40 al 49<br/>
-<br/>'
-                    ]
-                ],
-                'custom-5906' => [
-                    'title' => 'Custom HTML',
-                    'attributes' => [
-                        'html' => '<b>Contacto</b><br/>
-enrique.ayala@correo.uady.mx<br/>
-<br/>'
-                    ]
-                ],
-                'custom-7398' => [
-                    'title' => 'Custom HTML',
-                    'attributes' => [
-                        'html' => ''
+                        'content' => '<p align="center" ><a href="http://localhost/servicioSocial/index.php/nosotros/datos-de-la-carrera" style="color:#dedede;" title="Créditos" class="g-powered-by"><b>Créditos</b></a></p>'
                     ]
                 ]
             ]

@@ -1,37 +1,37 @@
 <?php
 return [
     '@class' => 'Gantry\\Component\\Config\\CompiledConfig',
-    'timestamp' => 1586711419,
-    'checksum' => 'fd49c6ddf81c83c6c17d2c0537db6c94',
+    'timestamp' => 1587076731,
+    'checksum' => 'ff7cfb4bc2be996a3811965154c595d5',
     'files' => [
         'templates/g5_prometheus/custom/config/9' => [
             'assignments' => [
                 'file' => 'templates/g5_prometheus/custom/config/9/assignments.yaml',
-                'modified' => 1583792621
+                'modified' => 1582763250
             ],
             'index' => [
                 'file' => 'templates/g5_prometheus/custom/config/9/index.yaml',
-                'modified' => 1586711309
+                'modified' => 1586823382
             ],
             'layout' => [
                 'file' => 'templates/g5_prometheus/custom/config/9/layout.yaml',
-                'modified' => 1586711309
+                'modified' => 1586823382
             ],
             'page/assets' => [
                 'file' => 'templates/g5_prometheus/custom/config/9/page/assets.yaml',
-                'modified' => 1586711419
+                'modified' => 1582763250
             ],
             'page/body' => [
                 'file' => 'templates/g5_prometheus/custom/config/9/page/body.yaml',
-                'modified' => 1586711419
+                'modified' => 1582763250
             ],
             'page/head' => [
                 'file' => 'templates/g5_prometheus/custom/config/9/page/head.yaml',
-                'modified' => 1586711419
+                'modified' => 1586803221
             ],
             'styles' => [
                 'file' => 'templates/g5_prometheus/custom/config/9/styles.yaml',
-                'modified' => 1584081085
+                'modified' => 1584773813
             ]
         ]
     ],
@@ -46,7 +46,7 @@ return [
         ],
         'index' => [
             'name' => '9',
-            'timestamp' => 1586711309,
+            'timestamp' => 1586823382,
             'version' => 7,
             'preset' => [
                 'image' => 'gantry-admin://images/layouts/default.png',
@@ -547,7 +547,7 @@ border-color: #ebb800;">
                                 'desc' => '',
                                 'link' => 'http://localhost/serviciosocial/index.php/etiquetas/modelado-3d',
                                 'linktext' => 'Ver Artículos Relacionados',
-                                'buttonclass' => 'button-outline',
+                                'buttonclass' => 'boton_link',
                                 'name' => 'item6'
                             ],
                             6 => [
@@ -563,9 +563,9 @@ border-color: #ebb800;">
                                 'image' => 'gantry-media://slider/8 comp cient_Mesa de trabajo 1.jpg',
                                 'title' => '',
                                 'desc' => '',
-                                'link' => '',
-                                'linktext' => '',
-                                'buttonclass' => 'button-outline',
+                                'link' => 'http://localhost/serviciosocial/index.php/esto-hacemos/computacion-cientifica',
+                                'linktext' => 'Ver Artículos Relacionados',
+                                'buttonclass' => 'boton_link',
                                 'name' => 'item8'
                             ],
                             8 => [

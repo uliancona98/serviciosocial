@@ -49,28 +49,12 @@ layout:
   /footer/: {  }
   /footerbottom/:
     -
-      - 'custom-8748 20'
-      - 'spacer-6302 20'
-      - 'custom-8996 20'
-      - 'spacer-2135 20'
-      - 'custom-8288 20'
+      - 'spacer-1405 80'
+      - 'custom-7360 20'
     -
-      - 'custom-8901 20'
-      - 'spacer-7572 20'
-      - 'custom-7413 20'
-      - 'spacer-3752 20'
-      - 'custom-5338 20'
+      - custom-8973
     -
-      - 'custom-2608 25'
-      - 'spacer-6819 25'
-      - 'custom-1520 25'
-      - 'logo-6250 25'
-    -
-      - 'custom-4645 20'
-      - 'spacer-4402 20'
-      - 'custom-5906 20'
-      - 'spacer-2661 20'
-      - 'custom-7398 20'
+      - branding-4219
   /nadir/: {  }
   offcanvas:
     -
@@ -197,6 +181,13 @@ structure:
     type: section
     attributes:
       boxed: ''
+      class: ''
+      background: ''
+      backgroundOverlay: 'rgba(0, 0, 0, 0)'
+      backgroundAttachment: ''
+      backgroundRepeat: ''
+      backgroundPosition: ''
+      backgroundSize: ''
   nadir:
     type: section
     attributes:
@@ -244,48 +235,14 @@ content:
   menu-6609:
     attributes:
       menu: principal
-  custom-8748:
+  custom-7360:
     title: 'Custom HTML'
     attributes:
       html: '<br/>'
-  custom-8996:
+  custom-8973:
     title: 'Custom HTML'
     attributes:
-      html: '<br/>'
-  custom-8288:
-    title: 'Custom HTML'
-  custom-8901:
-    title: 'Custom HTML'
+      html: "<p style=\"color:#dedede;\" align=\"center\"><b>Universidad Autónoma de Yucatán, Facultad de Matemáticas</b><br/><br/>\nTodos los derechos reservados 2020. La información aquí publicada se genera con la <br/> participación de alumnos y académicos de la Facultad de Matemáticas y es <br/> responsabilidad de quien la emite; no necesariamente refleja el punto de vista de esta <br/> institución. Los contenidos pueden ser reproducidos sin fines de lucro, siempre y cuando <br/> no se mutile, se cite la fuente completa y su dirección electrónica. De otra forma, requiere <br/> permiso previo por escrito de la institución.<br/><br/>\nLa administración del sitio Web esta a cargo de la Coordinación de la Licenciatura en <br/> Ciencias de la Computación.  Diseño y desarrollo a partir del Proyecto de Servicio Social <br/> “Jóvenes en las Ciencias de la Computación”<br/><br/><b>Contacto</b><br/>\nenrique.ayala@correo.uady.mx<br/></p>"
+  branding-4219:
     attributes:
-      html: "<b>Facultad de Matemáticas</b><br/>\n"
-  custom-7413:
-    title: 'Custom HTML'
-    attributes:
-      html: "<b>Correo</b><br/>\nmatemati@www.uady.mx\n"
-  custom-5338:
-    title: 'Custom HTML'
-  custom-2608:
-    title: 'Custom HTML'
-    attributes:
-      html: "<b>Dirección</b><br/>\nAnillo Periferico Norte, Tablaje Cat. 13615,<br/> Colonia Chuburna Hidalgo Inn, Mérida Yucatán."
-  custom-1520:
-    title: 'Custom HTML'
-    attributes:
-      html: "<br/><b>Coordinador de la carrera</b><br/>\nM. en C. Enrique Ayala Franco"
-  logo-6250:
-    title: 'Logo / Image'
-    attributes:
-      image: 'gantry-media://uady_logo_amarillo.png'
-      height: 6rem
-  custom-4645:
-    title: 'Custom HTML'
-    attributes:
-      html: "<b>Teléfono</b><br/>\n(999) 942 31 40 al 49<br/>\n<br/>"
-  custom-5906:
-    title: 'Custom HTML'
-    attributes:
-      html: "<b>Contacto</b><br/>\nenrique.ayala@correo.uady.mx<br/>\n<br/>"
-  custom-7398:
-    title: 'Custom HTML'
-    attributes:
-      html: ''
+      content: '<p align="center" ><a href="http://localhost/servicioSocial/index.php/nosotros/datos-de-la-carrera" style="color:#dedede;" title="Créditos" class="g-powered-by"><b>Créditos</b></a></p>'

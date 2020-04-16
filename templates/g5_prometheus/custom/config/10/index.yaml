@@ -1,5 +1,5 @@
-name: 10
-timestamp: 1585862032
+name: '10'
+timestamp: 1587077140
 version: 7
 preset:
   image: 'gantry-admin://images/layouts/default.png'
@@ -35,6 +35,7 @@ particles:
     spacer-2458: Spacer
     spacer-2395: Spacer
     spacer-4623: Spacer
+    spacer-1405: Spacer
   logo:
     logo-9501: 'Logo / Image'
     logo-9690: 'Logo / Image'
@@ -47,8 +48,11 @@ particles:
     system-messages-2617: 'System Messages'
   content:
     system-content-1966: 'Page Content'
-  copyright:
-    copyright-6180: Copyright
+  custom:
+    custom-7360: 'Custom HTML'
+    custom-8973: 'Custom HTML'
+  branding:
+    branding-4219: Branding
   mobile-menu:
     mobile-menu-5697: Mobile-menu
 inherit: {  }
