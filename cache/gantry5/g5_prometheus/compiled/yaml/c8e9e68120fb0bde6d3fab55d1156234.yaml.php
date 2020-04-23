@@ -2,7 +2,7 @@
 return [
     '@class' => 'Gantry\\Component\\File\\CompiledYamlFile',
     'filename' => 'C:\\MAMP\\htdocs\\serviciosocial/templates/g5_prometheus/custom/config/13/layout.yaml',
-    'modified' => 1587140665,
+    'modified' => 1587627568,
     'data' => [
         'version' => 2,
         'preset' => [
@@ -100,13 +100,11 @@ return [
             ],
             '/footerbottom/' => [
                 0 => [
-                    0 => 'spacer-1405 80',
-                    1 => 'custom-7360 20'
+                    0 => 'spacer-7194 20',
+                    1 => 'custom-5123 60',
+                    2 => 'position-module-6692 20'
                 ],
                 1 => [
-                    0 => 'custom-8973'
-                ],
-                2 => [
                     0 => 'branding-4219'
                 ]
             ],
@@ -284,7 +282,14 @@ return [
             'footerbottom' => [
                 'type' => 'section',
                 'attributes' => [
-                    'boxed' => ''
+                    'boxed' => '',
+                    'class' => '',
+                    'background' => '',
+                    'backgroundOverlay' => 'rgba(0, 0, 0, 0)',
+                    'backgroundAttachment' => '',
+                    'backgroundRepeat' => '',
+                    'backgroundPosition' => '',
+                    'backgroundSize' => ''
                 ]
             ],
             'nadir' => [
@@ -563,19 +568,20 @@ border-color: #ebb800;">
                     ]
                 ]
             ],
-            'custom-7360' => [
+            'custom-5123' => [
                 'title' => 'Custom HTML',
                 'attributes' => [
-                    'html' => '<br/>'
-                ]
-            ],
-            'custom-8973' => [
-                'title' => 'Custom HTML',
-                'attributes' => [
-                    'html' => '<p style="color:#dedede;" align="center"><b>Universidad Autónoma de Yucatán, Facultad de Matemáticas</b><br/><br/>
+                    'html' => '<div><p style="color:#dedede;" align="center"><b>Universidad Autónoma de Yucatán, Facultad de Matemáticas</b><br/><br/>
 Todos los derechos reservados 2020. La información aquí publicada se genera con la <br/> participación de alumnos y académicos de la Facultad de Matemáticas y es <br/> responsabilidad de quien la emite; no necesariamente refleja el punto de vista de esta <br/> institución. Los contenidos pueden ser reproducidos sin fines de lucro, siempre y cuando <br/> no se mutile, se cite la fuente completa y su dirección electrónica. De otra forma, requiere <br/> permiso previo por escrito de la institución.<br/><br/>
 La administración del sitio Web esta a cargo de la Coordinación de la Licenciatura en <br/> Ciencias de la Computación.  Diseño y desarrollo a partir del Proyecto de Servicio Social <br/> “Jóvenes en las Ciencias de la Computación”<br/><br/><b>Contacto</b><br/>
-enrique.ayala@correo.uady.mx<br/></p>'
+enrique.ayala@correo.uady.mx<br/></p></div>'
+                ]
+            ],
+            'position-module-6692' => [
+                'title' => 'Module Instance',
+                'attributes' => [
+                    'module_id' => '100',
+                    'key' => 'module-instance'
                 ]
             ],
             'branding-4219' => [

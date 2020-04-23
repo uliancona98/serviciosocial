@@ -2,7 +2,7 @@
 return [
     '@class' => 'Gantry\\Component\\File\\CompiledYamlFile',
     'filename' => 'C:\\MAMP\\htdocs\\serviciosocial/templates/g5_prometheus/custom/config/11/styles.yaml',
-    'modified' => 1583792655,
+    'modified' => 1587630675,
     'data' => [
         'preset' => 'preset4',
         'base' => [
@@ -59,7 +59,7 @@ return [
             'background' => '#333333'
         ],
         'expanded' => [
-            'text-color' => '#dedede',
+            'text-color' => '#ffffff',
             'link-color' => '#ebb800',
             'background' => '#333333'
         ],

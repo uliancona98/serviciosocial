@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Gantry\\Component\\Config\\CompiledConfig',
-    'timestamp' => 1587625284,
-    'checksum' => '11a8109f84b172ab6f2fef07c572afe9',
+    'timestamp' => 1587627531,
+    'checksum' => '8d08ec82fa542cc05013b968d06b4396',
     'files' => [
         'templates/g5_prometheus/custom/config/9' => [
             'assignments' => [
@@ -11,11 +11,11 @@ return [
             ],
             'index' => [
                 'file' => 'templates/g5_prometheus/custom/config/9/index.yaml',
-                'modified' => 1587625280
+                'modified' => 1587627513
             ],
             'layout' => [
                 'file' => 'templates/g5_prometheus/custom/config/9/layout.yaml',
-                'modified' => 1587625280
+                'modified' => 1587627513
             ],
             'page/assets' => [
                 'file' => 'templates/g5_prometheus/custom/config/9/page/assets.yaml',
@@ -1085,7 +1085,7 @@ background-color: #ffffff;
         ],
         'index' => [
             'name' => '9',
-            'timestamp' => 1587625280,
+            'timestamp' => 1587627513,
             'version' => 7,
             'preset' => [
                 'image' => 'gantry-admin://images/layouts/default.png',
@@ -1123,7 +1123,7 @@ background-color: #ffffff;
                     'spacer-2607' => 'Spacer',
                     'spacer-6586' => 'Spacer',
                     'spacer-2458' => 'Spacer',
-                    'spacer-spacer-7194' => 'Spacer'
+                    'spacer-7194' => 'Spacer'
                 ],
                 'logo' => [
                     'logo-9501' => 'Logo / Image',
@@ -1274,7 +1274,7 @@ background-color: #ffffff;
                 ],
                 '/footerbottom/' => [
                     0 => [
-                        0 => 'spacer-spacer-7194 20',
+                        0 => 'spacer-7194 20',
                         1 => 'custom-5123 60',
                         2 => 'position-module-6692 20'
                     ],
@@ -1800,7 +1800,8 @@ enrique.ayala@correo.uady.mx<br/></p></div>'
                 'position-module-6692' => [
                     'title' => 'Module Instance',
                     'attributes' => [
-                        'module_id' => '100'
+                        'module_id' => '100',
+                        'key' => 'module-instance'
                     ]
                 ],
                 'branding-4219' => [

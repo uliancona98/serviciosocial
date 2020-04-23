@@ -1,37 +1,37 @@
 <?php
 return [
     '@class' => 'Gantry\\Component\\Config\\CompiledConfig',
-    'timestamp' => 1586826692,
-    'checksum' => '9d3c4cf65de7d109e2f92c28d98e6503',
+    'timestamp' => 1587630563,
+    'checksum' => 'cb6d987a07af1ace3b5f58dd2dcfe182',
     'files' => [
         'templates/g5_prometheus/custom/config/10' => [
             'assignments' => [
                 'file' => 'templates/g5_prometheus/custom/config/10/assignments.yaml',
-                'modified' => 1585868670
+                'modified' => 1583792621
             ],
             'index' => [
                 'file' => 'templates/g5_prometheus/custom/config/10/index.yaml',
-                'modified' => 1586816325
+                'modified' => 1587627591
             ],
             'layout' => [
                 'file' => 'templates/g5_prometheus/custom/config/10/layout.yaml',
-                'modified' => 1586816325
+                'modified' => 1587627591
             ],
             'page/assets' => [
                 'file' => 'templates/g5_prometheus/custom/config/10/page/assets.yaml',
-                'modified' => 1582763250
+                'modified' => 1584776522
             ],
             'page/body' => [
                 'file' => 'templates/g5_prometheus/custom/config/10/page/body.yaml',
-                'modified' => 1582763250
+                'modified' => 1584776522
             ],
             'page/head' => [
                 'file' => 'templates/g5_prometheus/custom/config/10/page/head.yaml',
-                'modified' => 1584773813
+                'modified' => 1585862032
             ],
             'styles' => [
                 'file' => 'templates/g5_prometheus/custom/config/10/styles.yaml',
-                'modified' => 1582915847
+                'modified' => 1583792655
             ]
         ]
     ],
@@ -46,7 +46,7 @@ return [
         ],
         'index' => [
             'name' => '10',
-            'timestamp' => 1586816325,
+            'timestamp' => 1587627591,
             'version' => 7,
             'preset' => [
                 'image' => 'gantry-admin://images/layouts/default.png',
@@ -85,7 +85,8 @@ return [
                     'spacer-6586' => 'Spacer',
                     'spacer-2458' => 'Spacer',
                     'spacer-2395' => 'Spacer',
-                    'spacer-4623' => 'Spacer'
+                    'spacer-4623' => 'Spacer',
+                    'spacer-7194' => 'Spacer'
                 ],
                 'logo' => [
                     'logo-9501' => 'Logo / Image',
@@ -103,6 +104,15 @@ return [
                 ],
                 'content' => [
                     'system-content-1966' => 'Page Content'
+                ],
+                'custom' => [
+                    'custom-5123' => 'Custom HTML'
+                ],
+                'module' => [
+                    'position-module-6692' => 'Module Instance'
+                ],
+                'branding' => [
+                    'branding-4219' => 'Branding'
                 ],
                 'mobile-menu' => [
                     'mobile-menu-5697' => 'Mobile-menu'
@@ -202,7 +212,14 @@ return [
                     
                 ],
                 '/footerbottom/' => [
-                    
+                    0 => [
+                        0 => 'spacer-7194 20',
+                        1 => 'custom-5123 60',
+                        2 => 'position-module-6692 20'
+                    ],
+                    1 => [
+                        0 => 'branding-4219'
+                    ]
                 ],
                 '/nadir/' => [
                     
@@ -369,7 +386,14 @@ return [
                 'footerbottom' => [
                     'type' => 'section',
                     'attributes' => [
-                        'boxed' => ''
+                        'boxed' => '',
+                        'class' => '',
+                        'background' => '',
+                        'backgroundOverlay' => 'rgba(0, 0, 0, 0)',
+                        'backgroundAttachment' => '',
+                        'backgroundRepeat' => '',
+                        'backgroundPosition' => '',
+                        'backgroundSize' => ''
                     ]
                 ],
                 'nadir' => [
@@ -436,6 +460,27 @@ border-color: #ebb800;">
                     ],
                     'block' => [
                         'class' => 'logo_imagen segundo_titulo'
+                    ]
+                ],
+                'custom-5123' => [
+                    'title' => 'Custom HTML',
+                    'attributes' => [
+                        'html' => '<div><p style="color:#dedede;" align="center"><b>Universidad Autónoma de Yucatán, Facultad de Matemáticas</b><br/><br/>
+Todos los derechos reservados 2020. La información aquí publicada se genera con la <br/> participación de alumnos y académicos de la Facultad de Matemáticas y es <br/> responsabilidad de quien la emite; no necesariamente refleja el punto de vista de esta <br/> institución. Los contenidos pueden ser reproducidos sin fines de lucro, siempre y cuando <br/> no se mutile, se cite la fuente completa y su dirección electrónica. De otra forma, requiere <br/> permiso previo por escrito de la institución.<br/><br/>
+La administración del sitio Web esta a cargo de la Coordinación de la Licenciatura en <br/> Ciencias de la Computación.  Diseño y desarrollo a partir del Proyecto de Servicio Social <br/> “Jóvenes en las Ciencias de la Computación”<br/><br/><b>Contacto</b><br/>
+enrique.ayala@correo.uady.mx<br/></p></div>'
+                    ]
+                ],
+                'position-module-6692' => [
+                    'title' => 'Module Instance',
+                    'attributes' => [
+                        'module_id' => '100',
+                        'key' => 'module-instance'
+                    ]
+                ],
+                'branding-4219' => [
+                    'attributes' => [
+                        'content' => '<p align="center" ><a href="http://localhost/servicioSocial/index.php/nosotros/datos-de-la-carrera" style="color:#dedede;" title="Créditos" class="g-powered-by"><b>Créditos</b></a></p>'
                     ]
                 ]
             ]

@@ -1,8 +1,8 @@
 preset: preset4
 base:
   dominant-color: '#ebb800'
-  text-color: '#000000'
-  background: '#ffffff'
+  text-color: '#dedede'
+  background: '#333333'
 accent:
   color-1: '#000000'
   color-2: '#787878'

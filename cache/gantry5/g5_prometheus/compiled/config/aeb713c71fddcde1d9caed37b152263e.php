@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Gantry\\Component\\Config\\CompiledConfig',
-    'timestamp' => 1587624839,
-    'checksum' => '7541a80768ebabd2c3ca7b779fcf6214',
+    'timestamp' => 1587630675,
+    'checksum' => '7e0236096b50a044f2b63a8e0dc21b68',
     'files' => [
         'templates/g5_prometheus/custom/config/11' => [
             'assignments' => [
@@ -11,11 +11,11 @@ return [
             ],
             'index' => [
                 'file' => 'templates/g5_prometheus/custom/config/11/index.yaml',
-                'modified' => 1587623858
+                'modified' => 1587627618
             ],
             'layout' => [
                 'file' => 'templates/g5_prometheus/custom/config/11/layout.yaml',
-                'modified' => 1587140665
+                'modified' => 1587627618
             ],
             'page/assets' => [
                 'file' => 'templates/g5_prometheus/custom/config/11/page/assets.yaml',
@@ -31,7 +31,7 @@ return [
             ],
             'styles' => [
                 'file' => 'templates/g5_prometheus/custom/config/11/styles.yaml',
-                'modified' => 1583792655
+                'modified' => 1587630675
             ]
         ],
         'templates/g5_prometheus/custom/config/default' => [
@@ -843,7 +843,7 @@ Suspendisse feugiat quam',
             ],
             'expanded' => [
                 'section-preset' => 'base',
-                'text-color' => '#dedede',
+                'text-color' => '#ffffff',
                 'link-color' => '#ebb800',
                 'background' => '#333333'
             ],
@@ -1104,8 +1104,8 @@ margin:auto;
             ]
         ],
         'index' => [
-            'name' => 11,
-            'timestamp' => 1587140665,
+            'name' => '11',
+            'timestamp' => 1587627618,
             'version' => 7,
             'preset' => [
                 'image' => 'gantry-admin://images/layouts/default.png',
@@ -1145,7 +1145,7 @@ margin:auto;
                     'spacer-2458' => 'Spacer',
                     'spacer-2395' => 'Spacer',
                     'spacer-6136' => 'Spacer',
-                    'spacer-1405' => 'Spacer'
+                    'spacer-7194' => 'Spacer'
                 ],
                 'logo' => [
                     'logo-9501' => 'Logo / Image',
@@ -1168,8 +1168,10 @@ margin:auto;
                     'system-content-1966' => 'Page Content'
                 ],
                 'custom' => [
-                    'custom-7360' => 'Custom HTML',
-                    'custom-8973' => 'Custom HTML'
+                    'custom-5123' => 'Custom HTML'
+                ],
+                'module' => [
+                    'position-module-6692' => 'Module Instance'
                 ],
                 'branding' => [
                     'branding-4219' => 'Branding'
@@ -1274,13 +1276,11 @@ margin:auto;
                 ],
                 '/footerbottom/' => [
                     0 => [
-                        0 => 'spacer-1405 80',
-                        1 => 'custom-7360 20'
+                        0 => 'spacer-7194 20',
+                        1 => 'custom-5123 60',
+                        2 => 'position-module-6692 20'
                     ],
                     1 => [
-                        0 => 'custom-8973'
-                    ],
-                    2 => [
                         0 => 'branding-4219'
                     ]
                 ],
@@ -1530,19 +1530,20 @@ border-color: #ebb800;">
                         'menu' => 'principal'
                     ]
                 ],
-                'custom-7360' => [
+                'custom-5123' => [
                     'title' => 'Custom HTML',
                     'attributes' => [
-                        'html' => '<br/>'
-                    ]
-                ],
-                'custom-8973' => [
-                    'title' => 'Custom HTML',
-                    'attributes' => [
-                        'html' => '<p style="color:#dedede;" align="center"><b>Universidad Autónoma de Yucatán, Facultad de Matemáticas</b><br/><br/>
+                        'html' => '<div><p style="color:#dedede;" align="center"><b>Universidad Autónoma de Yucatán, Facultad de Matemáticas</b><br/><br/>
 Todos los derechos reservados 2020. La información aquí publicada se genera con la <br/> participación de alumnos y académicos de la Facultad de Matemáticas y es <br/> responsabilidad de quien la emite; no necesariamente refleja el punto de vista de esta <br/> institución. Los contenidos pueden ser reproducidos sin fines de lucro, siempre y cuando <br/> no se mutile, se cite la fuente completa y su dirección electrónica. De otra forma, requiere <br/> permiso previo por escrito de la institución.<br/><br/>
 La administración del sitio Web esta a cargo de la Coordinación de la Licenciatura en <br/> Ciencias de la Computación.  Diseño y desarrollo a partir del Proyecto de Servicio Social <br/> “Jóvenes en las Ciencias de la Computación”<br/><br/><b>Contacto</b><br/>
-enrique.ayala@correo.uady.mx<br/></p>'
+enrique.ayala@correo.uady.mx<br/></p></div>'
+                    ]
+                ],
+                'position-module-6692' => [
+                    'title' => 'Module Instance',
+                    'attributes' => [
+                        'module_id' => '100',
+                        'key' => 'module-instance'
                     ]
                 ],
                 'branding-4219' => [

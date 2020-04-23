@@ -1,5 +1,5 @@
-name: 13
-timestamp: 1587140665
+name: '13'
+timestamp: 1587627568
 version: 7
 preset:
   image: 'gantry-admin://images/layouts/default.png'
@@ -33,7 +33,7 @@ particles:
     spacer-2607: Spacer
     spacer-6586: Spacer
     spacer-2458: Spacer
-    spacer-1405: Spacer
+    spacer-7194: Spacer
   logo:
     logo-9501: 'Logo / Image'
     logo-9690: 'Logo / Image'
@@ -46,14 +46,15 @@ particles:
     owlcarousel-5243: 'Owl Carousel'
   custom:
     custom-3535: 'Custom HTML'
-    custom-7360: 'Custom HTML'
-    custom-8973: 'Custom HTML'
+    custom-5123: 'Custom HTML'
   contentarray:
     contentarray-9885: 'Joomla Articles'
   contentcubes:
     contentcubes-6229: 'Content Cubes'
     contentcubes-6601: 'Content Cubes'
     contentcubes-7923: 'Content Cubes'
+  module:
+    position-module-6692: 'Module Instance'
   branding:
     branding-4219: Branding
   mobile-menu:

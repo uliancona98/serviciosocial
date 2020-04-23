@@ -58,7 +58,7 @@ layout:
   /footer/: {  }
   /footerbottom/:
     -
-      - 'spacer-spacer-7194 20'
+      - 'spacer-7194 20'
       - 'custom-5123 60'
       - 'position-module-6692 20'
     -
@@ -442,6 +442,7 @@ content:
     title: 'Module Instance'
     attributes:
       module_id: '100'
+      key: module-instance
   branding-4219:
     attributes:
       content: '<p align="center" ><a href="http://localhost/servicioSocial/index.php/nosotros/datos-de-la-carrera" style="color:#dedede;" title="Créditos" class="g-powered-by"><b>Créditos</b></a></p>'

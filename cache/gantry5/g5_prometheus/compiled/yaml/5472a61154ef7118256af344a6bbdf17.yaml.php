@@ -2,7 +2,7 @@
 return [
     '@class' => 'Gantry\\Component\\File\\CompiledYamlFile',
     'filename' => 'C:\\MAMP\\htdocs\\serviciosocial/templates/g5_prometheus/custom/config/9/layout.yaml',
-    'modified' => 1587625280,
+    'modified' => 1587627513,
     'data' => [
         'version' => 2,
         'preset' => [
@@ -110,7 +110,7 @@ return [
             ],
             '/footerbottom/' => [
                 0 => [
-                    0 => 'spacer-spacer-7194 20',
+                    0 => 'spacer-7194 20',
                     1 => 'custom-5123 60',
                     2 => 'position-module-6692 20'
                 ],
@@ -636,7 +636,8 @@ enrique.ayala@correo.uady.mx<br/></p></div>'
             'position-module-6692' => [
                 'title' => 'Module Instance',
                 'attributes' => [
-                    'module_id' => '100'
+                    'module_id' => '100',
+                    'key' => 'module-instance'
                 ]
             ],
             'branding-4219' => [

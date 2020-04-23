@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Gantry\\Component\\Config\\CompiledConfig',
-    'timestamp' => 1587624540,
-    'checksum' => 'b384768cce2f330750eb387cfeeeb852',
+    'timestamp' => 1587628855,
+    'checksum' => '9f9b3234e2b74de45e991e1f46ec62c0',
     'files' => [
         'templates/g5_prometheus/custom/config/9' => [
             'assignments' => [
@@ -11,11 +11,11 @@ return [
             ],
             'index' => [
                 'file' => 'templates/g5_prometheus/custom/config/9/index.yaml',
-                'modified' => 1587624124
+                'modified' => 1587627513
             ],
             'layout' => [
                 'file' => 'templates/g5_prometheus/custom/config/9/layout.yaml',
-                'modified' => 1587624124
+                'modified' => 1587627513
             ],
             'page/assets' => [
                 'file' => 'templates/g5_prometheus/custom/config/9/page/assets.yaml',
@@ -46,7 +46,7 @@ return [
         ],
         'index' => [
             'name' => '9',
-            'timestamp' => 1587624124,
+            'timestamp' => 1587627513,
             'version' => 7,
             'preset' => [
                 'image' => 'gantry-admin://images/layouts/default.png',
@@ -84,7 +84,7 @@ return [
                     'spacer-2607' => 'Spacer',
                     'spacer-6586' => 'Spacer',
                     'spacer-2458' => 'Spacer',
-                    'spacer-1405' => 'Spacer'
+                    'spacer-7194' => 'Spacer'
                 ],
                 'logo' => [
                     'logo-9501' => 'Logo / Image',
@@ -103,7 +103,6 @@ return [
                 'custom' => [
                     'custom-3186' => 'Custom HTML',
                     'custom-7626' => 'Custom HTML',
-                    'custom-7360' => 'Custom HTML',
                     'custom-5123' => 'Custom HTML'
                 ],
                 'contentarray' => [
@@ -116,7 +115,7 @@ return [
                     'contentcubes-7923' => 'Content Cubes'
                 ],
                 'module' => [
-                    'position-module-3966' => 'Module Instance'
+                    'position-module-6692' => 'Module Instance'
                 ],
                 'branding' => [
                     'branding-4219' => 'Branding'
@@ -232,19 +231,15 @@ return [
                     
                 ],
                 '/footer/' => [
-                    0 => [
-                        0 => 'position-module-3966'
-                    ]
+                    
                 ],
                 '/footerbottom/' => [
                     0 => [
-                        0 => 'spacer-1405 80',
-                        1 => 'custom-7360 20'
+                        0 => 'spacer-7194 20',
+                        1 => 'custom-5123 60',
+                        2 => 'position-module-6692 20'
                     ],
                     1 => [
-                        0 => 'custom-5123'
-                    ],
-                    2 => [
                         0 => 'branding-4219'
                     ]
                 ],
@@ -754,26 +749,20 @@ border-color: #ebb800;">
 </div>'
                     ]
                 ],
-                'position-module-3966' => [
+                'custom-5123' => [
+                    'title' => 'Custom HTML',
+                    'attributes' => [
+                        'html' => '<div><p style="color:#dedede;" align="center"><b>Universidad Autónoma de Yucatán, Facultad de Matemáticas</b><br/><br/>
+Todos los derechos reservados 2020. La información aquí publicada se genera con la <br/> participación de alumnos y académicos de la Facultad de Matemáticas y es <br/> responsabilidad de quien la emite; no necesariamente refleja el punto de vista de esta <br/> institución. Los contenidos pueden ser reproducidos sin fines de lucro, siempre y cuando <br/> no se mutile, se cite la fuente completa y su dirección electrónica. De otra forma, requiere <br/> permiso previo por escrito de la institución.<br/><br/>
+La administración del sitio Web esta a cargo de la Coordinación de la Licenciatura en <br/> Ciencias de la Computación.  Diseño y desarrollo a partir del Proyecto de Servicio Social <br/> “Jóvenes en las Ciencias de la Computación”<br/><br/><b>Contacto</b><br/>
+enrique.ayala@correo.uady.mx<br/></p></div>'
+                    ]
+                ],
+                'position-module-6692' => [
                     'title' => 'Module Instance',
                     'attributes' => [
                         'module_id' => '100',
                         'key' => 'module-instance'
-                    ]
-                ],
-                'custom-7360' => [
-                    'title' => 'Custom HTML',
-                    'attributes' => [
-                        'html' => '<br/>'
-                    ]
-                ],
-                'custom-5123' => [
-                    'title' => 'Custom HTML',
-                    'attributes' => [
-                        'html' => '<p style="color:#dedede;" align="center"><b>Universidad Autónoma de Yucatán, Facultad de Matemáticas</b><br/><br/>
-Todos los derechos reservados 2020. La información aquí publicada se genera con la <br/> participación de alumnos y académicos de la Facultad de Matemáticas y es <br/> responsabilidad de quien la emite; no necesariamente refleja el punto de vista de esta <br/> institución. Los contenidos pueden ser reproducidos sin fines de lucro, siempre y cuando <br/> no se mutile, se cite la fuente completa y su dirección electrónica. De otra forma, requiere <br/> permiso previo por escrito de la institución.<br/><br/>
-La administración del sitio Web esta a cargo de la Coordinación de la Licenciatura en <br/> Ciencias de la Computación.  Diseño y desarrollo a partir del Proyecto de Servicio Social <br/> “Jóvenes en las Ciencias de la Computación”<br/><br/><b>Contacto</b><br/>
-enrique.ayala@correo.uady.mx<br/></p>'
                     ]
                 ],
                 'branding-4219' => [

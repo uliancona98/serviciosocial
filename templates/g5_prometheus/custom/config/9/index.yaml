@@ -1,5 +1,5 @@
 name: '9'
-timestamp: 1587625280
+timestamp: 1587627513
 version: 7
 preset:
   image: 'gantry-admin://images/layouts/default.png'
@@ -33,7 +33,7 @@ particles:
     spacer-2607: Spacer
     spacer-6586: Spacer
     spacer-2458: Spacer
-    spacer-spacer-7194: Spacer
+    spacer-7194: Spacer
   logo:
     logo-9501: 'Logo / Image'
     logo-9690: 'Logo / Image'
