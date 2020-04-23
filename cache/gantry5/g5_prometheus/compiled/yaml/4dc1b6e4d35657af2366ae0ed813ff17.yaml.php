@@ -2,7 +2,7 @@
 return [
     '@class' => 'Gantry\\Component\\File\\CompiledYamlFile',
     'filename' => 'C:\\MAMP\\htdocs\\serviciosocial/templates/g5_prometheus/custom/config/11/layout.yaml',
-    'modified' => 1586431500,
+    'modified' => 1587140665,
     'data' => [
         'version' => 2,
         'preset' => [
@@ -95,31 +95,14 @@ return [
             ],
             '/footerbottom/' => [
                 0 => [
-                    0 => 'custom-8748 20',
-                    1 => 'spacer-6302 20',
-                    2 => 'custom-8996 20',
-                    3 => 'spacer-2135 20',
-                    4 => 'custom-8288 20'
+                    0 => 'spacer-1405 80',
+                    1 => 'custom-7360 20'
                 ],
                 1 => [
-                    0 => 'custom-8901 20',
-                    1 => 'spacer-7572 20',
-                    2 => 'custom-7413 20',
-                    3 => 'spacer-3752 20',
-                    4 => 'custom-5338 20'
+                    0 => 'custom-8973'
                 ],
                 2 => [
-                    0 => 'custom-2608 25',
-                    1 => 'spacer-6819 25',
-                    2 => 'custom-1520 25',
-                    3 => 'logo-6250 25'
-                ],
-                3 => [
-                    0 => 'custom-4645 20',
-                    1 => 'spacer-4402 20',
-                    2 => 'custom-5906 20',
-                    3 => 'spacer-2661 20',
-                    4 => 'custom-7398 20'
+                    0 => 'branding-4219'
                 ]
             ],
             '/nadir/' => [
@@ -287,7 +270,14 @@ return [
             'footerbottom' => [
                 'type' => 'section',
                 'attributes' => [
-                    'boxed' => ''
+                    'boxed' => '',
+                    'class' => '',
+                    'background' => '',
+                    'backgroundOverlay' => 'rgba(0, 0, 0, 0)',
+                    'backgroundAttachment' => '',
+                    'backgroundRepeat' => '',
+                    'backgroundPosition' => '',
+                    'backgroundSize' => ''
                 ]
             ],
             'nadir' => [
@@ -361,80 +351,24 @@ border-color: #ebb800;">
                     'menu' => 'principal'
                 ]
             ],
-            'custom-8748' => [
+            'custom-7360' => [
                 'title' => 'Custom HTML',
                 'attributes' => [
                     'html' => '<br/>'
                 ]
             ],
-            'custom-8996' => [
+            'custom-8973' => [
                 'title' => 'Custom HTML',
                 'attributes' => [
-                    'html' => '<br/>'
+                    'html' => '<p style="color:#dedede;" align="center"><b>Universidad Autónoma de Yucatán, Facultad de Matemáticas</b><br/><br/>
+Todos los derechos reservados 2020. La información aquí publicada se genera con la <br/> participación de alumnos y académicos de la Facultad de Matemáticas y es <br/> responsabilidad de quien la emite; no necesariamente refleja el punto de vista de esta <br/> institución. Los contenidos pueden ser reproducidos sin fines de lucro, siempre y cuando <br/> no se mutile, se cite la fuente completa y su dirección electrónica. De otra forma, requiere <br/> permiso previo por escrito de la institución.<br/><br/>
+La administración del sitio Web esta a cargo de la Coordinación de la Licenciatura en <br/> Ciencias de la Computación.  Diseño y desarrollo a partir del Proyecto de Servicio Social <br/> “Jóvenes en las Ciencias de la Computación”<br/><br/><b>Contacto</b><br/>
+enrique.ayala@correo.uady.mx<br/></p>'
                 ]
             ],
-            'custom-8288' => [
-                'title' => 'Custom HTML'
-            ],
-            'custom-8901' => [
-                'title' => 'Custom HTML',
+            'branding-4219' => [
                 'attributes' => [
-                    'html' => '<b>Facultad de Matemáticas</b><br/>
-'
-                ]
-            ],
-            'custom-7413' => [
-                'title' => 'Custom HTML',
-                'attributes' => [
-                    'html' => '<b>Correo</b><br/>
-matemati@www.uady.mx
-'
-                ]
-            ],
-            'custom-5338' => [
-                'title' => 'Custom HTML'
-            ],
-            'custom-2608' => [
-                'title' => 'Custom HTML',
-                'attributes' => [
-                    'html' => '<b>Dirección</b><br/>
-Anillo Periferico Norte, Tablaje Cat. 13615,<br/> Colonia Chuburna Hidalgo Inn, Mérida Yucatán.'
-                ]
-            ],
-            'custom-1520' => [
-                'title' => 'Custom HTML',
-                'attributes' => [
-                    'html' => '<br/><b>Coordinador de la carrera</b><br/>
-M. en C. Enrique Ayala Franco'
-                ]
-            ],
-            'logo-6250' => [
-                'title' => 'Logo / Image',
-                'attributes' => [
-                    'image' => 'gantry-media://uady_logo_amarillo.png',
-                    'height' => '6rem'
-                ]
-            ],
-            'custom-4645' => [
-                'title' => 'Custom HTML',
-                'attributes' => [
-                    'html' => '<b>Teléfono</b><br/>
-(999) 942 31 40 al 49<br/>
-<br/>'
-                ]
-            ],
-            'custom-5906' => [
-                'title' => 'Custom HTML',
-                'attributes' => [
-                    'html' => '<b>Contacto</b><br/>
-enrique.ayala@correo.uady.mx<br/>
-<br/>'
-                ]
-            ],
-            'custom-7398' => [
-                'title' => 'Custom HTML',
-                'attributes' => [
-                    'html' => ''
+                    'content' => '<p align="center" ><a href="http://localhost/servicioSocial/index.php/nosotros/datos-de-la-carrera" style="color:#dedede;" title="Créditos" class="g-powered-by"><b>Créditos</b></a></p>'
                 ]
             ]
         ]

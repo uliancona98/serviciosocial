@@ -1,37 +1,37 @@
 <?php
 return [
     '@class' => 'Gantry\\Component\\Config\\CompiledConfig',
-    'timestamp' => 1587076731,
-    'checksum' => 'ff7cfb4bc2be996a3811965154c595d5',
+    'timestamp' => 1587624540,
+    'checksum' => 'b384768cce2f330750eb387cfeeeb852',
     'files' => [
         'templates/g5_prometheus/custom/config/9' => [
             'assignments' => [
                 'file' => 'templates/g5_prometheus/custom/config/9/assignments.yaml',
-                'modified' => 1582763250
+                'modified' => 1583792621
             ],
             'index' => [
                 'file' => 'templates/g5_prometheus/custom/config/9/index.yaml',
-                'modified' => 1586823382
+                'modified' => 1587624124
             ],
             'layout' => [
                 'file' => 'templates/g5_prometheus/custom/config/9/layout.yaml',
-                'modified' => 1586823382
+                'modified' => 1587624124
             ],
             'page/assets' => [
                 'file' => 'templates/g5_prometheus/custom/config/9/page/assets.yaml',
-                'modified' => 1582763250
+                'modified' => 1586711419
             ],
             'page/body' => [
                 'file' => 'templates/g5_prometheus/custom/config/9/page/body.yaml',
-                'modified' => 1582763250
+                'modified' => 1586711419
             ],
             'page/head' => [
                 'file' => 'templates/g5_prometheus/custom/config/9/page/head.yaml',
-                'modified' => 1586803221
+                'modified' => 1587140665
             ],
             'styles' => [
                 'file' => 'templates/g5_prometheus/custom/config/9/styles.yaml',
-                'modified' => 1584773813
+                'modified' => 1584081085
             ]
         ]
     ],
@@ -46,7 +46,7 @@ return [
         ],
         'index' => [
             'name' => '9',
-            'timestamp' => 1586823382,
+            'timestamp' => 1587624124,
             'version' => 7,
             'preset' => [
                 'image' => 'gantry-admin://images/layouts/default.png',
@@ -84,14 +84,11 @@ return [
                     'spacer-2607' => 'Spacer',
                     'spacer-6586' => 'Spacer',
                     'spacer-2458' => 'Spacer',
-                    'spacer-1405' => 'Spacer',
-                    'spacer-8549' => 'Spacer',
-                    'spacer-8405' => 'Spacer'
+                    'spacer-1405' => 'Spacer'
                 ],
                 'logo' => [
                     'logo-9501' => 'Logo / Image',
-                    'logo-9690' => 'Logo / Image',
-                    'logo-6537' => 'Logo / Image'
+                    'logo-9690' => 'Logo / Image'
                 ],
                 'customcontentSZ' => [
                     'customcontentSZ-8804' => 'Custom Content',
@@ -107,8 +104,7 @@ return [
                     'custom-3186' => 'Custom HTML',
                     'custom-7626' => 'Custom HTML',
                     'custom-7360' => 'Custom HTML',
-                    'custom-6698' => 'Custom HTML',
-                    'custom-8973' => 'Custom HTML'
+                    'custom-5123' => 'Custom HTML'
                 ],
                 'contentarray' => [
                     'contentarray-9885' => 'Joomla Articles',
@@ -118,6 +114,12 @@ return [
                     'contentcubes-1891' => 'Content Cubes',
                     'contentcubes-6601' => 'Content Cubes',
                     'contentcubes-7923' => 'Content Cubes'
+                ],
+                'module' => [
+                    'position-module-3966' => 'Module Instance'
+                ],
+                'branding' => [
+                    'branding-4219' => 'Branding'
                 ],
                 'mobile-menu' => [
                     'mobile-menu-5697' => 'Mobile-menu'
@@ -205,10 +207,14 @@ return [
                                     0 => 'contentcubes-7923'
                                 ],
                                 4 => [
-                                    0 => 'contentarray-2426'
-                                ],
-                                5 => [
-                                    0 => 'custom-7626'
+                                    0 => [
+                                        0 => [
+                                            0 => 'contentarray-2426'
+                                        ],
+                                        1 => [
+                                            0 => 'custom-7626'
+                                        ]
+                                    ]
                                 ]
                             ]
                         ],
@@ -226,7 +232,9 @@ return [
                     
                 ],
                 '/footer/' => [
-                    
+                    0 => [
+                        0 => 'position-module-3966'
+                    ]
                 ],
                 '/footerbottom/' => [
                     0 => [
@@ -234,11 +242,10 @@ return [
                         1 => 'custom-7360 20'
                     ],
                     1 => [
-                        0 => 'custom-6698 20',
-                        1 => 'spacer-8549 20',
-                        2 => 'custom-8973 20',
-                        3 => 'spacer-8405 20',
-                        4 => 'logo-6537 20'
+                        0 => 'custom-5123'
+                    ],
+                    2 => [
+                        0 => 'branding-4219'
                     ]
                 ],
                 '/nadir/' => [
@@ -415,7 +422,14 @@ return [
                 'footerbottom' => [
                     'type' => 'section',
                     'attributes' => [
-                        'boxed' => ''
+                        'boxed' => '',
+                        'class' => '',
+                        'background' => '',
+                        'backgroundOverlay' => 'rgba(0, 0, 0, 0)',
+                        'backgroundAttachment' => '',
+                        'backgroundRepeat' => '',
+                        'backgroundPosition' => '',
+                        'backgroundSize' => ''
                     ]
                 ],
                 'nadir' => [
@@ -740,35 +754,31 @@ border-color: #ebb800;">
 </div>'
                     ]
                 ],
+                'position-module-3966' => [
+                    'title' => 'Module Instance',
+                    'attributes' => [
+                        'module_id' => '100',
+                        'key' => 'module-instance'
+                    ]
+                ],
                 'custom-7360' => [
                     'title' => 'Custom HTML',
                     'attributes' => [
                         'html' => '<br/>'
                     ]
                 ],
-                'custom-6698' => [
+                'custom-5123' => [
                     'title' => 'Custom HTML',
                     'attributes' => [
-                        'html' => '<p style="color:#dedede;"><b>Facultad de Matemáticas</b><br/><br/><b>Dirección</b><br/>Anillo Periferico Norte, Tablaje Cat. 13615,<br/> Colonia Chuburna Hidalgo Inn, Mérida Yucatán.<br/>
-<br/><b>Teléfono</b><br/>(999) 942 31 40 al 49<br/>
-<br/></p>'
+                        'html' => '<p style="color:#dedede;" align="center"><b>Universidad Autónoma de Yucatán, Facultad de Matemáticas</b><br/><br/>
+Todos los derechos reservados 2020. La información aquí publicada se genera con la <br/> participación de alumnos y académicos de la Facultad de Matemáticas y es <br/> responsabilidad de quien la emite; no necesariamente refleja el punto de vista de esta <br/> institución. Los contenidos pueden ser reproducidos sin fines de lucro, siempre y cuando <br/> no se mutile, se cite la fuente completa y su dirección electrónica. De otra forma, requiere <br/> permiso previo por escrito de la institución.<br/><br/>
+La administración del sitio Web esta a cargo de la Coordinación de la Licenciatura en <br/> Ciencias de la Computación.  Diseño y desarrollo a partir del Proyecto de Servicio Social <br/> “Jóvenes en las Ciencias de la Computación”<br/><br/><b>Contacto</b><br/>
+enrique.ayala@correo.uady.mx<br/></p>'
                     ]
                 ],
-                'custom-8973' => [
-                    'title' => 'Custom HTML',
+                'branding-4219' => [
                     'attributes' => [
-                        'html' => '<p style="color:#dedede;"><b>Correo</b><br/>
-matemati@www.uady.mx<br/><br/><b>Coordinador de la carrera</b><br/>
-M. en C. Enrique Ayala Franco<br/><br/><b>Contacto</b><br/>
-enrique.ayala@correo.uady.mx<br/>
-<br/></p>'
-                    ]
-                ],
-                'logo-6537' => [
-                    'title' => 'Logo / Image',
-                    'attributes' => [
-                        'image' => 'gantry-media://uady_logo_amarillo.png',
-                        'height' => '10rem'
+                        'content' => '<p align="center" ><a href="http://localhost/servicioSocial/index.php/nosotros/datos-de-la-carrera" style="color:#dedede;" title="Créditos" class="g-powered-by"><b>Créditos</b></a></p>'
                     ]
                 ]
             ]

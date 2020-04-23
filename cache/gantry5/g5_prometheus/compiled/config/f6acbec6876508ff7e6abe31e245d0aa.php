@@ -1,43 +1,23 @@
 <?php
 return [
     '@class' => 'Gantry\\Component\\Config\\CompiledConfig',
-    'timestamp' => 1587623330,
-    'checksum' => 'f168a19a69793058721cd2aad7b91c39',
+    'timestamp' => 1587625616,
+    'checksum' => '5458a1fd1e16f2c7ba4cf8ce60e99595',
     'files' => [
-        'templates/g5_prometheus/custom/config/13' => [
-            'assignments' => [
-                'file' => 'templates/g5_prometheus/custom/config/13/assignments.yaml',
-                'modified' => 1585892997
-            ],
+        'templates/g5_prometheus/custom/config/_body_only' => [
             'index' => [
-                'file' => 'templates/g5_prometheus/custom/config/13/index.yaml',
-                'modified' => 1587622741
+                'file' => 'templates/g5_prometheus/custom/config/_body_only/index.yaml',
+                'modified' => 1587623858
             ],
             'layout' => [
-                'file' => 'templates/g5_prometheus/custom/config/13/layout.yaml',
-                'modified' => 1587140665
-            ],
-            'page/assets' => [
-                'file' => 'templates/g5_prometheus/custom/config/13/page/assets.yaml',
-                'modified' => 1586467637
-            ],
-            'page/body' => [
-                'file' => 'templates/g5_prometheus/custom/config/13/page/body.yaml',
-                'modified' => 1586467637
-            ],
-            'page/head' => [
-                'file' => 'templates/g5_prometheus/custom/config/13/page/head.yaml',
-                'modified' => 1587140665
-            ],
-            'styles' => [
-                'file' => 'templates/g5_prometheus/custom/config/13/styles.yaml',
-                'modified' => 1585892997
+                'file' => 'templates/g5_prometheus/custom/config/_body_only/layout.yaml',
+                'modified' => 1583792621
             ]
         ],
         'templates/g5_prometheus/custom/config/default' => [
             'index' => [
                 'file' => 'templates/g5_prometheus/custom/config/default/index.yaml',
-                'modified' => 1587622741
+                'modified' => 1587623858
             ],
             'layout' => [
                 'file' => 'templates/g5_prometheus/custom/config/default/layout.yaml',
@@ -817,18 +797,18 @@ Suspendisse feugiat quam',
         'styles' => [
             'above' => [
                 'section-preset' => 'accent2',
-                'text-color' => '#dedede',
-                'link-color' => '#ebb800',
-                'background' => '#333333'
+                'text-color' => '#212121',
+                'link-color' => '#0071bc',
+                'background' => '#ffffff'
             ],
             'accent' => [
-                'color-1' => '#000000',
-                'color-2' => '#787878',
-                'color-3' => '#000000'
+                'color-1' => '#e31c3d',
+                'color-2' => '#9bdaf1',
+                'color-3' => '#112e51'
             ],
             'base' => [
-                'dominant-color' => '#ebb800',
-                'text-color' => '#000000',
+                'dominant-color' => '#0071bc',
+                'text-color' => '#212121',
                 'background' => '#ffffff',
                 'content-margin' => '0.5rem',
                 'content-padding' => '0.5rem',
@@ -843,15 +823,15 @@ Suspendisse feugiat quam',
             ],
             'expanded' => [
                 'section-preset' => 'base',
-                'text-color' => '#dedede',
-                'link-color' => '#ebb800',
-                'background' => '#333333'
+                'text-color' => '#ffffff',
+                'link-color' => '#0071bc',
+                'background' => '#ffffff'
             ],
             'features' => [
                 'section-preset' => 'accent2',
-                'text-color' => '#dedede',
-                'link-color' => '#ebb800',
-                'background' => '#333333'
+                'text-color' => '#ffffff',
+                'link-color' => '#0071bc',
+                'background' => '#ffffff'
             ],
             'font' => [
                 'family-default' => 'Lato, Helvetica, Tahoma, Geneva, Arial, sans-serif',
@@ -860,63 +840,63 @@ Suspendisse feugiat quam',
             ],
             'footer' => [
                 'section-preset' => 'accent3',
-                'text-color' => '#dedede',
-                'link-color' => '#ebb800',
-                'background' => '#333333'
+                'text-color' => '#ffffff',
+                'link-color' => '#9bdaf1',
+                'background' => '#ffffff'
             ],
             'footerbottom' => [
                 'section-preset' => 'accent2',
-                'text-color' => '#dedede',
-                'link-color' => '#ebb800',
-                'background' => '#333333'
+                'text-color' => '#212121',
+                'link-color' => '#0071bc',
+                'background' => '#ffffff'
             ],
             'footertop' => [
                 'section-preset' => 'accent2',
-                'text-color' => '#dedede',
-                'link-color' => '#ebb800',
-                'background' => '#333333'
+                'text-color' => '#212121',
+                'link-color' => '#0071bc',
+                'background' => '#ffffff'
             ],
             'header' => [
                 'section-preset' => 'accent3',
-                'text-color' => '#dedede',
-                'link-color' => '#ebb800',
+                'text-color' => '#212121',
+                'link-color' => '#8f734a',
                 'background' => '#ffffff'
             ],
             'intro' => [
                 'section-preset' => 'accent2',
-                'text-color' => '#dedede',
-                'link-color' => '#ebb800',
+                'text-color' => '#212121',
+                'link-color' => '#0071bc',
                 'background' => '#ffffff'
             ],
             'mainbottom' => [
                 'section-preset' => 'accent2',
-                'text-color' => '#dedede',
-                'link-color' => '#ebb800',
-                'background' => '#333333'
+                'text-color' => '#212121',
+                'link-color' => '#0071bc',
+                'background' => '#ffffff'
             ],
             'menu' => [
-                'col-width' => '170px',
+                'col-width' => '180px',
                 'animation' => 'g-fade'
             ],
             'nadir' => [
                 'section-preset' => 'disabled',
                 'text-color' => '#ffffff',
-                'link-color' => '#ebb800',
+                'link-color' => '#0071bc',
                 'background' => '#000000'
             ],
             'navigation' => [
-                'text-color' => '#333333',
-                'link-color' => '#333333',
-                'background' => '#ebb800'
+                'text-color' => '#ffffff',
+                'link-color' => '#ffffff',
+                'background' => '#0071bc'
             ],
             'navtop' => [
                 'section-preset' => 'accent2',
-                'text-color' => '#dedede',
-                'link-color' => '#ebb800',
-                'background' => '#333333'
+                'text-color' => '#212121',
+                'link-color' => '#0071bc',
+                'background' => '#ffffff'
             ],
             'offcanvas' => [
-                'background' => '#ebb800',
+                'background' => '#0071bc',
                 'text-color' => '#eceeef',
                 'toggle-color' => '#ffffff',
                 'toggle-visibility' => '1',
@@ -927,8 +907,8 @@ Suspendisse feugiat quam',
                 'zenith-padding' => '0rem',
                 'navtop-margin' => '0rem',
                 'navtop-padding' => '0rem',
-                'navigation-margin' => '0.3rem',
-                'navigation-padding' => '0.3rem',
+                'navigation-margin' => '0.5rem',
+                'navigation-padding' => '0.5rem',
                 'header-margin' => '0rem',
                 'header-padding' => '0rem',
                 'intro-margin' => '0rem',
@@ -956,23 +936,23 @@ Suspendisse feugiat quam',
             ],
             'testimonials' => [
                 'section-preset' => 'accent3',
-                'text-color' => '#dedede',
-                'link-color' => '#ebb800',
-                'background' => '#333333'
+                'text-color' => '#212121',
+                'link-color' => '#0071bc',
+                'background' => '#ffffff'
             ],
             'utility' => [
                 'section-preset' => 'accent3',
-                'text-color' => '#dedede',
-                'link-color' => '#ebb800',
-                'background' => '#333333'
+                'text-color' => '#212121',
+                'link-color' => '#0071bc',
+                'background' => '#ffffff'
             ],
             'zenith' => [
                 'section-preset' => 'disabled',
                 'text-color' => '#ffffff',
-                'link-color' => '#ebb800',
+                'link-color' => '#0071bc',
                 'background' => '#000000'
             ],
-            'preset' => 'preset4'
+            'preset' => 'preset1'
         ],
         'page' => [
             'body' => [
@@ -984,7 +964,7 @@ Suspendisse feugiat quam',
                     ]
                 ],
                 'layout' => [
-                    'sections' => '2'
+                    'sections' => '0'
                 ],
                 'doctype' => 'html',
                 'body_top' => '',
@@ -1003,77 +983,38 @@ Suspendisse feugiat quam',
                         'id' => 'fixed-header-7426',
                         'type' => 'fixed-header',
                         'title' => 'Fixed Header',
-                        'inherit' => [
-                            'outline' => 'default',
-                            'atom' => 'fixed-header-7426',
-                            'include' => [
-                                0 => 'attributes'
-                            ]
+                        'attributes' => [
+                            'enabled' => '1',
+                            'cssselector' => '.sz-translation',
+                            'mobile' => 'disable',
+                            'secondtrigger' => '0',
+                            'secondoffset' => ''
                         ]
                     ],
                     1 => [
                         'type' => 'frameworks',
                         'title' => 'JavaScript Frameworks',
-                        'id' => 'frameworks-7641',
-                        'inherit' => [
-                            'outline' => 'default',
-                            'atom' => 'frameworks-7641',
-                            'include' => [
-                                0 => 'attributes'
-                            ]
-                        ]
-                    ],
-                    2 => [
-                        'id' => 'assets-7065',
-                        'type' => 'assets',
-                        'title' => 'Custom CSS / JS',
                         'attributes' => [
                             'enabled' => '1',
-                            'css' => [
-                                0 => [
-                                    'location' => '',
-                                    'inline' => '.logo_imagen{
-display: block;
- margin: auto;
-}',
-                                    'extra' => [
-                                        
-                                    ],
-                                    'priority' => '0',
-                                    'name' => 'logo_imagen'
-                                ],
-                                1 => [
-                                    'location' => '',
-                                    'inline' => '.segundo_titulo{
-padding: 3px;
-}',
-                                    'extra' => [
-                                        
-                                    ],
-                                    'priority' => '0',
-                                    'name' => 'segundo_titulo'
-                                ],
-                                2 => [
-                                    'location' => '',
-                                    'inline' => '.fondo_blanco{
-background-color: #ffffff;
-}',
-                                    'extra' => [
-                                        
-                                    ],
-                                    'priority' => '0',
-                                    'name' => 'fondo_blanco'
-                                ]
+                            'jquery' => [
+                                'enabled' => '1',
+                                'ui_core' => '0',
+                                'ui_sortable' => '0'
                             ],
-                            'javascript' => [
-                                
+                            'bootstrap' => [
+                                'enabled' => '0'
+                            ],
+                            'mootools' => [
+                                'enabled' => '0',
+                                'more' => '0'
                             ]
-                        ]
+                        ],
+                        'id' => 'frameworks-7641'
                     ]
                 ]
             ],
             'assets' => [
-                'favicon' => 'gantry-media://favicom.png',
+                'favicon' => '',
                 'touchicon' => '',
                 'css' => [
                     
@@ -1084,79 +1025,26 @@ background-color: #ffffff;
             ]
         ],
         'index' => [
-            'name' => '13',
-            'timestamp' => 1586824572,
+            'name' => '_body_only',
+            'timestamp' => 1583792621,
             'version' => 7,
             'preset' => [
-                'image' => 'gantry-admin://images/layouts/default.png',
-                'name' => 'default',
-                'timestamp' => 1581571417
+                'image' => 'gantry-admin://images/layouts/body-only.png',
+                'name' => '_body_only',
+                'timestamp' => 1477952884
             ],
             'positions' => [
                 
             ],
             'sections' => [
-                'zenith' => 'Zenith',
-                'navtop' => 'Navtop',
-                'navigation' => 'Navigation',
-                'intro' => 'Intro',
-                'features' => 'Features',
-                'utility' => 'Utility',
-                'above' => 'Above',
-                'testimonials' => 'Testimonials',
-                'expanded' => 'Expanded',
-                'mainbottom' => 'Mainbottom',
-                'footertop' => 'Footertop',
-                'footerbottom' => 'Footerbottom',
-                'nadir' => 'Nadir',
-                'header' => 'Header',
-                'aside' => 'Aside',
-                'sidebar' => 'Sidebar',
-                'mainbar' => 'Mainbar',
-                'footer' => 'Footer',
-                'offcanvas' => 'Offcanvas'
+                'mainbar' => 'Mainbar'
             ],
             'particles' => [
-                'spacer' => [
-                    'spacer-1702' => 'Spacer',
-                    'spacer-3243' => 'Spacer',
-                    'spacer-2607' => 'Spacer',
-                    'spacer-6586' => 'Spacer',
-                    'spacer-2458' => 'Spacer',
-                    'spacer-1405' => 'Spacer'
+                'messages' => [
+                    'system-messages-6659' => 'System Messages'
                 ],
-                'logo' => [
-                    'logo-9501' => 'Logo / Image',
-                    'logo-9690' => 'Logo / Image'
-                ],
-                'customcontentSZ' => [
-                    'customcontentSZ-8804' => 'Custom Content',
-                    'customcontentSZ-6295' => 'Custom Content'
-                ],
-                'menu' => [
-                    'menu-6609' => 'Menu'
-                ],
-                'owlcarousel' => [
-                    'owlcarousel-5243' => 'Owl Carousel'
-                ],
-                'custom' => [
-                    'custom-3535' => 'Custom HTML',
-                    'custom-7360' => 'Custom HTML',
-                    'custom-8973' => 'Custom HTML'
-                ],
-                'contentarray' => [
-                    'contentarray-9885' => 'Joomla Articles'
-                ],
-                'contentcubes' => [
-                    'contentcubes-6229' => 'Content Cubes',
-                    'contentcubes-6601' => 'Content Cubes',
-                    'contentcubes-7923' => 'Content Cubes'
-                ],
-                'branding' => [
-                    'branding-4219' => 'Branding'
-                ],
-                'mobile-menu' => [
-                    'mobile-menu-5697' => 'Mobile-menu'
+                'content' => [
+                    'system-content-5845' => 'Page Content'
                 ]
             ],
             'inherit' => [
@@ -1166,591 +1054,57 @@ background-color: #ffffff;
         'layout' => [
             'version' => 2,
             'preset' => [
-                'image' => 'gantry-admin://images/layouts/default.png',
-                'name' => 'default',
-                'timestamp' => 1581571417
+                'image' => 'gantry-admin://images/layouts/body-only.png',
+                'name' => '_body_only',
+                'timestamp' => 1477952884
             ],
             'layout' => [
-                '/zenith/' => [
-                    
-                ],
-                '/navtop/' => [
+                '/mainbar/' => [
                     0 => [
-                        0 => 'spacer-1702 5',
-                        1 => 'logo-9501 11',
-                        2 => 'logo-9690 57',
-                        3 => 'spacer-3243 27'
+                        0 => 'system-messages-6659'
                     ],
                     1 => [
-                        0 => 'spacer-2607 16',
-                        1 => 'customcontentSZ-8804 50',
-                        2 => 'spacer-6586 7',
-                        3 => 'customcontentSZ-6295 17',
-                        4 => 'spacer-2458 10'
-                    ]
-                ],
-                '/navigation/' => [
-                    0 => [
-                        0 => 'menu-6609'
-                    ]
-                ],
-                '/header/' => [
-                    0 => [
-                        0 => 'owlcarousel-5243'
-                    ]
-                ],
-                '/intro/' => [
-                    
-                ],
-                '/features/' => [
-                    
-                ],
-                '/utility/' => [
-                    
-                ],
-                '/above/' => [
-                    
-                ],
-                '/testimonials/' => [
-                    
-                ],
-                '/expanded/' => [
-                    0 => [
-                        0 => 'custom-3535'
-                    ]
-                ],
-                '/container-main/' => [
-                    0 => [
-                        0 => [
-                            'aside 25' => [
-                                
-                            ]
-                        ],
-                        1 => [
-                            'mainbar 50' => [
-                                0 => [
-                                    0 => 'contentarray-9885'
-                                ],
-                                1 => [
-                                    0 => 'contentcubes-6229'
-                                ],
-                                2 => [
-                                    0 => 'contentcubes-6601'
-                                ],
-                                3 => [
-                                    0 => 'contentcubes-7923'
-                                ]
-                            ]
-                        ],
-                        2 => [
-                            'sidebar 25' => [
-                                
-                            ]
-                        ]
-                    ]
-                ],
-                '/mainbottom/' => [
-                    
-                ],
-                '/footertop/' => [
-                    
-                ],
-                '/footer/' => [
-                    
-                ],
-                '/footerbottom/' => [
-                    0 => [
-                        0 => 'spacer-1405 80',
-                        1 => 'custom-7360 20'
-                    ],
-                    1 => [
-                        0 => 'custom-8973'
-                    ],
-                    2 => [
-                        0 => 'branding-4219'
-                    ]
-                ],
-                '/nadir/' => [
-                    
-                ],
-                'offcanvas' => [
-                    0 => [
-                        0 => 'mobile-menu-5697'
+                        0 => 'system-content-5845'
                     ]
                 ]
             ],
             'structure' => [
-                'zenith' => [
-                    'type' => 'section',
-                    'attributes' => [
-                        'boxed' => ''
-                    ]
-                ],
-                'navtop' => [
-                    'type' => 'section',
-                    'attributes' => [
-                        'boxed' => '',
-                        'class' => '',
-                        'background' => '',
-                        'backgroundOverlay' => 'rgba(0, 0, 0, 0)',
-                        'backgroundAttachment' => '',
-                        'backgroundRepeat' => '',
-                        'backgroundPosition' => '',
-                        'backgroundSize' => ''
-                    ]
-                ],
-                'navigation' => [
-                    'type' => 'section',
-                    'attributes' => [
-                        'boxed' => '0',
-                        'class' => '',
-                        'background' => '',
-                        'backgroundOverlay' => 'rgba(0, 0, 0, 0)',
-                        'backgroundAttachment' => '',
-                        'backgroundRepeat' => '',
-                        'backgroundPosition' => '',
-                        'backgroundSize' => ''
-                    ]
-                ],
-                'header' => [
-                    'attributes' => [
-                        'boxed' => '0',
-                        'class' => '',
-                        'background' => '#DADCCE',
-                        'backgroundOverlay' => '#DADCCE',
-                        'backgroundAttachment' => 'fixed',
-                        'backgroundRepeat' => '',
-                        'backgroundPosition' => 'center center',
-                        'backgroundSize' => 'cover'
-                    ]
-                ],
-                'intro' => [
-                    'type' => 'section',
-                    'attributes' => [
-                        'boxed' => '0',
-                        'class' => 'fondo_blanco',
-                        'background' => '',
-                        'backgroundOverlay' => '#ffffff',
-                        'backgroundAttachment' => '',
-                        'backgroundRepeat' => '',
-                        'backgroundPosition' => '',
-                        'backgroundSize' => ''
-                    ]
-                ],
-                'features' => [
-                    'type' => 'section',
-                    'attributes' => [
-                        'boxed' => '2',
-                        'class' => '',
-                        'background' => 'gantry-media://demos/background_blue_lines.png',
-                        'backgroundOverlay' => 'rgba(0, 0, 0, 0)',
-                        'backgroundAttachment' => '',
-                        'backgroundRepeat' => '',
-                        'backgroundPosition' => '',
-                        'backgroundSize' => 'cover'
-                    ]
-                ],
-                'utility' => [
-                    'type' => 'section',
-                    'attributes' => [
-                        'boxed' => '0',
-                        'class' => '',
-                        'background' => '',
-                        'backgroundOverlay' => 'rgba(0, 0, 0, 0)',
-                        'backgroundAttachment' => '',
-                        'backgroundRepeat' => '',
-                        'backgroundPosition' => '',
-                        'backgroundSize' => ''
-                    ]
-                ],
-                'above' => [
-                    'type' => 'section',
-                    'attributes' => [
-                        'boxed' => ''
-                    ]
-                ],
-                'testimonials' => [
-                    'type' => 'section',
-                    'attributes' => [
-                        'boxed' => '',
-                        'class' => '',
-                        'background' => 'gantry-media://demos/background_blue_lines.png',
-                        'backgroundOverlay' => 'rgba(0, 0, 0, 0)',
-                        'backgroundAttachment' => '',
-                        'backgroundRepeat' => '',
-                        'backgroundPosition' => '',
-                        'backgroundSize' => 'cover'
-                    ]
-                ],
-                'expanded' => [
-                    'type' => 'section',
-                    'attributes' => [
-                        'boxed' => ''
-                    ]
-                ],
-                'aside' => [
-                    'attributes' => [
-                        'class' => ''
-                    ],
-                    'block' => [
-                        'fixed' => '1'
-                    ]
-                ],
                 'mainbar' => [
                     'type' => 'section',
                     'subtype' => 'main',
                     'attributes' => [
-                        'class' => '',
-                        'background' => '',
-                        'backgroundOverlay' => 'rgba(0, 0, 0, 0)',
-                        'backgroundAttachment' => '',
-                        'backgroundRepeat' => '',
-                        'backgroundPosition' => '',
-                        'backgroundSize' => ''
-                    ]
-                ],
-                'sidebar' => [
-                    'type' => 'section',
-                    'subtype' => 'aside',
-                    'attributes' => [
-                        'class' => ''
-                    ],
-                    'block' => [
-                        'fixed' => '1'
-                    ]
-                ],
-                'container-main' => [
-                    'attributes' => [
                         'boxed' => ''
-                    ]
-                ],
-                'mainbottom' => [
-                    'type' => 'section',
-                    'attributes' => [
-                        'boxed' => ''
-                    ]
-                ],
-                'footertop' => [
-                    'type' => 'section',
-                    'attributes' => [
-                        'boxed' => ''
-                    ]
-                ],
-                'footer' => [
-                    'attributes' => [
-                        'boxed' => ''
-                    ]
-                ],
-                'footerbottom' => [
-                    'type' => 'section',
-                    'attributes' => [
-                        'boxed' => ''
-                    ]
-                ],
-                'nadir' => [
-                    'type' => 'section',
-                    'attributes' => [
-                        'boxed' => ''
-                    ]
-                ],
-                'offcanvas' => [
-                    'attributes' => [
-                        'position' => 'g-offcanvas-left',
-                        'class' => '',
-                        'extra' => [
-                            
-                        ],
-                        'swipe' => '1',
-                        'css3animation' => '1'
                     ]
                 ]
             ],
             'content' => [
                 'logo-9501' => [
-                    'title' => 'Logo / Image',
-                    'attributes' => [
-                        'url' => 'https://www.matematicas.uady.mx/',
-                        'target' => '_blank',
-                        'image' => 'gantry-media://uady_logo_amarillo.png',
-                        'height' => '6rem',
-                        'text' => 'LCC'
-                    ],
-                    'block' => [
-                        'class' => 'logo_imagen'
-                    ]
+                    'title' => 'Logo / Image'
                 ],
-                'logo-9690' => [
-                    'title' => 'Logo / Image',
-                    'attributes' => [
-                        'image' => 'gantry-media://sitio_titulo_banner.png',
-                        'height' => '6rem'
-                    ],
-                    'block' => [
-                        'class' => 'logo_imagen'
-                    ]
-                ],
-                'customcontentSZ-8804' => [
+                'customcontentSZ-5107' => [
                     'title' => 'Custom Content',
                     'attributes' => [
-                        'height' => '5rem',
-                        'headline' => '',
-                        'description' => '<div style="border-top-style: solid;
-border-color: #ebb800;"> 
-<h3 style="text-align:center; font-weight:bold; color:#ffffff;">Divulgación de las Ciencias de la Computación</h3>
- </div>'
+                        'height' => '40vh',
+                        'headline' => 'PROMETHEUS',
+                        'description' => 'To change me, go to Base Outline > Layout manager and change background from "Section Settings".
+Change height from "Block height" field of current particle'
                     ],
                     'block' => [
-                        'class' => 'segundo_titulo'
+                        'variations' => 'center'
                     ]
                 ],
-                'customcontentSZ-6295' => [
-                    'title' => 'Custom Content',
-                    'attributes' => [
-                        'image' => 'gantry-media://jovenes_divulg.png',
-                        'height' => '5rem'
-                    ],
-                    'block' => [
-                        'class' => 'logo_imagen segundo_titulo'
-                    ]
+                'logo-9571' => [
+                    'title' => 'Logo / Image'
                 ],
-                'menu-6609' => [
-                    'attributes' => [
-                        'menu' => 'principal'
-                    ]
+                'horizontalmenu-9034' => [
+                    'title' => 'Horizontal Menu'
                 ],
-                'owlcarousel-5243' => [
-                    'title' => 'Owl Carousel',
-                    'attributes' => [
-                        'title' => '',
-                        'autoplay' => 'enable',
-                        'autoplaySpeed' => '3000',
-                        'items' => [
-                            0 => [
-                                'image' => 'gantry-media://slider/1 cdd_Mesa de trabajo 1.jpg',
-                                'title' => '',
-                                'desc' => '',
-                                'link' => '',
-                                'linktext' => '',
-                                'buttonclass' => '',
-                                'name' => 'item1'
-                            ],
-                            1 => [
-                                'image' => 'gantry-media://slider/2 int art_Mesa de trabajo 1.jpg',
-                                'title' => '',
-                                'desc' => '',
-                                'link' => '',
-                                'linktext' => '',
-                                'buttonclass' => '',
-                                'name' => 'item2'
-                            ],
-                            2 => [
-                                'image' => 'gantry-media://slider/3 real aum_Mesa de trabajo 1.jpg',
-                                'title' => '',
-                                'desc' => '',
-                                'link' => '',
-                                'linktext' => '',
-                                'buttonclass' => 'button-outline',
-                                'name' => 'item3'
-                            ],
-                            3 => [
-                                'image' => 'gantry-media://slider/4 redes_Mesa de trabajo 1.jpg',
-                                'title' => '',
-                                'desc' => '',
-                                'link' => '',
-                                'linktext' => '',
-                                'buttonclass' => 'button-outline',
-                                'name' => 'item4'
-                            ],
-                            4 => [
-                                'image' => 'gantry-media://slider/5 sist operat_Mesa de trabajo 1.jpg',
-                                'title' => '',
-                                'desc' => '',
-                                'link' => '',
-                                'linktext' => '',
-                                'buttonclass' => 'button-outline',
-                                'name' => 'item5'
-                            ],
-                            5 => [
-                                'image' => 'gantry-media://slider/6 mod3d_Mesa de trabajo 1.jpg',
-                                'title' => '',
-                                'desc' => '',
-                                'link' => '',
-                                'linktext' => '',
-                                'buttonclass' => 'button-outline',
-                                'name' => 'item6'
-                            ],
-                            6 => [
-                                'image' => 'gantry-media://slider/7 idlc_Mesa de trabajo 1.jpg',
-                                'title' => '',
-                                'desc' => '',
-                                'link' => '',
-                                'linktext' => '',
-                                'buttonclass' => 'button-outline',
-                                'name' => 'item7'
-                            ],
-                            7 => [
-                                'image' => 'gantry-media://slider/8 comp cient_Mesa de trabajo 1.jpg',
-                                'title' => '',
-                                'desc' => '',
-                                'link' => '',
-                                'linktext' => '',
-                                'buttonclass' => 'button-outline',
-                                'name' => 'item8'
-                            ],
-                            8 => [
-                                'image' => 'gantry-media://slider/9 ciberseguridad_Mesa de trabajo 1.jpg',
-                                'title' => '',
-                                'desc' => '',
-                                'link' => '',
-                                'linktext' => '',
-                                'buttonclass' => 'button-outline',
-                                'name' => 'item9'
-                            ]
-                        ]
-                    ],
-                    'block' => [
-                        'fixed' => '1'
-                    ]
+                'totop-8670' => [
+                    'title' => 'To Top'
                 ],
-                'custom-3535' => [
-                    'title' => 'Custom HTML',
-                    'attributes' => [
-                        'html' => '<div style="border-top-style:solid;
-border-bottom-style: solid;
-border-color: #ebb800;"> 
-<h3 style="text-align:center; font-weight:bold; color:#000000;">Contenido</h3>
- </div>'
-                    ]
-                ],
-                'contentarray-9885' => [
-                    'title' => 'Joomla Articles',
-                    'attributes' => [
-                        'article' => [
-                            'filter' => [
-                                'categories' => '',
-                                'articles' => '27,28,29',
-                                'featured' => 'include'
-                            ],
-                            'limit' => [
-                                'total' => '',
-                                'columns' => '3',
-                                'start' => ''
-                            ],
-                            'display' => [
-                                'pagination_buttons' => ''
-                            ],
-                            'sort' => [
-                                'orderby' => 'publish_up',
-                                'ordering' => 'ASC'
-                            ]
-                        ],
-                        'css' => [
-                            'class' => ''
-                        ]
-                    ]
-                ],
-                'contentcubes-6229' => [
-                    'title' => 'Content Cubes',
-                    'attributes' => [
-                        'css' => [
-                            'class' => 'articulo_inicio'
-                        ],
-                        'items' => [
-                            0 => [
-                                'image' => 'gantry-media://articulo_introduccion/BeFunky-collage.jpg',
-                                'imageposition' => 'left',
-                                'label' => 'Desarrollo de Software de Aplicación',
-                                'title' => 'MATYA - Videojuego didáctico modelado en 3D',
-                                'content' => 'Diseño e Implementación de un videojuego didáctico que apoya a estudiantes de primaria reforzando el estudio de la noción de fracción.  Los escenarios son creados por herramientas de modelado en 2D, 3D.',
-                                'link' => 'http://localhost/serviciosocial/index.php/esto-hacemos/desarrollo-de-software-de-aplicacion/10-matya',
-                                'linktext' => '',
-                                'buttonclass' => '',
-                                'buttontarget' => '_self',
-                                'name' => 'img 1'
-                            ]
-                        ]
-                    ]
-                ],
-                'contentcubes-6601' => [
-                    'title' => 'Content Cubes',
-                    'attributes' => [
-                        'css' => [
-                            'class' => 'articulo_inicio'
-                        ],
-                        'title' => '',
-                        'items' => [
-                            0 => [
-                                'image' => 'gantry-media://articulo_introduccion/BeFunky-collage2.jpg',
-                                'imageposition' => 'right',
-                                'label' => 'Computación Científica',
-                                'title' => 'Librería con Realidad Aumentada',
-                                'content' => 'La biblioteca del Campus de Ciencias Exactas e Ingeniería ofrece más de 48,568 volúmenes y en muchas ocasiones requiere mucho tiempo la búsqueda de uno de éstos. Una aplicación basada en Realidad Aumentada propone resolver el desconocimiento espacial de los usuarios de la biblioteca.',
-                                'tags' => [
-                                    
-                                ],
-                                'link' => 'http://localhost/serviciosocial/index.php/esto-hacemos/computacion-cientifica/5-libreria-con-realidad-aumentada',
-                                'linktext' => '',
-                                'buttonclass' => '',
-                                'buttontarget' => '_self',
-                                'name' => 'img 1'
-                            ]
-                        ]
-                    ]
-                ],
-                'contentcubes-7923' => [
-                    'title' => 'Content Cubes',
-                    'attributes' => [
-                        'css' => [
-                            'class' => 'articulo_inicio'
-                        ],
-                        'title' => '',
-                        'items' => [
-                            0 => [
-                                'image' => 'gantry-media://articulo_introduccion/robot_nao.jpg',
-                                'imageposition' => 'left',
-                                'label' => 'Video',
-                                'title' => 'Demostración del robot Nao, programado por la alumna de la Licenciatura en Ciencias de la Computación Astrid Rodríguez',
-                                'content' => '',
-                                'tags' => [
-                                    
-                                ],
-                                'link' => 'http://localhost/serviciosocial/index.php/esto-hacemos/desarrollo-de-software-de-aplicacion/18-demostracion-del-robot-nao-programado-por-la-alumna-de-la-licenciatura-en-ciencias-de-la-computacion-astrid-rodriguez',
-                                'linktext' => '&rarr;',
-                                'buttonclass' => '',
-                                'buttontarget' => '_self',
-                                'name' => 'img 1'
-                            ]
-                        ]
-                    ]
-                ],
-                'custom-7360' => [
-                    'title' => 'Custom HTML',
-                    'attributes' => [
-                        'html' => '<br/>'
-                    ]
-                ],
-                'custom-8973' => [
-                    'title' => 'Custom HTML',
-                    'attributes' => [
-                        'html' => '<p style="color:#dedede;" align="center"><b>Universidad Autónoma de Yucatán, Facultad de Matemáticas</b><br/><br/>
-Todos los derechos reservados 2020. La información aquí publicada se genera con la <br/> participación de alumnos y académicos de la Facultad de Matemáticas y es <br/> responsabilidad de quien la emite; no necesariamente refleja el punto de vista de esta <br/> institución. Los contenidos pueden ser reproducidos sin fines de lucro, siempre y cuando <br/> no se mutile, se cite la fuente completa y su dirección electrónica. De otra forma, requiere <br/> permiso previo por escrito de la institución.<br/><br/>
-La administración del sitio Web esta a cargo de la Coordinación de la Licenciatura en <br/> Ciencias de la Computación.  Diseño y desarrollo a partir del Proyecto de Servicio Social <br/> “Jóvenes en las Ciencias de la Computación”<br/><br/><b>Contacto</b><br/>
-enrique.ayala@correo.uady.mx<br/></p>'
-                    ]
-                ],
-                'branding-4219' => [
-                    'attributes' => [
-                        'content' => '<p align="center" ><a href="http://localhost/servicioSocial/index.php/nosotros/datos-de-la-carrera" style="color:#dedede;" title="Créditos" class="g-powered-by"><b>Créditos</b></a></p>'
-                    ]
+                'socialfloatingSZ-2700' => [
+                    'title' => 'Social Floating'
                 ]
-            ]
-        ],
-        'assignments' => [
-            'menu' => [
-                
-            ],
-            'style' => [
-                
             ]
         ]
     ]

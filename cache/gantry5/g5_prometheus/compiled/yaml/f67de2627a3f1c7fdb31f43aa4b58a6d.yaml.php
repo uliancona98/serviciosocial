@@ -2,10 +2,10 @@
 return [
     '@class' => 'Gantry\\Component\\File\\CompiledYamlFile',
     'filename' => 'C:/MAMP/htdocs/serviciosocial/templates/g5_prometheus/custom/config/11/index.yaml',
-    'modified' => 1586431500,
+    'modified' => 1587623858,
     'data' => [
-        'name' => '11',
-        'timestamp' => 1586431500,
+        'name' => 11,
+        'timestamp' => 1587140665,
         'version' => 7,
         'preset' => [
             'image' => 'gantry-admin://images/layouts/default.png',
@@ -45,18 +45,11 @@ return [
                 'spacer-2458' => 'Spacer',
                 'spacer-2395' => 'Spacer',
                 'spacer-6136' => 'Spacer',
-                'spacer-6302' => 'Spacer',
-                'spacer-2135' => 'Spacer',
-                'spacer-7572' => 'Spacer',
-                'spacer-3752' => 'Spacer',
-                'spacer-6819' => 'Spacer',
-                'spacer-4402' => 'Spacer',
-                'spacer-2661' => 'Spacer'
+                'spacer-1405' => 'Spacer'
             ],
             'logo' => [
                 'logo-9501' => 'Logo / Image',
-                'logo-9690' => 'Logo / Image',
-                'logo-6250' => 'Logo / Image'
+                'logo-9690' => 'Logo / Image'
             ],
             'customcontentSZ' => [
                 'customcontentSZ-8804' => 'Custom Content',
@@ -75,17 +68,11 @@ return [
                 'system-content-1966' => 'Page Content'
             ],
             'custom' => [
-                'custom-8748' => 'Custom HTML',
-                'custom-8996' => 'Custom HTML',
-                'custom-8288' => 'Custom HTML',
-                'custom-8901' => 'Custom HTML',
-                'custom-7413' => 'Custom HTML',
-                'custom-5338' => 'Custom HTML',
-                'custom-2608' => 'Custom HTML',
-                'custom-1520' => 'Custom HTML',
-                'custom-4645' => 'Custom HTML',
-                'custom-5906' => 'Custom HTML',
-                'custom-7398' => 'Custom HTML'
+                'custom-7360' => 'Custom HTML',
+                'custom-8973' => 'Custom HTML'
+            ],
+            'branding' => [
+                'branding-4219' => 'Branding'
             ],
             'mobile-menu' => [
                 'mobile-menu-5697' => 'Mobile-menu'

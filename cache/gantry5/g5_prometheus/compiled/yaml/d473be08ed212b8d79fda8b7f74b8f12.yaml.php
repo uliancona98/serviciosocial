@@ -2,7 +2,7 @@
 return [
     '@class' => 'Gantry\\Component\\File\\CompiledYamlFile',
     'filename' => 'C:\\MAMP\\htdocs\\serviciosocial/templates/g5_prometheus/custom/config/13/page/head.yaml',
-    'modified' => 1586467637,
+    'modified' => 1587140665,
     'data' => [
         'atoms' => [
             0 => [

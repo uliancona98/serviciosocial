@@ -2,19 +2,24 @@
 return [
     '@class' => 'Gantry\\Component\\File\\CompiledYamlFile',
     'filename' => 'C:/MAMP/htdocs/serviciosocial/templates/g5_prometheus/custom/config/menu/principal.yaml',
-    'modified' => 1583792621,
+    'modified' => 1587140665,
     'data' => [
         'ordering' => [
             'inicio' => '',
             'nosotros' => [
                 'historia' => '',
                 'mision-y-vision' => '',
-                'perfil-de-ingreso-objetivos' => ''
+                'perfil-de-ingreso-objetivos' => '',
+                'datos-de-la-carrera' => ''
             ],
             'esto-hacemos' => [
-                'actividades-de-la-carrera' => ''
+                'desarrollo-de-software-de-base' => '',
+                'desarrollo-de-software-de-aplicacion' => '',
+                'gestion-tecnologica' => '',
+                'computacion-cientifica' => ''
             ],
             'este-es-el-futuro-de-la-ciencia' => '',
+            'etiquetas' => '',
             'busqueda' => [
                 'busqueda-rapida' => '',
                 'busqueda-avanzada' => ''
@@ -23,6 +28,7 @@ return [
         'items' => [
             'inicio' => [
                 'id' => 102,
+                'rel' => '',
                 'attributes' => [
                     
                 ],
@@ -49,12 +55,28 @@ return [
                 'id' => 106,
                 'rel' => ''
             ],
+            'nosotros/datos-de-la-carrera' => [
+                'id' => 125,
+                'rel' => ''
+            ],
             'esto-hacemos' => [
                 'id' => 107,
                 'rel' => ''
             ],
-            'esto-hacemos/actividades-de-la-carrera' => [
-                'id' => 108,
+            'esto-hacemos/desarrollo-de-software-de-base' => [
+                'id' => 119,
+                'rel' => ''
+            ],
+            'esto-hacemos/desarrollo-de-software-de-aplicacion' => [
+                'id' => 120,
+                'rel' => ''
+            ],
+            'esto-hacemos/gestion-tecnologica' => [
+                'id' => 121,
+                'rel' => ''
+            ],
+            'esto-hacemos/computacion-cientifica' => [
+                'id' => 122,
                 'rel' => ''
             ],
             'este-es-el-futuro-de-la-ciencia' => [
@@ -74,6 +96,10 @@ return [
             ],
             'busqueda/busqueda-avanzada' => [
                 'id' => 112,
+                'rel' => ''
+            ],
+            'etiquetas' => [
+                'id' => 130,
                 'rel' => ''
             ]
         ]

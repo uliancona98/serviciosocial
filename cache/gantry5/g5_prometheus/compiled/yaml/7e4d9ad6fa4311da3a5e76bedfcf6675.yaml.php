@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Gantry\\Component\\File\\CompiledYamlFile',
-    'filename' => 'C:/MAMP/htdocs/serviciosocial/templates/g5_prometheus/custom/config/11/layout.yaml',
-    'modified' => 1587140665,
+    'filename' => 'C:/MAMP/htdocs/serviciosocial/templates/g5_prometheus/custom/config/12/layout.yaml',
+    'modified' => 1585892997,
     'data' => [
         'version' => 2,
         'preset' => [
@@ -67,8 +67,7 @@ return [
                     1 => [
                         'mainbar 70' => [
                             0 => [
-                                0 => 'system-messages-2617 83',
-                                1 => 'date-2824 17'
+                                0 => 'system-messages-2617'
                             ],
                             1 => [
                                 0 => 'system-content-1966'
@@ -78,7 +77,7 @@ return [
                     2 => [
                         'sidebar 15' => [
                             0 => [
-                                0 => 'spacer-6136'
+                                0 => 'spacer-4623'
                             ]
                         ]
                     ]
@@ -94,16 +93,7 @@ return [
                 
             ],
             '/footerbottom/' => [
-                0 => [
-                    0 => 'spacer-1405 80',
-                    1 => 'custom-7360 20'
-                ],
-                1 => [
-                    0 => 'custom-8973'
-                ],
-                2 => [
-                    0 => 'branding-4219'
-                ]
+                
             ],
             '/nadir/' => [
                 
@@ -270,14 +260,7 @@ return [
             'footerbottom' => [
                 'type' => 'section',
                 'attributes' => [
-                    'boxed' => '',
-                    'class' => '',
-                    'background' => '',
-                    'backgroundOverlay' => 'rgba(0, 0, 0, 0)',
-                    'backgroundAttachment' => '',
-                    'backgroundRepeat' => '',
-                    'backgroundPosition' => '',
-                    'backgroundSize' => ''
+                    'boxed' => ''
                 ]
             ],
             'nadir' => [
@@ -344,31 +327,6 @@ border-color: #ebb800;">
                 ],
                 'block' => [
                     'class' => 'logo_imagen segundo_titulo'
-                ]
-            ],
-            'menu-6609' => [
-                'attributes' => [
-                    'menu' => 'principal'
-                ]
-            ],
-            'custom-7360' => [
-                'title' => 'Custom HTML',
-                'attributes' => [
-                    'html' => '<br/>'
-                ]
-            ],
-            'custom-8973' => [
-                'title' => 'Custom HTML',
-                'attributes' => [
-                    'html' => '<p style="color:#dedede;" align="center"><b>Universidad Autónoma de Yucatán, Facultad de Matemáticas</b><br/><br/>
-Todos los derechos reservados 2020. La información aquí publicada se genera con la <br/> participación de alumnos y académicos de la Facultad de Matemáticas y es <br/> responsabilidad de quien la emite; no necesariamente refleja el punto de vista de esta <br/> institución. Los contenidos pueden ser reproducidos sin fines de lucro, siempre y cuando <br/> no se mutile, se cite la fuente completa y su dirección electrónica. De otra forma, requiere <br/> permiso previo por escrito de la institución.<br/><br/>
-La administración del sitio Web esta a cargo de la Coordinación de la Licenciatura en <br/> Ciencias de la Computación.  Diseño y desarrollo a partir del Proyecto de Servicio Social <br/> “Jóvenes en las Ciencias de la Computación”<br/><br/><b>Contacto</b><br/>
-enrique.ayala@correo.uady.mx<br/></p>'
-                ]
-            ],
-            'branding-4219' => [
-                'attributes' => [
-                    'content' => '<p align="center" ><a href="http://localhost/servicioSocial/index.php/nosotros/datos-de-la-carrera" style="color:#dedede;" title="Créditos" class="g-powered-by"><b>Créditos</b></a></p>'
                 ]
             ]
         ]

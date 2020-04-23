@@ -2,7 +2,7 @@
 return [
     '@class' => 'Gantry\\Component\\File\\CompiledYamlFile',
     'filename' => 'C:\\MAMP\\htdocs\\serviciosocial/templates/g5_prometheus/custom/config/_error/index.yaml',
-    'modified' => 1585903925,
+    'modified' => 1587623858,
     'data' => [
         'name' => '_error',
         'timestamp' => 1583792621,

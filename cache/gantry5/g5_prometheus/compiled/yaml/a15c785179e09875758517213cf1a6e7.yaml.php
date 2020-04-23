@@ -2,10 +2,10 @@
 return [
     '@class' => 'Gantry\\Component\\File\\CompiledYamlFile',
     'filename' => 'C:\\MAMP\\htdocs\\serviciosocial/templates/g5_prometheus/custom/config/9/index.yaml',
-    'modified' => 1586711556,
+    'modified' => 1587625280,
     'data' => [
         'name' => '9',
-        'timestamp' => 1586711556,
+        'timestamp' => 1587625280,
         'version' => 7,
         'preset' => [
             'image' => 'gantry-admin://images/layouts/default.png',
@@ -43,14 +43,11 @@ return [
                 'spacer-2607' => 'Spacer',
                 'spacer-6586' => 'Spacer',
                 'spacer-2458' => 'Spacer',
-                'spacer-1405' => 'Spacer',
-                'spacer-8549' => 'Spacer',
-                'spacer-8405' => 'Spacer'
+                'spacer-spacer-7194' => 'Spacer'
             ],
             'logo' => [
                 'logo-9501' => 'Logo / Image',
-                'logo-9690' => 'Logo / Image',
-                'logo-6537' => 'Logo / Image'
+                'logo-9690' => 'Logo / Image'
             ],
             'customcontentSZ' => [
                 'customcontentSZ-8804' => 'Custom Content',
@@ -65,9 +62,7 @@ return [
             'custom' => [
                 'custom-3186' => 'Custom HTML',
                 'custom-7626' => 'Custom HTML',
-                'custom-7360' => 'Custom HTML',
-                'custom-6698' => 'Custom HTML',
-                'custom-8973' => 'Custom HTML'
+                'custom-5123' => 'Custom HTML'
             ],
             'contentarray' => [
                 'contentarray-9885' => 'Joomla Articles',
@@ -77,6 +72,12 @@ return [
                 'contentcubes-1891' => 'Content Cubes',
                 'contentcubes-6601' => 'Content Cubes',
                 'contentcubes-7923' => 'Content Cubes'
+            ],
+            'module' => [
+                'position-module-6692' => 'Module Instance'
+            ],
+            'branding' => [
+                'branding-4219' => 'Branding'
             ],
             'mobile-menu' => [
                 'mobile-menu-5697' => 'Mobile-menu'

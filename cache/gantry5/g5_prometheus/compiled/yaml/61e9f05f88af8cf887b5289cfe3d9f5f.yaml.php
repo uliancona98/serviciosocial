@@ -1,7 +1,7 @@
 <?php
 return [
     '@class' => 'Gantry\\Component\\File\\CompiledYamlFile',
-    'filename' => 'C:/MAMP/htdocs/serviciosocial/templates/g5_prometheus/custom/config/_body_only/index.yaml',
+    'filename' => 'C:\\MAMP\\htdocs\\serviciosocial/templates/g5_prometheus/custom/config/_body_only/index.yaml',
     'modified' => 1587623858,
     'data' => [
         'name' => '_body_only',
