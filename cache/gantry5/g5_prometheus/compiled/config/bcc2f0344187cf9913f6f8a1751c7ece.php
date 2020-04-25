@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Gantry\\Component\\Config\\CompiledConfig',
-    'timestamp' => 1587630626,
-    'checksum' => '2e7fe4e35416cf3953606a3a02efe856',
+    'timestamp' => 1587813101,
+    'checksum' => 'aa0d26c6000334e6bbbc5aed787d1c83',
     'files' => [
         'templates/g5_prometheus/custom/config/11' => [
             'assignments' => [
@@ -31,7 +31,7 @@ return [
             ],
             'styles' => [
                 'file' => 'templates/g5_prometheus/custom/config/11/styles.yaml',
-                'modified' => 1587630503
+                'modified' => 1587630675
             ]
         ]
     ],
@@ -604,7 +604,7 @@ margin:auto;
             'base' => [
                 'dominant-color' => '#ebb800',
                 'text-color' => '#dedede',
-                'background' => '#ffffff'
+                'background' => '#333333'
             ],
             'accent' => [
                 'color-1' => '#000000',
@@ -655,7 +655,7 @@ margin:auto;
                 'background' => '#333333'
             ],
             'expanded' => [
-                'text-color' => '#dedede',
+                'text-color' => '#ffffff',
                 'link-color' => '#ebb800',
                 'background' => '#333333'
             ],
