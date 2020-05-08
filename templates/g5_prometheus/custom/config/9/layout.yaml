@@ -51,6 +51,8 @@ layout:
                 - contentarray-2426
               -
                 - custom-7626
+          -
+            - custom-1823
       -
         'sidebar 25': {  }
   /mainbottom/: {  }
@@ -434,6 +436,10 @@ content:
     title: 'Custom HTML'
     attributes:
       html: "<script src=\"https://apis.google.com/js/platform.js\"></script>\n<div style=\"border-top-style:solid;\nborder-bottom-style: solid;\nborder-color: #ebb800;\"> \n<h3 style=\"text-align:center; font-weight:bold; color:#000000;\">Canal de YouTube</h3>\n </div>\n<div class=\"articulo_inicio\"   style=\"text-align: center;\"\n>\n<div class=\"g-ytsubscribe\" data-channelid=\"UCOhcWEK2USPz_2Nv8GL89Sw\" data-layout=\"full\" data-count=\"hidden\"></div>\n<div><iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/videoseries?list=PLTKTeu6BN-FQ_kD6dK85VAqO_gGOBrmM1\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe></div>\n</div>"
+  custom-1823:
+    title: Chatbot-CustomHTML
+    attributes:
+      html: "<script src=\"https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1\"></script>\n<df-messenger\n  intent=\"WELCOME\"\n  chat-title=\"LCC\"\n  agent-id=\"9622a583-9d72-4819-8d18-76a99ca069b9\"\n  language-code=\"es\"\n></df-messenger>"
   custom-5123:
     title: 'Custom HTML'
     attributes:

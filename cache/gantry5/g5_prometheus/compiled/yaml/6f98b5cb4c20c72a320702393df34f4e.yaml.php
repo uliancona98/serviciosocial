@@ -2,7 +2,7 @@
 return [
     '@class' => 'Gantry\\Component\\File\\CompiledYamlFile',
     'filename' => 'C:/MAMP/htdocs/serviciosocial/templates/g5_prometheus/custom/config/9/layout.yaml',
-    'modified' => 1587627513,
+    'modified' => 1588275004,
     'data' => [
         'version' => 2,
         'preset' => [
@@ -89,6 +89,9 @@ return [
                                         0 => 'custom-7626'
                                     ]
                                 ]
+                            ],
+                            5 => [
+                                0 => 'custom-1823'
                             ]
                         ]
                     ],
@@ -622,6 +625,18 @@ border-color: #ebb800;">
 <div class="g-ytsubscribe" data-channelid="UCOhcWEK2USPz_2Nv8GL89Sw" data-layout="full" data-count="hidden"></div>
 <div><iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLTKTeu6BN-FQ_kD6dK85VAqO_gGOBrmM1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 </div>'
+                ]
+            ],
+            'custom-1823' => [
+                'title' => 'Chatbot-CustomHTML',
+                'attributes' => [
+                    'html' => '<script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+<df-messenger
+  intent="WELCOME"
+  chat-title="LCC"
+  agent-id="9622a583-9d72-4819-8d18-76a99ca069b9"
+  language-code="es"
+></df-messenger>'
                 ]
             ],
             'custom-5123' => [

@@ -1,5 +1,5 @@
 name: '9'
-timestamp: 1587627513
+timestamp: 1588275004
 version: 7
 preset:
   image: 'gantry-admin://images/layouts/default.png'
@@ -47,6 +47,7 @@ particles:
   custom:
     custom-3186: 'Custom HTML'
     custom-7626: 'Custom HTML'
+    custom-1823: Chatbot-CustomHTML
     custom-5123: 'Custom HTML'
   contentarray:
     contentarray-9885: 'Joomla Articles'
